@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Custom theme */
+    --background: 229 100% 3%;
+    --foreground: 170 68% 79%;
+
+    --card: 229 80% 5%;
+    --card-foreground: 170 68% 79%;
+
+    --popover: 229 80% 5%;
+    --popover-foreground: 170 68% 79%;
+
+    --primary: 115 100% 84%;
+    --primary-foreground: 229 100% 3%;
+
+    --secondary: 170 68% 79%;
+    --secondary-foreground: 229 100% 3%;
+
+    --muted: 229 50% 10%;
+    --muted-foreground: 170 40% 60%;
+
+    --accent: 186 100% 50%;
+    --accent-foreground: 229 100% 3%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 170 68% 79%;
+
+    --border: 229 50% 15%;
+    --input: 229 50% 15%;
+    --ring: 115 100% 84%;
+
+    --radius: 0.75rem;
+
+    /* Custom neon design tokens */
+    --neon-cyan: 186 100% 50%;
+    --neon-purple: 269 100% 75%;
+    --neon-pink: 328 100% 70%;
+    --neon-blue: 217 100% 70%;
+    --neon-green: 115 100% 84%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-purple)));
+    --gradient-card: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(240 9% 13%) 100%);
+    --gradient-glow: radial-gradient(circle at 50% 50%, hsl(var(--neon-cyan) / 0.1) 0%, transparent 50%);
+
+    /* Shadows */
+    --shadow-neon: 0 0 20px hsl(var(--neon-cyan) / 0.3);
+    --shadow-card: 0 8px 32px hsl(220 13% 5% / 0.5);
+    --shadow-glow: 0 0 40px hsl(var(--neon-purple) / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .light {
+    /* Light mode (keeping minimal for dark-focused design) */
+    --background: 0 0% 100%;
+    --foreground: 220 13% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 9%;
+    --primary: 171 100% 35%;
+    --primary-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-glow), hsl(var(--background));
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--accent));
+  }
+}
+
+@layer utilities {
+  .glow-text {
+    text-shadow: 0 0 10px hsl(var(--neon-cyan) / 0.5);
+  }
+
+  .glass-card {
+    background: var(--gradient-card);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--border) / 0.5);
+    box-shadow: var(--shadow-card);
+  }
+
+  .neon-border {
+    border: 1px solid hsl(var(--neon-cyan) / 0.3);
+    box-shadow: 0 0 20px hsl(var(--neon-cyan) / 0.1);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from { box-shadow: 0 0 10px hsl(var(--neon-cyan) / 0.2); }
+    to { box-shadow: 0 0 20px hsl(var(--neon-cyan) / 0.4), 0 0 30px hsl(var(--neon-purple) / 0.2); }
+  }
+}
