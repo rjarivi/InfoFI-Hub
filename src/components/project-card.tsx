@@ -60,9 +60,10 @@ export function ProjectCard({
     <div className={cn(
             "group relative overflow-hidden rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50 p-6 transition-all duration-300 cursor-pointer",
             "hover:scale-[1.02] hover:shadow-lg hover:border-primary/50 hover:bg-card/80",
+            "h-[420px] flex flex-col",
       className
     )}>
-      <div className="relative z-10">
+      <div className="relative z-10 flex flex-col h-full">
         {/* Header */}
         <div className="flex items-start justify-between mb-4">
           <div className="flex items-center gap-3">
@@ -104,58 +105,60 @@ export function ProjectCard({
         </div>
 
                {/* Description Preview */}
-               <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3">
-          {description}
-        </p>
+               <div className="flex-1 flex flex-col justify-between">
+                 <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3">
+            {description}
+          </p>
 
-               {/* Source Link */}
-               {source && (
-                 <div className="mb-4">
-                   <a 
-                     href={source} 
-                     target="_blank" 
-                     rel="noopener noreferrer"
-                     className="text-xs text-muted-foreground hover:text-primary transition-colors"
-                     onClick={(e) => e.stopPropagation()}
-                   >
-                     View source →
-                   </a>
+                 {/* Source Link */}
+                 {source && (
+                   <div className="mb-4">
+                     <a 
+                       href={source} 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       className="text-xs text-muted-foreground hover:text-primary transition-colors"
+                       onClick={(e) => e.stopPropagation()}
+                     >
+                       View source →
+                     </a>
+                   </div>
+                 )}
+
+                 {/* Stats Preview */}
+                 <div className="grid grid-cols-3 gap-3 mb-4">
+                   <div className="text-center p-2 rounded-lg bg-muted/30">
+                     <div className="text-xs text-muted-foreground mb-1">Participants</div>
+                     <div className="text-xs font-medium leading-tight">{participants}</div>
+            </div>
+                   <div className="text-center p-2 rounded-lg bg-muted/30">
+                     <div className="text-xs text-muted-foreground mb-1">Duration</div>
+                     <div className="text-xs font-medium leading-tight">{timeLeft}</div>
+            </div>
+                   <div className="text-center p-2 rounded-lg bg-muted/30">
+                     <div className="text-xs text-muted-foreground mb-1">Status</div>
+                     <div className="text-xs font-medium text-green-500 leading-tight">Active</div>
+            </div>
                  </div>
-               )}
 
-               {/* Stats Preview */}
-               <div className="grid grid-cols-3 gap-3 mb-4">
-                 <div className="text-center p-2 rounded-lg bg-muted/30">
-                   <div className="text-xs text-muted-foreground mb-1">Participants</div>
-                   <div className="text-xs font-medium leading-tight">{participants}</div>
-          </div>
-                 <div className="text-center p-2 rounded-lg bg-muted/30">
-                   <div className="text-xs text-muted-foreground mb-1">Duration</div>
-                   <div className="text-xs font-medium leading-tight">{timeLeft}</div>
-          </div>
-                 <div className="text-center p-2 rounded-lg bg-muted/30">
-                   <div className="text-xs text-muted-foreground mb-1">Status</div>
-                   <div className="text-xs font-medium text-green-500 leading-tight">Active</div>
-          </div>
-        </div>
+                 {/* Click hint */}
+                 <div className="text-xs text-muted-foreground text-center opacity-0 group-hover:opacity-100 transition-opacity mb-3">
+                   Click for details
+                 </div>
 
-               {/* Click hint */}
-               <div className="text-xs text-muted-foreground text-center opacity-0 group-hover:opacity-100 transition-opacity mb-3">
-                 Click for details
+                 {/* View Project Button */}
+                 <Button 
+                   variant="default" 
+                   size="sm"
+                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium shadow-lg hover:shadow-xl transition-all duration-200"
+                   asChild
+                   onClick={(e) => e.stopPropagation()}
+                 >
+                   <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                     View Project
+                   </a>
+                 </Button>
                </div>
-
-               {/* View Project Button */}
-        <Button 
-                 variant="default" 
-                 size="sm"
-                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium shadow-lg hover:shadow-xl transition-all duration-200"
-          asChild
-                 onClick={(e) => e.stopPropagation()}
-        >
-                 <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                   View Project
-          </a>
-        </Button>
       </div>
     </div>
         </DrawerTrigger>
