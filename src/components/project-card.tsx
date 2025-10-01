@@ -272,6 +272,16 @@ export function ProjectCard({
               Close
             </Button>
             <Button 
+              variant="outline"
+              size="sm"
+              className="px-3"
+              asChild
+            >
+              <a href={`https://x.com/${platform}`} target="_blank" rel="noopener noreferrer">
+                <img src="/logo.svg" alt="X" className="w-4 h-4" />
+              </a>
+            </Button>
+            <Button 
               className="flex-1"
               asChild
             >
