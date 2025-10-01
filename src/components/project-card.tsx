@@ -60,7 +60,7 @@ export function ProjectCard({
     <div className={cn(
             "group relative overflow-hidden rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50 p-6 transition-all duration-300 cursor-pointer",
             "hover:scale-[1.02] hover:shadow-lg hover:border-primary/50 hover:bg-card/80",
-            "h-[480px] flex flex-col",
+            "h-[520px] flex flex-col",
       className
     )}>
       <div className="relative z-10 flex flex-col h-full">
