@@ -75,7 +75,10 @@ export function ProjectCard({
                     <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
                 {title}
               </h3>
-              <p className="text-sm text-muted-foreground">@{platform}</p>
+              <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                <img src="/logo.svg" alt="X" className="w-3 h-3" />
+                <span>@{platform}</span>
+              </div>
             </div>
           </div>
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
@@ -158,7 +161,10 @@ export function ProjectCard({
               )}
               <div>
                 <DrawerTitle className="text-xl">{title}</DrawerTitle>
-                <DrawerDescription>@{platform} • {category}</DrawerDescription>
+                <DrawerDescription className="flex items-center gap-1">
+                  <img src="/logo.svg" alt="X" className="w-3 h-3" />
+                  <span>@{platform} • {category}</span>
+                </DrawerDescription>
               </div>
             </div>
             
