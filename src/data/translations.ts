@@ -52,7 +52,7 @@ export const translations = {
     requestedPath: "Requested Path",
     
     // Meta
-    pageTitle: "InfoFi Hub - Discover Cutting-Edge Crypto Opportunities",
+    pageTitle: "Jeet.ing - Discover Cutting-Edge Crypto Opportunities",
     pageDescription: "Explore and participate in innovative InfoFi projects. Earn rewards through Kaito, Bantr, Wallchain, Cookie, and Rey platforms."
   },
   
@@ -108,7 +108,7 @@ export const translations = {
     requestedPath: "Ruta Solicitada",
     
     // Meta
-    pageTitle: "InfoFi Hub - Descubre Oportunidades Crypto de Vanguardia",
+    pageTitle: "Jeet.ing - Descubre Oportunidades Crypto de Vanguardia",
     pageDescription: "Explora y participa en proyectos InfoFi innovadores. Gana recompensas a través de las plataformas Kaito, Bantr, Wallchain, Cookie y Rey."
   },
   
@@ -148,7 +148,7 @@ export const translations = {
     tryDifferentCategory: "Essayez de sélectionner une catégorie différente ou revenez plus tard.",
     
     // Meta
-    pageTitle: "InfoFi Hub - Découvrez les Opportunités Crypto de Pointe",
+    pageTitle: "Jeet.ing - Découvrez les Opportunités Crypto de Pointe",
     pageDescription: "Explorez et participez à des projets InfoFi innovants. Gagnez des récompenses via les plateformes Kaito, Bantr, Wallchain, Cookie et Rey."
   },
   
@@ -188,7 +188,7 @@ export const translations = {
     tryDifferentCategory: "Versuchen Sie, eine andere Kategorie auszuwählen oder schauen Sie später wieder vorbei.",
     
     // Meta
-    pageTitle: "InfoFi Hub - Entdecken Sie Zukunftsweisende Crypto-Möglichkeiten",
+    pageTitle: "Jeet.ing - Entdecken Sie Zukunftsweisende Crypto-Möglichkeiten",
     pageDescription: "Erkunden und beteiligen Sie sich an innovativen InfoFi-Projekten. Verdienen Sie Belohnungen über die Plattformen Kaito, Bantr, Wallchain, Cookie und Rey."
   },
   
@@ -228,7 +228,7 @@ export const translations = {
     tryDifferentCategory: "別のカテゴリを選択するか、後でもう一度確認してください。",
     
     // Meta
-    pageTitle: "InfoFi Hub - 最先端の暗号通貨機会を発見",
+    pageTitle: "Jeet.ing - 最先端の暗号通貨機会を発見",
     pageDescription: "革新的なInfoFiプロジェクトを探索し、参加しましょう。Kaito、Bantr、Wallchain、Cookie、Reyプラットフォームを通じて報酬を獲得します。"
   },
   
@@ -268,7 +268,7 @@ export const translations = {
     tryDifferentCategory: "다른 카테고리를 선택하거나 나중에 다시 확인해보세요.",
     
     // Meta
-    pageTitle: "InfoFi Hub - 최첨단 암호화폐 기회 발견",
+    pageTitle: "Jeet.ing - 최첨단 암호화폐 기회 발견",
     pageDescription: "혁신적인 InfoFi 프로젝트를 탐색하고 참여하세요. Kaito, Bantr, Wallchain, Cookie, Rey 플랫폼을 통해 보상을 획득합니다."
   },
   
@@ -308,7 +308,7 @@ export const translations = {
     tryDifferentCategory: "尝试选择不同的类别或稍后再查看。",
     
     // Meta
-    pageTitle: "InfoFi Hub - 发现尖端加密机会",
+    pageTitle: "Jeet.ing - 发现尖端加密机会",
     pageDescription: "探索并参与创新的InfoFi项目。通过Kaito、Bantr、Wallchain、Cookie和Rey平台获得奖励。"
   },
   
@@ -348,7 +348,7 @@ export const translations = {
     tryDifferentCategory: "حاول اختيار فئة مختلفة أو تحقق مرة أخرى لاحقاً.",
     
     // Meta
-    pageTitle: "InfoFi Hub - اكتشف فرص التشفير المتطورة",
+    pageTitle: "Jeet.ing - اكتشف فرص التشفير المتطورة",
     pageDescription: "استكشف وشارك في مشاريع InfoFi المبتكرة. احصل على المكافآت من خلال منصات Kaito وBantr وWallchain وCookie وRey."
   }
 };
