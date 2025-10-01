@@ -67,8 +67,8 @@ export function ProjectCard({
         <div className="flex items-start justify-between mb-4">
           <div className="flex items-center gap-3">
                   {logo && (
-                    <div className="w-12 h-12 rounded-xl overflow-hidden bg-muted/20 p-2 flex items-center justify-center ring-1 ring-border/50">
-                      <img src={logo} alt={`${platform} logo`} className="w-full h-full object-contain" />
+                    <div className="w-12 h-12 rounded-xl overflow-hidden bg-muted/20 ring-1 ring-border/50">
+                      <img src={logo} alt={`${platform} logo`} className="w-full h-full object-cover" />
               </div>
             )}
             <div>
@@ -152,8 +152,8 @@ export function ProjectCard({
           <DrawerHeader className="text-left flex-shrink-0 relative">
             <div className="flex items-center gap-3 mb-2">
               {logo && (
-                <div className="w-16 h-16 rounded-xl overflow-hidden bg-muted/20 p-3 flex items-center justify-center ring-1 ring-border/50">
-                  <img src={logo} alt={`${platform} logo`} className="w-full h-full object-contain" />
+                <div className="w-16 h-16 rounded-xl overflow-hidden bg-muted/20 ring-1 ring-border/50">
+                  <img src={logo} alt={`${platform} logo`} className="w-full h-full object-cover" />
                 </div>
               )}
               <div>
