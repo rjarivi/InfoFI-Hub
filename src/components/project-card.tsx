@@ -10,7 +10,9 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/hooks/use-language";
 import { useState } from "react";
+import { Copy, Check } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -25,6 +27,8 @@ interface ProjectCardProps {
   logo?: string;
   source?: string;
   referralLink?: string;
+  referralCode?: string;
+  zealyLink?: string;
   campaignRules?: string[];
   claimPeriod?: string;
   vestingSchedule?: string;
@@ -45,6 +49,8 @@ export function ProjectCard({
   logo,
   source,
   referralLink,
+  referralCode,
+  zealyLink,
   campaignRules,
   claimPeriod,
   vestingSchedule,
@@ -52,6 +58,28 @@ export function ProjectCard({
   className
 }: ProjectCardProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const { t } = useLanguage();
+
+  // Copy referral code to clipboard
+  const copyReferralCode = async () => {
+    if (referralCode) {
+      try {
+        await navigator.clipboard.writeText(referralCode);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      } catch (err) {
+        console.error('Failed to copy referral code:', err);
+      }
+    }
+  };
+
+  // Helper function to translate common values
+  const translateValue = (value: string): string => {
+    if (value === "To Be Confirmed") return t("toBeConfirmed");
+    if (value === "TBD") return t("tbd");
+    return value;
+  };
 
   return (
     <>
@@ -60,7 +88,7 @@ export function ProjectCard({
     <div className={cn(
             "group relative overflow-hidden rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50 p-6 transition-all duration-300 cursor-pointer",
             "hover:scale-[1.02] hover:shadow-lg hover:border-primary/50 hover:bg-card/80",
-            "h-[520px] flex flex-col",
+            "min-h-[520px] h-full flex flex-col",
       className
     )}>
       <div className="relative z-10 flex flex-col h-full">
@@ -73,22 +101,10 @@ export function ProjectCard({
               </div>
             )}
             <div>
-                    <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
+              <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
                 {title}
               </h3>
-              <div className="flex items-center gap-2">
-                <p className="text-sm text-muted-foreground">@{platform}</p>
-                <Button 
-                  variant="ghost"
-                  size="sm"
-                  className="h-6 w-6 p-0"
-                  asChild
-                >
-                  <a href={`https://x.com/${platform}`} target="_blank" rel="noopener noreferrer">
-                    <img src="/logo.svg" alt="X" className="w-4 h-4" />
-                  </a>
-                </Button>
-              </div>
+              <p className="text-sm text-muted-foreground">@{platform}</p>
             </div>
           </div>
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
@@ -106,8 +122,8 @@ export function ProjectCard({
 
                {/* Description Preview */}
                <div className="flex-1 flex flex-col justify-between">
-                 <div>
-                   <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3">
+                 <div className="flex-1 flex flex-col">
+                   <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3 flex-shrink-0">
                      {description}
                    </p>
 
@@ -121,33 +137,64 @@ export function ProjectCard({
                          className="text-xs text-muted-foreground hover:text-primary transition-colors"
                          onClick={(e) => e.stopPropagation()}
                        >
-                         View source →
+                         {t("viewSource")}
                        </a>
                      </div>
                    )}
 
                    {/* Stats Preview */}
-                   <div className="grid grid-cols-3 gap-3 mb-4">
+                   <div className="grid grid-cols-3 gap-3 mb-4 flex-shrink-0">
                      <div className="text-center p-2 rounded-lg bg-muted/30">
-                       <div className="text-xs text-muted-foreground mb-1">Participants</div>
-                       <div className="text-xs font-medium leading-tight">{participants}</div>
+                       <div className="text-xs text-muted-foreground mb-1">{t("participants")}</div>
+                       <div className="text-xs font-medium leading-tight">{translateValue(participants)}</div>
                      </div>
                      <div className="text-center p-2 rounded-lg bg-muted/30">
-                       <div className="text-xs text-muted-foreground mb-1">Duration</div>
-                       <div className="text-xs font-medium leading-tight">{timeLeft}</div>
+                       <div className="text-xs text-muted-foreground mb-1">{t("timeLeft")}</div>
+                       <div className="text-xs font-medium leading-tight">{translateValue(timeLeft)}</div>
                      </div>
                      <div className="text-center p-2 rounded-lg bg-muted/30">
-                       <div className="text-xs text-muted-foreground mb-1">Status</div>
-                       <div className="text-xs font-medium text-green-500 leading-tight">Active</div>
+                       <div className="text-xs text-muted-foreground mb-1">{t("status")}</div>
+                       <div className="text-xs font-medium text-green-500 leading-tight">{t("active")}</div>
                      </div>
                    </div>
                  </div>
 
-                 <div>
+                 <div className="flex-shrink-0 mt-auto">
                    {/* Click hint */}
                    <div className="text-xs text-muted-foreground text-center opacity-0 group-hover:opacity-100 transition-opacity mb-3">
                      Click for details
                    </div>
+
+                 {/* Referral Code Section */}
+                 {referralCode && (
+                   <div className="mb-4 p-3 bg-muted/50 rounded-lg border border-border/50">
+                     <div className="flex items-center justify-between">
+                       <div>
+                         <p className="text-sm font-medium text-muted-foreground mb-1">
+                           {t("enterReferralCode")}
+                         </p>
+                         <p className="text-lg font-mono font-bold text-foreground">
+                           {referralCode}
+                         </p>
+                       </div>
+                       <Button
+                         variant="outline"
+                         size="sm"
+                         onClick={(e) => {
+                           e.stopPropagation();
+                           copyReferralCode();
+                         }}
+                         className="ml-3 h-8 w-8 p-0"
+                       >
+                         {copied ? (
+                           <Check className="h-4 w-4 text-green-500" />
+                         ) : (
+                           <Copy className="h-4 w-4" />
+                         )}
+                       </Button>
+                     </div>
+                   </div>
+                 )}
 
                    {/* View Project Button */}
                    <Button 
@@ -158,7 +205,7 @@ export function ProjectCard({
                      onClick={(e) => e.stopPropagation()}
                    >
                      <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                       View Project
+                       {t("joinProject")}
                      </a>
                    </Button>
                  </div>
@@ -177,19 +224,7 @@ export function ProjectCard({
               )}
               <div>
                 <DrawerTitle className="text-xl">{title}</DrawerTitle>
-                <div className="flex items-center gap-2">
-                  <DrawerDescription>@{platform} • {category}</DrawerDescription>
-                  <Button 
-                    variant="ghost"
-                    size="sm"
-                    className="h-6 w-6 p-0"
-                    asChild
-                  >
-                    <a href={`https://x.com/${platform}`} target="_blank" rel="noopener noreferrer">
-                      <img src="/logo.svg" alt="X" className="w-4 h-4" />
-                    </a>
-                  </Button>
-                </div>
+                <DrawerDescription>@{platform} • {category}</DrawerDescription>
               </div>
             </div>
             
@@ -220,44 +255,44 @@ export function ProjectCard({
           <div className="px-4 pb-4 space-y-6 overflow-y-auto flex-1">
             {/* Reward Pool Details */}
             <div className="p-4 rounded-xl bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20">
-              <div className="text-sm text-muted-foreground mb-2">Reward Pool</div>
-              <div className="text-2xl font-bold text-primary mb-2">{rewardPool}</div>
+              <div className="text-sm text-muted-foreground mb-2">{t("rewardPool")}</div>
+              <div className="text-2xl font-bold text-primary mb-2">{translateValue(rewardPool)}</div>
               <p className="text-sm text-muted-foreground">{description}</p>
             </div>
 
             {/* Detailed Stats */}
             <div className="grid grid-cols-2 gap-4">
               <div className="p-4 rounded-lg bg-muted/30">
-                <div className="text-sm text-muted-foreground mb-1">Participants</div>
-                <div className="font-medium">{participants}</div>
+                <div className="text-sm text-muted-foreground mb-1">{t("participants")}</div>
+                <div className="font-medium">{translateValue(participants)}</div>
               </div>
               <div className="p-4 rounded-lg bg-muted/30">
-                <div className="text-sm text-muted-foreground mb-1">Duration</div>
-                <div className="font-medium">{timeLeft}</div>
+                <div className="text-sm text-muted-foreground mb-1">{t("timeLeft")}</div>
+                <div className="font-medium">{translateValue(timeLeft)}</div>
               </div>
               <div className="p-4 rounded-lg bg-muted/30">
-                <div className="text-sm text-muted-foreground mb-1">Status</div>
-                <div className="font-medium text-green-500">Active</div>
+                <div className="text-sm text-muted-foreground mb-1">{t("status")}</div>
+                <div className="font-medium text-green-500">{t("active")}</div>
               </div>
               <div className="p-4 rounded-lg bg-muted/30">
-                <div className="text-sm text-muted-foreground mb-1">Platform</div>
+                <div className="text-sm text-muted-foreground mb-1">{t("platform")}</div>
                 <div className="font-medium">{platform}</div>
               </div>
               {claimPeriod && (
                 <div className="p-4 rounded-lg bg-muted/30">
-                  <div className="text-sm text-muted-foreground mb-1">Claim Period</div>
+                  <div className="text-sm text-muted-foreground mb-1">{t("claimPeriod")}</div>
                   <div className="font-medium">{claimPeriod}</div>
                 </div>
               )}
               {vestingSchedule && (
                 <div className="p-4 rounded-lg bg-muted/30">
-                  <div className="text-sm text-muted-foreground mb-1">Vesting Schedule</div>
+                  <div className="text-sm text-muted-foreground mb-1">{t("vestingSchedule")}</div>
                   <div className="font-medium">{vestingSchedule}</div>
                 </div>
               )}
               {distributionPlatform && (
                 <div className="p-4 rounded-lg bg-muted/30">
-                  <div className="text-sm text-muted-foreground mb-1">Distribution Platform</div>
+                  <div className="text-sm text-muted-foreground mb-1">{t("distributionPlatform")}</div>
                   <div className="font-medium">{distributionPlatform}</div>
                 </div>
               )}
@@ -266,7 +301,7 @@ export function ProjectCard({
             {/* Campaign Rules */}
             {campaignRules && campaignRules.length > 0 && (
               <div className="p-4 rounded-lg bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-500/20">
-                <div className="text-sm font-semibold text-green-600 mb-3">Campaign Rules</div>
+                <div className="text-sm font-semibold text-green-600 mb-3">{t("campaignRules")}</div>
                 <ul className="space-y-2">
                   {campaignRules.map((rule, index) => (
                     <li key={index} className="text-sm text-muted-foreground flex items-start gap-2">
@@ -278,18 +313,58 @@ export function ProjectCard({
               </div>
             )}
 
-            {/* Source Link */}
-            {source && (
+            {/* Links Section */}
+            {(source || platform || zealyLink) && (
               <div className="p-4 rounded-lg bg-muted/20">
-                <div className="text-sm text-muted-foreground mb-2">Source</div>
-                <a 
-                  href={source} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-sm text-primary hover:underline"
-                >
-                  {source}
-                </a>
+                <div className="text-sm text-muted-foreground mb-3">Links</div>
+                <div className="space-y-2">
+                  {source && (
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-muted-foreground">Source:</span>
+                      <a 
+                        href={source} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary hover:underline flex items-center gap-1"
+                      >
+                        Visit Source
+                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </a>
+                    </div>
+                  )}
+                  {platform && (
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-muted-foreground">X Profile:</span>
+                      <a 
+                        href={`https://x.com/${platform}`} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary hover:underline flex items-center gap-1"
+                      >
+                        @{platform}
+                        <img src="/logo.svg" alt="X" className="w-3 h-3" />
+                      </a>
+                    </div>
+                  )}
+                  {zealyLink && (
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm text-muted-foreground">Zealy:</span>
+                      <a 
+                        href={zealyLink} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary hover:underline flex items-center gap-1"
+                      >
+                        Join Quest
+                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </a>
+                    </div>
+                  )}
+                </div>
               </div>
             )}
           </div>

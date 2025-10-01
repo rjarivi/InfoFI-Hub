@@ -1,9 +1,12 @@
 import { useState } from "react";
-import { BubbleMenu } from "@/components/ui/bubble-menu";
+import { ResponsiveNavigation } from "@/components/responsive-navigation";
+import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
-import { projectsData } from "@/data/projects";
+import { projectsData, translateProject } from "@/data/projects";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/hooks/use-language";
+import { usePagination } from "@/hooks/use-pagination";
 import { motion } from "framer-motion";
 import { 
   Brain,
@@ -16,6 +19,15 @@ import {
   Globe,
   ExternalLink
 } from "lucide-react";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 
 const projectLogos = {
   kaito: "/assets/Info Fi Logo/Kaito.svg",
@@ -32,7 +44,7 @@ const projectLogos = {
 
 const referralLinks = {
   kaito: "https://metawin.com/rjarivi/",
-  bantr: "https://t.co/gu1phQxNsd",
+  bantr: "https://bantr.fun/?ic=D490AA7",
   xeet: "https://www.xeet.ai/refer/godofbayc",
   wallchain: "https://app.wallchain.xyz/leaderboards?ref=godofbayc",
   cookie: "https://www.cookie.community/?referral=ZTJjZGE2ZjE1MmE2LTM5N2ItOGU1NC01NDQ4LWQyMjRhNTg0",
@@ -56,68 +68,92 @@ const menuItems = [
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
-
+  const { t, language } = useLanguage();
+  
   const getAllProjects = () => {
-    return Object.values(projectsData).flat();
+    return Object.values(projectsData).flat().map(project => translateProject(project, language));
   };
 
   const getActiveProjects = () => {
     if (activeTab === "all") {
       return getAllProjects();
     }
-    return projectsData[activeTab] || [];
+    return (projectsData[activeTab] || []).map(project => translateProject(project, language));
   };
 
-  const activeProjects = getActiveProjects();
+  const allActiveProjects = getActiveProjects();
   const totalProjects = getAllProjects().length;
+  
+  // Use pagination hook with 9 projects per page
+  const {
+    currentPage,
+    totalPages,
+    paginatedItems: activeProjects,
+    goToPage,
+    nextPage,
+    previousPage,
+    canGoNext,
+    canGoPrevious,
+    getVisiblePages,
+  } = usePagination(allActiveProjects, {
+    itemsPerPage: 9,
+    totalItems: allActiveProjects.length,
+  });
 
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border/50">
-        <div className="w-full px-6 py-4">
-          <div className="flex items-center justify-between">
+        <div className="w-full px-4 md:px-6 py-4">
+          <div className="flex items-center justify-between gap-2 md:gap-4">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="w-16 h-14 rounded-xl glass-card p-2 flex items-center justify-center">
+              <div className="w-12 h-12 md:w-16 md:h-14 rounded-xl glass-card p-2 flex items-center justify-center">
                 <img 
                   src="/InfoFI-Icon.svg" 
                   alt="InfoFi Hub" 
-                  className="w-10 h-10"
+                  className="w-8 h-8 md:w-10 md:h-10"
                 />
               </div>
             </div>
             
             {/* Navigation Menu */}
             <div className="flex-1 flex justify-center">
-              <BubbleMenu
+              <ResponsiveNavigation
                 items={menuItems}
                 activeItem={activeTab}
                 onItemClick={setActiveTab}
               />
             </div>
             
-            {/* Right spacer for balance */}
-            <div className="flex-shrink-0 w-16"></div>
+            {/* Language Selector */}
+            <div className="flex-shrink-0">
+              <LanguageSelector />
+            </div>
           </div>
         </div>
       </header>
 
       {/* Projects Grid */}
-      <main className="flex-1 container mx-auto px-6 py-8">
+      <main className="flex-1 container mx-auto px-4 md:px-6 py-6 md:py-8">
         <motion.div 
-          className="flex items-center justify-between mb-8"
+          className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 md:mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
           <div className="flex items-center gap-4">
-            <h2 className="text-2xl font-bold">
-              {activeTab === "all" ? "All Projects" : menuItems.find(item => item.id === activeTab)?.label}
+            <h2 className="text-xl md:text-2xl font-bold">
+              {activeTab === "all" ? t("allProjects") : menuItems.find(item => item.id === activeTab)?.label}
             </h2>
             <Badge variant="secondary" className="neon-border">
-              {activeProjects.length} projects
+              {allActiveProjects.length} {t("projects")}
             </Badge>
+            {totalPages > 1 && (
+              <Badge variant="outline" className="text-muted-foreground">
+                Page {currentPage} of {totalPages}
+              </Badge>
+            )}
           </div>
           
           {/* CTA Button for platforms with referral links */}
@@ -125,7 +161,7 @@ const Index = () => {
             <Button 
               variant="outline" 
               size="sm"
-              className="neon-border hover:bg-primary/10"
+              className="neon-border hover:bg-primary/10 w-full sm:w-auto"
               asChild
             >
               <a 
@@ -133,7 +169,7 @@ const Index = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <span>Haven't joined yet? Join Now</span>
+                <span className="text-sm">{t("joinNow")}</span>
                 <ExternalLink className="w-3 h-3 ml-2" />
               </a>
             </Button>
@@ -141,7 +177,7 @@ const Index = () => {
         </motion.div>
 
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-stretch"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-start"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
@@ -152,11 +188,67 @@ const Index = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 * index }}
+              className="h-full"
             >
-              <ProjectCard {...project} />
+              <ProjectCard {...project} className="h-full" />
             </motion.div>
           ))}
         </motion.div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <motion.div 
+            className="flex justify-center mt-8"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+          >
+            <Pagination>
+              <PaginationContent>
+                <PaginationItem>
+                  <PaginationPrevious 
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (canGoPrevious) previousPage();
+                    }}
+                    className={!canGoPrevious ? "pointer-events-none opacity-50" : ""}
+                  />
+                </PaginationItem>
+                
+                {getVisiblePages().map((page, index) => (
+                  <PaginationItem key={index}>
+                    {typeof page === 'string' && page === '...' ? (
+                      <PaginationEllipsis />
+                    ) : (
+                      <PaginationLink
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          goToPage(page as number);
+                        }}
+                        isActive={typeof page === 'number' && currentPage === page}
+                      >
+                        {page}
+                      </PaginationLink>
+                    )}
+                  </PaginationItem>
+                ))}
+                
+                <PaginationItem>
+                  <PaginationNext 
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (canGoNext) nextPage();
+                    }}
+                    className={!canGoNext ? "pointer-events-none opacity-50" : ""}
+                  />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+          </motion.div>
+        )}
 
         {activeProjects.length === 0 && (
           <motion.div 
@@ -165,8 +257,8 @@ const Index = () => {
             animate={{ opacity: 1 }}
           >
             <div className="text-6xl mb-4">🚀</div>
-            <h3 className="text-xl font-semibold mb-2">No projects found</h3>
-            <p className="text-muted-foreground">Try selecting a different category or check back later.</p>
+            <h3 className="text-xl font-semibold mb-2">{t("noProjectsFound")}</h3>
+            <p className="text-muted-foreground">{t("tryDifferentCategory")}</p>
           </motion.div>
         )}
       </main>
@@ -183,22 +275,21 @@ const Index = () => {
             <div className="flex items-center justify-center gap-2 mb-6">
               <TrendingUp className="w-8 h-8 text-neon-cyan" />
               <h1 className="text-5xl font-bold bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-pink bg-clip-text text-transparent">
-                InfoFi Hub
+                {t("title")}
               </h1>
             </div>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Discover and participate in cutting-edge InfoFi projects. Earn rewards, build communities, 
-              and shape the future of decentralized information finance.
+              {t("description")}
             </p>
             
             <div className="flex items-center justify-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full bg-neon-green animate-pulse" />
-                <span className="text-sm font-medium">{totalProjects} Active Projects</span>
+                <span className="text-sm font-medium">{totalProjects} {t("activeProjects")}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="w-4 h-4 text-neon-cyan" />
-                <span className="text-sm font-medium">1000+ Contributors</span>
+                <span className="text-sm font-medium">1000+ {t("contributors")}</span>
               </div>
             </div>
           </motion.div>

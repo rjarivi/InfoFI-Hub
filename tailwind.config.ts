@@ -13,6 +13,29 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: [
+          "Noto Sans",
+          "Noto Sans Arabic",
+          "Noto Sans Bengali", 
+          "Noto Sans Devanagari",
+          "Noto Sans Ethiopic",
+          "Noto Sans Georgian",
+          "Noto Sans Hebrew",
+          "Noto Sans JP",
+          "Noto Sans KR",
+          "Noto Sans SC",
+          "Noto Sans TC",
+          "Noto Sans Thai",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif",
+          "Apple Color Emoji",
+          "Segoe UI Emoji",
+          "Segoe UI Symbol",
+          "Noto Color Emoji"
+        ],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
