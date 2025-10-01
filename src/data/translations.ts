@@ -7,7 +7,7 @@ export const translations = {
     joinNow: "Haven't joined yet? Join Now",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "Discover and participate in cutting-edge InfoFi projects. Earn rewards, build communities, and shape the future of decentralized information finance.",
     activeProjects: "Active Projects",
     contributors: "Contributors",
@@ -63,7 +63,7 @@ export const translations = {
     joinNow: "¿Aún no te has unido? Únete Ahora",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "Descubre y participa en proyectos InfoFi de vanguardia. Gana recompensas, construye comunidades y da forma al futuro de las finanzas de información descentralizadas.",
     activeProjects: "Proyectos Activos",
     contributors: "Contribuidores",
@@ -119,7 +119,7 @@ export const translations = {
     joinNow: "Pas encore rejoint ? Rejoignez Maintenant",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "Découvrez et participez à des projets InfoFi de pointe. Gagnez des récompenses, construisez des communautés et façonnez l'avenir de la finance d'information décentralisée.",
     activeProjects: "Projets Actifs",
     contributors: "Contributeurs",
@@ -159,7 +159,7 @@ export const translations = {
     joinNow: "Noch nicht beigetreten? Jetzt Beitreten",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "Entdecken und beteiligen Sie sich an zukunftsweisenden InfoFi-Projekten. Verdienen Sie Belohnungen, bauen Sie Gemeinschaften auf und gestalten Sie die Zukunft der dezentralen Informationsfinanzierung.",
     activeProjects: "Aktive Projekte",
     contributors: "Mitwirkende",
@@ -199,7 +199,7 @@ export const translations = {
     joinNow: "まだ参加していませんか？今すぐ参加",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "最先端のInfoFiプロジェクトを発見し、参加しましょう。報酬を獲得し、コミュニティを構築し、分散型情報金融の未来を形作ります。",
     activeProjects: "アクティブプロジェクト",
     contributors: "貢献者",
@@ -239,7 +239,7 @@ export const translations = {
     joinNow: "아직 가입하지 않으셨나요? 지금 가입하기",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "최첨단 InfoFi 프로젝트를 발견하고 참여하세요. 보상을 획득하고, 커뮤니티를 구축하며, 분산형 정보 금융의 미래를 만들어가세요.",
     activeProjects: "활성 프로젝트",
     contributors: "기여자",
@@ -279,7 +279,7 @@ export const translations = {
     joinNow: "还没有加入？立即加入",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "发现并参与尖端的InfoFi项目。获得奖励，建设社区，塑造去中心化信息金融的未来。",
     activeProjects: "活跃项目",
     contributors: "贡献者",
@@ -319,7 +319,7 @@ export const translations = {
     joinNow: "لم تنضم بعد؟ انضم الآن",
     
     // Footer
-    title: "InfoFi Hub",
+    title: "Jeet.ing",
     description: "اكتشف وشارك في مشاريع InfoFi المتطورة. احصل على المكافآت، وابنِ المجتمعات، وشكّل مستقبل التمويل اللامركزي للمعلومات.",
     activeProjects: "المشاريع النشطة",
     contributors: "المساهمون",
