@@ -75,9 +75,18 @@ export function ProjectCard({
                     <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
                 {title}
               </h3>
-              <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                <img src="/logo.svg" alt="X" className="w-3 h-3" />
-                <span>@{platform}</span>
+              <div className="flex items-center gap-2">
+                <p className="text-sm text-muted-foreground">@{platform}</p>
+                <Button 
+                  variant="ghost"
+                  size="sm"
+                  className="h-6 w-6 p-0"
+                  asChild
+                >
+                  <a href={`https://x.com/${platform}`} target="_blank" rel="noopener noreferrer">
+                    <img src="/logo.svg" alt="X" className="w-4 h-4" />
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
@@ -161,10 +170,19 @@ export function ProjectCard({
               )}
               <div>
                 <DrawerTitle className="text-xl">{title}</DrawerTitle>
-                <DrawerDescription className="flex items-center gap-1">
-                  <img src="/logo.svg" alt="X" className="w-3 h-3" />
-                  <span>@{platform} • {category}</span>
-                </DrawerDescription>
+                <div className="flex items-center gap-2">
+                  <DrawerDescription>@{platform} • {category}</DrawerDescription>
+                  <Button 
+                    variant="ghost"
+                    size="sm"
+                    className="h-6 w-6 p-0"
+                    asChild
+                  >
+                    <a href={`https://x.com/${platform}`} target="_blank" rel="noopener noreferrer">
+                      <img src="/logo.svg" alt="X" className="w-4 h-4" />
+                    </a>
+                  </Button>
+                </div>
               </div>
             </div>
             
@@ -276,16 +294,6 @@ export function ProjectCard({
               onClick={() => setIsOpen(false)}
             >
               Close
-            </Button>
-            <Button 
-              variant="outline"
-              size="sm"
-              className="px-3"
-              asChild
-            >
-              <a href={`https://x.com/${platform}`} target="_blank" rel="noopener noreferrer">
-                <img src="/logo.svg" alt="X" className="w-4 h-4" />
-              </a>
             </Button>
             <Button 
               className="flex-1"
