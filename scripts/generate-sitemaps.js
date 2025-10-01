@@ -7,15 +7,9 @@
 
 import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
-import { 
-  generateSitemap, 
-  generateRobotsTxt, 
-  generateLanguageSitemap, 
-  generateSitemapIndex 
-} from './src/lib/sitemap';
-import { Language } from './src/data/translations';
+import { SitemapGenerator } from '../src/lib/sitemap.js';
 
-const languages: Language[] = ['en', 'es', 'fr', 'de', 'ja', 'ko', 'zh', 'ar'];
+const languages = ['en', 'es', 'fr', 'de', 'ja', 'ko', 'zh', 'ar'];
 const baseUrl = process.env.VITE_BASE_URL || 'https://infofi-hub.com';
 const distDir = process.env.VITE_DIST_DIR || 'dist';
 
@@ -27,25 +21,28 @@ try {
   // Create dist directory if it doesn't exist
   mkdirSync(distDir, { recursive: true });
 
+  // Initialize sitemap generator
+  const generator = new SitemapGenerator(baseUrl);
+
   // Generate main sitemap
   console.log('📄 Generating main sitemap...');
-  const mainSitemap = generateSitemap(baseUrl);
+  const mainSitemap = generator.generateSitemap();
   writeFileSync(join(distDir, 'sitemap.xml'), mainSitemap);
 
   // Generate sitemap index
   console.log('📋 Generating sitemap index...');
-  const sitemapIndex = generateSitemapIndex(baseUrl);
+  const sitemapIndex = generator.generateSitemapIndex();
   writeFileSync(join(distDir, 'sitemap-index.xml'), sitemapIndex);
 
   // Generate robots.txt
   console.log('🤖 Generating robots.txt...');
-  const robotsTxt = generateRobotsTxt(baseUrl);
+  const robotsTxt = generator.generateRobotsTxt();
   writeFileSync(join(distDir, 'robots.txt'), robotsTxt);
 
   // Generate language-specific sitemaps
   console.log('🌍 Generating language-specific sitemaps...');
   languages.forEach(lang => {
-    const langSitemap = generateLanguageSitemap(lang, baseUrl);
+    const langSitemap = generator.generateLanguageSitemap(lang);
     const langDir = join(distDir, lang);
     
     // Create language directory
