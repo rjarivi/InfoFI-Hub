@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ResponsiveNavigation } from "@/components/responsive-navigation";
 import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
+import { TextPressure } from "@/components/text-pressure";
 import { projectsData, translateProject } from "@/data/projects";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -14,10 +15,11 @@ import {
   Link2,
   Shield,
   Zap,
-  TrendingUp,
   Users,
   Globe,
-  ExternalLink
+  ExternalLink,
+  Copy,
+  Check
 } from "lucide-react";
 import {
   Pagination,
@@ -68,7 +70,18 @@ const menuItems = [
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
+  const [copied, setCopied] = useState(false);
   const { t, language } = useLanguage();
+  
+  const copyInviteCode = async () => {
+    try {
+      await navigator.clipboard.writeText("GPC22222");
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  };
   
   const getAllProjects = () => {
     return Object.values(projectsData).flat().map(project => translateProject(project, language));
@@ -266,33 +279,100 @@ const Index = () => {
       {/* Footer with InfoFi Hub Info */}
       <footer className="relative overflow-hidden bg-gradient-to-br from-neon-cyan/10 via-background to-neon-purple/10 border-t border-border/50">
         <div className="container mx-auto px-6 py-12">
-          <motion.div 
-            className="text-center max-w-4xl mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <TrendingUp className="w-8 h-8 text-neon-cyan" />
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-pink bg-clip-text text-transparent">
-                {t("title")}
-              </h1>
-            </div>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              {t("description")}
-            </p>
-            
-            <div className="flex items-center justify-center gap-6">
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-neon-green animate-pulse" />
-                <span className="text-sm font-medium">{totalProjects} {t("activeProjects")}</span>
+          <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
+            {/* Main InfoFi Hub Content */}
+            <motion.div 
+              className="text-center lg:text-left max-w-4xl mx-auto lg:mx-0"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
+              <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
+                <img 
+                  src="/InfoFI-Icon.svg" 
+                  alt="InfoFi Hub Logo" 
+                  className="w-8 h-8"
+                />
+                <h1 className="text-5xl font-bold text-neon-green" style={{ 
+                  fontFamily: 'Badeen Display, sans-serif',
+                  letterSpacing: '0.027em',
+                  fontWeight: '400'
+                }}>
+                  <TextPressure 
+                    text={t("title")} 
+                  />
+                </h1>
               </div>
-              <div className="flex items-center gap-2">
-                <Users className="w-4 h-4 text-neon-cyan" />
-                <span className="text-sm font-medium">1000+ {t("contributors")}</span>
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                {t("description")}
+              </p>
+              
+              <div className="flex items-center justify-center lg:justify-start gap-6">
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-neon-green animate-pulse" />
+                  <span className="text-sm font-medium">{totalProjects} {t("activeProjects")}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Users className="w-4 h-4 text-neon-cyan" />
+                  <span className="text-sm font-medium">1000+ {t("contributors")}</span>
+                </div>
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+
+            {/* Addicted Ad Promotion */}
+            <motion.div 
+              className="w-full lg:w-auto"
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+            >
+              <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-500/20 rounded-xl p-6 max-w-sm mx-auto lg:mx-0">
+                <div className="flex items-center gap-3 mb-4">
+                  <img 
+                    src="/assets/Addicted.png" 
+                    alt="Addicted Logo" 
+                    className="w-12 h-12 rounded-lg"
+                  />
+                  <div>
+                    <h3 className="text-xl font-bold text-green-400">Addicted</h3>
+                    <p className="text-sm text-muted-foreground">Farm & Earn $WEED</p>
+                  </div>
+                </div>
+                
+                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                  Earn $WEED by running your farm, use it for packs, upgrades & more — and every purchase burns $WEED, keeping the economy self-sustaining
+                </p>
+                
+                {/* Invite Code */}
+                <div className="mb-4">
+                  <div className="text-xs text-muted-foreground mb-2">Invite Code:</div>
+                  <div className="flex items-center gap-2 bg-background/50 rounded-lg p-2">
+                    <code className="text-sm font-mono text-green-400 flex-1">GPC22222</code>
+                    <Button
+                      size="sm"
+                      variant="ghost"
+                      onClick={copyInviteCode}
+                      className="h-8 w-8 p-0"
+                    >
+                      {copied ? (
+                        <Check className="h-4 w-4 text-green-500" />
+                      ) : (
+                        <Copy className="h-4 w-4" />
+                      )}
+                    </Button>
+                  </div>
+                </div>
+                
+                <Button 
+                  className="w-full bg-green-500 hover:bg-green-600 text-white"
+                  onClick={() => window.open('https://www.addicted.fun', '_blank')}
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  Visit Addicted
+                </Button>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </footer>
     </div>
