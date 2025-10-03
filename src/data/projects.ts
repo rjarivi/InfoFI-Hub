@@ -139,6 +139,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "0.5% of Supply for Top Quackers! Limitless is the largest prediction market on Base (>$260M bet) and the easiest way to trade your favorite assets.",
       category: "Trading"
+    },
+    "rey-tea3": {
+      title: "Tea3 - Advanced Onchain Affiliate System",
+      description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our entire ecosystem.",
+      category: "Affiliate System"
     }
   },
   es: {
@@ -272,6 +277,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "¡0.5% del suministro para los mejores Quackers! Limitless es el mercado de predicciones más grande en Base (>$260M en apuestas) y la forma más fácil de operar tus activos favoritos.",
       category: "Trading"
+    },
+    "rey-tea3": {
+      title: "Tea3 - Sistema de Afiliados Onchain Avanzado",
+      description: "Tea3 es el sistema de afiliados y referidos abierto más avanzado de la web. Te permite hacer crecer tu legado onchain y maximizar tus ganancias en todo nuestro ecosistema.",
+      category: "Sistema de Afiliados"
     }
   },
   fr: {
@@ -365,6 +375,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "0.5% de l'offre pour les meilleurs Quackers! Limitless est le plus grand marché de prédictions sur Base (>260M$ de paris) et le moyen le plus facile de trader vos actifs favoris.",
       category: "Trading"
+    },
+    "rey-tea3": {
+      title: "Tea3 - Système d'Affiliation Onchain Avancé",
+      description: "Tea3 est le système d'affiliation et de parrainage ouvert le plus avancé du web. Il vous permet de développer votre héritage onchain et de maximiser vos gains dans tout notre écosystème.",
+      category: "Système d'Affiliation"
     }
   },
   de: {
@@ -427,6 +442,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "0.5% des Angebots für Top Quackers! Limitless ist der größte Vorhersagemarkt auf Base (>260M$ Wetten) und der einfachste Weg, Ihre Lieblings-Assets zu handeln.",
       category: "Trading"
+    },
+    "rey-tea3": {
+      title: "Tea3 - Fortgeschrittenes Onchain-Affiliate-System",
+      description: "Tea3 ist das fortschrittlichste offene Affiliate- und Empfehlungssystem des Webs. Es ermöglicht Ihnen, Ihr Onchain-Vermächtnis zu vergrößern und Ihre Gewinne in unserem gesamten Ökosystem zu maximieren.",
+      category: "Affiliate-System"
     }
   },
   ja: {
@@ -659,6 +679,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "トップQuackersに供給量の0.5%！LimitlessはBaseで最大の予測市場（>2億6千万ドルのベット）で、お気に入りの資産を取引する最も簡単な方法です。",
       category: "トレーディング"
+    },
+    "rey-tea3": {
+      title: "Tea3 - 高度なオンチェーンアフィリエイトシステム",
+      description: "Tea3は、ウェブで最も高度なオープンアフィリエイト・紹介システムです。オンチェーンのレガシーを成長させ、エコシステム全体で勝利を最大化できます。",
+      category: "アフィリエイトシステム"
     }
   },
   ko: {
@@ -891,6 +916,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "상위 Quacker를 위한 공급량의 0.5%! Limitless는 Base에서 가장 큰 예측 시장(>2억 6천만 달러 베팅)이며 좋아하는 자산을 거래하는 가장 쉬운 방법입니다.",
       category: "트레이딩"
+    },
+    "rey-tea3": {
+      title: "Tea3 - 고급 온체인 제휴 시스템",
+      description: "Tea3는 웹에서 가장 고급스러운 오픈 제휴 및 추천 시스템입니다. 온체인 레거시를 성장시키고 전체 생태계에서 승리를 극대화할 수 있습니다.",
+      category: "제휴 시스템"
     }
   },
   zh: {
@@ -1138,6 +1168,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "为顶级Quackers提供0.5%的供应量！Limitless是Base上最大的预测市场（>2.6亿美元投注），是交易您喜爱资产的最简单方式。",
       category: "交易"
+    },
+    "rey-tea3": {
+      title: "Tea3 - 高级链上联盟系统",
+      description: "Tea3是网络上最先进的开放联盟和推荐系统。它允许您发展链上遗产并在整个生态系统中最大化您的收益。",
+      category: "联盟系统"
     }
   },
   ar: {
@@ -1370,6 +1405,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "تبادل Limitless",
       description: "0.5% من العرض لأفضل Quackers! Limitless هو أكبر سوق تنبؤات على Base (>260 مليون دولار رهان) وأسهل طريقة لتداول أصولك المفضلة",
       category: "التداول"
+    },
+    "rey-tea3": {
+      title: "Tea3 - نظام الشراكة المتقدم على السلسلة",
+      description: "Tea3 هو أكثر أنظمة الشراكة والتحويل المفتوحة تطوراً على الويب. يتيح لك تنمية إرثك على السلسلة وتحقيق أقصى استفادة من أرباحك عبر نظامنا البيئي بالكامل.",
+      category: "نظام الشراكة"
     }
   }
 };
