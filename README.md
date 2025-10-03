@@ -1,76 +1,73 @@
-# InfoFi Hub - Jeet.ing
+# Welcome to your Lovable project
 
-A comprehensive platform for discovering and participating in cutting-edge crypto opportunities through innovative InfoFi projects.
+## Project info
 
-## Project Overview
+**URL**: https://lovable.dev/projects/efbe8214-aa07-42c3-9e73-9035919141a9
 
-InfoFi Hub (Jeet.ing) is a multilingual platform that showcases various crypto projects including Kaito, Bantr, Wallchain, Cookie, Rey, and more. Users can explore projects, earn rewards, and stay updated with the latest opportunities in the crypto space.
+## How can I edit this code?
 
-## Features
+There are several ways of editing your application.
 
-- 🌍 **Multilingual Support**: Available in English, Spanish, French, German, Japanese, Korean, Chinese, and Arabic
-- 🚀 **Project Discovery**: Browse and filter through various crypto projects
-- 💰 **Reward Opportunities**: Access referral links and earning opportunities
-- 📱 **Responsive Design**: Optimized for all devices
-- ⚡ **Fast Performance**: Built with modern web technologies
+**Use Lovable**
 
-## Technologies Used
+Simply visit the [Lovable Project](https://lovable.dev/projects/efbe8214-aa07-42c3-9e73-9035919141a9) and start prompting.
 
-This project is built with:
+Changes made via Lovable will be committed automatically to this repo.
 
-- **Vite** - Fast build tool and development server
-- **TypeScript** - Type-safe JavaScript
-- **React** - Modern UI library
-- **shadcn-ui** - Beautiful component library
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Smooth animations
-- **React Router** - Client-side routing
+**Use your preferred IDE**
 
-## Getting Started
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Prerequisites
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- Node.js (>=20.18.0)
-- npm (>=10.0.0)
-
-### Installation
+Follow these steps:
 
 ```sh
-# Clone the repository
-git clone https://github.com/rjarivi/InfoFI-Hub.git
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-# Navigate to the project directory
-cd InfoFI-Hub
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-# Install dependencies
-npm install
+# Step 3: Install the necessary dependencies.
+npm i
 
-# Start the development server
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-### Available Scripts
+**Edit a file directly in GitHub**
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## Deployment
+**Use GitHub Codespaces**
 
-The project is configured for deployment on Netlify with proper redirects for client-side routing.
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## Contributing
+## What technologies are used for this project?
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+This project is built with:
 
-## License
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-This project is private and proprietary.
+## How can I deploy this project?
 
-## Contact
+Simply open [Lovable](https://lovable.dev/projects/efbe8214-aa07-42c3-9e73-9035919141a9) and click on Share -> Publish.
 
-For questions or support, please contact the development team.
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
