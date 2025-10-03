@@ -216,12 +216,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Yield Platform"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market provides diverse trading opportunities across multiple cryptocurrency markets.",
       category: "Multi-Market Trading"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract offers abstract trading strategies and advanced market insights for cryptocurrency traders.",
       category: "Trading Strategies"
     }
@@ -434,12 +434,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Plataforma de Rendimiento"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market proporciona oportunidades de trading diversas en múltiples mercados de criptomonedas.",
       category: "Trading Multi-Mercado"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract ofrece estrategias de trading abstractas e insights avanzados de mercado para traders de criptomonedas.",
       category: "Estrategias de Trading"
     }
@@ -652,12 +652,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Plateforme de Rendement"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market fournit des opportunités de trading diversifiées sur plusieurs marchés de cryptomonnaies.",
       category: "Trading Multi-Marché"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract offre des stratégies de trading abstraites et des insights avancés du marché pour les traders de cryptomonnaies.",
       category: "Stratégies de Trading"
     }
@@ -854,12 +854,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Rendite-Plattform"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market bietet vielfältige Trading-Möglichkeiten über mehrere Kryptowährungsmärkte.",
       category: "Multi-Markt-Trading"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract bietet abstrakte Trading-Strategien und erweiterte Markteinblicke für Kryptowährungs-Trader.",
       category: "Trading-Strategien"
     }
@@ -1176,12 +1176,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "収益プラットフォーム"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Marketは、複数の暗号通貨市場にわたる多様な取引機会を提供します。",
       category: "マルチマーケット取引"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstractは、暗号通貨トレーダー向けの抽象的な取引戦略と高度な市場洞察を提供します。",
       category: "取引戦略"
     }
@@ -1498,12 +1498,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "수익 플랫폼"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market은 여러 암호화폐 시장에 걸쳐 다양한 거래 기회를 제공합니다.",
       category: "멀티 마켓 거래"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract는 암호화폐 거래자를 위한 추상적인 거래 전략과 고급 시장 인사이트를 제공합니다.",
       category: "거래 전략"
     }
@@ -1835,12 +1835,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "收益平台"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market在多个加密货币市场提供多样化的交易机会。",
       category: "多市场交易"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract为加密货币交易者提供抽象交易策略和高级市场洞察。",
       category: "交易策略"
     }
@@ -2157,12 +2157,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "منصة العوائد"
     },
     "xeet-myriad-market": {
-      title: "Xeet Myriad Market",
+      title: "Myriad Markets",
       description: "Xeet Myriad Market يوفر فرص تداول متنوعة عبر أسواق متعددة للعملات المشفرة.",
       category: "تداول متعدد الأسواق"
     },
     "xeet-abstract": {
-      title: "Xeet Abstract",
+      title: "Abstract",
       description: "Xeet Abstract يقدم استراتيجيات تداول مجردة ورؤى متقدمة للسوق لمتداولي العملات المشفرة.",
       category: "استراتيجيات التداول"
     }
