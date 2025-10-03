@@ -407,6 +407,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex bietet erweiterte Trading-Signale und Marktanalyse für Kryptowährungs-Trader",
       category: "Trading"
+    },
+    "kaito-metawin": {
+      title: "MetaWin Web3 Ökosystem",
+      description: "Verdienen Sie einen Anteil von 100K USDC monatlich für das Teilen über das MetaWin Web3 Ökosystem. Beginnen Sie heute mit dem Gewinnen in Web3.",
+      category: "Casino"
+    },
+    "kaito-bitdealer": {
+      title: "Bitdealer Launchpad",
+      description: "Erstellen, handeln und halten Sie Token auf Bitdealer, dem offiziellen Launchpad auf Jupiter, nahtlos integriert mit Axiom, Trojan, Photon und Bonkbot",
+      category: "Trading"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "0.6% von CYS für Kaito: 60% Top Cysic Creators, 10% KR/CN Creators, 30% Kaito Ökosystem",
+      category: "Infrastruktur"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "1% von LUMITERRA für ihre Top Creators und das Kaito Ökosystem",
+      category: "Gaming"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "0.55% des PEAQ-Angebots für peaq Creators und das breitere Kaito Ökosystem über 11 Monate",
+      category: "Infrastruktur"
     }
   },
   ja: {
@@ -634,6 +659,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdexは暗号通貨トレーダー向けの高度なトレーディングシグナルと市場分析を提供",
       category: "トレーディング"
+    },
+    "kaito-metawin": {
+      title: "MetaWin Web3エコシステム",
+      description: "MetaWin Web3エコシステムについて共有することで、月額10万USDCのシェアを獲得。今日からWeb3で勝利を始めましょう。",
+      category: "カジノ"
+    },
+    "kaito-bitdealer": {
+      title: "Bitdealer ローンチパッド",
+      description: "Bitdealerでトークンを作成、取引、保持。Jupiterの公式ローンチパッドで、Axiom、Trojan、Photon、Bonkbotとシームレスに統合",
+      category: "トレーディング"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "Kaito向けCYSの0.6%：60%トップCysicクリエイター、10%KR/CNクリエイター、30%Kaitoエコシステム",
+      category: "インフラストラクチャ"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "LUMITERRAの1%をトップクリエイターとKaitoエコシステムに配布",
+      category: "ゲーミング"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "11ヶ月間、PEAQ供給量の0.55%をpeaqクリエイターとより広いKaitoエコシステムに配布",
+      category: "インフラストラクチャ"
     }
   },
   ko: {
@@ -861,6 +911,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex는 암호화폐 거래자를 위한 고급 거래 신호 및 시장 분석을 제공합니다",
       category: "거래 신호"
+    },
+    "kaito-metawin": {
+      title: "MetaWin Web3 생태계",
+      description: "MetaWin Web3 생태계에 대해 공유하여 월 10만 USDC의 몫을 획득하세요. 오늘부터 Web3에서 승리하기 시작하세요.",
+      category: "카지노"
+    },
+    "kaito-bitdealer": {
+      title: "Bitdealer 런치패드",
+      description: "Bitdealer에서 토큰을 생성, 거래, 보유하세요. Jupiter의 공식 런치패드로 Axiom, Trojan, Photon, Bonkbot과 원활하게 통합",
+      category: "트레이딩"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "Kaito를 위한 CYS의 0.6%: 60% 상위 Cysic 크리에이터, 10% KR/CN 크리에이터, 30% Kaito 생태계",
+      category: "인프라"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "LUMITERRA의 1%를 상위 크리에이터와 Kaito 생태계에 배분",
+      category: "게임"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "11개월 동안 PEAQ 공급량의 0.55%를 peaq 크리에이터와 더 넓은 Kaito 생태계에 배분",
+      category: "인프라"
     }
   },
   zh: {
@@ -1103,6 +1178,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex为加密货币交易者提供先进的交易信号和市场分析",
       category: "交易"
+    },
+    "kaito-metawin": {
+      title: "MetaWin Web3生态系统",
+      description: "通过分享MetaWin Web3生态系统相关内容，每月获得10万USDC的份额。今天就开始在Web3中获胜。",
+      category: "赌场"
+    },
+    "kaito-bitdealer": {
+      title: "Bitdealer启动平台",
+      description: "在Bitdealer上创建、交易和持有代币，这是Jupiter的官方启动平台，与Axiom、Trojan、Photon和Bonkbot无缝集成",
+      category: "交易"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "Kaito的CYS 0.6%：60%顶级Cysic创作者，10% KR/CN创作者，30% Kaito生态系统",
+      category: "基础设施"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "LUMITERRA的1%分配给顶级创作者和Kaito生态系统",
+      category: "游戏"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "11个月内，PEAQ供应量的0.55%分配给peaq创作者和更广泛的Kaito生态系统",
+      category: "基础设施"
     }
   },
   ar: {
@@ -1330,6 +1430,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "يوفر Vdex إشارات تداول متقدمة وتحليل السوق لمتداولي العملات المشفرة",
       category: "إشارات التداول"
+    },
+    "kaito-metawin": {
+      title: "نظام MetaWin Web3 البيئي",
+      description: "احصل على حصة من 100 ألف USDC شهرياً لمشاركة معلومات حول نظام MetaWin Web3 البيئي. ابدأ الفوز في Web3 اليوم.",
+      category: "الكازينو"
+    },
+    "kaito-bitdealer": {
+      title: "منصة إطلاق Bitdealer",
+      description: "أنشئ وتداول واحتفظ بالرموز المميزة على Bitdealer، منصة الإطلاق الرسمية على Jupiter، متكاملة بسلاسة مع Axiom وTrojan وPhoton وBonkbot",
+      category: "التداول"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "0.6% من CYS لـ Kaito: 60% أفضل مبدعي Cysic، 10% مبدعي KR/CN، 30% نظام Kaito البيئي",
+      category: "البنية التحتية"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "1% من LUMITERRA لأفضل المبدعين ونظام Kaito البيئي",
+      category: "الألعاب"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "0.55% من عرض PEAQ لمبدعي peaq ونظام Kaito البيئي الأوسع على مدى 11 شهراً",
+      category: "البنية التحتية"
     }
   }
 };
