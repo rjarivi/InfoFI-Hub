@@ -407,7 +407,6 @@ const Index = () => {
                   className="w-6 h-6 rounded-full border border-border/50 group-hover:border-primary/50 transition-colors"
                 />
                 <span className="font-medium">@rjarivi</span>
-                <span>on X</span>
                 <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
               </a>
             </div>
