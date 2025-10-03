@@ -144,6 +144,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - Advanced Onchain Affiliate System",
       description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our entire ecosystem.",
       category: "Affiliate System"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies.",
+      category: "Trading Platform"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ is the central hub for Airaa ecosystem projects and community initiatives.",
+      category: "Ecosystem Hub"
     }
   },
   es: {
@@ -282,6 +292,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - Sistema de Afiliados Onchain Avanzado",
       description: "Tea3 es el sistema de afiliados y referidos abierto más avanzado de la web. Te permite hacer crecer tu legado onchain y maximizar tus ganancias en todo nuestro ecosistema.",
       category: "Sistema de Afiliados"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market es una plataforma de trading descentralizada para activos digitales y criptomonedas.",
+      category: "Plataforma de Trading"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ es el centro central para proyectos del ecosistema Airaa e iniciativas comunitarias.",
+      category: "Centro del Ecosistema"
     }
   },
   fr: {
@@ -380,6 +400,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - Système d'Affiliation Onchain Avancé",
       description: "Tea3 est le système d'affiliation et de parrainage ouvert le plus avancé du web. Il vous permet de développer votre héritage onchain et de maximiser vos gains dans tout notre écosystème.",
       category: "Système d'Affiliation"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market est une plateforme de trading décentralisée pour les actifs numériques et les cryptomonnaies.",
+      category: "Plateforme de Trading"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ est le centre central pour les projets de l'écosystème Airaa et les initiatives communautaires.",
+      category: "Centre de l'Écosystème"
     }
   },
   de: {
@@ -447,6 +477,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - Fortgeschrittenes Onchain-Affiliate-System",
       description: "Tea3 ist das fortschrittlichste offene Affiliate- und Empfehlungssystem des Webs. Es ermöglicht Ihnen, Ihr Onchain-Vermächtnis zu vergrößern und Ihre Gewinne in unserem gesamten Ökosystem zu maximieren.",
       category: "Affiliate-System"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market ist eine dezentrale Trading-Plattform für digitale Assets und Kryptowährungen.",
+      category: "Trading-Plattform"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ ist das zentrale Zentrum für Airaa-Ökosystem-Projekte und Community-Initiativen.",
+      category: "Ökosystem-Zentrum"
     }
   },
   ja: {
@@ -684,6 +724,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - 高度なオンチェーンアフィリエイトシステム",
       description: "Tea3は、ウェブで最も高度なオープンアフィリエイト・紹介システムです。オンチェーンのレガシーを成長させ、エコシステム全体で勝利を最大化できます。",
       category: "アフィリエイトシステム"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Marketは、デジタル資産と暗号通貨のための分散型取引プラットフォームです。",
+      category: "取引プラットフォーム"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQは、Airaaエコシステムプロジェクトとコミュニティイニシアチブの中央ハブです。",
+      category: "エコシステムハブ"
     }
   },
   ko: {
@@ -921,6 +971,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - 고급 온체인 제휴 시스템",
       description: "Tea3는 웹에서 가장 고급스러운 오픈 제휴 및 추천 시스템입니다. 온체인 레거시를 성장시키고 전체 생태계에서 승리를 극대화할 수 있습니다.",
       category: "제휴 시스템"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market은 디지털 자산과 암호화폐를 위한 분산형 거래 플랫폼입니다.",
+      category: "거래 플랫폼"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ는 Airaa 생태계 프로젝트와 커뮤니티 이니셔티브의 중앙 허브입니다.",
+      category: "생태계 허브"
     }
   },
   zh: {
@@ -1173,6 +1233,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - 高级链上联盟系统",
       description: "Tea3是网络上最先进的开放联盟和推荐系统。它允许您发展链上遗产并在整个生态系统中最大化您的收益。",
       category: "联盟系统"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market是数字资产和加密货币的去中心化交易平台。",
+      category: "交易平台"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ是Airaa生态系统项目和社区倡议的中心枢纽。",
+      category: "生态系统枢纽"
     }
   },
   ar: {
@@ -1410,6 +1480,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - نظام الشراكة المتقدم على السلسلة",
       description: "Tea3 هو أكثر أنظمة الشراكة والتحويل المفتوحة تطوراً على الويب. يتيح لك تنمية إرثك على السلسلة وتحقيق أقصى استفادة من أرباحك عبر نظامنا البيئي بالكامل.",
       category: "نظام الشراكة"
+    },
+    "aira-xo-market": {
+      title: "XO Market",
+      description: "XO Market هو منصة تداول لامركزية للأصول الرقمية والعملات المشفرة.",
+      category: "منصة التداول"
+    },
+    "aira-hq": {
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ هو المركز المركزي لمشاريع نظام Airaa البيئي ومبادرات المجتمع.",
+      category: "مركز النظام البيئي"
     }
   }
 };
