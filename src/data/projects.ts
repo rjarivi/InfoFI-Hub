@@ -107,7 +107,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "xeet-vdex": {
       title: "Vdex",
-      description: "Vdex provides advanced trading signals and market analysis for cryptocurrency traders",
+      description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX. Rewards: 0.5% $VDEX over 3 months",
       category: "Trading"
     },
     "xeet-xeet": {
@@ -2847,73 +2847,118 @@ export const projectsData: Record<string, Project[]> = {
     {
       id: "xeet-solstice",
       title: "Solstice",
-      description: "Solstice provides advanced trading signals and market analysis for cryptocurrency traders.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Trading Signals",
+      description: "Solstice is focused on delivering stable, real yield through strategies that don't rely on hype or speculation. Our approach combines proven delta-neutral trading, robust infrastructure, and institutional-grade risk management to build a foundation for long-term positive returns.",
+      rewardPool: "1% $SLX Token Supply",
+      participants: "1,581",
+      timeLeft: "Sep 29, 2025 - Ongoing",
+      category: "Yield Platform",
       platform: "Solstice",
       link: "https://www.xeet.ai/signals/solstice",
       logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
       source: "https://www.xeet.ai/signals/solstice",
       referralLink: "https://app.solstice.finance/earn-flares?ref=TAuyCWirvp",
-      referralCode: "E7E3RQNSFy"
+      referralCode: "E7E3RQNSFy",
+      claimPeriod: "100 participants rewarded",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Partner codes: ORCA and RAYDIUM",
+        "Focus on stable, real yield strategies",
+        "Delta-neutral trading approach"
+      ]
     },
     {
       id: "xeet-myriad-market",
-      title: "Myriad Market",
-      description: "Myriad Market offers comprehensive market analysis and trading opportunities across multiple asset classes.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Market Analysis",
-      platform: "Myriad Market",
+      title: "Myriad Markets",
+      description: "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology. Trade your opinion.",
+      rewardPool: "1 Billion $MYR Points",
+      participants: "1,127",
+      timeLeft: "Sep 25, 2025 - Ongoing",
+      category: "Prediction Markets",
+      platform: "Myriad Markets",
       link: "https://www.xeet.ai/signals/myriad-market",
       logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1949824545403101184%2FbdrlDoUR_400x400.jpg&w=32&q=75",
       source: "https://www.xeet.ai/signals/myriad-market",
-      referralLink: "https://www.xeet.ai/refer/godofbayc"
+      referralLink: "https://www.xeet.ai/refer/godofbayc",
+      claimPeriod: "500 participants rewarded",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Trade predictions on crypto, politics, sports",
+        "Participate in gaming, culture and technology markets",
+        "Trade your opinion across all categories"
+      ]
     },
     {
       id: "xeet-abstract",
       title: "Abstract",
-      description: "Abstract provides innovative trading strategies and market insights for advanced cryptocurrency traders.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Trading Strategy",
+      description: "Abstract is an Ethereum Layer-2 built with the ZK Stack, offering fast, low-fee transactions with full EVM compatibility. It features the Abstract Global Wallet for seamless onboarding and a developer portal to deploy and scale Web3 apps.",
+      rewardPool: "Xeets",
+      participants: "5,308",
+      timeLeft: "Sep 25, 2025 - Ongoing",
+      category: "Layer 2",
       platform: "Abstract",
       link: "https://www.xeet.ai/signals/abstract",
       logo: "https://pbs.twimg.com/profile_images/1947751080705630208/0OQFUJxI_400x400.jpg",
       source: "https://www.xeet.ai/signals/abstract",
-      referralLink: "https://www.xeet.ai/refer/godofbayc"
+      referralLink: "https://www.xeet.ai/refer/godofbayc",
+      claimPeriod: "Everyone rewarded",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Built with ZK Stack for Ethereum Layer-2",
+        "Fast, low-fee transactions with EVM compatibility",
+        "Abstract Global Wallet for seamless onboarding"
+      ]
     },
     {
       id: "xeet-xeet",
-      title: "Xeet",
-      description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Platform",
+      title: "Xeet InfoFI",
+      description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out.",
+      rewardPool: "Xeets",
+      participants: "26,343",
+      timeLeft: "Jun 11, 2025 - Ongoing",
+      category: "Social Platform",
       platform: "Xeet",
       link: "https://www.xeet.ai/signals/xeet",
       logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1947308130301255680%2FZ71pe0B2_400x400.png&w=32&q=75",
       source: "https://www.xeet.ai/signals/xeet",
-      referralLink: "https://www.xeet.ai/refer/rjarivi"
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      claimPeriod: "Everyone rewarded",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Join Xeet Leagues to compare with peers",
+        "Measure influence by impact, not noise",
+        "Participate in social trading competitions"
+      ]
     },
     {
       id: "xeet-vdex",
-      title: "Vdex",
-      description: "Vdex provides advanced trading signals and market analysis for cryptocurrency traders.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Trading Signals",
-      platform: "Vdex",
+      title: "VDEX",
+      description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX.",
+      rewardPool: "0.5% $VDEX over 3 months",
+      participants: "303",
+      timeLeft: "Oct 1, 2025 - Jan 1, 2026",
+      category: "DEX",
+      platform: "VDEX",
       link: "https://www.xeet.ai/signals/vdex",
       logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
       source: "https://www.xeet.ai/signals/vdex",
-      referralLink: "https://app.vdex.trade/?referral=TornadoTitanium1825"
+      referralLink: "https://app.vdex.trade/?referral=TornadoTitanium1825",
+      claimPeriod: "33% per month for top 150",
+      vestingSchedule: "3 months",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Trade on VDEX omnichain DEX",
+        "Participate in perps & prediction markets",
+        "Support across ETH, SOL, BSC, ARB, and AVAX"
+      ]
     }
   ]
 };
