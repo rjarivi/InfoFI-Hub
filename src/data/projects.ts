@@ -69,6 +69,36 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bantr",
       description: "Bantr is a social trading platform that connects traders and provides community-driven insights",
       category: "Social Trading"
+    },
+    "kaito-turtle": {
+      title: "TURTLE Liquidity Program",
+      description: "0.3% to Creators (Liquidity Leaderboard + Kaito Creators), with additional 0.2% upon milestone unlock",
+      category: "DeFi"
+    },
+    "kaito-hyperpie": {
+      title: "Hyperpie",
+      description: "2% of Hyperpie's HPP initial supply is allocated to reward Hyperpie Creators, Referrers, and Kaito Eco",
+      category: "DeFi"
+    },
+    "wallchain-covalent": {
+      title: "Covalent",
+      description: "Covalent provides unified APIs to access blockchain data across multiple networks",
+      category: "Data"
+    },
+    "wallchain-heyelsa": {
+      title: "HeyElsa",
+      description: "HeyElsa is an AI-powered assistant for Web3 and cryptocurrency interactions",
+      category: "AI"
+    },
+    "wallchain-idos": {
+      title: "idOS",
+      description: "idOS provides decentralized identity solutions for Web3 applications",
+      category: "Identity"
+    },
+    "wallchain-apecoin": {
+      title: "ApeCoin R.A.I.D",
+      description: "ApeCoin R.A.I.D is a community-driven initiative for the ApeCoin ecosystem",
+      category: "Community"
     }
   },
   es: {
@@ -157,6 +187,36 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bantr",
       description: "Bantr es una plataforma de trading social que conecta traders y proporciona insights impulsados por la comunidad",
       category: "Trading Social"
+    },
+    "kaito-turtle": {
+      title: "Programa de Liquidez TURTLE",
+      description: "0.3% para Creadores (Tabla de Líderes de Liquidez + Creadores de Kaito), con 0.2% adicional al desbloquear hitos",
+      category: "DeFi"
+    },
+    "kaito-hyperpie": {
+      title: "Hyperpie",
+      description: "2% del suministro inicial de HPP de Hyperpie se asigna para recompensar a Creadores de Hyperpie, Referidos y Ecosistema Kaito",
+      category: "DeFi"
+    },
+    "wallchain-covalent": {
+      title: "Covalent",
+      description: "Covalent proporciona APIs unificadas para acceder a datos de blockchain a través de múltiples redes",
+      category: "Datos"
+    },
+    "wallchain-heyelsa": {
+      title: "HeyElsa",
+      description: "HeyElsa es un asistente impulsado por IA para interacciones Web3 y criptomonedas",
+      category: "IA"
+    },
+    "wallchain-idos": {
+      title: "idOS",
+      description: "idOS proporciona soluciones de identidad descentralizadas para aplicaciones Web3",
+      category: "Identidad"
+    },
+    "wallchain-apecoin": {
+      title: "ApeCoin R.A.I.D",
+      description: "ApeCoin R.A.I.D es una iniciativa impulsada por la comunidad para el ecosistema ApeCoin",
+      category: "Comunidad"
     }
   },
   fr: {
