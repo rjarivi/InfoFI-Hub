@@ -57,12 +57,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-morph": {
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2",
+      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2 with token rewards for active contributors",
       category: "DeFi"
     },
     "bantr-cointel": {
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders",
+      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders with token rewards for active users",
       category: "Analysis"
     },
     "bantr-bantr": {
@@ -962,12 +962,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-morph": {
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2",
+      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2 with token rewards for active contributors",
       category: "DeFi"
     },
     "bantr-cointel": {
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders",
+      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders with token rewards for active users",
       category: "Analysis"
     },
     "bantr-bantr": {
@@ -1621,12 +1621,12 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-morph": {
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2",
+      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2 with token rewards for active contributors",
       category: "DeFi"
     },
     "bantr-cointel": {
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders",
+      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders with token rewards for active users",
       category: "Analysis"
     },
     "bantr-bantr": {
@@ -2431,29 +2431,45 @@ export const projectsData: Record<string, Project[]> = {
       id: "bantr-morph",
       title: "Morph",
       description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
+      rewardPool: "Morph Token Rewards",
+      participants: "Active Contributors",
+      timeLeft: "Ongoing",
       category: "DeFi",
       platform: "Morph",
       link: "https://bantr.fun/project/morph",
       logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2Fundefined%2F9f41746babce47d89f28441d9b1ad6f9.jpg&w=96&q=75",
       source: "https://bantr.fun/project/morph",
-      referralLink: "https://morphl2.io"
+      referralLink: "https://morphl2.io",
+      claimPeriod: "TBD",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Participate in Morph ecosystem activities",
+        "Complete tasks and challenges",
+        "Earn rewards based on contribution level"
+      ]
     },
     {
       id: "bantr-cointel",
       title: "Cointel",
       description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
+      rewardPool: "Cointel Token Rewards",
+      participants: "Active Users",
+      timeLeft: "Ongoing",
       category: "Analytics",
       platform: "Cointel",
       link: "https://bantr.fun/project/cointel",
       logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F3335fb7ecc1346a087e494f402c5e663.jpg&w=96&q=75",
       source: "https://bantr.fun/project/cointel",
-      referralLink: "https://www.cointel.io/en/login"
+      referralLink: "https://www.cointel.io/en/login",
+      claimPeriod: "TBD",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Use Cointel platform for trading analysis",
+        "Complete platform tasks and activities",
+        "Earn rewards based on platform engagement"
+      ]
     },
     {
       id: "bantr-bantr",
