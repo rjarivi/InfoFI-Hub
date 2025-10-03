@@ -1062,24 +1062,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
 // Function to translate project data
 export function translateProject(project: Project, language: Language): Project {
   const translations = projectTranslations[language];
-  console.log(`🔍 translateProject called: project.id=${project.id}, language=${language}`);
-  console.log(`📊 translations exist=${!!translations}, project translation exists=${!!translations?.[project.id]}`);
-  
   if (!translations || !translations[project.id]) {
-    console.log(`❌ No translation found for ${project.id} in ${language}, returning original`);
     return project; // Return original if no translation exists
   }
   
-  const translated = {
+  return {
     ...project,
     ...translations[project.id]
   };
-  
-  console.log(`✅ Translation applied: ${project.id}`);
-  console.log(`📝 Original description: ${project.description}`);
-  console.log(`🌍 Translated description: ${translated.description}`);
-  
-  return translated;
 }
 
 export const projectsData: Record<string, Project[]> = {

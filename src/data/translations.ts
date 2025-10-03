@@ -4,7 +4,8 @@ export const translations = {
     // Navigation
     allProjects: "All Projects",
     projects: "projects",
-    joinNow: "Haven't joined yet? Join Now",
+    joinNow: "Join Now",
+    haventJoined: "Haven't joined",
     
     // Footer
     title: "Jeet.ing",
@@ -60,7 +61,8 @@ export const translations = {
     // Navigation
     allProjects: "Todos los Proyectos",
     projects: "proyectos",
-    joinNow: "¿Aún no te has unido? Únete Ahora",
+    joinNow: "Únete Ahora",
+    haventJoined: "¿Aún no te has unido",
     
     // Footer
     title: "Jeet.ing",
@@ -116,7 +118,8 @@ export const translations = {
     // Navigation
     allProjects: "Tous les Projets",
     projects: "projets",
-    joinNow: "Pas encore rejoint ? Rejoignez Maintenant",
+    joinNow: "Rejoignez Maintenant",
+    haventJoined: "Pas encore rejoint",
     
     // Footer
     title: "Jeet.ing",
@@ -156,7 +159,8 @@ export const translations = {
     // Navigation
     allProjects: "Alle Projekte",
     projects: "Projekte",
-    joinNow: "Noch nicht beigetreten? Jetzt Beitreten",
+    joinNow: "Jetzt Beitreten",
+    haventJoined: "Noch nicht beigetreten",
     
     // Footer
     title: "Jeet.ing",
@@ -196,7 +200,8 @@ export const translations = {
     // Navigation
     allProjects: "すべてのプロジェクト",
     projects: "プロジェクト",
-    joinNow: "まだ参加していませんか？今すぐ参加",
+    joinNow: "今すぐ参加",
+    haventJoined: "まだ参加していませんか",
     
     // Footer
     title: "Jeet.ing",
@@ -236,7 +241,8 @@ export const translations = {
     // Navigation
     allProjects: "모든 프로젝트",
     projects: "프로젝트",
-    joinNow: "아직 가입하지 않으셨나요? 지금 가입하기",
+    joinNow: "지금 가입하기",
+    haventJoined: "아직 가입하지 않으셨나요",
     
     // Footer
     title: "Jeet.ing",
@@ -276,7 +282,8 @@ export const translations = {
     // Navigation
     allProjects: "所有项目",
     projects: "项目",
-    joinNow: "还没有加入？立即加入",
+    joinNow: "立即加入",
+    haventJoined: "还没有加入",
     
     // Footer
     title: "Jeet.ing",
@@ -316,7 +323,8 @@ export const translations = {
     // Navigation
     allProjects: "جميع المشاريع",
     projects: "مشاريع",
-    joinNow: "لم تنضم بعد؟ انضم الآن",
+    joinNow: "انضم الآن",
+    haventJoined: "لم تنضم بعد",
     
     // Footer
     title: "Jeet.ing",

@@ -50,7 +50,10 @@ const referralLinks = {
   xeet: "https://www.xeet.ai/refer/godofbayc",
   wallchain: "https://app.wallchain.xyz/leaderboards?ref=godofbayc",
   cookie: "https://www.cookie.community/?referral=ZTJjZGE2ZjE1MmE2LTM5N2ItOGU1NC01NDQ4LWQyMjRhNTg0",
-  rey: "https://app.rey.xyz/rjarivi"
+  rey: "https://app.rey.xyz/rjarivi",
+  pulse: "https://www.alphabot.app/pulse/boost/XQ9S9C",
+  mindoai: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+  breadcrumbs: "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK"
 };
 
 const menuItems = [
@@ -150,7 +153,7 @@ const Index = () => {
       {/* Projects Grid */}
       <main className="flex-1 container mx-auto px-4 md:px-6 py-6 md:py-8">
         <motion.div 
-          className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 md:mb-8"
+          className="flex flex-col gap-4 mb-6 md:mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -171,21 +174,24 @@ const Index = () => {
           
           {/* CTA Button for platforms with referral links */}
           {activeTab !== "all" && referralLinks[activeTab as keyof typeof referralLinks] && (
-            <Button 
-              variant="outline" 
-              size="sm"
-              className="neon-border hover:bg-primary/10 w-full sm:w-auto"
-              asChild
+            <a 
+              href={referralLinks[activeTab as keyof typeof referralLinks]} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex justify-center gap-2 items-center shadow-xl text-sm glass-card backdrop-blur-md font-semibold isolation-auto border-border/50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-neon-green hover:text-background before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group w-full sm:w-auto neon-border"
             >
-              <a 
-                href={referralLinks[activeTab as keyof typeof referralLinks]} 
-                target="_blank" 
-                rel="noopener noreferrer"
+              {activeTab !== "all" ? `${t("haventJoined")} ${menuItems.find(item => item.id === activeTab)?.label} yet? ${t("joinNow")}` : t("joinNow")}
+              <svg
+                className="w-6 h-6 justify-end group-hover:rotate-45 group-hover:bg-background text-foreground ease-linear duration-300 rounded-full border border-border group-hover:border-none p-1 rotate-90"
+                viewBox="0 0 16 19"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <span className="text-sm">{t("joinNow")}</span>
-                <ExternalLink className="w-3 h-3 ml-2" />
-              </a>
-            </Button>
+                <path
+                  d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
+                  className="fill-foreground group-hover:fill-neon-green"
+                ></path>
+              </svg>
+            </a>
           )}
         </motion.div>
 
@@ -291,10 +297,10 @@ const Index = () => {
                 <img 
                   src="/InfoFI-Icon.svg" 
                   alt="InfoFi Hub Logo" 
-                  className="w-8 h-8"
+                  className="w-10 h-10"
                 />
                 <h1 className="text-5xl font-bold text-neon-green" style={{ 
-                  fontFamily: 'Badeen Display, sans-serif',
+                  fontFamily: 'Gasoek One, sans-serif',
                   letterSpacing: '0.027em',
                   fontWeight: '400'
                 }}>
@@ -314,7 +320,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Users className="w-4 h-4 text-neon-cyan" />
-                  <span className="text-sm font-medium">1000+ {t("contributors")}</span>
+                  <span className="text-sm font-medium">10+ {t("contributors")}</span>
                 </div>
               </div>
             </motion.div>
