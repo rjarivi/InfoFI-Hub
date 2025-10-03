@@ -154,6 +154,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ is the central hub for Airaa ecosystem projects and community initiatives.",
       category: "Ecosystem Hub"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic is an advanced cryptocurrency trading platform with AI-powered market analysis.",
+      category: "Trading Platform"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI is an intelligent AI assistant for cryptocurrency market insights and trading strategies.",
+      category: "AI Assistant"
+    },
+    "parle-platform": {
+      title: "Parle Platform",
+      description: "Parle Platform is a comprehensive social media and content creation platform for Web3 communities.",
+      category: "Social Platform"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost is a community-driven platform for accelerating Web3 project growth and adoption.",
+      category: "Growth Platform"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis provides comprehensive security solutions for Web3 projects and DeFi protocols.",
+      category: "Security"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong is a community building platform that connects Web3 enthusiasts and projects.",
+      category: "Community"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network is a decentralized networking platform for Web3 professionals and entrepreneurs.",
+      category: "Networking"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR is an innovative platform for Web3 project incubation and acceleration.",
+      category: "Incubation"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua provides advanced analytics and insights for Web3 project performance tracking.",
+      category: "Analytics"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI is an AI-powered platform for automated Web3 project management and optimization.",
+      category: "AI Management"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice is a comprehensive trading platform offering advanced market analysis and trading tools.",
+      category: "Trading Platform"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market provides diverse trading opportunities across multiple cryptocurrency markets.",
+      category: "Multi-Market Trading"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract offers abstract trading strategies and advanced market insights for cryptocurrency traders.",
+      category: "Trading Strategies"
     }
   },
   es: {
@@ -302,6 +367,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ es el centro central para proyectos del ecosistema Airaa e iniciativas comunitarias.",
       category: "Centro del Ecosistema"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic es una plataforma avanzada de trading de criptomonedas con análisis de mercado impulsado por IA.",
+      category: "Plataforma de Trading"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI es un asistente de IA inteligente para insights del mercado de criptomonedas y estrategias de trading.",
+      category: "Asistente de IA"
+    },
+    "parle-platform": {
+      title: "Plataforma Parle",
+      description: "La Plataforma Parle es una plataforma integral de redes sociales y creación de contenido para comunidades Web3.",
+      category: "Plataforma Social"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost es una plataforma impulsada por la comunidad para acelerar el crecimiento y adopción de proyectos Web3.",
+      category: "Plataforma de Crecimiento"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis proporciona soluciones de seguridad integrales para proyectos Web3 y protocolos DeFi.",
+      category: "Seguridad"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong es una plataforma de construcción de comunidad que conecta entusiastas y proyectos Web3.",
+      category: "Comunidad"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network es una plataforma de networking descentralizada para profesionales y emprendedores Web3.",
+      category: "Networking"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR es una plataforma innovadora para incubación y aceleración de proyectos Web3.",
+      category: "Incubación"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua proporciona análisis avanzados e insights para seguimiento del rendimiento de proyectos Web3.",
+      category: "Análisis"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI es una plataforma impulsada por IA para gestión automatizada y optimización de proyectos Web3.",
+      category: "Gestión IA"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice es una plataforma de trading integral que ofrece análisis de mercado avanzado y herramientas de trading.",
+      category: "Plataforma de Trading"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market proporciona oportunidades de trading diversas en múltiples mercados de criptomonedas.",
+      category: "Trading Multi-Mercado"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract ofrece estrategias de trading abstractas e insights avanzados de mercado para traders de criptomonedas.",
+      category: "Estrategias de Trading"
     }
   },
   fr: {
@@ -410,6 +540,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ est le centre central pour les projets de l'écosystème Airaa et les initiatives communautaires.",
       category: "Centre de l'Écosystème"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic est une plateforme de trading de cryptomonnaies avancée avec analyse de marché alimentée par l'IA.",
+      category: "Plateforme de Trading"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI est un assistant IA intelligent pour les insights du marché des cryptomonnaies et les stratégies de trading.",
+      category: "Assistant IA"
+    },
+    "parle-platform": {
+      title: "Plateforme Parle",
+      description: "La Plateforme Parle est une plateforme complète de médias sociaux et de création de contenu pour les communautés Web3.",
+      category: "Plateforme Sociale"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost est une plateforme communautaire pour accélérer la croissance et l'adoption des projets Web3.",
+      category: "Plateforme de Croissance"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis fournit des solutions de sécurité complètes pour les projets Web3 et les protocoles DeFi.",
+      category: "Sécurité"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong est une plateforme de construction communautaire qui connecte les passionnés et projets Web3.",
+      category: "Communauté"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network est une plateforme de réseautage décentralisée pour professionnels et entrepreneurs Web3.",
+      category: "Réseautage"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR est une plateforme innovante pour l'incubation et l'accélération de projets Web3.",
+      category: "Incubation"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua fournit des analyses avancées et des insights pour le suivi des performances de projets Web3.",
+      category: "Analyse"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI est une plateforme alimentée par l'IA pour la gestion automatisée et l'optimisation de projets Web3.",
+      category: "Gestion IA"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice est une plateforme de trading complète offrant une analyse de marché avancée et des outils de trading.",
+      category: "Plateforme de Trading"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market fournit des opportunités de trading diversifiées sur plusieurs marchés de cryptomonnaies.",
+      category: "Trading Multi-Marché"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract offre des stratégies de trading abstraites et des insights avancés du marché pour les traders de cryptomonnaies.",
+      category: "Stratégies de Trading"
     }
   },
   de: {
@@ -487,6 +682,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ ist das zentrale Zentrum für Airaa-Ökosystem-Projekte und Community-Initiativen.",
       category: "Ökosystem-Zentrum"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic ist eine fortschrittliche Kryptowährungs-Trading-Plattform mit KI-gestützter Marktanalyse.",
+      category: "Trading-Plattform"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI ist ein intelligenter KI-Assistent für Kryptowährungs-Markteinblicke und Trading-Strategien.",
+      category: "KI-Assistent"
+    },
+    "parle-platform": {
+      title: "Parle-Plattform",
+      description: "Die Parle-Plattform ist eine umfassende Social-Media- und Content-Erstellungsplattform für Web3-Communities.",
+      category: "Soziale Plattform"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost ist eine Community-gesteuerte Plattform zur Beschleunigung des Wachstums und der Adoption von Web3-Projekten.",
+      category: "Wachstumsplattform"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis bietet umfassende Sicherheitslösungen für Web3-Projekte und DeFi-Protokolle.",
+      category: "Sicherheit"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong ist eine Community-Building-Plattform, die Web3-Enthusiasten und Projekte verbindet.",
+      category: "Community"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network ist eine dezentrale Networking-Plattform für Web3-Profis und Unternehmer.",
+      category: "Networking"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR ist eine innovative Plattform für Web3-Projektinkubation und -beschleunigung.",
+      category: "Inkubation"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua bietet erweiterte Analysen und Einblicke für Web3-Projektleistungsverfolgung.",
+      category: "Analyse"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI ist eine KI-gestützte Plattform für automatisierte Web3-Projektverwaltung und -optimierung.",
+      category: "KI-Verwaltung"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice ist eine umfassende Trading-Plattform mit erweiterter Marktanalyse und Trading-Tools.",
+      category: "Trading-Plattform"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market bietet vielfältige Trading-Möglichkeiten über mehrere Kryptowährungsmärkte.",
+      category: "Multi-Markt-Trading"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract bietet abstrakte Trading-Strategien und erweiterte Markteinblicke für Kryptowährungs-Trader.",
+      category: "Trading-Strategien"
     }
   },
   ja: {
@@ -734,6 +994,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQは、Airaaエコシステムプロジェクトとコミュニティイニシアチブの中央ハブです。",
       category: "エコシステムハブ"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubicは、AI駆動の市場分析を備えた高度な暗号通貨取引プラットフォームです。",
+      category: "取引プラットフォーム"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAIは、暗号通貨市場の洞察と取引戦略のためのインテリジェントAIアシスタントです。",
+      category: "AIアシスタント"
+    },
+    "parle-platform": {
+      title: "Parleプラットフォーム",
+      description: "Parleプラットフォームは、Web3コミュニティ向けの包括的なソーシャルメディア・コンテンツ作成プラットフォームです。",
+      category: "ソーシャルプラットフォーム"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boostは、Web3プロジェクトの成長と採用を加速するコミュニティ主導のプラットフォームです。",
+      category: "成長プラットフォーム"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegisは、Web3プロジェクトとDeFiプロトコル向けの包括的なセキュリティソリューションを提供します。",
+      category: "セキュリティ"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belongは、Web3愛好家とプロジェクトを結ぶコミュニティ構築プラットフォームです。",
+      category: "コミュニティ"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Networkは、Web3プロフェッショナルと起業家のための分散型ネットワーキングプラットフォームです。",
+      category: "ネットワーキング"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixRは、Web3プロジェクトのインキュベーションとアクセラレーションのための革新的なプラットフォームです。",
+      category: "インキュベーション"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imuaは、Web3プロジェクトのパフォーマンス追跡のための高度な分析とインサイトを提供します。",
+      category: "分析"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AIは、Web3プロジェクトの自動管理と最適化のためのAI駆動プラットフォームです。",
+      category: "AI管理"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solsticeは、高度な市場分析と取引ツールを提供する包括的な取引プラットフォームです。",
+      category: "取引プラットフォーム"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Marketは、複数の暗号通貨市場にわたる多様な取引機会を提供します。",
+      category: "マルチマーケット取引"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstractは、暗号通貨トレーダー向けの抽象的な取引戦略と高度な市場洞察を提供します。",
+      category: "取引戦略"
     }
   },
   ko: {
@@ -981,6 +1306,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ는 Airaa 생태계 프로젝트와 커뮤니티 이니셔티브의 중앙 허브입니다.",
       category: "생태계 허브"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic은 AI 기반 시장 분석을 갖춘 고급 암호화폐 거래 플랫폼입니다.",
+      category: "거래 플랫폼"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI는 암호화폐 시장 인사이트와 거래 전략을 위한 지능형 AI 어시스턴트입니다.",
+      category: "AI 어시스턴트"
+    },
+    "parle-platform": {
+      title: "Parle 플랫폼",
+      description: "Parle 플랫폼은 Web3 커뮤니티를 위한 포괄적인 소셜 미디어 및 콘텐츠 제작 플랫폼입니다.",
+      category: "소셜 플랫폼"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost는 Web3 프로젝트의 성장과 채택을 가속화하는 커뮤니티 주도 플랫폼입니다.",
+      category: "성장 플랫폼"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis는 Web3 프로젝트와 DeFi 프로토콜을 위한 포괄적인 보안 솔루션을 제공합니다.",
+      category: "보안"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong은 Web3 애호가와 프로젝트를 연결하는 커뮤니티 구축 플랫폼입니다.",
+      category: "커뮤니티"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network는 Web3 전문가와 기업가를 위한 분산형 네트워킹 플랫폼입니다.",
+      category: "네트워킹"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR는 Web3 프로젝트 인큐베이션과 가속화를 위한 혁신적인 플랫폼입니다.",
+      category: "인큐베이션"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua는 Web3 프로젝트 성능 추적을 위한 고급 분석과 인사이트를 제공합니다.",
+      category: "분석"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI는 Web3 프로젝트의 자동화된 관리와 최적화를 위한 AI 기반 플랫폼입니다.",
+      category: "AI 관리"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice는 고급 시장 분석과 거래 도구를 제공하는 포괄적인 거래 플랫폼입니다.",
+      category: "거래 플랫폼"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market은 여러 암호화폐 시장에 걸쳐 다양한 거래 기회를 제공합니다.",
+      category: "멀티 마켓 거래"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract는 암호화폐 거래자를 위한 추상적인 거래 전략과 고급 시장 인사이트를 제공합니다.",
+      category: "거래 전략"
     }
   },
   zh: {
@@ -1243,6 +1633,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ是Airaa生态系统项目和社区倡议的中心枢纽。",
       category: "生态系统枢纽"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic是一个具有AI驱动市场分析的高级加密货币交易平台。",
+      category: "交易平台"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI是用于加密货币市场洞察和交易策略的智能AI助手。",
+      category: "AI助手"
+    },
+    "parle-platform": {
+      title: "Parle平台",
+      description: "Parle平台是为Web3社区提供全面的社交媒体和内容创作平台。",
+      category: "社交平台"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost是一个社区驱动的平台，用于加速Web3项目的增长和采用。",
+      category: "增长平台"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis为Web3项目和DeFi协议提供全面的安全解决方案。",
+      category: "安全"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong是一个连接Web3爱好者和项目的社区建设平台。",
+      category: "社区"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network是Web3专业人士和企业家的去中心化网络平台。",
+      category: "网络"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR是Web3项目孵化和加速的创新平台。",
+      category: "孵化"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua为Web3项目性能跟踪提供高级分析和洞察。",
+      category: "分析"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI是用于Web3项目自动化管理和优化的AI驱动平台。",
+      category: "AI管理"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice是一个提供高级市场分析和交易工具的综合交易平台。",
+      category: "交易平台"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market在多个加密货币市场提供多样化的交易机会。",
+      category: "多市场交易"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract为加密货币交易者提供抽象交易策略和高级市场洞察。",
+      category: "交易策略"
     }
   },
   ar: {
@@ -1490,6 +1945,71 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ هو المركز المركزي لمشاريع نظام Airaa البيئي ومبادرات المجتمع.",
       category: "مركز النظام البيئي"
+    },
+    "mindoai-cryptorubic": {
+      title: "Cryptorubic",
+      description: "Cryptorubic هو منصة تداول عملات مشفرة متقدمة مع تحليل السوق المدعوم بالذكاء الاصطناعي.",
+      category: "منصة التداول"
+    },
+    "mindoai-mindoai": {
+      title: "MindoAI",
+      description: "MindoAI هو مساعد ذكي بالذكاء الاصطناعي لرؤى سوق العملات المشفرة واستراتيجيات التداول.",
+      category: "مساعد الذكاء الاصطناعي"
+    },
+    "parle-platform": {
+      title: "منصة Parle",
+      description: "منصة Parle هي منصة شاملة للوسائط الاجتماعية وإنشاء المحتوى لمجتمعات Web3.",
+      category: "منصة اجتماعية"
+    },
+    "pulse-boost": {
+      title: "Pulse Boost",
+      description: "Pulse Boost هو منصة مدفوعة بالمجتمع لتسريع نمو واعتماد مشاريع Web3.",
+      category: "منصة النمو"
+    },
+    "pulse-aegis": {
+      title: "Pulse Aegis",
+      description: "Pulse Aegis يوفر حلول أمنية شاملة لمشاريع Web3 وبروتوكولات DeFi.",
+      category: "الأمان"
+    },
+    "pulse-belong": {
+      title: "Pulse Belong",
+      description: "Pulse Belong هو منصة بناء مجتمع تربط بين عشاق ومشاريع Web3.",
+      category: "المجتمع"
+    },
+    "pulse-campnetwork": {
+      title: "Pulse Camp Network",
+      description: "Pulse Camp Network هو منصة شبكات لامركزية للمحترفين ورجال الأعمال في Web3.",
+      category: "الشبكات"
+    },
+    "pulse-sixr": {
+      title: "Pulse SixR",
+      description: "Pulse SixR هو منصة مبتكرة لحضانة وتسريع مشاريع Web3.",
+      category: "الحضانة"
+    },
+    "pulse-imua": {
+      title: "Pulse Imua",
+      description: "Pulse Imua يوفر تحليلات متقدمة ورؤى لتتبع أداء مشاريع Web3.",
+      category: "التحليل"
+    },
+    "pulse-play-ai": {
+      title: "Pulse Play AI",
+      description: "Pulse Play AI هو منصة مدعومة بالذكاء الاصطناعي للإدارة الآلية وتحسين مشاريع Web3.",
+      category: "إدارة الذكاء الاصطناعي"
+    },
+    "xeet-solstice": {
+      title: "Xeet Solstice",
+      description: "Xeet Solstice هو منصة تداول شاملة تقدم تحليل السوق المتقدم وأدوات التداول.",
+      category: "منصة التداول"
+    },
+    "xeet-myriad-market": {
+      title: "Xeet Myriad Market",
+      description: "Xeet Myriad Market يوفر فرص تداول متنوعة عبر أسواق متعددة للعملات المشفرة.",
+      category: "تداول متعدد الأسواق"
+    },
+    "xeet-abstract": {
+      title: "Xeet Abstract",
+      description: "Xeet Abstract يقدم استراتيجيات تداول مجردة ورؤى متقدمة للسوق لمتداولي العملات المشفرة.",
+      category: "استراتيجيات التداول"
     }
   }
 };
