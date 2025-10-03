@@ -135,7 +135,7 @@ const Index = () => {
             </div>
             
             {/* Navigation Menu */}
-            <div className="flex-1 flex justify-center">
+            <div className="flex-1 flex justify-center min-w-0">
               <ResponsiveNavigation
                 items={menuItems}
                 activeItem={activeTab}
