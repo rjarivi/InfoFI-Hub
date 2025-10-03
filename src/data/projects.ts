@@ -34,6 +34,41 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "A0x",
       description: "A0x is an advanced trading bot and automation platform for cryptocurrency markets",
       category: "Trading Bot"
+    },
+    "kaito-multipli": {
+      title: "Multipli Creator Currency",
+      description: "100k Crystals / Week (24.7 bps at TGE) - the liquid creator currency of Multipli, built on top of Kaito",
+      category: "Creator Economy"
+    },
+    "kaito-polygon": {
+      title: "Polygon",
+      description: "$30K USDC/Month to their top 50 30D Creators",
+      category: "Infrastructure"
+    },
+    "kaito-warden-protocol": {
+      title: "Warden Protocol",
+      description: "2.5% WARD over 3 seasons to Warden Protocol Creators, Warden App users and broader Kaito Eco",
+      category: "Infrastructure"
+    },
+    "kaito-talus-network": {
+      title: "Talus Network",
+      description: "0.3% of token supply for Talus Creators, regional Creators and Kaito Eco; 20% unlocked at TGE, remaining vested over 9M at TGE+3M",
+      category: "Infrastructure"
+    },
+    "bantr-morph": {
+      title: "Morph",
+      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2",
+      category: "DeFi"
+    },
+    "bantr-cointel": {
+      title: "Cointel",
+      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders",
+      category: "Analysis"
+    },
+    "bantr-bantr": {
+      title: "Bantr",
+      description: "Bantr is a social trading platform that connects traders and provides community-driven insights",
+      category: "Social Trading"
     }
   },
   es: {
@@ -87,6 +122,41 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "A0x",
       description: "A0x es una plataforma avanzada de bots de trading y automatización para mercados de criptomonedas",
       category: "Bot de Trading"
+    },
+    "kaito-multipli": {
+      title: "Multipli Creator Currency",
+      description: "100k Crystals / Week (24.7 bps at TGE) - la moneda líquida de creadores de Multipli, construida sobre Kaito",
+      category: "Economía de Creadores"
+    },
+    "kaito-polygon": {
+      title: "Polygon",
+      description: "$30K USDC/Mes para sus mejores 50 Creadores de 30D",
+      category: "Infraestructura"
+    },
+    "kaito-warden-protocol": {
+      title: "Warden Protocol",
+      description: "2.5% WARD durante 3 temporadas para Creadores de Warden Protocol, usuarios de la App Warden y el Ecosistema Kaito más amplio",
+      category: "Infraestructura"
+    },
+    "kaito-talus-network": {
+      title: "Talus Network",
+      description: "0.3% del suministro de tokens para Creadores de Talus, Creadores regionales y Ecosistema Kaito; 20% desbloqueado en TGE, el resto con vesting durante 9M en TGE+3M",
+      category: "Infraestructura"
+    },
+    "bantr-morph": {
+      title: "Morph",
+      description: "Morph es un intercambio descentralizado y protocolo DeFi construido en Ethereum Layer 2",
+      category: "DeFi"
+    },
+    "bantr-cointel": {
+      title: "Cointel",
+      description: "Cointel proporciona insights de trading inteligentes y análisis de mercado para traders de criptomonedas",
+      category: "Análisis"
+    },
+    "bantr-bantr": {
+      title: "Bantr",
+      description: "Bantr es una plataforma de trading social que conecta traders y proporciona insights impulsados por la comunidad",
+      category: "Trading Social"
     }
   },
   fr: {
@@ -130,6 +200,41 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Limitless Exchange",
       description: "0.5% de l'approvisionnement pour les meilleurs Quackers ! Limitless est le plus grand marché de prédiction sur Base (>260M$ de paris) et le moyen le plus simple de trader vos actifs favoris.",
       category: "Trading"
+    },
+    "kaito-multipli": {
+      title: "Multipli Creator Currency",
+      description: "100k Crystals / Semaine (24.7 bps à TGE) - la monnaie liquide des créateurs de Multipli, construite sur Kaito",
+      category: "Économie des Créateurs"
+    },
+    "kaito-polygon": {
+      title: "Polygon",
+      description: "$30K USDC/Mois pour leurs meilleurs 50 Créateurs de 30J",
+      category: "Infrastructure"
+    },
+    "kaito-warden-protocol": {
+      title: "Warden Protocol",
+      description: "2.5% WARD sur 3 saisons pour les Créateurs de Warden Protocol, utilisateurs de l'App Warden et l'Écosystème Kaito élargi",
+      category: "Infrastructure"
+    },
+    "kaito-talus-network": {
+      title: "Talus Network",
+      description: "0.3% de l'approvisionnement de tokens pour les Créateurs de Talus, Créateurs régionaux et Écosystème Kaito; 20% débloqué à TGE, le reste avec vesting sur 9M à TGE+3M",
+      category: "Infrastructure"
+    },
+    "bantr-morph": {
+      title: "Morph",
+      description: "Morph est un échange décentralisé et protocole DeFi construit sur Ethereum Layer 2",
+      category: "DeFi"
+    },
+    "bantr-cointel": {
+      title: "Cointel",
+      description: "Cointel fournit des insights de trading intelligents et une analyse de marché pour les traders de cryptomonnaies",
+      category: "Analyse"
+    },
+    "bantr-bantr": {
+      title: "Bantr",
+      description: "Bantr est une plateforme de trading social qui connecte les traders et fournit des insights communautaires",
+      category: "Trading Social"
     }
   },
   de: {
@@ -142,6 +247,41 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bitdealer Launchpad",
       description: "Erstellen, handeln und halten Sie Token auf Bitdealer, dem offiziellen Launchpad auf Jupiter, nahtlos integriert mit Axiom, Trojan, Photon und Bonkbot",
       category: "Trading"
+    },
+    "kaito-multipli": {
+      title: "Multipli Creator Currency",
+      description: "100k Crystals / Woche (24.7 bps bei TGE) - die flüssige Creator-Währung von Multipli, auf Kaito aufgebaut",
+      category: "Creator Economy"
+    },
+    "kaito-polygon": {
+      title: "Polygon",
+      description: "$30K USDC/Monat für ihre besten 50 30-Tage-Creators",
+      category: "Infrastruktur"
+    },
+    "kaito-warden-protocol": {
+      title: "Warden Protocol",
+      description: "2.5% WARD über 3 Saisons für Warden Protocol Creators, Warden App-Nutzer und das breitere Kaito Ökosystem",
+      category: "Infrastruktur"
+    },
+    "kaito-talus-network": {
+      title: "Talus Network",
+      description: "0.3% des Token-Angebots für Talus Creators, regionale Creators und Kaito Ökosystem; 20% bei TGE freigeschaltet, der Rest über 9M bei TGE+3M vestiert",
+      category: "Infrastruktur"
+    },
+    "bantr-morph": {
+      title: "Morph",
+      description: "Morph ist eine dezentrale Börse und DeFi-Protokoll auf Ethereum Layer 2",
+      category: "DeFi"
+    },
+    "bantr-cointel": {
+      title: "Cointel",
+      description: "Cointel bietet intelligente Trading-Insights und Marktanalyse für Kryptowährungs-Trader",
+      category: "Analyse"
+    },
+    "bantr-bantr": {
+      title: "Bantr",
+      description: "Bantr ist eine Social-Trading-Plattform, die Trader verbindet und Community-gesteuerte Insights bietet",
+      category: "Social Trading"
     }
   },
   ja: {
