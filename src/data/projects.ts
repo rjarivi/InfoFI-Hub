@@ -110,6 +110,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdex provides advanced trading signals and market analysis for cryptocurrency traders",
       category: "Trading"
     },
+    "xeet-xeet": {
+      title: "Xeet",
+      description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis",
+      category: "Platform"
+    },
     "kaito-metawin": {
       title: "MetaWin Web3 Ecosystem",
       description: "Earn a share of $100K USDC Monthly for sharing about the MetaWin Web3 ecosystem. Start Winning in Web3 today.",
@@ -348,6 +353,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdex proporciona señales de trading avanzadas y análisis de mercado para traders de criptomonedas",
       category: "Trading"
     },
+    "xeet-xeet": {
+      title: "Xeet",
+      description: "Xeet es una plataforma integral para señales de trading de criptomonedas y análisis de mercado",
+      category: "Plataforma"
+    },
     "wallchain-limitless": {
       title: "Limitless Exchange",
       description: "¡0.5% del suministro para los mejores Quackers! Limitless es el mercado de predicciones más grande en Base (>$260M en apuestas) y la forma más fácil de operar tus activos favoritos.",
@@ -521,6 +531,51 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdex fournit des signaux de trading avancés et une analyse de marché pour les traders de cryptomonnaies",
       category: "Trading"
     },
+    "xeet-xeet": {
+      title: "Xeet",
+      description: "Xeet est une plateforme complète pour les signaux de trading de cryptomonnaies et l\'analyse de marché",
+      category: "Plateforme"
+    },
+    "kaito-turtle": {
+      title: "TURTLE Liquidity Program",
+      description: "Programme de liquidité TURTLE pour les créateurs et l\'écosystème Kaito",
+      category: "Liquidité"
+    },
+    "kaito-hyperpie": {
+      title: "Hyperpie",
+      description: "Hyperpie est une plateforme de trading avancée pour les actifs numériques",
+      category: "Trading"
+    },
+    "wallchain-covalent": {
+      title: "Covalent",
+      description: "Covalent fournit des API unifiées pour accéder aux données blockchain sur plusieurs réseaux",
+      category: "Données"
+    },
+    "wallchain-heyelsa": {
+      title: "HeyElsa",
+      description: "HeyElsa est un assistant alimenté par l\'IA pour Web3 et les applications décentralisées",
+      category: "IA"
+    },
+    "wallchain-idos": {
+      title: "idOS",
+      description: "idOS fournit des solutions d\'identité décentralisées pour les applications Web3",
+      category: "Identité"
+    },
+    "wallchain-apecoin": {
+      title: "ApeCoin R.A.I.D",
+      description: "ApeCoin R.A.I.D est une initiative communautaire pour l\'écosystème ApeCoin",
+      category: "Communauté"
+    },
+    "breadcrumbs-breadcrumb-cash": {
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cash est une plateforme décentralisée pour suivre et gérer les transactions et récompenses de cryptomonnaies",
+      category: "DeFi"
+    },
+    "breadcrumbs-a0x": {
+      title: "A0x",
+      description: "A0x est un bot de trading avancé et une plateforme d\'automatisation pour les marchés de cryptomonnaies",
+      category: "Bot de Trading"
+    },
     "wallchain-limitless": {
       title: "Limitless Exchange",
       description: "0.5% de l'offre pour les meilleurs Quackers! Limitless est le plus grand marché de prédictions sur Base (>260M$ de paris) et le moyen le plus facile de trader vos actifs favoris.",
@@ -662,6 +717,66 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex bietet erweiterte Trading-Signale und Marktanalyse für Kryptowährungs-Trader",
       category: "Trading"
+    },
+    "xeet-xeet": {
+      title: "Xeet",
+      description: "Xeet ist eine umfassende Plattform für Kryptowährungs-Trading-Signale und Marktanalyse",
+      category: "Plattform"
+    },
+    "kaito-turtle": {
+      title: "TURTLE Liquiditätsprogramm",
+      description: "TURTLE Liquiditätsprogramm für Creators und das Kaito Ökosystem",
+      category: "Liquidität"
+    },
+    "kaito-hyperpie": {
+      title: "Hyperpie",
+      description: "Hyperpie ist eine fortschrittliche Trading-Plattform für digitale Assets",
+      category: "Trading"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "0.6% von CYS für Kaito: 60% Top Cysic Creators, 10% KR/CN Creators, 30% Kaito Ökosystem",
+      category: "Infrastruktur"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "1% von LUMITERRA für ihre Top Creators und das Kaito Ökosystem",
+      category: "Gaming"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "0.55% des PEAQ-Angebots für peaq Creators und das breitere Kaito Ökosystem über 11 Monate",
+      category: "Infrastruktur"
+    },
+    "wallchain-covalent": {
+      title: "Covalent",
+      description: "Covalent bietet einheitliche APIs für den Zugriff auf Blockchain-Daten über mehrere Netzwerke",
+      category: "Daten"
+    },
+    "wallchain-heyelsa": {
+      title: "HeyElsa",
+      description: "HeyElsa ist ein KI-gestützter Assistent für Web3 und dezentrale Anwendungen",
+      category: "KI"
+    },
+    "wallchain-idos": {
+      title: "idOS",
+      description: "idOS bietet dezentrale Identitätslösungen für Web3-Anwendungen",
+      category: "Identität"
+    },
+    "wallchain-apecoin": {
+      title: "ApeCoin R.A.I.D",
+      description: "ApeCoin R.A.I.D ist eine Community-gesteuerte Initiative für das ApeCoin Ökosystem",
+      category: "Community"
+    },
+    "breadcrumbs-breadcrumb-cash": {
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cash ist eine dezentrale Plattform zur Verfolgung und Verwaltung von Kryptowährungs-Transaktionen und Belohnungen",
+      category: "DeFi"
+    },
+    "breadcrumbs-a0x": {
+      title: "A0x",
+      description: "A0x ist ein fortschrittlicher Trading-Bot und Automatisierungsplattform für Kryptowährungsmärkte",
+      category: "Trading-Bot"
     },
     "wallchain-limitless": {
       title: "Limitless Exchange",
@@ -975,6 +1090,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdexは暗号通貨トレーダー向けの高度なトレーディングシグナルと市場分析を提供",
       category: "トレーディング"
     },
+    "breadcrumbs-breadcrumb-cash": {
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cashは、暗号通貨取引と報酬の追跡・管理のための分散型プラットフォームです",
+      category: "DeFi"
+    },
+    "breadcrumbs-a0x": {
+      title: "A0x",
+      description: "A0xは、暗号通貨市場向けの高度なトレーディングボットと自動化プラットフォームです",
+      category: "トレーディングボット"
+    },
     "wallchain-limitless": {
       title: "Limitless Exchange",
       description: "トップQuackersに供給量の0.5%！LimitlessはBaseで最大の予測市場（>2億6千万ドルのベット）で、お気に入りの資産を取引する最も簡単な方法です。",
@@ -1286,6 +1411,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex는 암호화폐 거래자를 위한 고급 거래 신호 및 시장 분석을 제공합니다",
       category: "거래 신호"
+    },
+    "breadcrumbs-breadcrumb-cash": {
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cash는 암호화폐 거래 및 보상 추적 및 관리를 위한 분산형 플랫폼입니다",
+      category: "DeFi"
+    },
+    "breadcrumbs-a0x": {
+      title: "A0x",
+      description: "A0x는 암호화폐 시장을 위한 고급 거래 봇 및 자동화 플랫폼입니다",
+      category: "거래 봇"
     },
     "wallchain-limitless": {
       title: "Limitless Exchange",
@@ -1614,6 +1749,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdex为加密货币交易者提供先进的交易信号和市场分析",
       category: "交易"
     },
+    "breadcrumbs-breadcrumb-cash": {
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cash是一个用于跟踪和管理加密货币交易和奖励的去中心化平台",
+      category: "DeFi"
+    },
+    "breadcrumbs-a0x": {
+      title: "A0x",
+      description: "A0x是用于加密货币市场的高级交易机器人和自动化平台",
+      category: "交易机器人"
+    },
     "wallchain-limitless": {
       title: "Limitless Exchange",
       description: "为顶级Quackers提供0.5%的供应量！Limitless是Base上最大的预测市场（>2.6亿美元投注），是交易您喜爱资产的最简单方式。",
@@ -1925,6 +2070,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "يوفر Vdex إشارات تداول متقدمة وتحليل السوق لمتداولي العملات المشفرة",
       category: "إشارات التداول"
+    },
+    "breadcrumbs-breadcrumb-cash": {
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cash هو منصة لامركزية لتتبع وإدارة معاملات العملات المشفرة والمكافآت",
+      category: "DeFi"
+    },
+    "breadcrumbs-a0x": {
+      title: "A0x",
+      description: "A0x هو روبوت تداول متقدم ومنصة أتمتة لأسواق العملات المشفرة",
+      category: "روبوت التداول"
     },
     "wallchain-limitless": {
       title: "تبادل Limitless",
