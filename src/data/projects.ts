@@ -388,8 +388,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-multipli": {
       title: "Multipli Creator Currency",
-      description: "100k Crystals / Week (24.7 bps at TGE) - the liquid creator currency of Multipli, built on top of Kaito",
-      category: "Creator Economy",
+      description: "100k Crystals / Week (24.7 bps at TGE) - Kaito上に構築されたMultipliの流動クリエイター通貨",
+      category: "クリエイター経済",
       campaignRules: [
         "Crystals are credited weekly to the top 200 Creators of Multipli",
         "Based on mindshare in the Multipli x Kaito leaderboard or follower quality",
@@ -399,23 +399,23 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-turtle": {
       title: "TURTLE Liquidity Program",
-      description: "0.3% to Creators (Liquidity Leaderboard + Kaito Creators), with additional 0.2% upon milestone unlock",
+      description: "クリエイターに0.3%（流動性リーダーボード + Kaitoクリエイター）、マイルストーン解除時に追加0.2%",
       category: "DeFi"
     },
     "kaito-hyperpie": {
       title: "Hyperpie",
-      description: "2% of Hyperpie's HPP initial supply is allocated to reward Hyperpie Creators, Referrers, and Kaito Eco",
+      description: "HyperpieのHPP初期供給量の2%がHyperpieクリエイター、紹介者、Kaitoエコシステムへの報酬に割り当てられています",
       category: "DeFi",
       campaignRules: [
-        "500K HPP (0.5%) - Airdrop to Creators who promote Hyperpie on X (Twitter)",
-        "750K HPP (0.75%) - Distributed to Creators who refer their friends to join Hyperpie",
-        "750K HPP (0.75%) - Reserved for the Kaito Eco (incl. stakers), unlocked via referral milestones"
+        "500K HPP (0.5%) - X（Twitter）でHyperpieを宣伝するクリエイターへのエアドロップ",
+        "750K HPP (0.75%) - 友人をHyperpieに招待するクリエイターに配布",
+        "750K HPP (0.75%) - Kaitoエコシステム（ステーカー含む）用に予約、紹介マイルストーンでアンロック"
       ]
     },
     "kaito-polygon": {
       title: "Polygon",
-      description: "$30K USDC/Month to their top 50 30D Creators",
-      category: "Infrastructure",
+      description: "上位50名の30日間クリエイターに月額$30K USDC",
+      category: "インフラストラクチャ",
       campaignRules: [
         "To Be Confirmed"
       ]
