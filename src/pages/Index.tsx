@@ -19,7 +19,8 @@ import {
   Globe,
   ExternalLink,
   Copy,
-  Check
+  Check,
+  Heart
 } from "lucide-react";
 import {
   Pagination,
@@ -379,6 +380,38 @@ const Index = () => {
               </div>
             </motion.div>
           </div>
+          
+          {/* Made with Love Section */}
+          <motion.div 
+            className="mt-8 pt-8 border-t border-border/30"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+          >
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <span>Made with</span>
+                <Heart className="w-4 h-4 text-red-500 fill-red-500" />
+                <span>by</span>
+              </div>
+              
+              <a 
+                href="https://x.com/rjarivi" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-primary transition-colors group"
+              >
+                <img 
+                  src="https://pbs.twimg.com/profile_images/1885136753436360704/GXeray52_400x400.jpg" 
+                  alt="@rjarivi" 
+                  className="w-6 h-6 rounded-full border border-border/50 group-hover:border-primary/50 transition-colors"
+                />
+                <span className="font-medium">@rjarivi</span>
+                <span>on X</span>
+                <ExternalLink className="w-3 h-3 opacity-60 group-hover:opacity-100 transition-opacity" />
+              </a>
+            </div>
+          </motion.div>
         </div>
       </footer>
     </div>
