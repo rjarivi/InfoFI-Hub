@@ -99,6 +99,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "ApeCoin R.A.I.D",
       description: "ApeCoin R.A.I.D is a community-driven initiative for the ApeCoin ecosystem",
       category: "Community"
+    },
+    "wallchain-genome": {
+      title: "Genome Protocol",
+      description: "2% of $NOME Supply for Top Quackers! Genome Protocol is Web3's user engagement engine - a modular, intelligent middleware layer",
+      category: "Infrastructure"
+    },
+    "xeet-vdex": {
+      title: "Vdex",
+      description: "Vdex provides advanced trading signals and market analysis for cryptocurrency traders",
+      category: "Trading"
     }
   },
   es: {
@@ -217,6 +227,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "ApeCoin R.A.I.D",
       description: "ApeCoin R.A.I.D es una iniciativa impulsada por la comunidad para el ecosistema ApeCoin",
       category: "Comunidad"
+    },
+    "wallchain-genome": {
+      title: "Protocolo Genome",
+      description: "2% del suministro de $NOME para los mejores Quackers! Genome Protocol es el motor de participación de usuarios de Web3 - una capa de middleware modular e inteligente",
+      category: "Infraestructura"
+    },
+    "xeet-vdex": {
+      title: "Vdex",
+      description: "Vdex proporciona señales de trading avanzadas y análisis de mercado para traders de criptomonedas",
+      category: "Trading"
     }
   },
   fr: {
@@ -295,6 +315,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bantr",
       description: "Bantr est une plateforme de trading social qui connecte les traders et fournit des insights communautaires",
       category: "Trading Social"
+    },
+    "wallchain-genome": {
+      title: "Protocole Genome",
+      description: "2% de l'offre de $NOME pour les meilleurs Quackers! Genome Protocol est le moteur d'engagement utilisateur de Web3 - une couche middleware modulaire et intelligente",
+      category: "Infrastructure"
+    },
+    "xeet-vdex": {
+      title: "Vdex",
+      description: "Vdex fournit des signaux de trading avancés et une analyse de marché pour les traders de cryptomonnaies",
+      category: "Trading"
     }
   },
   de: {
@@ -342,6 +372,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bantr",
       description: "Bantr ist eine Social-Trading-Plattform, die Trader verbindet und Community-gesteuerte Insights bietet",
       category: "Social Trading"
+    },
+    "wallchain-genome": {
+      title: "Genome Protokoll",
+      description: "2% des $NOME-Angebots für Top Quackers! Genome Protocol ist Web3's Benutzerengagement-Motor - eine modulare, intelligente Middleware-Schicht",
+      category: "Infrastruktur"
+    },
+    "xeet-vdex": {
+      title: "Vdex",
+      description: "Vdex bietet erweiterte Trading-Signale und Marktanalyse für Kryptowährungs-Trader",
+      category: "Trading"
     }
   },
   ja: {
@@ -564,6 +604,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Xeet",
       description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis",
       category: "Platform"
+    },
+    "xeet-vdex": {
+      title: "Vdex",
+      description: "Vdexは暗号通貨トレーダー向けの高度なトレーディングシグナルと市場分析を提供",
+      category: "トレーディング"
     }
   },
   ko: {
@@ -1028,6 +1073,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Xeet",
       description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis",
       category: "Platform"
+    },
+    "xeet-vdex": {
+      title: "Vdex",
+      description: "Vdex为加密货币交易者提供先进的交易信号和市场分析",
+      category: "交易"
     }
   },
   ar: {
