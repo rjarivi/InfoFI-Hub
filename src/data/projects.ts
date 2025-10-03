@@ -112,7 +112,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "xeet-xeet": {
       title: "Xeet",
-      description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis",
+      description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out. Rewards: Xeets",
       category: "Platform"
     },
     "kaito-metawin": {
@@ -211,9 +211,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "AI Management"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice is a comprehensive trading platform offering advanced market analysis and trading tools.",
-      category: "Trading Platform"
+      title: "Solstice",
+      description: "Solstice is focused on delivering stable, real yield through strategies that don't rely on hype or speculation. Our approach combines proven delta-neutral trading, robust infrastructure, and institutional-grade risk management to build a foundation for long-term positive returns. Rewards: 1% $SLX Token Supply",
+      category: "Yield Platform"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -429,9 +429,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Gestión IA"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice es una plataforma de trading integral que ofrece análisis de mercado avanzado y herramientas de trading.",
-      category: "Plataforma de Trading"
+      title: "Solstice",
+      description: "Solstice se enfoca en entregar rendimientos estables y reales a través de estrategias que no dependen del hype o la especulación. Nuestro enfoque combina trading delta-neutral probado, infraestructura robusta y gestión de riesgos de grado institucional para construir una base para rendimientos positivos a largo plazo. Recompensas: 1% del suministro de tokens $SLX",
+      category: "Plataforma de Rendimiento"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -647,9 +647,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Gestion IA"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice est une plateforme de trading complète offrant une analyse de marché avancée et des outils de trading.",
-      category: "Plateforme de Trading"
+      title: "Solstice",
+      description: "Solstice se concentre sur la fourniture de rendements stables et réels grâce à des stratégies qui ne dépendent pas du battage médiatique ou de la spéculation. Notre approche combine le trading delta-neutre éprouvé, une infrastructure robuste et une gestion des risques de niveau institutionnel pour construire une base de rendements positifs à long terme. Récompenses: 1% de l'offre de tokens $SLX",
+      category: "Plateforme de Rendement"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -849,9 +849,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "KI-Verwaltung"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice ist eine umfassende Trading-Plattform mit erweiterter Marktanalyse und Trading-Tools.",
-      category: "Trading-Plattform"
+      title: "Solstice",
+      description: "Solstice konzentriert sich auf die Bereitstellung stabiler, realer Renditen durch Strategien, die nicht auf Hype oder Spekulation angewiesen sind. Unser Ansatz kombiniert bewährtes Delta-neutrales Trading, robuste Infrastruktur und institutionelles Risikomanagement, um eine Grundlage für langfristig positive Renditen zu schaffen. Belohnungen: 1% des $SLX Token-Angebots",
+      category: "Rendite-Plattform"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -1072,17 +1072,17 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "xeet-myriad-market": {
       title: "Myriad Market",
-      description: "Myriad Market offers comprehensive market analysis and trading opportunities across multiple asset classes",
+      description: "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology. Trade your opinion. Rewards: 1 Billion $MYR Points",
       category: "Market Analysis"
     },
     "xeet-abstract": {
       title: "Abstract",
-      description: "Abstract provides innovative trading strategies and market insights for advanced cryptocurrency traders",
+      description: "Abstract is an Ethereum Layer-2 built with the ZK Stack, offering fast, low-fee transactions with full EVM compatibility. It features the Abstract Global Wallet for seamless onboarding and a developer portal to deploy and scale Web3 apps. Rewards: Xeets",
       category: "Trading Strategy"
     },
     "xeet-xeet": {
       title: "Xeet",
-      description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis",
+      description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out. Rewards: Xeets",
       category: "Platform"
     },
     "xeet-vdex": {
@@ -1171,9 +1171,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "AI管理"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solsticeは、高度な市場分析と取引ツールを提供する包括的な取引プラットフォームです。",
-      category: "取引プラットフォーム"
+      title: "Solstice",
+      description: "Solsticeは、ハイプや投機に依存しない戦略を通じて安定した真の収益を提供することに焦点を当てています。私たちのアプローチは、実証済みのデルタニュートラル取引、堅牢なインフラストラクチャ、機関グレードのリスク管理を組み合わせて、長期的な正の収益の基盤を構築します。報酬：$SLXトークン供給量の1%",
+      category: "収益プラットフォーム"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -1493,9 +1493,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "AI 관리"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice는 고급 시장 분석과 거래 도구를 제공하는 포괄적인 거래 플랫폼입니다.",
-      category: "거래 플랫폼"
+      title: "Solstice",
+      description: "Solstice는 과대광고나 투기에 의존하지 않는 전략을 통해 안정적이고 실제적인 수익을 제공하는 데 중점을 둡니다. 우리의 접근 방식은 검증된 델타 중립 거래, 견고한 인프라, 기관급 리스크 관리를 결합하여 장기적인 긍정적 수익의 기반을 구축합니다. 보상: $SLX 토큰 공급량의 1%",
+      category: "수익 플랫폼"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -1731,17 +1731,17 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "xeet-myriad-market": {
       title: "Myriad Market",
-      description: "Myriad Market offers comprehensive market analysis and trading opportunities across multiple asset classes",
+      description: "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology. Trade your opinion. Rewards: 1 Billion $MYR Points",
       category: "Market Analysis"
     },
     "xeet-abstract": {
       title: "Abstract",
-      description: "Abstract provides innovative trading strategies and market insights for advanced cryptocurrency traders",
+      description: "Abstract is an Ethereum Layer-2 built with the ZK Stack, offering fast, low-fee transactions with full EVM compatibility. It features the Abstract Global Wallet for seamless onboarding and a developer portal to deploy and scale Web3 apps. Rewards: Xeets",
       category: "Trading Strategy"
     },
     "xeet-xeet": {
       title: "Xeet",
-      description: "Xeet is a comprehensive platform for cryptocurrency trading signals and market analysis",
+      description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out. Rewards: Xeets",
       category: "Platform"
     },
     "xeet-vdex": {
@@ -1830,9 +1830,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "AI管理"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice是一个提供高级市场分析和交易工具的综合交易平台。",
-      category: "交易平台"
+      title: "Solstice",
+      description: "Solstice专注于通过不依赖炒作或投机的策略提供稳定、真实的收益。我们的方法结合了经过验证的Delta中性交易、强大的基础设施和机构级风险管理，为长期正收益奠定基础。奖励：$SLX代币供应量的1%",
+      category: "收益平台"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
@@ -2152,9 +2152,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "إدارة الذكاء الاصطناعي"
     },
     "xeet-solstice": {
-      title: "Xeet Solstice",
-      description: "Xeet Solstice هو منصة تداول شاملة تقدم تحليل السوق المتقدم وأدوات التداول.",
-      category: "منصة التداول"
+      title: "Solstice",
+      description: "Solstice يركز على تقديم عوائد مستقرة وحقيقية من خلال استراتيجيات لا تعتمد على الضجة أو المضاربة. نهجنا يجمع بين التداول المحايد دلتا المثبت، والبنية التحتية القوية، وإدارة المخاطر على مستوى المؤسسات لبناء أساس للعوائد الإيجابية طويلة المدى. المكافآت: 1% من عرض رموز $SLX",
+      category: "منصة العوائد"
     },
     "xeet-myriad-market": {
       title: "Xeet Myriad Market",
