@@ -1,8 +1,5 @@
 # Netlify redirects for client-side routing
-# Simple approach: let React Router handle all routing
-
-# Redirect root to English version
-/ /en 301
+# Simple approach: serve React app for all routes
 
 # Catch-all: serve index.html for all routes and let React Router handle them
 /* /index.html 200
