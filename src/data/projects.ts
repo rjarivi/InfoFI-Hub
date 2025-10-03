@@ -109,6 +109,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex provides advanced trading signals and market analysis for cryptocurrency traders",
       category: "Trading"
+    },
+    "kaito-metawin": {
+      title: "MetaWin Web3 Ecosystem",
+      description: "Earn a share of $100K USDC Monthly for sharing about the MetaWin Web3 ecosystem. Start Winning in Web3 today.",
+      category: "Casino"
+    },
+    "kaito-bitdealer": {
+      title: "Bitdealer Launchpad",
+      description: "Create, Trade & Hold tokens on Bitdealer, official Launchpad on Jupiter, seamlessly integrated with Axiom, Trojan, Photon & Bonkbot",
+      category: "Launchpad"
+    },
+    "kaito-cysic": {
+      title: "Cysic",
+      description: "0.6% of CYS to Kaito: 60% top Cysic Creators, 10% KR/CN Creators, 30% Kaito Eco",
+      category: "Infrastructure"
+    },
+    "kaito-lumiterra": {
+      title: "Lumiterra",
+      description: "1% of LUMITERRA to their top Creators and the Kaito Eco",
+      category: "Gaming"
+    },
+    "kaito-peaq": {
+      title: "Peaq",
+      description: "0.55% of PEAQ supply to peaq Creators and the broader Kaito Eco over 11 months",
+      category: "Infrastructure"
     }
   },
   es: {
