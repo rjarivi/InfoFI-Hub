@@ -62,7 +62,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-cointel": {
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders with token rewards for active users",
+      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS. Campaign: $50,000 in $COLS rewards",
       category: "Analysis"
     },
     "bantr-bantr": {
@@ -967,7 +967,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-cointel": {
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders with token rewards for active users",
+      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS. Campaign: $50,000 in $COLS rewards",
       category: "Analysis"
     },
     "bantr-bantr": {
@@ -1626,7 +1626,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-cointel": {
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders with token rewards for active users",
+      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS. Campaign: $50,000 in $COLS rewards",
       category: "Analysis"
     },
     "bantr-bantr": {
@@ -2452,10 +2452,10 @@ export const projectsData: Record<string, Project[]> = {
     {
       id: "bantr-cointel",
       title: "Cointel",
-      description: "Cointel provides intelligent trading insights and market analysis for cryptocurrency traders.",
-      rewardPool: "Cointel Token Rewards",
-      participants: "Active Users",
-      timeLeft: "Ongoing",
+      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS.",
+      rewardPool: "$50,000 in $COLS",
+      participants: "Community Contributors",
+      timeLeft: "Sep 12 - Oct 13, 2025",
       category: "Analytics",
       platform: "Cointel",
       link: "https://bantr.fun/project/cointel",
@@ -2466,9 +2466,11 @@ export const projectsData: Record<string, Project[]> = {
       vestingSchedule: "TBD",
       distributionPlatform: "Bantr",
       campaignRules: [
-        "Use Cointel platform for trading analysis",
-        "Complete platform tasks and activities",
-        "Earn rewards based on platform engagement"
+        "Post on X with @cointel_io + $COLS or include Cointel in your post",
+        "Share thoughtful, quality content (see creator kit for tips)",
+        "Spread awareness and earn your way up the leaderboard",
+        "Rally your community to dive into Cointel",
+        "Creator Kit: https://docs.google.com/document/d/1-CupwMBF7Hk6X0vP6pFMdKrwnQPP1Iv7exEQYHvg19w/edit"
       ]
     },
     {
