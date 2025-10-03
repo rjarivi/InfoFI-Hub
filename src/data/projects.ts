@@ -57,7 +57,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-morph": {
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2 with token rewards for active contributors",
+      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools. Rewards: $500,000 in BGB Tokens",
       category: "DeFi"
     },
     "bantr-cointel": {
@@ -962,7 +962,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-morph": {
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2 with token rewards for active contributors",
+      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools. Rewards: $500,000 in BGB Tokens",
       category: "DeFi"
     },
     "bantr-cointel": {
@@ -1621,7 +1621,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-morph": {
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2 with token rewards for active contributors",
+      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools. Rewards: $500,000 in BGB Tokens",
       category: "DeFi"
     },
     "bantr-cointel": {
@@ -2430,9 +2430,9 @@ export const projectsData: Record<string, Project[]> = {
     {
       id: "bantr-morph",
       title: "Morph",
-      description: "Morph is a decentralized exchange and DeFi protocol built on Ethereum Layer 2.",
-      rewardPool: "Morph Token Rewards",
-      participants: "Active Contributors",
+      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools.",
+      rewardPool: "$500,000 in BGB Tokens",
+      participants: "Community Contributors",
       timeLeft: "Ongoing",
       category: "DeFi",
       platform: "Morph",
@@ -2446,7 +2446,9 @@ export const projectsData: Record<string, Project[]> = {
       campaignRules: [
         "Participate in Morph ecosystem activities",
         "Complete tasks and challenges",
-        "Earn rewards based on contribution level"
+        "Earn rewards based on contribution level",
+        "Engage with Morph Layer 2 blockchain",
+        "Support consumer finance innovation"
       ]
     },
     {
