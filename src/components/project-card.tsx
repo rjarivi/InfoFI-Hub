@@ -33,6 +33,11 @@ interface ProjectCardProps {
   claimPeriod?: string;
   vestingSchedule?: string;
   distributionPlatform?: string;
+  additionalData?: {
+    airdropRecipients?: string;
+    crumbsDistributed?: string;
+    [key: string]: string | undefined;
+  };
   className?: string;
 }
 
@@ -55,6 +60,7 @@ export function ProjectCard({
   claimPeriod,
   vestingSchedule,
   distributionPlatform,
+  additionalData,
   className
 }: ProjectCardProps) {
   const [isOpen, setIsOpen] = useState(false);
@@ -297,6 +303,33 @@ export function ProjectCard({
                 </div>
               )}
             </div>
+
+            {/* Additional Data */}
+            {additionalData && (
+              <div className="p-4 rounded-lg bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20">
+                <div className="text-sm font-semibold text-blue-600 mb-3">Additional Information</div>
+                <div className="grid grid-cols-2 gap-3">
+                  {additionalData.bakers && (
+                    <div className="p-3 rounded-lg bg-white/5">
+                      <div className="text-xs text-muted-foreground mb-1">Bakers</div>
+                      <div className="text-sm font-medium">{additionalData.bakers}</div>
+                    </div>
+                  )}
+                  {additionalData.airdropRecipients && (
+                    <div className="p-3 rounded-lg bg-white/5">
+                      <div className="text-xs text-muted-foreground mb-1">Airdrop Recipients</div>
+                      <div className="text-sm font-medium">{additionalData.airdropRecipients}</div>
+                    </div>
+                  )}
+                  {additionalData.crumbsDistributed && (
+                    <div className="p-3 rounded-lg bg-white/5">
+                      <div className="text-xs text-muted-foreground mb-1">Crumbs Distributed</div>
+                      <div className="text-sm font-medium">{additionalData.crumbsDistributed}</div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Campaign Rules */}
             {campaignRules && campaignRules.length > 0 && (

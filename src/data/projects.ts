@@ -20,6 +20,12 @@ export interface Project {
   claimPeriod?: string;
   vestingSchedule?: string;
   distributionPlatform?: string;
+  additionalData?: {
+    bakers?: string;
+    airdropRecipients?: string;
+    crumbsDistributed?: string;
+    [key: string]: string | undefined;
+  };
 }
 
 // Translation mapping for project data
@@ -2654,21 +2660,29 @@ export const projectsData: Record<string, Project[]> = {
       logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
       source: "https://x.com/breadcrumbcash",
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK"
+      referralCode: "REF-MEAL-C4CK",
+      additionalData: {
+        bakers: "6,888",
+        crumbsDistributed: "354,261"
+      }
     },
     {
       id: "breadcrumbs-a0x",
       title: "A0x",
       description: "A0x is an advanced trading bot and automation platform for cryptocurrency markets.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
+      rewardPool: "23,000,000 A0X",
+      participants: "892 Bakers",
+      timeLeft: "10 days",
       category: "Trading Bot",
       platform: "A0x",
       link: "https://www.breadcrumb.cash/leaderboard/0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
       logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
       source: "https://x.com/a0xbot/status/1972697312024506709",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK"
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      additionalData: {
+        airdropRecipients: "Top 150",
+        crumbsDistributed: "36,000"
+      }
     }
   ],
   mindoai: [
