@@ -194,39 +194,44 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Social Platform"
     },
     "pulse-boost": {
-      title: "Pulse Boost",
+      title: "Boost",
       description: "Pulse Boost is a community-driven platform for accelerating Web3 project growth and adoption.",
       category: "Growth Platform"
     },
     "pulse-aegis": {
-      title: "Pulse Aegis",
+      title: "Aegis",
       description: "Pulse Aegis provides comprehensive security solutions for Web3 projects and DeFi protocols.",
       category: "Security"
     },
     "pulse-belong": {
-      title: "Pulse Belong",
+      title: "Belong",
       description: "Pulse Belong is a community building platform that connects Web3 enthusiasts and projects.",
       category: "Community"
     },
     "pulse-campnetwork": {
-      title: "Pulse Camp Network",
+      title: "Camp Network",
       description: "Pulse Camp Network is a decentralized networking platform for Web3 professionals and entrepreneurs.",
       category: "Networking"
     },
     "pulse-sixr": {
-      title: "Pulse SixR",
+      title: "SixR",
       description: "Pulse SixR is an innovative platform for Web3 project incubation and acceleration.",
       category: "Incubation"
     },
     "pulse-imua": {
-      title: "Pulse Imua",
+      title: "Imua",
       description: "Pulse Imua provides advanced analytics and insights for Web3 project performance tracking.",
       category: "Analytics"
     },
     "pulse-play-ai": {
-      title: "Pulse Play AI",
+      title: "Play AI",
       description: "Pulse Play AI is an AI-powered platform for automated Web3 project management and optimization.",
       category: "AI Management"
+    },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Trade, Invest, Earn. Finance that just flows. Get going in minutes, see results for years.",
+      category: "Trading Platform"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -424,39 +429,44 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Plataforma Social"
     },
     "pulse-boost": {
-      title: "Pulse Boost",
+      title: "Boost",
       description: "Pulse Boost es una plataforma impulsada por la comunidad para acelerar el crecimiento y adopción de proyectos Web3.",
       category: "Plataforma de Crecimiento"
     },
     "pulse-aegis": {
-      title: "Pulse Aegis",
+      title: "Aegis",
       description: "Pulse Aegis proporciona soluciones de seguridad integrales para proyectos Web3 y protocolos DeFi.",
       category: "Seguridad"
     },
     "pulse-belong": {
-      title: "Pulse Belong",
+      title: "Belong",
       description: "Pulse Belong es una plataforma de construcción de comunidad que conecta entusiastas y proyectos Web3.",
       category: "Comunidad"
     },
     "pulse-campnetwork": {
-      title: "Pulse Camp Network",
+      title: "Camp Network",
       description: "Pulse Camp Network es una plataforma de networking descentralizada para profesionales y emprendedores Web3.",
       category: "Networking"
     },
     "pulse-sixr": {
-      title: "Pulse SixR",
+      title: "SixR",
       description: "Pulse SixR es una plataforma innovadora para incubación y aceleración de proyectos Web3.",
       category: "Incubación"
     },
     "pulse-imua": {
-      title: "Pulse Imua",
+      title: "Imua",
       description: "Pulse Imua proporciona análisis avanzados e insights para seguimiento del rendimiento de proyectos Web3.",
       category: "Análisis"
     },
     "pulse-play-ai": {
-      title: "Pulse Play AI",
+      title: "Play AI",
       description: "Pulse Play AI es una plataforma impulsada por IA para gestión automatizada y optimización de proyectos Web3.",
       category: "Gestión IA"
+    },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Comercia, Invierte, Gana. Finanzas que simplemente fluyen. Comienza en minutos, ve resultados durante años.",
+      category: "Plataforma de Trading"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -654,39 +664,44 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Plateforme Sociale"
     },
     "pulse-boost": {
-      title: "Pulse Boost",
+      title: "Boost",
       description: "Pulse Boost est une plateforme communautaire pour accélérer la croissance et l'adoption des projets Web3.",
       category: "Plateforme de Croissance"
     },
     "pulse-aegis": {
-      title: "Pulse Aegis",
+      title: "Aegis",
       description: "Pulse Aegis fournit des solutions de sécurité complètes pour les projets Web3 et les protocoles DeFi.",
       category: "Sécurité"
     },
     "pulse-belong": {
-      title: "Pulse Belong",
+      title: "Belong",
       description: "Pulse Belong est une plateforme de construction communautaire qui connecte les passionnés et projets Web3.",
       category: "Communauté"
     },
     "pulse-campnetwork": {
-      title: "Pulse Camp Network",
+      title: "Camp Network",
       description: "Pulse Camp Network est une plateforme de réseautage décentralisée pour professionnels et entrepreneurs Web3.",
       category: "Réseautage"
     },
     "pulse-sixr": {
-      title: "Pulse SixR",
+      title: "SixR",
       description: "Pulse SixR est une plateforme innovante pour l'incubation et l'accélération de projets Web3.",
       category: "Incubation"
     },
     "pulse-imua": {
-      title: "Pulse Imua",
+      title: "Imua",
       description: "Pulse Imua fournit des analyses avancées et des insights pour le suivi des performances de projets Web3.",
       category: "Analyse"
     },
     "pulse-play-ai": {
-      title: "Pulse Play AI",
+      title: "Play AI",
       description: "Pulse Play AI est une plateforme alimentée par l'IA pour la gestion automatisée et l'optimisation de projets Web3.",
       category: "Gestion IA"
+    },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Tradez, Investissez, Gagnez. La finance qui coule simplement. Commencez en minutes, voyez des résultats pendant des années.",
+      category: "Plateforme de Trading"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -868,39 +883,44 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Soziale Plattform"
     },
     "pulse-boost": {
-      title: "Pulse Boost",
+      title: "Boost",
       description: "Pulse Boost ist eine Community-gesteuerte Plattform zur Beschleunigung des Wachstums und der Adoption von Web3-Projekten.",
       category: "Wachstumsplattform"
     },
     "pulse-aegis": {
-      title: "Pulse Aegis",
+      title: "Aegis",
       description: "Pulse Aegis bietet umfassende Sicherheitslösungen für Web3-Projekte und DeFi-Protokolle.",
       category: "Sicherheit"
     },
     "pulse-belong": {
-      title: "Pulse Belong",
+      title: "Belong",
       description: "Pulse Belong ist eine Community-Building-Plattform, die Web3-Enthusiasten und Projekte verbindet.",
       category: "Community"
     },
     "pulse-campnetwork": {
-      title: "Pulse Camp Network",
+      title: "Camp Network",
       description: "Pulse Camp Network ist eine dezentrale Networking-Plattform für Web3-Profis und Unternehmer.",
       category: "Networking"
     },
     "pulse-sixr": {
-      title: "Pulse SixR",
+      title: "SixR",
       description: "Pulse SixR ist eine innovative Plattform für Web3-Projektinkubation und -beschleunigung.",
       category: "Inkubation"
     },
     "pulse-imua": {
-      title: "Pulse Imua",
+      title: "Imua",
       description: "Pulse Imua bietet erweiterte Analysen und Einblicke für Web3-Projektleistungsverfolgung.",
       category: "Analyse"
     },
     "pulse-play-ai": {
-      title: "Pulse Play AI",
+      title: "Play AI",
       description: "Pulse Play AI ist eine KI-gestützte Plattform für automatisierte Web3-Projektverwaltung und -optimierung.",
       category: "KI-Verwaltung"
+    },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Handeln, Investieren, Verdienen. Finanzen, die einfach fließen. In Minuten starten, jahrelang Ergebnisse sehen.",
+      category: "Trading-Plattform"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -1202,39 +1222,44 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "ソーシャルプラットフォーム"
     },
     "pulse-boost": {
-      title: "Pulse Boost",
+      title: "Boost",
       description: "Pulse Boostは、Web3プロジェクトの成長と採用を加速するコミュニティ主導のプラットフォームです。",
       category: "成長プラットフォーム"
     },
     "pulse-aegis": {
-      title: "Pulse Aegis",
+      title: "Aegis",
       description: "Pulse Aegisは、Web3プロジェクトとDeFiプロトコル向けの包括的なセキュリティソリューションを提供します。",
       category: "セキュリティ"
     },
     "pulse-belong": {
-      title: "Pulse Belong",
+      title: "Belong",
       description: "Pulse Belongは、Web3愛好家とプロジェクトを結ぶコミュニティ構築プラットフォームです。",
       category: "コミュニティ"
     },
     "pulse-campnetwork": {
-      title: "Pulse Camp Network",
+      title: "Camp Network",
       description: "Pulse Camp Networkは、Web3プロフェッショナルと起業家のための分散型ネットワーキングプラットフォームです。",
       category: "ネットワーキング"
     },
     "pulse-sixr": {
-      title: "Pulse SixR",
+      title: "SixR",
       description: "Pulse SixRは、Web3プロジェクトのインキュベーションとアクセラレーションのための革新的なプラットフォームです。",
       category: "インキュベーション"
     },
     "pulse-imua": {
-      title: "Pulse Imua",
+      title: "Imua",
       description: "Pulse Imuaは、Web3プロジェクトのパフォーマンス追跡のための高度な分析とインサイトを提供します。",
       category: "分析"
     },
     "pulse-play-ai": {
-      title: "Pulse Play AI",
+      title: "Play AI",
       description: "Pulse Play AIは、Web3プロジェクトの自動管理と最適化のためのAI駆動プラットフォームです。",
       category: "AI管理"
+    },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "取引、投資、収益。単純に流れる金融。数分で始めて、何年も結果を見る。",
+      category: "取引プラットフォーム"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -1464,6 +1489,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Play AI",
       description: "Play AI는 Web3 공간에서 게임 및 엔터테인먼트를 위한 고급 AI 플랫폼을 제공합니다",
       category: "게이밍"
+    },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "거래, 투자, 수익. 단순히 흐르는 금융. 몇 분 안에 시작하고, 몇 년 동안 결과를 보세요.",
+      category: "거래 플랫폼"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -2985,6 +3015,23 @@ export const projectsData: Record<string, Project[]> = {
       logo: "https://imagedelivery.net/tfbbUDELTH59IbQ61fGnYg/76fafd84-c9d7-4a00-8b2b-3421fcf6cd00/public",
       source: "https://www.alphabot.app/pulse/play-ai",
       referralLink: "https://www.alphabot.app?ref=infofi"
+    },
+    {
+      id: "pulse-grvt",
+      title: "GRVT",
+      description: "Trade, Invest, Earn. Finance that just flows. Get going in minutes, see results for years.",
+      rewardPool: "$30k USD in $ZK",
+      participants: "To Be Confirmed",
+      timeLeft: "Ends in 78D",
+      category: "Trading Platform",
+      platform: "GRVT",
+      link: "https://www.alphabot.app/pulse/grvt",
+      logo: "https://pbs.twimg.com/profile_images/1967849095126732800/dNax4nHs_400x400.jpg",
+      source: "https://x.com/PulseInfra/status/1975229575899844754",
+      referralLink: "https://www.alphabot.app?ref=infofi",
+      additionalData: {
+        isNew: "true"
+      }
     }
   ],
   xeet: [
