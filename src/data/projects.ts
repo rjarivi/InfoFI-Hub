@@ -2859,7 +2859,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Social Influence",
       platform: "KLOUT",
       link: "https://app.wallchain.xyz/klout",
-      logo: "https://pbs.twimg.com/profile_images/default_profile_400x400.png",
+      logo: "https://app.wallchain.xyz/external-bucket/hashed/image-url/image%20(2).899095529dc46d26a5612181c88576c5.png",
       source: "https://x.com/kloutgg/status/1975908952987848958",
       referralLink: "https://app.wallchain.xyz/klout",
       claimPeriod: "Two Epochs",
