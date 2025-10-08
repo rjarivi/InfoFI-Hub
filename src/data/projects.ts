@@ -3093,24 +3093,26 @@ export const projectsData: Record<string, Project[]> = {
     {
       id: "xeet-kona",
       title: "KonaDeFi",
-      description: "KonaDeFi is a decentralized finance platform offering innovative DeFi solutions and yield farming opportunities.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
+      description: "KonaDeFi is a consumer-focused DeFi ecosystem on Abstract offering products for trading, lending, and experimental DeFi. Features KONA token and Kona Points reward system.",
+      rewardPool: "1.5M Kona Points",
+      participants: "360",
+      timeLeft: "Started 10/6/2025",
       category: "DeFi",
       platform: "KonaDeFi",
       link: "https://www.xeet.ai/signals/kona?tab=tournament",
       logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962662588598362112%2FGS93TWpm_400x400.png&w=32&q=75",
       source: "https://x.com/xeetdotai/status/1975216472206061592",
-      referralLink: "https://www.xeet.ai/refer/godofbayc",
-      claimPeriod: "TBD",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      claimPeriod: "100 participants rewarded",
       vestingSchedule: "TBD",
       distributionPlatform: "Xeet",
       campaignRules: [
         "Complete quests to earn extra rewards",
-        "Participate in KonaDeFi tournament",
-        "Engage with DeFi platform features",
-        "Follow @KonaDeFi for updates"
+        "Connect Abstract Wallet to claim quest rewards",
+        "Follow Froth on X for additional points",
+        "Scoring resolves end of day and changes dynamically",
+        "Tournament started 10/6/2025",
+        "1.5M Kona Points reward pool for top 100 participants"
       ],
       additionalData: {
         isNew: "true"
