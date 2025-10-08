@@ -123,6 +123,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "2% of $NOME Supply for Top Quackers! Genome Protocol is Web3's user engagement engine - a modular, intelligent middleware layer",
       category: "Infrastructure"
     },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
+      category: "Trading Infrastructure"
+    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX. Rewards: 0.5% $VDEX over 3 months",
@@ -388,6 +393,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "2% del suministro de $NOME para los mejores Quackers! Genome Protocol es el motor de participación de usuarios de Web3 - una capa de middleware modular e inteligente",
       category: "Infraestructura"
     },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB es el ecosistema de trading multi-cadena definitivo con las tarifas más bajas. Una plataforma de trading integral que permite a los usuarios comerciar, desplegar y analizar tokens con velocidad, precisión y control excepcionales en cualquier plataforma.",
+      category: "Infraestructura de Trading"
+    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Vdex proporciona señales de trading avanzadas y análisis de mercado para traders de criptomonedas",
@@ -587,6 +597,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Protocole Genome",
       description: "2% de l'offre de $NOME pour les meilleurs Quackers! Genome Protocol est le moteur d'engagement utilisateur de Web3 - une couche middleware modulaire et intelligente",
       category: "Infrastructure"
+    },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB est l'écosystème de trading multi-chaînes ultime avec les frais les plus bas. Une plateforme de trading complète permettant aux utilisateurs de trader, déployer et analyser des tokens avec une vitesse, précision et contrôle exceptionnels sur toute plateforme.",
+      category: "Infrastructure de Trading"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -796,6 +811,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Genome Protokoll",
       description: "2% des $NOME-Angebots für Top Quackers! Genome Protocol ist Web3's Benutzerengagement-Motor - eine modulare, intelligente Middleware-Schicht",
       category: "Infrastruktur"
+    },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB ist das ultimative Multi-Chain-Trading-Ökosystem mit den niedrigsten Gebühren. Eine umfassende Trading-Plattform, die Benutzern ermöglicht, Token mit außergewöhnlicher Geschwindigkeit, Präzision und Kontrolle auf jeder Plattform zu handeln, bereitzustellen und zu analysieren.",
+      category: "Trading-Infrastruktur"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -1300,6 +1320,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstractは、暗号通貨トレーダー向けの抽象的な取引戦略と高度な市場洞察を提供します。",
       category: "取引戦略"
+    },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LABは最低手数料の究極のマルチチェーントレーディングエコシステムです。ユーザーが任意のプラットフォームで例外的な速度、精度、制御でトークンを取引、展開、分析できる包括的なトレーディングプラットフォームです。",
+      category: "トレーディングインフラ"
     }
   },
   ko: {
@@ -1644,6 +1669,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract는 암호화폐 거래자를 위한 추상적인 거래 전략과 고급 시장 인사이트를 제공합니다.",
       category: "거래 전략"
+    },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB은 최저 수수료의 궁극적인 멀티체인 거래 생태계입니다. 사용자가 모든 플랫폼에서 예외적인 속도, 정확성 및 제어로 토큰을 거래, 배포 및 분석할 수 있는 포괄적인 거래 플랫폼입니다.",
+      category: "거래 인프라"
     }
   },
   zh: {
@@ -2006,6 +2036,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract为加密货币交易者提供抽象交易策略和高级市场洞察。",
       category: "交易策略"
+    },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB是终极多链交易生态系统，具有最低费用。一个综合交易平台，使用户能够在任何平台上以卓越的速度、精度和控制力交易、部署和分析代币。",
+      category: "交易基础设施"
     }
   },
   ar: {
@@ -2345,6 +2380,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract يقدم استراتيجيات تداول مجردة ورؤى متقدمة للسوق لمتداولي العملات المشفرة.",
       category: "استراتيجيات التداول"
+    },
+    "cookie-lab": {
+      title: "LAB",
+      description: "LAB هو النظام البيئي النهائي للتداول متعدد السلاسل مع أقل الرسوم. منصة تداول شاملة تمكن المستخدمين من تداول ونشر وتحليل الرموز المميزة بسرعة ودقة وتحكم استثنائيين عبر أي منصة.",
+      category: "بنية تحتية للتداول"
     }
   }
 };
@@ -2797,7 +2837,45 @@ export const projectsData: Record<string, Project[]> = {
       ]
     }
   ],
-  cookie: [],
+  cookie: [
+    {
+      id: "cookie-lab",
+      title: "LAB",
+      description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
+      rewardPool: "1.5M LAB ($52,500)",
+      participants: "500,000 $COOKIE Pool",
+      timeLeft: "Starting: 08 Oct 2025",
+      category: "Trading Infrastructure",
+      platform: "LAB",
+      link: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
+      logo: "https://www.cookie.community/logo",
+      source: "https://x.com/LABtrade_/status/1967249197314494775",
+      referralLink: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
+      claimPeriod: "2 days",
+      vestingSchedule: "6 months vesting, 40% TGE",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Accumulate Cookie Points - Snapshot taken on 05 Oct 2025",
+        "Complete 3 tasks to be eligible for farming",
+        "Farming opens on 08 Oct 2025",
+        "Multi-round structure: Guaranteed Round, Stakers FCFS, General Access",
+        "Guaranteed Round: 2025-10-08 at 7:30 PM - 2025-10-09 at 7:29 PM",
+        "Round II - Stakers FCFS: 2025-10-09 at 7:30 PM - 2025-10-10 at 7:29 PM",
+        "General Access: 2025-10-10 at 7:30 PM - 2025-10-11 at 7:29 PM",
+        "Connect wallet to participate",
+        "Stake $COOKIE tokens for allocation"
+      ],
+      additionalData: {
+        isNew: "true",
+        totalSupply: "1,000,000,000 LAB",
+        fdv: "$35,000,000",
+        tradingVolume: "$500M+ processed",
+        revenue: "$2.5M+ generated",
+        tradingFees: "0.5% (lowest on market)",
+        supportedChains: "Solana, BNB, Base, Abstract, HyperEVM"
+      }
+    }
+  ],
   rey: [
     {
       id: "rey-tea3",
