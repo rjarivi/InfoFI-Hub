@@ -133,6 +133,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Blazpay AI is redefining crypto interactions by combining cutting-edge artificial intelligence with seamless DeFi solutions. Designed to simplify even the most complex tasks, Blaz AI empowers users to manage, trade, and explore crypto effortlessly, all through a conversational interface.",
       category: "AI-Powered DeFi"
     },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT is a social influence platform rewarding top Quackers with 1% of KLOUT supply across two epochs. Epoch I runs for 40 days 10 hours with 0.5% supply for top 300 Quackers, followed by Epoch II with another 0.5% supply for top 300 Quackers.",
+      category: "Social Influence"
+    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX. Rewards: 0.5% $VDEX over 3 months",
@@ -408,6 +413,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Blazpay AI está redefiniendo las interacciones cripto al combinar inteligencia artificial de vanguardia con soluciones DeFi perfectas. Diseñado para simplificar incluso las tareas más complejas, Blaz AI permite a los usuarios gestionar, comerciar y explorar cripto sin esfuerzo, todo a través de una interfaz conversacional.",
       category: "DeFi Impulsado por IA"
     },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT es una plataforma de influencia social que recompensa a los mejores Quackers con el 1% del suministro de KLOUT a través de dos épocas. La Época I dura 40 días 10 horas con 0.5% del suministro para los mejores 300 Quackers, seguida de la Época II con otro 0.5% del suministro para los mejores 300 Quackers.",
+      category: "Influencia Social"
+    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Vdex proporciona señales de trading avanzadas y análisis de mercado para traders de criptomonedas",
@@ -617,6 +627,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "BlazPay",
       description: "Blazpay AI redéfinit les interactions crypto en combinant une intelligence artificielle de pointe avec des solutions DeFi transparentes. Conçu pour simplifier même les tâches les plus complexes, Blaz AI permet aux utilisateurs de gérer, trader et explorer la crypto sans effort, le tout via une interface conversationnelle.",
       category: "DeFi Alimenté par IA"
+    },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT est une plateforme d'influence sociale qui récompense les meilleurs Quackers avec 1% de l'offre de KLOUT à travers deux époques. L'Époque I dure 40 jours 10 heures avec 0.5% de l'offre pour les meilleurs 300 Quackers, suivie de l'Époque II avec un autre 0.5% de l'offre pour les meilleurs 300 Quackers.",
+      category: "Influence Sociale"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -836,6 +851,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "BlazPay",
       description: "Blazpay AI revolutioniert Krypto-Interaktionen durch die Kombination modernster künstlicher Intelligenz mit nahtlosen DeFi-Lösungen. Entwickelt, um selbst die komplexesten Aufgaben zu vereinfachen, ermöglicht Blaz AI Benutzern, Krypto mühelos zu verwalten, zu handeln und zu erkunden, alles über eine Gesprächsoberfläche.",
       category: "KI-gestütztes DeFi"
+    },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT ist eine Social-Influence-Plattform, die die besten Quackers mit 1% des KLOUT-Angebots über zwei Epochen belohnt. Epoche I läuft 40 Tage 10 Stunden mit 0.5% des Angebots für die besten 300 Quackers, gefolgt von Epoche II mit weiteren 0.5% des Angebots für die besten 300 Quackers.",
+      category: "Social Influence"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -1350,6 +1370,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "BlazPay",
       description: "Blazpay AIは、最先端の人工知能とシームレスなDeFiソリューションを組み合わせて、暗号通貨の相互作用を再定義しています。最も複雑なタスクでさえも簡素化するように設計され、Blaz AIはユーザーが会話型インターフェースを通じて暗号通貨を簡単に管理、取引、探索できるようにします。",
       category: "AI搭載DeFi"
+    },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUTは、2つのエポックにわたって上位QuackerにKLOUT供給量の1%を報酬として与えるソーシャルインフルエンスプラットフォームです。エポックIは40日10時間で上位300名のQuackerに0.5%の供給量、その後エポックIIでさらに上位300名のQuackerに0.5%の供給量を提供します。",
+      category: "ソーシャルインフルエンス"
     }
   },
   ko: {
@@ -1704,6 +1729,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "BlazPay",
       description: "Blazpay AI는 최첨단 인공지능과 원활한 DeFi 솔루션을 결합하여 암호화폐 상호작용을 재정의하고 있습니다. 가장 복잡한 작업까지도 단순화하도록 설계된 Blaz AI는 사용자가 대화형 인터페이스를 통해 암호화폐를 쉽게 관리, 거래 및 탐색할 수 있게 합니다.",
       category: "AI 기반 DeFi"
+    },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT는 두 에포크에 걸쳐 상위 Quacker에게 KLOUT 공급량의 1%를 보상으로 제공하는 소셜 인플루언스 플랫폼입니다. 에포크 I은 40일 10시간 동안 상위 300명의 Quacker에게 0.5% 공급량을 제공하고, 그 후 에포크 II에서 상위 300명의 Quacker에게 추가로 0.5% 공급량을 제공합니다.",
+      category: "소셜 인플루언스"
     }
   },
   zh: {
@@ -2076,6 +2106,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "BlazPay",
       description: "Blazpay AI正在通过结合尖端人工智能和无缝DeFi解决方案重新定义加密货币交互。旨在简化最复杂的任务，Blaz AI使用户能够通过对话界面轻松管理、交易和探索加密货币。",
       category: "AI驱动的DeFi"
+    },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT是一个社交影响力平台，在两个时代中为顶级Quacker提供KLOUT供应量的1%作为奖励。时代I持续40天10小时，为顶级300名Quacker提供0.5%供应量，随后时代II为顶级300名Quacker提供另外0.5%供应量。",
+      category: "社交影响力"
     }
   },
   ar: {
@@ -2425,6 +2460,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "BlazPay",
       description: "Blazpay AI يعيد تعريف التفاعلات مع العملات المشفرة من خلال الجمع بين الذكاء الاصطناعي المتقدم والحلول DeFi السلسة. مصمم لتبسيط حتى أكثر المهام تعقيداً، Blaz AI يمكن المستخدمين من إدارة وتداول واستكشاف العملات المشفرة بسهولة، كل ذلك من خلال واجهة محادثة.",
       category: "DeFi مدعوم بالذكاء الاصطناعي"
+    },
+    "wallchain-klout": {
+      title: "KLOUT",
+      description: "KLOUT هي منصة تأثير اجتماعي تكافئ أفضل Quackers بـ 1% من عرض KLOUT عبر عصرين. العصر الأول يستمر 40 يوماً و10 ساعات مع 0.5% من العرض لأفضل 300 Quacker، يليه العصر الثاني مع 0.5% إضافي من العرض لأفضل 300 Quacker.",
+      category: "التأثير الاجتماعي"
     }
   }
 };
@@ -2809,6 +2849,40 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   wallchain: [
+    {
+      id: "wallchain-klout",
+      title: "KLOUT",
+      description: "KLOUT is a social influence platform rewarding top Quackers with 1% of KLOUT supply across two epochs. Epoch I runs for 40 days 10 hours with 0.5% supply for top 300 Quackers, followed by Epoch II with another 0.5% supply for top 300 Quackers.",
+      rewardPool: "1% of KLOUT Supply",
+      participants: "Top 300 Quackers per Epoch",
+      timeLeft: "Epoch I: 40 days 10 hours",
+      category: "Social Influence",
+      platform: "KLOUT",
+      link: "https://app.wallchain.xyz/klout",
+      logo: "https://pbs.twimg.com/profile_images/default_profile_400x400.png",
+      source: "https://x.com/kloutgg/status/1975908952987848958",
+      referralLink: "https://app.wallchain.xyz/klout",
+      claimPeriod: "Two Epochs",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Wallchain",
+      campaignRules: [
+        "Epoch I: 40 days 10 hours duration",
+        "Epoch I: 0.5% of KLOUT Supply for Top 300 Quackers",
+        "Epoch II: Starts after Epoch I completion",
+        "Epoch II: 0.5% of KLOUT Supply for Top 300 Quackers",
+        "Total: 1% of KLOUT Supply across both epochs",
+        "Compete as a Quacker to earn rewards",
+        "Follow @kloutgg on X for updates",
+        "Join the KLOUT campaign on Wallchain platform"
+      ],
+      additionalData: {
+        isNew: "true",
+        epochI: "0.5% of KLOUT Supply for Top 300 Quackers",
+        epochII: "0.5% of KLOUT Supply for Top 300 Quackers",
+        epochIDuration: "40 days 10 hours",
+        totalSupply: "1% of KLOUT Supply"
+      }
+    },
     {
       id: "wallchain-genome",
       title: "Genome Protocol",
