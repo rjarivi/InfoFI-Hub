@@ -2927,10 +2927,11 @@ export const projectsData: Record<string, Project[]> = {
       timeLeft: "Ends in 78D",
       category: "Trading Platform",
       platform: "GRVT",
-      link: "https://www.alphabot.app/pulse/grvt",
+      link: "https://grvt.io/exchange/sign-up?ref=G5UAMXN",
       logo: "https://pbs.twimg.com/profile_images/1967849095126732800/dNax4nHs_400x400.jpg",
       source: "https://x.com/PulseInfra/status/1975229575899844754",
-      referralLink: "https://www.alphabot.app?ref=infofi",
+      referralLink: "https://grvt.io/exchange/sign-up?ref=G5UAMXN",
+      referralCode: "G5UAMXN",
       additionalData: {
         isNew: "true"
       }
