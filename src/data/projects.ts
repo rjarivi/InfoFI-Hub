@@ -53,12 +53,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum Season 2",
-      description: "700,000 ARB will be distributed to the top 150 yappers on the Arbitrum Kaito Leaderboard monthly over three months",
+      description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions",
       category: "Infrastructure",
       campaignRules: [
-        "700K ARB distributed in three tranches across October, November, and December 2025",
-        "Season 2 returns to a more balanced Kaito algorithm, enabling a fair level playing field for all content creators",
-        "Distribution tiers: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB distributed in three tranches: October (233,333 ARB), November (233,333 ARB), December (233,334 ARB)",
+        "Season 2 features a more balanced algorithm ensuring fair play for creators of all sizes",
+        "Distribution tiers: Top 10 (1st: 32,000 ARB, 2nd: 29,800 ARB, 3rd: 27,600 ARB), Next 40, Remaining 100",
+        "Monthly distributions based on current leaderboard standings at time of distribution",
+        "Arbitrum employees and affiliates are not eligible for grants"
       ]
     },
     "kaito-warden-protocol": {
@@ -306,12 +308,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum Temporada 2",
-      description: "700,000 ARB se distribuirán a los mejores 150 creadores en el Ranking de Arbitrum Kaito mensualmente durante tres meses",
+      description: "700,000 ARB se distribuirán a los mejores 150 creadores en el Ranking de Arbitrum Kaito a través de tres distribuciones mensuales",
       category: "Infraestructura",
       campaignRules: [
-        "700K ARB distribuidos en tres tramos durante octubre, noviembre y diciembre de 2025",
-        "La Temporada 2 regresa a un algoritmo de Kaito más equilibrado, permitiendo un campo de juego justo para todos los creadores de contenido",
-        "Niveles de distribución: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB distribuidos en tres tramos: Octubre (233,333 ARB), Noviembre (233,333 ARB), Diciembre (233,334 ARB)",
+        "La Temporada 2 presenta un algoritmo más equilibrado que garantiza un juego justo para creadores de todos los tamaños",
+        "Niveles de distribución: Top 10 (1º: 32,000 ARB, 2º: 29,800 ARB, 3º: 27,600 ARB), Siguientes 40, Restantes 100",
+        "Distribuciones mensuales basadas en las posiciones actuales del ranking al momento de la distribución",
+        "Los empleados y afiliados de Arbitrum no son elegibles para las subvenciones"
       ]
     },
     "kaito-warden-protocol": {
@@ -524,12 +528,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum Saison 2",
-      description: "700,000 ARB seront distribués aux 150 meilleurs créateurs du Classement Arbitrum Kaito mensuellement sur trois mois",
+      description: "700,000 ARB seront distribués aux 150 meilleurs créateurs du Classement Arbitrum Kaito à travers trois distributions mensuelles",
       category: "Infrastructure",
       campaignRules: [
-        "700K ARB distribués en trois tranches sur octobre, novembre et décembre 2025",
-        "La Saison 2 revient à un algorithme Kaito plus équilibré, permettant un terrain de jeu équitable pour tous les créateurs de contenu",
-        "Niveaux de distribution: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB distribués en trois tranches: Octobre (233,333 ARB), Novembre (233,333 ARB), Décembre (233,334 ARB)",
+        "La Saison 2 présente un algorithme plus équilibré garantissant un jeu équitable pour les créateurs de toutes tailles",
+        "Niveaux de distribution: Top 10 (1er: 32,000 ARB, 2e: 29,800 ARB, 3e: 27,600 ARB), Suivants 40, Restants 100",
+        "Distributions mensuelles basées sur les positions actuelles du classement au moment de la distribution",
+        "Les employés et affiliés d'Arbitrum ne sont pas éligibles aux subventions"
       ]
     },
     "kaito-warden-protocol": {
@@ -721,12 +727,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum Saison 2",
-      description: "700,000 ARB werden monatlich über drei Monate an die besten 150 Creator im Arbitrum Kaito Leaderboard verteilt",
+      description: "700,000 ARB werden an die besten 150 Creator im Arbitrum Kaito Leaderboard über drei monatliche Verteilungen verteilt",
       category: "Infrastruktur",
       campaignRules: [
-        "700K ARB verteilt in drei Tranchen über Oktober, November und Dezember 2025",
-        "Saison 2 kehrt zu einem ausgewogeneren Kaito-Algorithmus zurück und ermöglicht ein faires Spielfeld für alle Content-Creator",
-        "Verteilungsstufen: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB verteilt in drei Tranchen: Oktober (233,333 ARB), November (233,333 ARB), Dezember (233,334 ARB)",
+        "Saison 2 bietet einen ausgewogeneren Algorithmus, der faire Chancen für Creator aller Größen gewährleistet",
+        "Verteilungsstufen: Top 10 (1.: 32,000 ARB, 2.: 29,800 ARB, 3.: 27,600 ARB), Nächste 40, Verbleibende 100",
+        "Monatliche Verteilungen basierend auf aktuellen Leaderboard-Positionen zum Zeitpunkt der Verteilung",
+        "Arbitrum-Mitarbeiter und -Partner sind nicht förderberechtigt"
       ]
     },
     "kaito-warden-protocol": {
@@ -988,12 +996,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum シーズン2",
-      description: "700,000 ARBが3ヶ月間、Arbitrum Kaitoリーダーボードの上位150名のクリエイターに月次で配布されます",
+      description: "700,000 ARBが3回の月次配布を通じてArbitrum Kaitoリーダーボードの上位150名のクリエイターに配布されます",
       category: "インフラストラクチャ",
       campaignRules: [
-        "700K ARBが2025年10月、11月、12月の3回に分けて配布",
-        "シーズン2はよりバランスの取れたKaitoアルゴリズムに戻り、すべてのコンテンツクリエイターに公平な競争の場を提供",
-        "配布階層: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARBが3回に分けて配布: 10月(233,333 ARB)、11月(233,333 ARB)、12月(233,334 ARB)",
+        "シーズン2は、あらゆるサイズのクリエイターに公平な機会を保証するよりバランスの取れたアルゴリズムを特徴とします",
+        "配布階層: トップ10 (1位: 32,000 ARB、2位: 29,800 ARB、3位: 27,600 ARB)、次の40名、残り100名",
+        "配布時点での現在のリーダーボード順位に基づく月次配布",
+        "Arbitrumの従業員と関係者は助成金の対象外です"
       ]
     },
     "kaito-warden-protocol": {
@@ -1289,12 +1299,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum 시즌 2",
-      description: "700,000 ARB가 3개월 동안 Arbitrum Kaito 리더보드 상위 150명의 크리에이터에게 월별로 배포됩니다",
+      description: "700,000 ARB가 3회의 월별 배포를 통해 Arbitrum Kaito 리더보드 상위 150명의 크리에이터에게 배포됩니다",
       category: "인프라",
       campaignRules: [
-        "700K ARB가 2025년 10월, 11월, 12월 세 번에 걸쳐 배포",
-        "시즌 2는 더 균형 잡힌 Kaito 알고리즘으로 돌아가 모든 콘텐츠 크리에이터에게 공정한 경쟁의 장을 제공",
-        "배포 계층: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB가 3회에 걸쳐 배포: 10월(233,333 ARB), 11월(233,333 ARB), 12월(233,334 ARB)",
+        "시즌 2는 모든 규모의 크리에이터에게 공정한 기회를 보장하는 더 균형 잡힌 알고리즘을 특징으로 합니다",
+        "배포 계층: 상위 10명 (1위: 32,000 ARB, 2위: 29,800 ARB, 3위: 27,600 ARB), 다음 40명, 나머지 100명",
+        "배포 시점의 현재 리더보드 순위를 기반으로 한 월별 배포",
+        "Arbitrum 직원 및 관계자는 보조금 대상이 아닙니다"
       ]
     },
     "kaito-cysic": {
@@ -1610,12 +1622,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum 第二季",
-      description: "700,000 ARB将在三个月内每月分发给Arbitrum Kaito排行榜前150名创作者",
+      description: "700,000 ARB将通过三次月度分发分发给Arbitrum Kaito排行榜前150名创作者",
       category: "基础设施",
       campaignRules: [
-        "700K ARB在2025年10月、11月和12月分三批分发",
-        "第二季回归更平衡的Kaito算法，为所有内容创作者提供公平的竞争环境",
-        "分发层级：TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB分三批分发: 10月(233,333 ARB)、11月(233,333 ARB)、12月(233,334 ARB)",
+        "第二季采用更平衡的算法，确保所有规模的创作者都有公平的机会",
+        "分发层级: 前10名 (第1名: 32,000 ARB、第2名: 29,800 ARB、第3名: 27,600 ARB)、接下来40名、剩余100名",
+        "基于分发时当前排行榜位置的月度分发",
+        "Arbitrum员工和关联方不符合资助资格"
       ]
     },
     "kaito-cysic": {
@@ -1976,12 +1990,14 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "kaito-arbitrum": {
       title: "Arbitrum الموسم 2",
-      description: "700,000 ARB سيتم توزيعها على أفضل 150 مبدع في لوحة المتصدرين Arbitrum Kaito شهرياً على مدى ثلاثة أشهر",
+      description: "700,000 ARB سيتم توزيعها على أفضل 150 مبدع في لوحة المتصدرين Arbitrum Kaito عبر ثلاث توزيعات شهرية",
       category: "البنية التحتية",
       campaignRules: [
-        "700K ARB موزعة في ثلاث دفعات عبر أكتوبر ونوفمبر وديسمبر 2025",
-        "الموسم 2 يعود إلى خوارزمية Kaito أكثر توازناً، مما يتيح مجالاً عادلاً لجميع مبدعي المحتوى",
-        "مستويات التوزيع: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB موزعة في ثلاث دفعات: أكتوبر (233,333 ARB)، نوفمبر (233,333 ARB)، ديسمبر (233,334 ARB)",
+        "الموسم 2 يتميز بخوارزمية أكثر توازناً تضمن اللعب العادل للمبدعين من جميع الأحجام",
+        "مستويات التوزيع: العشرة الأوائل (الأول: 32,000 ARB، الثاني: 29,800 ARB، الثالث: 27,600 ARB)، الأربعون التالية، المئة المتبقية",
+        "توزيعات شهرية مبنية على المراكز الحالية في لوحة المتصدرين وقت التوزيع",
+        "موظفو Arbitrum والشركاء غير مؤهلين للحصول على المنح"
       ]
     },
     "kaito-cysic": {
@@ -2405,22 +2421,24 @@ export const projectsData: Record<string, Project[]> = {
     {
       id: "kaito-arbitrum",
       title: "Arbitrum Season 2",
-      description: "700,000 ARB will be distributed to the top 150 yappers on the Arbitrum Kaito Leaderboard monthly over three months",
+      description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions",
       rewardPool: "700,000 ARB",
       participants: "Top 150 Creators",
-      timeLeft: "Oct 1, 2025 - Dec 31, 2025",
+      timeLeft: "Oct 7, 2025 - Dec 31, 2025",
       category: "Infrastructure",
       platform: "Arbitrum",
       link: "https://x.com/arbitrum",
       logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1234567890123456789.jpg/w=48&q=90",
-      source: "https://x.com/arbitrum/status/example",
+      source: "https://blog.arbitrum.io/arbitrum-x-kaito-season-2",
       claimPeriod: "Monthly",
       vestingSchedule: "No vesting",
       distributionPlatform: "Kaito",
       campaignRules: [
-        "700K ARB distributed in three tranches across October, November, and December 2025",
-        "Season 2 returns to a more balanced Kaito algorithm, enabling a fair level playing field for all content creators",
-        "Distribution tiers: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+        "700K ARB distributed in three tranches: October (233,333 ARB), November (233,333 ARB), December (233,334 ARB)",
+        "Season 2 features a more balanced algorithm ensuring fair play for creators of all sizes",
+        "Distribution tiers: Top 10 (1st: 32,000 ARB, 2nd: 29,800 ARB, 3rd: 27,600 ARB), Next 40, Remaining 100",
+        "Monthly distributions based on current leaderboard standings at time of distribution",
+        "Arbitrum employees and affiliates are not eligible for grants"
       ]
     },
     {
