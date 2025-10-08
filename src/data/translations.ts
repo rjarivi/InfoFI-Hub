@@ -52,6 +52,19 @@ export const translations = {
     errorCode: "Error Code",
     requestedPath: "Requested Path",
     
+    // Arbitrum Distribution Details
+    distributionSchedule: "Distribution Schedule",
+    october2025: "October 7-31, 2025",
+    november2025: "November 1-30, 2025", 
+    december2025: "December 1-31, 2025",
+    arbDistributed: "ARB distributed",
+    topLeaderboardRewards: "Top Leaderboard Rewards",
+    firstPlace: "1st Place",
+    secondPlace: "2nd Place", 
+    thirdPlace: "3rd Place",
+    importantEligibilityNote: "Important Eligibility Note",
+    arbitrumEligibilityText: "Just like in Season 1, accounts that are affiliated with Arbitrum (such as employees) are not eligible for the Arbitrum Kaito grant. If any of these accounts appear in the Top 150, they will be excluded from the grant distribution, and the grant will simply roll down to the next eligible participants to ensure 150 non-affiliated users receive the grant.",
+    
     // Meta
     pageTitle: "Jeet.ing - Discover Cutting-Edge Crypto Opportunities",
     pageDescription: "Explore and participate in innovative InfoFi projects. Earn rewards through Kaito, Bantr, Wallchain, Cookie, and Rey platforms."
@@ -109,6 +122,19 @@ export const translations = {
     errorCode: "Código de Error",
     requestedPath: "Ruta Solicitada",
     
+    // Arbitrum Distribution Details
+    distributionSchedule: "Cronograma de Distribución",
+    october2025: "7-31 de Octubre, 2025",
+    november2025: "1-30 de Noviembre, 2025",
+    december2025: "1-31 de Diciembre, 2025", 
+    arbDistributed: "ARB distribuidos",
+    topLeaderboardRewards: "Recompensas del Ranking Superior",
+    firstPlace: "1er Lugar",
+    secondPlace: "2do Lugar",
+    thirdPlace: "3er Lugar", 
+    importantEligibilityNote: "Nota Importante de Elegibilidad",
+    arbitrumEligibilityText: "Al igual que en la Temporada 1, las cuentas afiliadas a Arbitrum (como empleados) no son elegibles para la subvención Arbitrum Kaito. Si alguna de estas cuentas aparece en el Top 150, serán excluidas de la distribución de subvenciones, y la subvención simplemente pasará a los siguientes participantes elegibles para asegurar que 150 usuarios no afiliados reciban la subvención.",
+    
     // Meta
     pageTitle: "Jeet.ing - Descubre Oportunidades Crypto de Vanguardia",
     pageDescription: "Explora y participa en proyectos InfoFi innovadores. Gana recompensas a través de las plataformas Kaito, Bantr, Wallchain, Cookie y Rey."
@@ -152,6 +178,19 @@ export const translations = {
     // Empty State
     noProjectsFound: "Aucun projet trouvé",
     tryDifferentCategory: "Essayez de sélectionner une catégorie différente ou revenez plus tard.",
+    
+    // Arbitrum Distribution Details
+    distributionSchedule: "Calendrier de Distribution",
+    october2025: "7-31 Octobre, 2025",
+    november2025: "1-30 Novembre, 2025",
+    december2025: "1-31 Décembre, 2025",
+    arbDistributed: "ARB distribués",
+    topLeaderboardRewards: "Récompenses du Classement Supérieur",
+    firstPlace: "1ère Place",
+    secondPlace: "2ème Place",
+    thirdPlace: "3ème Place",
+    importantEligibilityNote: "Note Importante d'Éligibilité",
+    arbitrumEligibilityText: "Comme dans la Saison 1, les comptes affiliés à Arbitrum (comme les employés) ne sont pas éligibles pour la subvention Arbitrum Kaito. Si l'un de ces comptes apparaît dans le Top 150, ils seront exclus de la distribution de subventions, et la subvention sera simplement transférée aux participants éligibles suivants pour s'assurer que 150 utilisateurs non affiliés reçoivent la subvention.",
     
     // Meta
     pageTitle: "Jeet.ing - Découvrez les Opportunités Crypto de Pointe",
@@ -197,6 +236,19 @@ export const translations = {
     noProjectsFound: "Keine Projekte gefunden",
     tryDifferentCategory: "Versuchen Sie, eine andere Kategorie auszuwählen oder schauen Sie später wieder vorbei.",
     
+    // Arbitrum Distribution Details
+    distributionSchedule: "Verteilungsplan",
+    october2025: "7-31 Oktober, 2025",
+    november2025: "1-30 November, 2025",
+    december2025: "1-31 Dezember, 2025",
+    arbDistributed: "ARB verteilt",
+    topLeaderboardRewards: "Top-Ranking-Belohnungen",
+    firstPlace: "1. Platz",
+    secondPlace: "2. Platz",
+    thirdPlace: "3. Platz",
+    importantEligibilityNote: "Wichtiger Berechtigungshinweis",
+    arbitrumEligibilityText: "Genau wie in Saison 1 sind Konten, die mit Arbitrum verbunden sind (wie Mitarbeiter), nicht für das Arbitrum Kaito-Stipendium berechtigt. Wenn eines dieser Konten in den Top 150 erscheint, werden sie von der Stipendienverteilung ausgeschlossen, und das Stipendium wird einfach an die nächsten berechtigten Teilnehmer weitergegeben, um sicherzustellen, dass 150 nicht verbundene Benutzer das Stipendium erhalten.",
+    
     // Meta
     pageTitle: "Jeet.ing - Entdecken Sie Zukunftsweisende Crypto-Möglichkeiten",
     pageDescription: "Erkunden und beteiligen Sie sich an innovativen InfoFi-Projekten. Verdienen Sie Belohnungen über die Plattformen Kaito, Bantr, Wallchain, Cookie und Rey."
@@ -240,6 +292,19 @@ export const translations = {
     // Empty State
     noProjectsFound: "プロジェクトが見つかりません",
     tryDifferentCategory: "別のカテゴリを選択するか、後でもう一度確認してください。",
+    
+    // Arbitrum Distribution Details
+    distributionSchedule: "配布スケジュール",
+    october2025: "2025年10月7-31日",
+    november2025: "2025年11月1-30日",
+    december2025: "2025年12月1-31日",
+    arbDistributed: "ARB配布",
+    topLeaderboardRewards: "トップリーダーボード報酬",
+    firstPlace: "1位",
+    secondPlace: "2位",
+    thirdPlace: "3位",
+    importantEligibilityNote: "重要な参加資格に関する注意",
+    arbitrumEligibilityText: "シーズン1と同様に、Arbitrumに関連するアカウント（従業員など）はArbitrum Kaito助成金の対象外です。これらのアカウントがトップ150に現れた場合、助成金配布から除外され、助成金は単純に次の対象参加者に移行され、150名の非関連ユーザーが助成金を受け取ることを保証します。",
     
     // Meta
     pageTitle: "Jeet.ing - 最先端の暗号通貨機会を発見",
@@ -285,6 +350,19 @@ export const translations = {
     noProjectsFound: "프로젝트를 찾을 수 없습니다",
     tryDifferentCategory: "다른 카테고리를 선택하거나 나중에 다시 확인해보세요.",
     
+    // Arbitrum Distribution Details
+    distributionSchedule: "배포 일정",
+    october2025: "2025년 10월 7-31일",
+    november2025: "2025년 11월 1-30일",
+    december2025: "2025년 12월 1-31일",
+    arbDistributed: "ARB 배포",
+    topLeaderboardRewards: "상위 리더보드 보상",
+    firstPlace: "1위",
+    secondPlace: "2위",
+    thirdPlace: "3위",
+    importantEligibilityNote: "중요한 참여 자격 안내",
+    arbitrumEligibilityText: "시즌 1과 마찬가지로 Arbitrum과 관련된 계정(직원 등)은 Arbitrum Kaito 보조금 대상이 아닙니다. 이러한 계정이 상위 150위에 나타나면 보조금 배포에서 제외되며, 보조금은 단순히 다음 자격 있는 참가자에게 이전되어 150명의 비관련 사용자가 보조금을 받도록 보장됩니다.",
+    
     // Meta
     pageTitle: "Jeet.ing - 최첨단 암호화폐 기회 발견",
     pageDescription: "혁신적인 InfoFi 프로젝트를 탐색하고 참여하세요. Kaito, Bantr, Wallchain, Cookie, Rey 플랫폼을 통해 보상을 획득합니다."
@@ -329,6 +407,19 @@ export const translations = {
     noProjectsFound: "未找到项目",
     tryDifferentCategory: "尝试选择不同的类别或稍后再查看。",
     
+    // Arbitrum Distribution Details
+    distributionSchedule: "分发时间表",
+    october2025: "2025年10月7-31日",
+    november2025: "2025年11月1-30日",
+    december2025: "2025年12月1-31日",
+    arbDistributed: "ARB分发",
+    topLeaderboardRewards: "顶级排行榜奖励",
+    firstPlace: "第1名",
+    secondPlace: "第2名",
+    thirdPlace: "第3名",
+    importantEligibilityNote: "重要参与资格说明",
+    arbitrumEligibilityText: "与第一季一样，与Arbitrum相关的账户（如员工）不符合Arbitrum Kaito资助资格。如果这些账户出现在前150名中，将被排除在资助分发之外，资助将简单地转移给下一个符合条件的参与者，以确保150名非关联用户获得资助。",
+    
     // Meta
     pageTitle: "Jeet.ing - 发现尖端加密机会",
     pageDescription: "探索并参与创新的InfoFi项目。通过Kaito、Bantr、Wallchain、Cookie和Rey平台获得奖励。"
@@ -372,6 +463,19 @@ export const translations = {
     // Empty State
     noProjectsFound: "لم يتم العثور على مشاريع",
     tryDifferentCategory: "حاول اختيار فئة مختلفة أو تحقق مرة أخرى لاحقاً.",
+    
+    // Arbitrum Distribution Details
+    distributionSchedule: "جدول التوزيع",
+    october2025: "7-31 أكتوبر، 2025",
+    november2025: "1-30 نوفمبر، 2025",
+    december2025: "1-31 ديسمبر، 2025",
+    arbDistributed: "ARB موزعة",
+    topLeaderboardRewards: "مكافآت لوحة المتصدرين العليا",
+    firstPlace: "المركز الأول",
+    secondPlace: "المركز الثاني",
+    thirdPlace: "المركز الثالث",
+    importantEligibilityNote: "ملاحظة مهمة حول الأهلية",
+    arbitrumEligibilityText: "تماماً كما في الموسم الأول، الحسابات المرتبطة بـ Arbitrum (مثل الموظفين) غير مؤهلة للحصول على منحة Arbitrum Kaito. إذا ظهرت أي من هذه الحسابات في المراكز الـ 150 الأولى، سيتم استبعادها من توزيع المنح، وستنتقل المنحة ببساطة إلى المشاركين المؤهلين التاليين لضمان حصول 150 مستخدم غير مرتبط على المنحة.",
     
     // Meta
     pageTitle: "Jeet.ing - اكتشف فرص التشفير المتطورة",

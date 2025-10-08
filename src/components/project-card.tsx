@@ -363,44 +363,44 @@ export function ProjectCard({
             {/* Special Arbitrum Distribution Details */}
             {title === "Arbitrum Season 2" && (
               <div className="p-4 rounded-lg bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20">
-                <div className="text-sm font-semibold text-blue-600 mb-3">Distribution Schedule</div>
+                <div className="text-sm font-semibold text-blue-600 mb-3">{t("distributionSchedule")}</div>
                 <div className="space-y-3">
                   <div className="p-3 rounded-lg bg-white/5">
-                    <div className="text-sm font-medium text-blue-500 mb-1">October 7-31, 2025</div>
-                    <div className="text-lg font-bold text-blue-600">233,333 ARB distributed</div>
+                    <div className="text-sm font-medium text-blue-500 mb-1">{t("october2025")}</div>
+                    <div className="text-lg font-bold text-blue-600">233,333 {t("arbDistributed")}</div>
                   </div>
                   <div className="p-3 rounded-lg bg-white/5">
-                    <div className="text-sm font-medium text-blue-500 mb-1">November 1-30, 2025</div>
-                    <div className="text-lg font-bold text-blue-600">233,333 ARB distributed</div>
+                    <div className="text-sm font-medium text-blue-500 mb-1">{t("november2025")}</div>
+                    <div className="text-lg font-bold text-blue-600">233,333 {t("arbDistributed")}</div>
                   </div>
                   <div className="p-3 rounded-lg bg-white/5">
-                    <div className="text-sm font-medium text-blue-500 mb-1">December 1-31, 2025</div>
-                    <div className="text-lg font-bold text-blue-600">233,334 ARB distributed</div>
+                    <div className="text-sm font-medium text-blue-500 mb-1">{t("december2025")}</div>
+                    <div className="text-lg font-bold text-blue-600">233,334 {t("arbDistributed")}</div>
                   </div>
                 </div>
                 
                 <div className="mt-4 p-3 rounded-lg bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/20">
-                  <div className="text-sm font-semibold text-yellow-600 mb-2">Top Leaderboard Rewards</div>
+                  <div className="text-sm font-semibold text-yellow-600 mb-2">{t("topLeaderboardRewards")}</div>
                   <div className="space-y-2">
                     <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">1st Place:</span>
+                      <span className="text-sm text-muted-foreground">{t("firstPlace")}:</span>
                       <span className="font-bold text-yellow-600">32,000 ARB</span>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">2nd Place:</span>
+                      <span className="text-sm text-muted-foreground">{t("secondPlace")}:</span>
                       <span className="font-bold text-yellow-600">29,800 ARB</span>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">3rd Place:</span>
+                      <span className="text-sm text-muted-foreground">{t("thirdPlace")}:</span>
                       <span className="font-bold text-yellow-600">27,600 ARB</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-4 p-3 rounded-lg bg-gradient-to-r from-red-500/10 to-pink-500/10 border border-red-500/20">
-                  <div className="text-sm font-semibold text-red-600 mb-2">Important Eligibility Note</div>
+                  <div className="text-sm font-semibold text-red-600 mb-2">{t("importantEligibilityNote")}</div>
                   <p className="text-sm text-muted-foreground">
-                    Just like in Season 1, accounts that are affiliated with Arbitrum (such as employees) are not eligible for the Arbitrum Kaito grant. If any of these accounts appear in the Top 150, they will be excluded from the grant distribution, and the grant will simply roll down to the next eligible participants to ensure 150 non-affiliated users receive the grant.
+                    {t("arbitrumEligibilityText")}
                   </p>
                 </div>
               </div>
