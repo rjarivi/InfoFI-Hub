@@ -193,6 +193,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Parle Platform is a comprehensive social media and content creation platform for Web3 communities.",
       category: "Social Platform"
     },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Trade, Invest, Earn. Finance that just flows. Get going in minutes, see results for years.",
+      category: "Trading Platform"
+    },
     "pulse-boost": {
       title: "Boost",
       description: "Pulse Boost is a community-driven platform for accelerating Web3 project growth and adoption.",
@@ -227,11 +232,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Play AI",
       description: "Pulse Play AI is an AI-powered platform for automated Web3 project management and optimization.",
       category: "AI Management"
-    },
-    "pulse-grvt": {
-      title: "GRVT",
-      description: "Trade, Invest, Earn. Finance that just flows. Get going in minutes, see results for years.",
-      category: "Trading Platform"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -428,6 +428,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "La Plataforma Parle es una plataforma integral de redes sociales y creación de contenido para comunidades Web3.",
       category: "Plataforma Social"
     },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Comercia, Invierte, Gana. Finanzas que simplemente fluyen. Comienza en minutos, ve resultados durante años.",
+      category: "Plataforma de Trading"
+    },
     "pulse-boost": {
       title: "Boost",
       description: "Pulse Boost es una plataforma impulsada por la comunidad para acelerar el crecimiento y adopción de proyectos Web3.",
@@ -462,11 +467,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Play AI",
       description: "Pulse Play AI es una plataforma impulsada por IA para gestión automatizada y optimización de proyectos Web3.",
       category: "Gestión IA"
-    },
-    "pulse-grvt": {
-      title: "GRVT",
-      description: "Comercia, Invierte, Gana. Finanzas que simplemente fluyen. Comienza en minutos, ve resultados durante años.",
-      category: "Plataforma de Trading"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -663,6 +663,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "La Plateforme Parle est une plateforme complète de médias sociaux et de création de contenu pour les communautés Web3.",
       category: "Plateforme Sociale"
     },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Tradez, Investissez, Gagnez. La finance qui coule simplement. Commencez en minutes, voyez des résultats pendant des années.",
+      category: "Plateforme de Trading"
+    },
     "pulse-boost": {
       title: "Boost",
       description: "Pulse Boost est une plateforme communautaire pour accélérer la croissance et l'adoption des projets Web3.",
@@ -697,11 +702,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Play AI",
       description: "Pulse Play AI est une plateforme alimentée par l'IA pour la gestion automatisée et l'optimisation de projets Web3.",
       category: "Gestion IA"
-    },
-    "pulse-grvt": {
-      title: "GRVT",
-      description: "Tradez, Investissez, Gagnez. La finance qui coule simplement. Commencez en minutes, voyez des résultats pendant des années.",
-      category: "Plateforme de Trading"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -882,6 +882,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Die Parle-Plattform ist eine umfassende Social-Media- und Content-Erstellungsplattform für Web3-Communities.",
       category: "Soziale Plattform"
     },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "Handeln, Investieren, Verdienen. Finanzen, die einfach fließen. In Minuten starten, jahrelang Ergebnisse sehen.",
+      category: "Trading-Plattform"
+    },
     "pulse-boost": {
       title: "Boost",
       description: "Pulse Boost ist eine Community-gesteuerte Plattform zur Beschleunigung des Wachstums und der Adoption von Web3-Projekten.",
@@ -916,11 +921,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Play AI",
       description: "Pulse Play AI ist eine KI-gestützte Plattform für automatisierte Web3-Projektverwaltung und -optimierung.",
       category: "KI-Verwaltung"
-    },
-    "pulse-grvt": {
-      title: "GRVT",
-      description: "Handeln, Investieren, Verdienen. Finanzen, die einfach fließen. In Minuten starten, jahrelang Ergebnisse sehen.",
-      category: "Trading-Plattform"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -1221,6 +1221,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Parleプラットフォームは、Web3コミュニティ向けの包括的なソーシャルメディア・コンテンツ作成プラットフォームです。",
       category: "ソーシャルプラットフォーム"
     },
+    "pulse-grvt": {
+      title: "GRVT",
+      description: "取引、投資、収益。単純に流れる金融。数分で始めて、何年も結果を見る。",
+      category: "取引プラットフォーム"
+    },
     "pulse-boost": {
       title: "Boost",
       description: "Pulse Boostは、Web3プロジェクトの成長と採用を加速するコミュニティ主導のプラットフォームです。",
@@ -1255,11 +1260,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Play AI",
       description: "Pulse Play AIは、Web3プロジェクトの自動管理と最適化のためのAI駆動プラットフォームです。",
       category: "AI管理"
-    },
-    "pulse-grvt": {
-      title: "GRVT",
-      description: "取引、投資、収益。単純に流れる金融。数分で始めて、何年も結果を見る。",
-      category: "取引プラットフォーム"
     },
     "xeet-solstice": {
       title: "Solstice",
@@ -2919,6 +2919,23 @@ export const projectsData: Record<string, Project[]> = {
   ],
   pulse: [
     {
+      id: "pulse-grvt",
+      title: "GRVT",
+      description: "Trade, Invest, Earn. Finance that just flows. Get going in minutes, see results for years.",
+      rewardPool: "$30k USD in $ZK",
+      participants: "To Be Confirmed",
+      timeLeft: "Ends in 78D",
+      category: "Trading Platform",
+      platform: "GRVT",
+      link: "https://www.alphabot.app/pulse/grvt",
+      logo: "https://pbs.twimg.com/profile_images/1967849095126732800/dNax4nHs_400x400.jpg",
+      source: "https://x.com/PulseInfra/status/1975229575899844754",
+      referralLink: "https://www.alphabot.app?ref=infofi",
+      additionalData: {
+        isNew: "true"
+      }
+    },
+    {
       id: "pulse-boost",
       title: "Boost Season 2",
       description: "Boost provides enhanced trading capabilities and market acceleration tools for cryptocurrency traders.",
@@ -3015,23 +3032,6 @@ export const projectsData: Record<string, Project[]> = {
       logo: "https://imagedelivery.net/tfbbUDELTH59IbQ61fGnYg/76fafd84-c9d7-4a00-8b2b-3421fcf6cd00/public",
       source: "https://www.alphabot.app/pulse/play-ai",
       referralLink: "https://www.alphabot.app?ref=infofi"
-    },
-    {
-      id: "pulse-grvt",
-      title: "GRVT",
-      description: "Trade, Invest, Earn. Finance that just flows. Get going in minutes, see results for years.",
-      rewardPool: "$30k USD in $ZK",
-      participants: "To Be Confirmed",
-      timeLeft: "Ends in 78D",
-      category: "Trading Platform",
-      platform: "GRVT",
-      link: "https://www.alphabot.app/pulse/grvt",
-      logo: "https://pbs.twimg.com/profile_images/1967849095126732800/dNax4nHs_400x400.jpg",
-      source: "https://x.com/PulseInfra/status/1975229575899844754",
-      referralLink: "https://www.alphabot.app?ref=infofi",
-      additionalData: {
-        isNew: "true"
-      }
     }
   ],
   xeet: [
