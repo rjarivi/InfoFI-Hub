@@ -2723,7 +2723,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Creator Competition",
       platform: "BlazPay",
       link: "https://bantr.fun/project/blazpay",
-      logo: "https://pbs.twimg.com/profile_images/default_profile_400x400.png",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F85f8aa38ab1a4f4384c985159d014428.png&w=96&q=75",
       source: "https://x.com/Bantr_fun/status/1975905559019974858",
       referralLink: "https://bantr.fun/project/blazpay",
       claimPeriod: "1 month competition",
