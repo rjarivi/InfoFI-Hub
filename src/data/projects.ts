@@ -128,6 +128,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX. Rewards: 0.5% $VDEX over 3 months",
       category: "Trading"
     },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi is a decentralized finance platform offering innovative DeFi solutions and yield farming opportunities.",
+      category: "DeFi"
+    },
     "xeet-xeet": {
       title: "Xeet",
       description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out. Rewards: Xeets",
@@ -388,6 +393,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdex proporciona señales de trading avanzadas y análisis de mercado para traders de criptomonedas",
       category: "Trading"
     },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi es una plataforma de finanzas descentralizadas que ofrece soluciones DeFi innovadoras y oportunidades de yield farming.",
+      category: "DeFi"
+    },
     "xeet-xeet": {
       title: "Xeet",
       description: "Xeet es una plataforma integral para señales de trading de criptomonedas y análisis de mercado",
@@ -582,6 +592,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex fournit des signaux de trading avancés et une analyse de marché pour les traders de cryptomonnaies",
       category: "Trading"
+    },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi est une plateforme de finance décentralisée offrant des solutions DeFi innovantes et des opportunités de yield farming.",
+      category: "DeFi"
     },
     "xeet-xeet": {
       title: "Xeet",
@@ -786,6 +801,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex bietet erweiterte Trading-Signale und Marktanalyse für Kryptowährungs-Trader",
       category: "Trading"
+    },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi ist eine dezentrale Finanzplattform, die innovative DeFi-Lösungen und Yield-Farming-Möglichkeiten bietet.",
+      category: "DeFi"
     },
     "xeet-xeet": {
       title: "Xeet",
@@ -1176,6 +1196,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdexは暗号通貨トレーダー向けの高度なトレーディングシグナルと市場分析を提供",
       category: "トレーディング"
     },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFiは革新的なDeFiソリューションとイールドファーミングの機会を提供する分散型金融プラットフォームです。",
+      category: "DeFi"
+    },
     "breadcrumbs-breadcrumb-cash": {
       title: "Breadcrumb.cash",
       description: "Breadcrumb.cashは、暗号通貨取引と報酬の追跡・管理のための分散型プラットフォームです",
@@ -1519,6 +1544,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "Vdex는 암호화폐 거래자를 위한 고급 거래 신호 및 시장 분석을 제공합니다",
       category: "거래 신호"
+    },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi는 혁신적인 DeFi 솔루션과 수익률 농사 기회를 제공하는 탈중앙화 금융 플랫폼입니다.",
+      category: "DeFi"
     },
     "breadcrumbs-breadcrumb-cash": {
       title: "Breadcrumb.cash",
@@ -1877,6 +1907,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Vdex为加密货币交易者提供先进的交易信号和市场分析",
       category: "交易"
     },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi是一个去中心化金融平台，提供创新的DeFi解决方案和收益农场机会。",
+      category: "DeFi"
+    },
     "breadcrumbs-breadcrumb-cash": {
       title: "Breadcrumb.cash",
       description: "Breadcrumb.cash是一个用于跟踪和管理加密货币交易和奖励的去中心化平台",
@@ -2210,6 +2245,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Vdex",
       description: "يوفر Vdex إشارات تداول متقدمة وتحليل السوق لمتداولي العملات المشفرة",
       category: "إشارات التداول"
+    },
+    "xeet-kona": {
+      title: "KonaDeFi",
+      description: "KonaDeFi هي منصة مالية لامركزية تقدم حلول DeFi مبتكرة وفرص زراعة العائدات.",
+      category: "DeFi"
     },
     "breadcrumbs-breadcrumb-cash": {
       title: "Breadcrumb.cash",
@@ -3164,6 +3204,29 @@ export const projectsData: Record<string, Project[]> = {
         "Trade on VDEX omnichain DEX",
         "Participate in perps & prediction markets",
         "Support across ETH, SOL, BSC, ARB, and AVAX"
+      ]
+    },
+    {
+      id: "xeet-kona",
+      title: "KonaDeFi",
+      description: "KonaDeFi is a decentralized finance platform offering innovative DeFi solutions and yield farming opportunities.",
+      rewardPool: "To Be Confirmed",
+      participants: "To Be Confirmed",
+      timeLeft: "TBD",
+      category: "DeFi",
+      platform: "KonaDeFi",
+      link: "https://www.xeet.ai/signals/kona?tab=tournament",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962662588598362112%2FGS93TWpm_400x400.png&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1975216472206061592",
+      referralLink: "https://www.xeet.ai/refer/godofbayc",
+      claimPeriod: "TBD",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Participate in KonaDeFi tournament",
+        "Engage with DeFi platform features",
+        "Follow @KonaDeFi for updates"
       ]
     }
   ]
