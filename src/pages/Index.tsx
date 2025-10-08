@@ -138,12 +138,21 @@ const Index = () => {
           <div className="flex items-center justify-between gap-2 md:gap-4">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="w-12 h-12 md:w-16 md:h-14 rounded-xl glass-card p-2 flex items-center justify-center">
-                <img 
-                  src="/InfoFI-Icon.svg" 
-                  alt="InfoFi Hub" 
-                  className="w-8 h-8 md:w-10 md:h-10"
-                />
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 md:w-16 md:h-14 rounded-xl glass-card p-2 flex items-center justify-center">
+                  <img 
+                    src="/InfoFI-Icon.svg" 
+                    alt="InfoFi Hub" 
+                    className="w-8 h-8 md:w-10 md:h-10"
+                  />
+                </div>
+                <h1 className="text-2xl md:text-3xl font-bold text-neon-green" style={{ 
+                  fontFamily: 'Gasoek One, sans-serif',
+                  letterSpacing: '0.027em',
+                  fontWeight: '400'
+                }}>
+                  Jeet.ing
+                </h1>
               </div>
             </div>
             

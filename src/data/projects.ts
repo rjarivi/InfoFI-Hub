@@ -46,14 +46,36 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "100k Crystals / Week (24.7 bps at TGE) - the liquid creator currency of Multipli, built on top of Kaito",
       category: "Creator Economy"
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% PLAI Supply totally allocated to Top 500 Creators, with bonus allocations to Top 10",
+      category: "AI Platform",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% PLAI Supply",
+      participants: "Top 500 Creators",
+      timeLeft: "Aug 01, 2025 - TBD",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 500 Yappers, with bonus allocations to Top 10 are rewarded",
+        "Rewards distributed with no vesting after 2 snapshots, with 0.25% PLAI during TGE & 0.25% PLAI 1 month after TGE",
+        "Prioritize original, thoughtful, and high-quality content over volume",
+        "Maintain long-term, consistent engagement, even from smaller accounts",
+        "Avoid spam, plagiarism, and misinformation"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Month to their top 50 30D Creators",
       category: "Infrastructure"
     },
     "kaito-arbitrum": {
-      title: "Arbitrum Season 2",
-      description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions",
+      title: "Arbitrum",
+      description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions (Season 2)",
       category: "Infrastructure",
       campaignRules: [
         "700K ARB distributed in three tranches: October (233,333 ARB), November (233,333 ARB), December (233,334 ARB)",
@@ -331,14 +353,36 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "100k Crystals / Week (24.7 bps at TGE) - la moneda líquida de creadores de Multipli, construida sobre Kaito",
       category: "Economía de Creadores"
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% del Suministro PLAI totalmente asignado a los Mejores 500 Creadores, con asignaciones adicionales para los Top 10",
+      category: "Plataforma de IA",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% del Suministro PLAI",
+      participants: "Mejores 500 Creadores",
+      timeLeft: "01 Ago 2025 - TBD",
+      claimPeriod: "Próximamente",
+      vestingSchedule: "Sin vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 500 Yappers, con asignaciones adicionales para los Top 10 son recompensados",
+        "Recompensas distribuidas sin vesting después de 2 snapshots, con 0.25% PLAI durante TGE y 0.25% PLAI 1 mes después de TGE",
+        "Priorizar contenido original, reflexivo y de alta calidad sobre volumen",
+        "Mantener engagement a largo plazo y consistente, incluso de cuentas más pequeñas",
+        "Evitar spam, plagio y desinformación"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Mes para sus mejores 50 Creadores de 30D",
       category: "Infraestructura"
     },
     "kaito-arbitrum": {
-      title: "Arbitrum Temporada 2",
-      description: "700,000 ARB se distribuirán a los mejores 150 creadores en el Ranking de Arbitrum Kaito a través de tres distribuciones mensuales",
+      title: "Arbitrum",
+      description: "700,000 ARB se distribuirán a los mejores 150 creadores en el Ranking de Arbitrum Kaito a través de tres distribuciones mensuales (Temporada 2)",
       category: "Infraestructura",
       campaignRules: [
         "700K ARB distribuidos en tres tramos: Octubre (233,333 ARB), Noviembre (233,333 ARB), Diciembre (233,334 ARB)",
@@ -581,14 +625,36 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "100k Crystals / Semaine (24.7 bps à TGE) - la monnaie liquide des créateurs de Multipli, construite sur Kaito",
       category: "Économie des Créateurs"
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% de l'Offre PLAI totalement alloué aux Top 500 Créateurs, avec allocations bonus pour les Top 10",
+      category: "Plateforme IA",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% de l'Offre PLAI",
+      participants: "Top 500 Créateurs",
+      timeLeft: "01 Août 2025 - TBD",
+      claimPeriod: "À venir",
+      vestingSchedule: "Pas de vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 500 Yappers, avec allocations bonus pour les Top 10 sont récompensés",
+        "Récompenses distribuées sans vesting après 2 snapshots, avec 0.25% PLAI pendant TGE et 0.25% PLAI 1 mois après TGE",
+        "Prioriser le contenu original, réfléchi et de haute qualité plutôt que le volume",
+        "Maintenir un engagement à long terme et cohérent, même des comptes plus petits",
+        "Éviter le spam, le plagiat et la désinformation"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Mois pour leurs meilleurs 50 Créateurs de 30J",
       category: "Infrastructure"
     },
     "kaito-arbitrum": {
-      title: "Arbitrum Saison 2",
-      description: "700,000 ARB seront distribués aux 150 meilleurs créateurs du Classement Arbitrum Kaito à travers trois distributions mensuelles",
+      title: "Arbitrum",
+      description: "700,000 ARB seront distribués aux 150 meilleurs créateurs du Classement Arbitrum Kaito à travers trois distributions mensuelles (Saison 2)",
       category: "Infrastructure",
       campaignRules: [
         "700K ARB distribués en trois tranches: Octobre (233,333 ARB), Novembre (233,333 ARB), Décembre (233,334 ARB)",
@@ -810,14 +876,36 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "100k Crystals / Woche (24.7 bps bei TGE) - die flüssige Creator-Währung von Multipli, auf Kaito aufgebaut",
       category: "Creator Economy"
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% PLAI-Versorgung vollständig an Top 500 Creator zugewiesen, mit Bonus-Zuweisungen für Top 10",
+      category: "KI-Plattform",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% PLAI-Versorgung",
+      participants: "Top 500 Creator",
+      timeLeft: "01. Aug 2025 - TBD",
+      claimPeriod: "Bevorstehend",
+      vestingSchedule: "Kein Vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 500 Yappers, mit Bonus-Zuweisungen für Top 10 werden belohnt",
+        "Belohnungen ohne Vesting nach 2 Snapshots verteilt, mit 0.25% PLAI während TGE & 0.25% PLAI 1 Monat nach TGE",
+        "Originale, durchdachte und hochwertige Inhalte vor Volumen priorisieren",
+        "Langfristiges, konsistentes Engagement aufrechterhalten, auch von kleineren Accounts",
+        "Spam, Plagiat und Fehlinformationen vermeiden"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Monat für ihre besten 50 30-Tage-Creators",
       category: "Infrastruktur"
     },
     "kaito-arbitrum": {
-      title: "Arbitrum Saison 2",
-      description: "700,000 ARB werden an die besten 150 Creator im Arbitrum Kaito Leaderboard über drei monatliche Verteilungen verteilt",
+      title: "Arbitrum",
+      description: "700,000 ARB werden an die besten 150 Creator im Arbitrum Kaito Leaderboard über drei monatliche Verteilungen verteilt (Saison 2)",
       category: "Infrastruktur",
       campaignRules: [
         "700K ARB verteilt in drei Tranchen: Oktober (233,333 ARB), November (233,333 ARB), Dezember (233,334 ARB)",
@@ -1091,6 +1179,28 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "No lockups, full flexibility"
       ]
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% PLAI供給量が上位500名のクリエイターに完全配分、上位10名にはボーナス配分",
+      category: "AIプラットフォーム",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% PLAI供給量",
+      participants: "上位500名のクリエイター",
+      timeLeft: "2025年8月1日 - TBD",
+      claimPeriod: "近日公開",
+      vestingSchedule: "ベスティングなし",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "上位500名のYapper、上位10名にはボーナス配分で報酬",
+        "2回のスナップショット後にベスティングなしで報酬配布、TGE時に0.25% PLAI、TGE後1ヶ月で0.25% PLAI",
+        "ボリュームよりもオリジナルで思慮深く高品質なコンテンツを優先",
+        "小さなアカウントでも長期的で一貫したエンゲージメントを維持",
+        "スパム、盗用、誤情報を避ける"
+      ]
+    },
     "kaito-turtle": {
       title: "TURTLE Liquidity Program",
       description: "クリエイターに0.3%（流動性リーダーボード + Kaitoクリエイター）、マイルストーン解除時に追加0.2%",
@@ -1115,8 +1225,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       ]
     },
     "kaito-arbitrum": {
-      title: "Arbitrum シーズン2",
-      description: "700,000 ARBが3回の月次配布を通じてArbitrum Kaitoリーダーボードの上位150名のクリエイターに配布されます",
+      title: "Arbitrum",
+      description: "700,000 ARBが3回の月次配布を通じてArbitrum Kaitoリーダーボードの上位150名のクリエイターに配布されます（シーズン2）",
       category: "インフラストラクチャ",
       campaignRules: [
         "700K ARBが3回に分けて配布: 10月(233,333 ARB)、11月(233,333 ARB)、12月(233,334 ARB)",
@@ -1424,6 +1534,28 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "No lockups, full flexibility"
       ]
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% PLAI 공급량이 상위 500명의 크리에이터에게 완전 배분, 상위 10명에게는 보너스 배분",
+      category: "AI 플랫폼",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% PLAI 공급량",
+      participants: "상위 500명의 크리에이터",
+      timeLeft: "2025년 8월 1일 - TBD",
+      claimPeriod: "곧 출시",
+      vestingSchedule: "베스팅 없음",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "상위 500명의 Yapper, 상위 10명에게는 보너스 배분으로 보상",
+        "2번의 스냅샷 후 베스팅 없이 보상 배포, TGE 시 0.25% PLAI 및 TGE 후 1개월에 0.25% PLAI",
+        "볼륨보다 원본적이고 사려 깊으며 고품질의 콘텐츠를 우선시",
+        "작은 계정이라도 장기적이고 일관된 참여 유지",
+        "스팸, 표절, 허위 정보 피하기"
+      ]
+    },
     "kaito-turtle": {
       title: "TURTLE Liquidity Program",
       description: "0.3% to Creators (Liquidity Leaderboard + Kaito Creators), with additional 0.2% upon milestone unlock",
@@ -1448,8 +1580,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       ]
     },
     "kaito-arbitrum": {
-      title: "Arbitrum 시즌 2",
-      description: "700,000 ARB가 3회의 월별 배포를 통해 Arbitrum Kaito 리더보드 상위 150명의 크리에이터에게 배포됩니다",
+      title: "Arbitrum",
+      description: "700,000 ARB가 3회의 월별 배포를 통해 Arbitrum Kaito 리더보드 상위 150명의 크리에이터에게 배포됩니다 (시즌 2)",
       category: "인프라",
       campaignRules: [
         "700K ARB가 3회에 걸쳐 배포: 10월(233,333 ARB), 11월(233,333 ARB), 12월(233,334 ARB)",
@@ -1800,9 +1932,31 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "待确认"
       ]
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% PLAI供应量完全分配给前500名创作者，前10名有额外分配",
+      category: "AI平台",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% PLAI供应量",
+      participants: "前500名创作者",
+      timeLeft: "2025年8月1日 - TBD",
+      claimPeriod: "即将推出",
+      vestingSchedule: "无锁仓",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "前500名Yapper，前10名有额外分配奖励",
+        "2次快照后无锁仓分发奖励，TGE时0.25% PLAI，TGE后1个月0.25% PLAI",
+        "优先考虑原创、深思熟虑和高质量内容而非数量",
+        "保持长期、一致的参与，即使来自较小的账户",
+        "避免垃圾信息、抄袭和错误信息"
+      ]
+    },
     "kaito-arbitrum": {
-      title: "Arbitrum 第二季",
-      description: "700,000 ARB将通过三次月度分发分发给Arbitrum Kaito排行榜前150名创作者",
+      title: "Arbitrum",
+      description: "700,000 ARB将通过三次月度分发分发给Arbitrum Kaito排行榜前150名创作者（第二季）",
       category: "基础设施",
       campaignRules: [
         "700K ARB分三批分发: 10月(233,333 ARB)、11月(233,333 ARB)、12月(233,334 ARB)",
@@ -2170,6 +2324,28 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "لا توجد قيود، مرونة كاملة"
       ]
     },
+    "kaito-playai": {
+      title: "PlayAI",
+      description: "0.5% من إمداد PLAI مخصص بالكامل لأفضل 500 مبدع، مع تخصيصات إضافية لأفضل 10",
+      category: "منصة الذكاء الاصطناعي",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      rewardPool: "0.5% من إمداد PLAI",
+      participants: "أفضل 500 مبدع",
+      timeLeft: "01 أغسطس 2025 - TBD",
+      claimPeriod: "قريباً",
+      vestingSchedule: "لا يوجد تقييد",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "أفضل 500 Yapper، مع تخصيصات إضافية لأفضل 10 يحصلون على مكافآت",
+        "توزيع المكافآت بدون تقييد بعد لقطتين، مع 0.25% PLAI أثناء TGE و 0.25% PLAI بعد شهر من TGE",
+        "إعطاء الأولوية للمحتوى الأصلي والمدروس والعالية الجودة على الحجم",
+        "الحفاظ على المشاركة طويلة المدى والمتسقة، حتى من الحسابات الأصغر",
+        "تجنب الرسائل المزعجة والانتحال والمعلومات المضللة"
+      ]
+    },
     "kaito-turtle": {
       title: "برنامج سيولة TURTLE",
       description: "0.3% للمبدعين (لوحة المتصدرين للسيولة + مبدعي Kaito)، مع 0.2% إضافي عند فتح المعالم",
@@ -2194,8 +2370,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       ]
     },
     "kaito-arbitrum": {
-      title: "Arbitrum الموسم 2",
-      description: "700,000 ARB سيتم توزيعها على أفضل 150 مبدع في لوحة المتصدرين Arbitrum Kaito عبر ثلاث توزيعات شهرية",
+      title: "Arbitrum",
+      description: "700,000 ARB سيتم توزيعها على أفضل 150 مبدع في لوحة المتصدرين Arbitrum Kaito عبر ثلاث توزيعات شهرية (الموسم 2)",
       category: "البنية التحتية",
       campaignRules: [
         "700K ARB موزعة في ثلاث دفعات: أكتوبر (233,333 ARB)، نوفمبر (233,333 ARB)، ديسمبر (233,334 ARB)",
@@ -2560,7 +2736,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Trading Platform",
       platform: "MultiBank",
       link: "https://yaps.kaito.ai/referral/2522887435",
-      logo: "https://pbs.twimg.com/profile_images/default_profile_400x400.png",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1331248869527654405.jpg/w=32&q=90",
       source: "https://x.com/multibank_io/status/1975931756441460981",
       referralLink: "https://yaps.kaito.ai/referral/2522887435",
       claimPeriod: "Upcoming",
@@ -2575,6 +2751,30 @@ export const projectsData: Record<string, Project[]> = {
         "Participate globally and engage with community about $MBG token",
         "Do not spam or post low-effort content",
         "Do not plagiarize or copy others' work"
+      ]
+    },
+    {
+      id: "kaito-playai",
+      title: "PlayAI",
+      description: "0.5% PLAI Supply totally allocated to Top 500 Creators, with bonus allocations to Top 10",
+      rewardPool: "0.5% PLAI Supply",
+      participants: "Top 500 Creators",
+      timeLeft: "Aug 01, 2025 - TBD",
+      category: "AI Platform",
+      platform: "Kaito",
+      link: "https://x.com/playAInetwork",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1763587749138051072.jpg/w=48&q=90",
+      source: "https://x.com/playAInetwork/status/1975901146016518472",
+      referralCode: "rjarivi",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 500 Yappers, with bonus allocations to Top 10 are rewarded",
+        "Rewards distributed with no vesting after 2 snapshots, with 0.25% PLAI during TGE & 0.25% PLAI 1 month after TGE",
+        "Prioritize original, thoughtful, and high-quality content over volume",
+        "Maintain long-term, consistent engagement, even from smaller accounts",
+        "Avoid spam, plagiarism, and misinformation"
       ]
     },
     {
