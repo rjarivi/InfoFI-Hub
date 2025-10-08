@@ -3091,6 +3091,32 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-kona",
+      title: "KonaDeFi",
+      description: "KonaDeFi is a decentralized finance platform offering innovative DeFi solutions and yield farming opportunities.",
+      rewardPool: "To Be Confirmed",
+      participants: "To Be Confirmed",
+      timeLeft: "TBD",
+      category: "DeFi",
+      platform: "KonaDeFi",
+      link: "https://www.xeet.ai/signals/kona?tab=tournament",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962662588598362112%2FGS93TWpm_400x400.png&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1975216472206061592",
+      referralLink: "https://www.xeet.ai/refer/godofbayc",
+      claimPeriod: "TBD",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Participate in KonaDeFi tournament",
+        "Engage with DeFi platform features",
+        "Follow @KonaDeFi for updates"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
+    {
       id: "xeet-solstice",
       title: "Solstice",
       description: "Solstice is focused on delivering stable, real yield through strategies that don't rely on hype or speculation. Our approach combines proven delta-neutral trading, robust infrastructure, and institutional-grade risk management to build a foundation for long-term positive returns.",
@@ -3204,29 +3230,6 @@ export const projectsData: Record<string, Project[]> = {
         "Trade on VDEX omnichain DEX",
         "Participate in perps & prediction markets",
         "Support across ETH, SOL, BSC, ARB, and AVAX"
-      ]
-    },
-    {
-      id: "xeet-kona",
-      title: "KonaDeFi",
-      description: "KonaDeFi is a decentralized finance platform offering innovative DeFi solutions and yield farming opportunities.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "DeFi",
-      platform: "KonaDeFi",
-      link: "https://www.xeet.ai/signals/kona?tab=tournament",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962662588598362112%2FGS93TWpm_400x400.png&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1975216472206061592",
-      referralLink: "https://www.xeet.ai/refer/godofbayc",
-      claimPeriod: "TBD",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Complete quests to earn extra rewards",
-        "Participate in KonaDeFi tournament",
-        "Engage with DeFi platform features",
-        "Follow @KonaDeFi for updates"
       ]
     }
   ]
