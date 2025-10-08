@@ -51,6 +51,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "$30K USDC/Month to their top 50 30D Creators",
       category: "Infrastructure"
     },
+    "kaito-arbitrum": {
+      title: "Arbitrum Season 2",
+      description: "700,000 ARB will be distributed to the top 150 yappers on the Arbitrum Kaito Leaderboard monthly over three months",
+      category: "Infrastructure",
+      campaignRules: [
+        "700K ARB distributed in three tranches across October, November, and December 2025",
+        "Season 2 returns to a more balanced Kaito algorithm, enabling a fair level playing field for all content creators",
+        "Distribution tiers: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+      ]
+    },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
       description: "2.5% WARD over 3 seasons to Warden Protocol Creators, Warden App users and broader Kaito Eco",
@@ -294,6 +304,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "$30K USDC/Mes para sus mejores 50 Creadores de 30D",
       category: "Infraestructura"
     },
+    "kaito-arbitrum": {
+      title: "Arbitrum Temporada 2",
+      description: "700,000 ARB se distribuirán a los mejores 150 creadores en el Ranking de Arbitrum Kaito mensualmente durante tres meses",
+      category: "Infraestructura",
+      campaignRules: [
+        "700K ARB distribuidos en tres tramos durante octubre, noviembre y diciembre de 2025",
+        "La Temporada 2 regresa a un algoritmo de Kaito más equilibrado, permitiendo un campo de juego justo para todos los creadores de contenido",
+        "Niveles de distribución: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+      ]
+    },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
       description: "2.5% WARD durante 3 temporadas para Creadores de Warden Protocol, usuarios de la App Warden y el Ecosistema Kaito más amplio",
@@ -502,6 +522,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "$30K USDC/Mois pour leurs meilleurs 50 Créateurs de 30J",
       category: "Infrastructure"
     },
+    "kaito-arbitrum": {
+      title: "Arbitrum Saison 2",
+      description: "700,000 ARB seront distribués aux 150 meilleurs créateurs du Classement Arbitrum Kaito mensuellement sur trois mois",
+      category: "Infrastructure",
+      campaignRules: [
+        "700K ARB distribués en trois tranches sur octobre, novembre et décembre 2025",
+        "La Saison 2 revient à un algorithme Kaito plus équilibré, permettant un terrain de jeu équitable pour tous les créateurs de contenu",
+        "Niveaux de distribution: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+      ]
+    },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
       description: "2.5% WARD sur 3 saisons pour les Créateurs de Warden Protocol, utilisateurs de l'App Warden et l'Écosystème Kaito élargi",
@@ -688,6 +718,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Polygon",
       description: "$30K USDC/Monat für ihre besten 50 30-Tage-Creators",
       category: "Infrastruktur"
+    },
+    "kaito-arbitrum": {
+      title: "Arbitrum Saison 2",
+      description: "700,000 ARB werden monatlich über drei Monate an die besten 150 Creator im Arbitrum Kaito Leaderboard verteilt",
+      category: "Infrastruktur",
+      campaignRules: [
+        "700K ARB verteilt in drei Tranchen über Oktober, November und Dezember 2025",
+        "Saison 2 kehrt zu einem ausgewogeneren Kaito-Algorithmus zurück und ermöglicht ein faires Spielfeld für alle Content-Creator",
+        "Verteilungsstufen: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+      ]
     },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
@@ -944,6 +984,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "インフラストラクチャ",
       campaignRules: [
         "To Be Confirmed"
+      ]
+    },
+    "kaito-arbitrum": {
+      title: "Arbitrum シーズン2",
+      description: "700,000 ARBが3ヶ月間、Arbitrum Kaitoリーダーボードの上位150名のクリエイターに月次で配布されます",
+      category: "インフラストラクチャ",
+      campaignRules: [
+        "700K ARBが2025年10月、11月、12月の3回に分けて配布",
+        "シーズン2はよりバランスの取れたKaitoアルゴリズムに戻り、すべてのコンテンツクリエイターに公平な競争の場を提供",
+        "配布階層: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
       ]
     },
     "kaito-warden-protocol": {
@@ -1235,6 +1285,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Infrastructure",
       campaignRules: [
         "To Be Confirmed"
+      ]
+    },
+    "kaito-arbitrum": {
+      title: "Arbitrum 시즌 2",
+      description: "700,000 ARB가 3개월 동안 Arbitrum Kaito 리더보드 상위 150명의 크리에이터에게 월별로 배포됩니다",
+      category: "인프라",
+      campaignRules: [
+        "700K ARB가 2025년 10월, 11월, 12월 세 번에 걸쳐 배포",
+        "시즌 2는 더 균형 잡힌 Kaito 알고리즘으로 돌아가 모든 콘텐츠 크리에이터에게 공정한 경쟁의 장을 제공",
+        "배포 계층: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
       ]
     },
     "kaito-cysic": {
@@ -1539,6 +1599,24 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Xeet平台",
       description: "加密货币交易信号和市场分析的综合平台",
       category: "平台"
+    },
+    "kaito-polygon": {
+      title: "Polygon",
+      description: "每月向顶级50名30天创作者提供3万USDC",
+      category: "基础设施",
+      campaignRules: [
+        "待确认"
+      ]
+    },
+    "kaito-arbitrum": {
+      title: "Arbitrum 第二季",
+      description: "700,000 ARB将在三个月内每月分发给Arbitrum Kaito排行榜前150名创作者",
+      category: "基础设施",
+      campaignRules: [
+        "700K ARB在2025年10月、11月和12月分三批分发",
+        "第二季回归更平衡的Kaito算法，为所有内容创作者提供公平的竞争环境",
+        "分发层级：TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
+      ]
     },
     "kaito-cysic": {
       title: "Cysic",
@@ -1894,6 +1972,16 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "البنية التحتية",
       campaignRules: [
         "في انتظار التأكيد"
+      ]
+    },
+    "kaito-arbitrum": {
+      title: "Arbitrum الموسم 2",
+      description: "700,000 ARB سيتم توزيعها على أفضل 150 مبدع في لوحة المتصدرين Arbitrum Kaito شهرياً على مدى ثلاثة أشهر",
+      category: "البنية التحتية",
+      campaignRules: [
+        "700K ARB موزعة في ثلاث دفعات عبر أكتوبر ونوفمبر وديسمبر 2025",
+        "الموسم 2 يعود إلى خوارزمية Kaito أكثر توازناً، مما يتيح مجالاً عادلاً لجميع مبدعي المحتوى",
+        "مستويات التوزيع: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
       ]
     },
     "kaito-cysic": {
@@ -2312,6 +2400,27 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "To Be Confirmed",
       campaignRules: [
         "To Be Confirmed"
+      ]
+    },
+    {
+      id: "kaito-arbitrum",
+      title: "Arbitrum Season 2",
+      description: "700,000 ARB will be distributed to the top 150 yappers on the Arbitrum Kaito Leaderboard monthly over three months",
+      rewardPool: "700,000 ARB",
+      participants: "Top 150 Creators",
+      timeLeft: "Oct 1, 2025 - Dec 31, 2025",
+      category: "Infrastructure",
+      platform: "Arbitrum",
+      link: "https://x.com/arbitrum",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1234567890123456789.jpg/w=48&q=90",
+      source: "https://x.com/arbitrum/status/example",
+      claimPeriod: "Monthly",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "700K ARB distributed in three tranches across October, November, and December 2025",
+        "Season 2 returns to a more balanced Kaito algorithm, enabling a fair level playing field for all content creators",
+        "Distribution tiers: TOP 10 (36,000→15,000 ARB), 11-50 (7,200→4,500 ARB), 51-150 (4,400→2,200 ARB)"
       ]
     },
     {
