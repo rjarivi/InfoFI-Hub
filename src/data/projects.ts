@@ -130,8 +130,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay is a creator competition platform where the top 200 creators compete for a $20K prize pool over one month. Join the competition and showcase your creative content to win rewards.",
-      category: "Creator Competition"
+      description: "Blazpay AI is redefining crypto interactions by combining cutting-edge artificial intelligence with seamless DeFi solutions. Designed to simplify even the most complex tasks, Blaz AI empowers users to manage, trade, and explore crypto effortlessly, all through a conversational interface.",
+      category: "AI-Powered DeFi"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -405,8 +405,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay es una plataforma de competencia de creadores donde los mejores 200 creadores compiten por un premio de $20K durante un mes. Únete a la competencia y muestra tu contenido creativo para ganar recompensas.",
-      category: "Competencia de Creadores"
+      description: "Blazpay AI está redefiniendo las interacciones cripto al combinar inteligencia artificial de vanguardia con soluciones DeFi perfectas. Diseñado para simplificar incluso las tareas más complejas, Blaz AI permite a los usuarios gestionar, comerciar y explorar cripto sin esfuerzo, todo a través de una interfaz conversacional.",
+      category: "DeFi Impulsado por IA"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -615,8 +615,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay est une plateforme de compétition de créateurs où les 200 meilleurs créateurs se disputent un prix de 20K$ sur un mois. Rejoignez la compétition et présentez votre contenu créatif pour gagner des récompenses.",
-      category: "Compétition de Créateurs"
+      description: "Blazpay AI redéfinit les interactions crypto en combinant une intelligence artificielle de pointe avec des solutions DeFi transparentes. Conçu pour simplifier même les tâches les plus complexes, Blaz AI permet aux utilisateurs de gérer, trader et explorer la crypto sans effort, le tout via une interface conversationnelle.",
+      category: "DeFi Alimenté par IA"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -834,8 +834,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay ist eine Creator-Wettbewerbsplattform, bei der die besten 200 Creator um einen 20K$ Preispool über einen Monat konkurrieren. Treten Sie dem Wettbewerb bei und zeigen Sie Ihre kreativen Inhalte, um Belohnungen zu gewinnen.",
-      category: "Creator-Wettbewerb"
+      description: "Blazpay AI revolutioniert Krypto-Interaktionen durch die Kombination modernster künstlicher Intelligenz mit nahtlosen DeFi-Lösungen. Entwickelt, um selbst die komplexesten Aufgaben zu vereinfachen, ermöglicht Blaz AI Benutzern, Krypto mühelos zu verwalten, zu handeln und zu erkunden, alles über eine Gesprächsoberfläche.",
+      category: "KI-gestütztes DeFi"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -1348,8 +1348,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPayは、上位200名のクリエイターが1ヶ月間で20Kドルの賞金プールを競うクリエイター競技プラットフォームです。競技に参加して、クリエイティブなコンテンツを披露し、報酬を獲得しましょう。",
-      category: "クリエイター競技"
+      description: "Blazpay AIは、最先端の人工知能とシームレスなDeFiソリューションを組み合わせて、暗号通貨の相互作用を再定義しています。最も複雑なタスクでさえも簡素化するように設計され、Blaz AIはユーザーが会話型インターフェースを通じて暗号通貨を簡単に管理、取引、探索できるようにします。",
+      category: "AI搭載DeFi"
     }
   },
   ko: {
@@ -1702,8 +1702,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay는 상위 200명의 크리에이터가 한 달 동안 20K달러 상금 풀을 놓고 경쟁하는 크리에이터 경쟁 플랫폼입니다. 경쟁에 참여하여 창의적인 콘텐츠를 선보이고 보상을 획득하세요.",
-      category: "크리에이터 경쟁"
+      description: "Blazpay AI는 최첨단 인공지능과 원활한 DeFi 솔루션을 결합하여 암호화폐 상호작용을 재정의하고 있습니다. 가장 복잡한 작업까지도 단순화하도록 설계된 Blaz AI는 사용자가 대화형 인터페이스를 통해 암호화폐를 쉽게 관리, 거래 및 탐색할 수 있게 합니다.",
+      category: "AI 기반 DeFi"
     }
   },
   zh: {
@@ -2074,8 +2074,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay是一个创作者竞赛平台，前200名创作者在一个月内争夺2万美元奖金池。参加竞赛，展示您的创意内容以获得奖励。",
-      category: "创作者竞赛"
+      description: "Blazpay AI正在通过结合尖端人工智能和无缝DeFi解决方案重新定义加密货币交互。旨在简化最复杂的任务，Blaz AI使用户能够通过对话界面轻松管理、交易和探索加密货币。",
+      category: "AI驱动的DeFi"
     }
   },
   ar: {
@@ -2423,8 +2423,8 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     },
     "bantr-blazpay": {
       title: "BlazPay",
-      description: "BlazPay هي منصة مسابقة المبدعين حيث يتنافس أفضل 200 مبدع على جائزة بقيمة 20 ألف دولار على مدى شهر واحد. انضم إلى المسابقة وعرض محتواك الإبداعي للفوز بالمكافآت.",
-      category: "مسابقة المبدعين"
+      description: "Blazpay AI يعيد تعريف التفاعلات مع العملات المشفرة من خلال الجمع بين الذكاء الاصطناعي المتقدم والحلول DeFi السلسة. مصمم لتبسيط حتى أكثر المهام تعقيداً، Blaz AI يمكن المستخدمين من إدارة وتداول واستكشاف العملات المشفرة بسهولة، كل ذلك من خلال واجهة محادثة.",
+      category: "DeFi مدعوم بالذكاء الاصطناعي"
     }
   }
 };
@@ -2716,26 +2716,30 @@ export const projectsData: Record<string, Project[]> = {
     {
       id: "bantr-blazpay",
       title: "BlazPay",
-      description: "BlazPay is a creator competition platform where the top 200 creators compete for a $20K prize pool over one month. Join the competition and showcase your creative content to win rewards.",
-      rewardPool: "$20K Prize Pool",
+      description: "Blazpay AI is redefining crypto interactions by combining cutting-edge artificial intelligence with seamless DeFi solutions. Designed to simplify even the most complex tasks, Blaz AI empowers users to manage, trade, and explore crypto effortlessly, all through a conversational interface.",
+      rewardPool: "$20,000 worth of $BLAZ",
       participants: "Top 200 Creators",
       timeLeft: "Oct 8 - Nov 9, 2025",
-      category: "Creator Competition",
-      platform: "BlazPay",
+      category: "AI-Powered DeFi",
+      platform: "Blazpay AI",
       link: "https://bantr.fun/project/blazpay",
       logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F85f8aa38ab1a4f4384c985159d014428.png&w=96&q=75",
       source: "https://x.com/Bantr_fun/status/1975905559019974858",
       referralLink: "https://bantr.fun/project/blazpay",
-      claimPeriod: "1 month competition",
+      claimPeriod: "Oct 8 - Nov 9, 2025",
       vestingSchedule: "TBD",
       distributionPlatform: "Bantr",
       campaignRules: [
-        "Compete as a creator for 1 month",
-        "Top 200 creators eligible for $20K prize pool",
+        "Log in at least once with your X account on bantr.fun",
+        "Follow @Blazpaylabs on X and join Discord & Telegram from linktr.ee/Blazpay",
+        "Create original, high-quality posts about Blazpay AI",
+        "Be creative, insightful, and authentic in your content",
+        "Highlight your thoughts about Blazpay AI's features",
+        "Pledge a portion of your rewards to community members",
+        "Choose your pledge percentage (can't be changed once locked)",
+        "Top 200 creators eligible for $20K worth of $BLAZ tokens",
         "Competition period: October 8 - November 9, 2025",
-        "Showcase creative content",
-        "Follow @blazpaylabs on X for updates",
-        "Join the creator competition on Bantr platform"
+        "Check Creator Guide for detailed help and guidelines"
       ],
       additionalData: {
         isNew: "true"
