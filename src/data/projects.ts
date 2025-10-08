@@ -128,6 +128,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
       category: "Trading Infrastructure"
     },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay is a creator competition platform where the top 200 creators compete for a $20K prize pool over one month. Join the competition and showcase your creative content to win rewards.",
+      category: "Creator Competition"
+    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX. Rewards: 0.5% $VDEX over 3 months",
@@ -398,6 +403,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "LAB es el ecosistema de trading multi-cadena definitivo con las tarifas más bajas. Una plataforma de trading integral que permite a los usuarios comerciar, desplegar y analizar tokens con velocidad, precisión y control excepcionales en cualquier plataforma.",
       category: "Infraestructura de Trading"
     },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay es una plataforma de competencia de creadores donde los mejores 200 creadores compiten por un premio de $20K durante un mes. Únete a la competencia y muestra tu contenido creativo para ganar recompensas.",
+      category: "Competencia de Creadores"
+    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Vdex proporciona señales de trading avanzadas y análisis de mercado para traders de criptomonedas",
@@ -602,6 +612,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB est l'écosystème de trading multi-chaînes ultime avec les frais les plus bas. Une plateforme de trading complète permettant aux utilisateurs de trader, déployer et analyser des tokens avec une vitesse, précision et contrôle exceptionnels sur toute plateforme.",
       category: "Infrastructure de Trading"
+    },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay est une plateforme de compétition de créateurs où les 200 meilleurs créateurs se disputent un prix de 20K$ sur un mois. Rejoignez la compétition et présentez votre contenu créatif pour gagner des récompenses.",
+      category: "Compétition de Créateurs"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -816,6 +831,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB ist das ultimative Multi-Chain-Trading-Ökosystem mit den niedrigsten Gebühren. Eine umfassende Trading-Plattform, die Benutzern ermöglicht, Token mit außergewöhnlicher Geschwindigkeit, Präzision und Kontrolle auf jeder Plattform zu handeln, bereitzustellen und zu analysieren.",
       category: "Trading-Infrastruktur"
+    },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay ist eine Creator-Wettbewerbsplattform, bei der die besten 200 Creator um einen 20K$ Preispool über einen Monat konkurrieren. Treten Sie dem Wettbewerb bei und zeigen Sie Ihre kreativen Inhalte, um Belohnungen zu gewinnen.",
+      category: "Creator-Wettbewerb"
     },
     "xeet-vdex": {
       title: "Vdex",
@@ -1325,6 +1345,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LABは最低手数料の究極のマルチチェーントレーディングエコシステムです。ユーザーが任意のプラットフォームで例外的な速度、精度、制御でトークンを取引、展開、分析できる包括的なトレーディングプラットフォームです。",
       category: "トレーディングインフラ"
+    },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPayは、上位200名のクリエイターが1ヶ月間で20Kドルの賞金プールを競うクリエイター競技プラットフォームです。競技に参加して、クリエイティブなコンテンツを披露し、報酬を獲得しましょう。",
+      category: "クリエイター競技"
     }
   },
   ko: {
@@ -1674,6 +1699,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB은 최저 수수료의 궁극적인 멀티체인 거래 생태계입니다. 사용자가 모든 플랫폼에서 예외적인 속도, 정확성 및 제어로 토큰을 거래, 배포 및 분석할 수 있는 포괄적인 거래 플랫폼입니다.",
       category: "거래 인프라"
+    },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay는 상위 200명의 크리에이터가 한 달 동안 20K달러 상금 풀을 놓고 경쟁하는 크리에이터 경쟁 플랫폼입니다. 경쟁에 참여하여 창의적인 콘텐츠를 선보이고 보상을 획득하세요.",
+      category: "크리에이터 경쟁"
     }
   },
   zh: {
@@ -2041,6 +2071,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB是终极多链交易生态系统，具有最低费用。一个综合交易平台，使用户能够在任何平台上以卓越的速度、精度和控制力交易、部署和分析代币。",
       category: "交易基础设施"
+    },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay是一个创作者竞赛平台，前200名创作者在一个月内争夺2万美元奖金池。参加竞赛，展示您的创意内容以获得奖励。",
+      category: "创作者竞赛"
     }
   },
   ar: {
@@ -2385,6 +2420,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB هو النظام البيئي النهائي للتداول متعدد السلاسل مع أقل الرسوم. منصة تداول شاملة تمكن المستخدمين من تداول ونشر وتحليل الرموز المميزة بسرعة ودقة وتحكم استثنائيين عبر أي منصة.",
       category: "بنية تحتية للتداول"
+    },
+    "bantr-blazpay": {
+      title: "BlazPay",
+      description: "BlazPay هي منصة مسابقة المبدعين حيث يتنافس أفضل 200 مبدع على جائزة بقيمة 20 ألف دولار على مدى شهر واحد. انضم إلى المسابقة وعرض محتواك الإبداعي للفوز بالمكافآت.",
+      category: "مسابقة المبدعين"
     }
   }
 };
@@ -2673,6 +2713,34 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   bantr: [
+    {
+      id: "bantr-blazpay",
+      title: "BlazPay",
+      description: "BlazPay is a creator competition platform where the top 200 creators compete for a $20K prize pool over one month. Join the competition and showcase your creative content to win rewards.",
+      rewardPool: "$20K Prize Pool",
+      participants: "Top 200 Creators",
+      timeLeft: "Oct 8 - Nov 9, 2025",
+      category: "Creator Competition",
+      platform: "BlazPay",
+      link: "https://bantr.fun/project/blazpay",
+      logo: "https://pbs.twimg.com/profile_images/default_profile_400x400.png",
+      source: "https://x.com/Bantr_fun/status/1975905559019974858",
+      referralLink: "https://bantr.fun/project/blazpay",
+      claimPeriod: "1 month competition",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Compete as a creator for 1 month",
+        "Top 200 creators eligible for $20K prize pool",
+        "Competition period: October 8 - November 9, 2025",
+        "Showcase creative content",
+        "Follow @blazpaylabs on X for updates",
+        "Join the creator competition on Bantr platform"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
     {
       id: "bantr-morph",
       title: "Morph",
