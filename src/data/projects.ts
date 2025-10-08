@@ -2295,6 +2295,32 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
+      id: "kaito-arbitrum",
+      title: "Arbitrum Season 2",
+      description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions",
+      rewardPool: "700,000 ARB",
+      participants: "Top 150 Creators",
+      timeLeft: "Oct 7, 2025 - Dec 31, 2025",
+      category: "Infrastructure",
+      platform: "Arbitrum",
+      link: "https://x.com/arbitrum",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1332033418088099843.jpg/w=48&q=90",
+      source: "https://blog.arbitrum.io/arbitrum-x-kaito-season-2",
+      claimPeriod: "Monthly",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "700K ARB distributed in three tranches: October (233,333 ARB), November (233,333 ARB), December (233,334 ARB)",
+        "Season 2 features a more balanced algorithm ensuring fair play for creators of all sizes",
+        "Distribution tiers: Top 10 (1st: 32,000 ARB, 2nd: 29,800 ARB, 3rd: 27,600 ARB), Next 40, Remaining 100",
+        "Monthly distributions based on current leaderboard standings at time of distribution",
+        "Arbitrum employees and affiliates are not eligible for grants"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
+    {
       id: "kaito-metawin",
       title: "MetaWin Web3 Ecosystem",
       description: "Earn a share of $100K USDC Monthly for sharing about the MetaWin Web3 ecosystem. Start Winning in Web3 today.",
@@ -2416,29 +2442,6 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "To Be Confirmed",
       campaignRules: [
         "To Be Confirmed"
-      ]
-    },
-    {
-      id: "kaito-arbitrum",
-      title: "Arbitrum Season 2",
-      description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions",
-      rewardPool: "700,000 ARB",
-      participants: "Top 150 Creators",
-      timeLeft: "Oct 7, 2025 - Dec 31, 2025",
-      category: "Infrastructure",
-      platform: "Arbitrum",
-      link: "https://x.com/arbitrum",
-      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1234567890123456789.jpg/w=48&q=90",
-      source: "https://blog.arbitrum.io/arbitrum-x-kaito-season-2",
-      claimPeriod: "Monthly",
-      vestingSchedule: "No vesting",
-      distributionPlatform: "Kaito",
-      campaignRules: [
-        "700K ARB distributed in three tranches: October (233,333 ARB), November (233,333 ARB), December (233,334 ARB)",
-        "Season 2 features a more balanced algorithm ensuring fair play for creators of all sizes",
-        "Distribution tiers: Top 10 (1st: 32,000 ARB, 2nd: 29,800 ARB, 3rd: 27,600 ARB), Next 40, Remaining 100",
-        "Monthly distributions based on current leaderboard standings at time of distribution",
-        "Arbitrum employees and affiliates are not eligible for grants"
       ]
     },
     {

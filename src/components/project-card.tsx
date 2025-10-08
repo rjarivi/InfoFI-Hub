@@ -107,9 +107,16 @@ export function ProjectCard({
               </div>
             )}
             <div>
-              <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
-                {title}
-              </h3>
+              <div className="flex items-center gap-2">
+                <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
+                  {title}
+                </h3>
+                {additionalData?.isNew === "true" && (
+                  <Badge variant="default" className="bg-green-500 text-white text-xs px-2 py-1 animate-pulse">
+                    NEW
+                  </Badge>
+                )}
+              </div>
               <p className="text-sm text-muted-foreground">@{platform}</p>
             </div>
           </div>
@@ -229,7 +236,14 @@ export function ProjectCard({
                 </div>
               )}
               <div>
-                <DrawerTitle className="text-xl">{title}</DrawerTitle>
+                <div className="flex items-center gap-2">
+                  <DrawerTitle className="text-xl">{title}</DrawerTitle>
+                  {additionalData?.isNew === "true" && (
+                    <Badge variant="default" className="bg-green-500 text-white text-xs px-2 py-1 animate-pulse">
+                      NEW
+                    </Badge>
+                  )}
+                </div>
                 <DrawerDescription>@{platform} • {category}</DrawerDescription>
               </div>
             </div>
@@ -343,6 +357,52 @@ export function ProjectCard({
                     </li>
                   ))}
                 </ul>
+              </div>
+            )}
+
+            {/* Special Arbitrum Distribution Details */}
+            {title === "Arbitrum Season 2" && (
+              <div className="p-4 rounded-lg bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20">
+                <div className="text-sm font-semibold text-blue-600 mb-3">Distribution Schedule</div>
+                <div className="space-y-3">
+                  <div className="p-3 rounded-lg bg-white/5">
+                    <div className="text-sm font-medium text-blue-500 mb-1">October 7-31, 2025</div>
+                    <div className="text-lg font-bold text-blue-600">233,333 ARB distributed</div>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5">
+                    <div className="text-sm font-medium text-blue-500 mb-1">November 1-30, 2025</div>
+                    <div className="text-lg font-bold text-blue-600">233,333 ARB distributed</div>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5">
+                    <div className="text-sm font-medium text-blue-500 mb-1">December 1-31, 2025</div>
+                    <div className="text-lg font-bold text-blue-600">233,334 ARB distributed</div>
+                  </div>
+                </div>
+                
+                <div className="mt-4 p-3 rounded-lg bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/20">
+                  <div className="text-sm font-semibold text-yellow-600 mb-2">Top Leaderboard Rewards</div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">1st Place:</span>
+                      <span className="font-bold text-yellow-600">32,000 ARB</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">2nd Place:</span>
+                      <span className="font-bold text-yellow-600">29,800 ARB</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm text-muted-foreground">3rd Place:</span>
+                      <span className="font-bold text-yellow-600">27,600 ARB</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-4 p-3 rounded-lg bg-gradient-to-r from-red-500/10 to-pink-500/10 border border-red-500/20">
+                  <div className="text-sm font-semibold text-red-600 mb-2">Important Eligibility Note</div>
+                  <p className="text-sm text-muted-foreground">
+                    Just like in Season 1, accounts that are affiliated with Arbitrum (such as employees) are not eligible for the Arbitrum Kaito grant. If any of these accounts appear in the Top 150, they will be excluded from the grant distribution, and the grant will simply roll down to the next eligible participants to ensure 150 non-affiliated users receive the grant.
+                  </p>
+                </div>
               </div>
             )}
 
