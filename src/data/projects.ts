@@ -63,6 +63,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Arbitrum employees and affiliates are not eligible for grants"
       ]
     },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io is a comprehensive trading platform offering advanced financial services. $150K USDT will be distributed to the top 200 creators based on leaderboard rank, considering content quality, engagement, and consistency.",
+      category: "Trading Platform"
+    },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
       description: "2.5% WARD over 3 seasons to Warden Protocol Creators, Warden App users and broader Kaito Eco",
@@ -343,6 +348,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Los empleados y afiliados de Arbitrum no son elegibles para las subvenciones"
       ]
     },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io es una plataforma de trading integral que ofrece servicios financieros avanzados. $150K USDT se distribuirán a los mejores 200 creadores basado en el ranking del leaderboard, considerando calidad del contenido, engagement y consistencia.",
+      category: "Plataforma de Trading"
+    },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
       description: "2.5% WARD durante 3 temporadas para Creadores de Warden Protocol, usuarios de la App Warden y el Ecosistema Kaito más amplio",
@@ -588,6 +598,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Les employés et affiliés d'Arbitrum ne sont pas éligibles aux subventions"
       ]
     },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io est une plateforme de trading complète offrant des services financiers avancés. $150K USDT seront distribués aux 200 meilleurs créateurs basé sur le classement du leaderboard, en considérant la qualité du contenu, l'engagement et la cohérence.",
+      category: "Plateforme de Trading"
+    },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
       description: "2.5% WARD sur 3 saisons pour les Créateurs de Warden Protocol, utilisateurs de l'App Warden et l'Écosystème Kaito élargi",
@@ -811,6 +826,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Monatliche Verteilungen basierend auf aktuellen Leaderboard-Positionen zum Zeitpunkt der Verteilung",
         "Arbitrum-Mitarbeiter und -Partner sind nicht förderberechtigt"
       ]
+    },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io ist eine umfassende Trading-Plattform mit erweiterten Finanzdienstleistungen. $150K USDT werden an die besten 200 Creator basierend auf Leaderboard-Ranking verteilt, unter Berücksichtigung von Inhaltsqualität, Engagement und Konsistenz.",
+      category: "Trading-Plattform"
     },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
@@ -1105,6 +1125,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "配布時点での現在のリーダーボード順位に基づく月次配布",
         "Arbitrumの従業員と関係者は助成金の対象外です"
       ]
+    },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.ioは高度な金融サービスを提供する包括的なトレーディングプラットフォームです。$150K USDTがリーダーボードランキングに基づいて上位200名のクリエイターに配布され、コンテンツの品質、エンゲージメント、一貫性が考慮されます。",
+      category: "トレーディングプラットフォーム"
     },
     "kaito-warden-protocol": {
       title: "Warden Protocol",
@@ -1433,6 +1458,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "배포 시점의 현재 리더보드 순위를 기반으로 한 월별 배포",
         "Arbitrum 직원 및 관계자는 보조금 대상이 아닙니다"
       ]
+    },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io는 고급 금융 서비스를 제공하는 포괄적인 거래 플랫폼입니다. $150K USDT가 리더보드 순위를 기반으로 상위 200명의 크리에이터에게 배포되며, 콘텐츠 품질, 참여도 및 일관성이 고려됩니다.",
+      category: "거래 플랫폼"
     },
     "kaito-cysic": {
       title: "Cysic",
@@ -1781,6 +1811,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "基于分发时当前排行榜位置的月度分发",
         "Arbitrum员工和关联方不符合资助资格"
       ]
+    },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io是一个提供高级金融服务的综合交易平台。$150K USDT将根据排行榜排名分发给前200名创作者，考虑内容质量、参与度和一致性。",
+      category: "交易平台"
     },
     "kaito-cysic": {
       title: "Cysic",
@@ -2170,6 +2205,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "موظفو Arbitrum والشركاء غير مؤهلين للحصول على المنح"
       ]
     },
+    "kaito-multibank": {
+      title: "MultiBank",
+      description: "MultiBank.io هي منصة تداول شاملة تقدم خدمات مالية متقدمة. سيتم توزيع 150 ألف USDT على أفضل 200 مبدع بناءً على ترتيب لوحة المتصدرين، مع مراعاة جودة المحتوى والمشاركة والاتساق.",
+      category: "منصة التداول"
+    },
     "kaito-cysic": {
       title: "Cysic",
       description: "0.6% من CYS لـ Kaito: 60% أفضل مبدعي Cysic، 10% مبدعي KR/CN، 30% نظام Kaito البيئي",
@@ -2509,6 +2549,33 @@ export const projectsData: Record<string, Project[]> = {
       additionalData: {
         isNew: "true"
       }
+    },
+    {
+      id: "kaito-multibank",
+      title: "MultiBank",
+      description: "MultiBank.io is a comprehensive trading platform offering advanced financial services. $150K USDT will be distributed to the top 200 creators based on leaderboard rank, considering content quality, engagement, and consistency.",
+      rewardPool: "$150K USDT",
+      participants: "Top 200 Creators",
+      timeLeft: "Jul 22, 2025 - Nov 30, 2025",
+      category: "Trading Platform",
+      platform: "MultiBank",
+      link: "https://yaps.kaito.ai/referral/2522887435",
+      logo: "https://pbs.twimg.com/profile_images/default_profile_400x400.png",
+      source: "https://x.com/multibank_io/status/1975931756441460981",
+      referralLink: "https://yaps.kaito.ai/referral/2522887435",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Post high-quality content about Multibank.io to climb the leaderboard",
+        "Rewards based on leaderboard rank for top 200 creators",
+        "Consider content quality, engagement, and consistency",
+        "Tag @Multibank_io in your posts",
+        "Create original, thoughtful content",
+        "Participate globally and engage with community about $MBG token",
+        "Do not spam or post low-effort content",
+        "Do not plagiarize or copy others' work"
+      ]
     },
     {
       id: "kaito-metawin",
