@@ -88,7 +88,20 @@ const Index = () => {
   };
   
   const getAllProjects = () => {
-    return Object.values(projectsData).flat().map(project => translateProject(project, language));
+    const allProjects = Object.values(projectsData).flat().map(project => translateProject(project, language));
+    
+    // Sort projects to prioritize NEW projects at the top
+    return allProjects.sort((a, b) => {
+      const aIsNew = a.additionalData?.isNew === "true";
+      const bIsNew = b.additionalData?.isNew === "true";
+      
+      // If one is new and the other isn't, new one comes first
+      if (aIsNew && !bIsNew) return -1;
+      if (!aIsNew && bIsNew) return 1;
+      
+      // If both are new or both are not new, maintain original order
+      return 0;
+    });
   };
 
   const getActiveProjects = () => {
