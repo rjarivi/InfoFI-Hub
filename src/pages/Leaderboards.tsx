@@ -17,17 +17,28 @@ interface KaitoYapsData {
 }
 
 interface WallchainData {
-  // Wallchain API structure - will be defined based on their API
   username: string;
   score: number;
   rank: number;
-  // Add more fields as needed
+}
+
+interface ProjectLeaderboard {
+  id: string;
+  name: string;
+  platform: string;
+  logo: string;
+  link: string;
+  userRank?: number;
+  userScore?: number;
+  totalParticipants?: number;
+  description: string;
 }
 
 const Leaderboards = () => {
   const [searchUsername, setSearchUsername] = useState("");
   const [kaitoData, setKaitoData] = useState<KaitoYapsData | null>(null);
   const [wallchainData, setWallchainData] = useState<WallchainData | null>(null);
+  const [projectLeaderboards, setProjectLeaderboards] = useState<ProjectLeaderboard[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const { t } = useLanguage();
@@ -39,35 +50,86 @@ const Leaderboards = () => {
     setError("");
     setKaitoData(null);
     setWallchainData(null);
+    setProjectLeaderboards([]);
 
     try {
-      // For development, we'll use a proxy or mock data
+      // For development, we'll use realistic mock data based on the screenshots
       // In production, you'd need a backend proxy to handle CORS
       
-      // Mock Kaito data for demonstration
+      // Mock Kaito data based on waleswoosh example
       const mockKaitoData: KaitoYapsData = {
         user_id: "123456789",
         username: searchUsername,
-        yaps_all: Math.random() * 1000 + 100,
-        yaps_l24h: Math.random() * 50,
-        yaps_l48h: Math.random() * 100,
-        yaps_l7d: Math.random() * 300,
-        yaps_l30d: Math.random() * 800,
-        yaps_l3m: Math.random() * 900,
-        yaps_l6m: Math.random() * 950,
-        yaps_l12m: Math.random() * 1000
+        yaps_all: searchUsername.toLowerCase() === "waleswoosh" ? 20007 : Math.random() * 20000 + 1000,
+        yaps_l24h: searchUsername.toLowerCase() === "waleswoosh" ? 93 : Math.random() * 200 + 10,
+        yaps_l48h: searchUsername.toLowerCase() === "waleswoosh" ? 233 : Math.random() * 500 + 20,
+        yaps_l7d: searchUsername.toLowerCase() === "waleswoosh" ? 555 : Math.random() * 1000 + 50,
+        yaps_l30d: searchUsername.toLowerCase() === "waleswoosh" ? 1520 : Math.random() * 3000 + 100,
+        yaps_l3m: searchUsername.toLowerCase() === "waleswoosh" ? 5144 : Math.random() * 8000 + 500,
+        yaps_l6m: Math.random() * 12000 + 1000,
+        yaps_l12m: Math.random() * 20000 + 2000
       };
       
       setKaitoData(mockKaitoData);
 
-      // Mock Wallchain data for demonstration
+      // Mock Wallchain data
       const mockWallchainData: WallchainData = {
         username: searchUsername,
-        score: Math.random() * 500 + 50,
-        rank: Math.floor(Math.random() * 1000) + 1
+        score: searchUsername.toLowerCase() === "waleswoosh" ? 303.64 : Math.random() * 500 + 50,
+        rank: searchUsername.toLowerCase() === "waleswoosh" ? 406 : Math.floor(Math.random() * 1000) + 1
       };
       
       setWallchainData(mockWallchainData);
+
+      // Mock project-specific leaderboards
+      const mockProjectLeaderboards: ProjectLeaderboard[] = [
+        {
+          id: "kaito-playai",
+          name: "PlayAI",
+          platform: "Kaito",
+          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1763587749138051072.jpg/w=48&q=90",
+          link: "https://x.com/playAInetwork",
+          userRank: Math.floor(Math.random() * 500) + 1,
+          userScore: Math.random() * 1000 + 100,
+          totalParticipants: 500,
+          description: "AI Platform - Top 500 Creators"
+        },
+        {
+          id: "kaito-lombard",
+          name: "Lombard",
+          platform: "Kaito",
+          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1787773163209732096.jpg/w=48&q=90",
+          link: "https://x.com/lombard_finance",
+          userRank: Math.floor(Math.random() * 100) + 1,
+          userScore: Math.random() * 500 + 50,
+          totalParticipants: 100,
+          description: "Yap - Top 100 Contributors monthly"
+        },
+        {
+          id: "kaito-beldex",
+          name: "Beldex",
+          platform: "Kaito",
+          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F976042792706166784.jpg/w=48&q=90",
+          link: "https://x.com/BeldexCoin",
+          userRank: Math.floor(Math.random() * 100) + 1,
+          userScore: Math.random() * 300 + 30,
+          totalParticipants: 100,
+          description: "Yap - Top 100 Creators"
+        },
+        {
+          id: "wallchain-general",
+          name: "Wallchain General",
+          platform: "Wallchain",
+          logo: "https://app.wallchain.xyz/favicon.ico",
+          link: "https://app.wallchain.xyz",
+          userRank: Math.floor(Math.random() * 1000) + 1,
+          userScore: Math.random() * 1000 + 100,
+          totalParticipants: 10000,
+          description: "General Wallchain Leaderboard"
+        }
+      ];
+      
+      setProjectLeaderboards(mockProjectLeaderboards);
 
       // Note: In production, you would need a backend proxy to handle CORS
       // Example backend endpoint: /api/kaito-yaps?username=${username}
@@ -164,7 +226,7 @@ const Leaderboards = () => {
           </div>
 
           {/* Results Section */}
-          {(kaitoData || wallchainData) && (
+          {(kaitoData || wallchainData || projectLeaderboards.length > 0) && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -255,6 +317,65 @@ const Leaderboards = () => {
                         @{wallchainData.username}
                       </div>
                     </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Project-Specific Leaderboards */}
+              {projectLeaderboards.length > 0 && (
+                <div className="glass-card p-6">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-green-500 to-blue-600 flex items-center justify-center">
+                      <Users className="w-4 h-4 text-white" />
+                    </div>
+                    <h2 className="text-xl font-semibold text-foreground">Project Leaderboards</h2>
+                  </div>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {projectLeaderboards.map((project) => (
+                      <div key={project.id} className="bg-background/50 p-4 rounded-lg border border-primary/20 hover:border-primary/40 transition-colors">
+                        <div className="flex items-center gap-3 mb-3">
+                          <img 
+                            src={project.logo} 
+                            alt={`${project.name} logo`} 
+                            className="w-8 h-8 rounded-lg object-contain"
+                          />
+                          <div className="flex-1">
+                            <h3 className="font-semibold text-foreground">{project.name}</h3>
+                            <p className="text-sm text-muted-foreground">{project.description}</p>
+                          </div>
+                          <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:text-primary/80 transition-colors"
+                          >
+                            <ExternalLink className="w-4 h-4" />
+                          </a>
+                        </div>
+                        
+                        <div className="grid grid-cols-2 gap-3">
+                          <div>
+                            <div className="text-xs text-muted-foreground mb-1">Your Rank</div>
+                            <div className="text-lg font-semibold text-foreground">
+                              #{project.userRank}
+                            </div>
+                          </div>
+                          <div>
+                            <div className="text-xs text-muted-foreground mb-1">Your Score</div>
+                            <div className="text-lg font-semibold text-foreground">
+                              {project.userScore?.toFixed(2)}
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div className="mt-3 pt-3 border-t border-border/50">
+                          <div className="text-xs text-muted-foreground">
+                            Total Participants: {project.totalParticipants?.toLocaleString()}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
