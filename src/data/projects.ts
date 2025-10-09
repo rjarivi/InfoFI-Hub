@@ -88,6 +88,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "They are expanding the Ambassador Program — bringing in leaders from across and beyond the Bitcoin ecosystem"
       ]
     },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "150K USDC to the top 100 30D Creators, split equally over 3 months",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC ($50K/Month)",
+      participants: "Top 100 Creators",
+      timeLeft: "Oct 01, 2025 - Dec 31, 2025",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No Vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Follow @BeldexCoin on X",
+        "Use the hashtag #Beldex in your posts",
+        "Pro tip: The more original, engaging, and consistent your content is, the higher you'll climb"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Month to their top 50 30D Creators",
@@ -415,6 +434,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Están expandiendo el Programa de Embajadores — trayendo líderes de todo el ecosistema Bitcoin y más allá"
       ]
     },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "150K USDC para los mejores 100 Creadores de 30D, dividido equitativamente durante 3 meses",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC ($50K/Mes)",
+      participants: "Top 100 Creadores",
+      timeLeft: "01 Oct 2025 - 31 Dic 2025",
+      claimPeriod: "Próximamente",
+      vestingSchedule: "Sin Vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Seguir a @BeldexCoin en X",
+        "Usar el hashtag #Beldex en tus publicaciones",
+        "Pro tip: Mientras más original, atractivo y consistente sea tu contenido, más alto subirás"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Mes para sus mejores 50 Creadores de 30D",
@@ -707,6 +745,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Ils étendent le Programme d'Ambassadeurs — amenant des leaders de tout l'écosystème Bitcoin et au-delà"
       ]
     },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "150K USDC aux meilleurs 100 Créateurs de 30J, répartis équitablement sur 3 mois",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC ($50K/Mois)",
+      participants: "Top 100 Créateurs",
+      timeLeft: "01 Oct 2025 - 31 Déc 2025",
+      claimPeriod: "À venir",
+      vestingSchedule: "Pas de Vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Suivre @BeldexCoin sur X",
+        "Utiliser le hashtag #Beldex dans vos publications",
+        "Pro tip: Plus votre contenu est original, engageant et cohérent, plus vous monterez haut"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Mois pour leurs meilleurs 50 Créateurs de 30J",
@@ -976,6 +1033,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Monatliche Belohnungen: Top 100 Yappers nach Mindshare sind berechtigt, $BARD zu beanspruchen",
         "Kreative Herausforderungswochen: Bonus $BARD für die Top 10 herausragenden Schöpfer in Originalität und Wissen",
         "Sie erweitern das Botschafter-Programm — bringen Führer aus dem gesamten Bitcoin-Ökosystem und darüber hinaus"
+      ]
+    },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "150K USDC an die Top 100 30-Tage-Creator, gleichmäßig über 3 Monate verteilt",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC ($50K/Monat)",
+      participants: "Top 100 Creator",
+      timeLeft: "01. Okt 2025 - 31. Dez 2025",
+      claimPeriod: "Bevorstehend",
+      vestingSchedule: "Kein Vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "@BeldexCoin auf X folgen",
+        "Den Hashtag #Beldex in deinen Posts verwenden",
+        "Pro-Tipp: Je origineller, ansprechender und konsistenter dein Inhalt ist, desto höher steigst du"
       ]
     },
     "kaito-polygon": {
@@ -1299,6 +1375,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "月間報酬：マインドシェア上位100名のYapperが$BARDを請求する資格",
         "クリエイティブチャレンジ週間：独創性と知識で上位10名の優秀なクリエイターにボーナス$BARD",
         "アンバサダープログラムを拡張中 — ビットコインエコシステム全体とその先のリーダーを招致"
+      ]
+    },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "上位100名の30日間クリエイターに150K USDC、3ヶ月間で均等に分配",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC（月額$50K）",
+      participants: "上位100名のクリエイター",
+      timeLeft: "2025年10月1日 - 2025年12月31日",
+      claimPeriod: "近日公開",
+      vestingSchedule: "ベスティングなし",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Xで@BeldexCoinをフォロー",
+        "投稿でハッシュタグ#Beldexを使用",
+        "プロのヒント：コンテンツがより独創的で魅力的で一貫性があるほど、より高く上昇します"
       ]
     },
     "kaito-turtle": {
@@ -1674,6 +1769,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "월간 보상: 마인드셰어 상위 100명의 Yapper가 $BARD 청구 자격",
         "크리에이티브 챌린지 주간: 독창성과 지식에서 상위 10명의 뛰어난 크리에이터에게 보너스 $BARD",
         "앰배서더 프로그램 확장 중 — 비트코인 생태계 전체와 그 너머의 리더들 영입"
+      ]
+    },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "상위 100명의 30일 크리에이터에게 150K USDC, 3개월에 걸쳐 균등 분배",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC (월 $50K)",
+      participants: "상위 100명의 크리에이터",
+      timeLeft: "2025년 10월 1일 - 2025년 12월 31일",
+      claimPeriod: "곧 출시",
+      vestingSchedule: "베스팅 없음",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "X에서 @BeldexCoin 팔로우",
+        "게시물에 해시태그 #Beldex 사용",
+        "프로 팁: 콘텐츠가 더 독창적이고 매력적이며 일관성 있을수록 더 높이 상승합니다"
       ]
     },
     "kaito-turtle": {
@@ -2094,6 +2208,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "他们正在扩展大使计划 — 引入来自整个比特币生态系统及更远范围的领导者"
       ]
     },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "150K USDC分配给前100名30天创作者，在3个月内平均分配",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC（每月$50K）",
+      participants: "前100名创作者",
+      timeLeft: "2025年10月1日 - 2025年12月31日",
+      claimPeriod: "即将推出",
+      vestingSchedule: "无锁仓",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "在X上关注@BeldexCoin",
+        "在帖子中使用#Beldex标签",
+        "专业提示：内容越原创、吸引人且一致，排名就越高"
+      ]
+    },
     "kaito-arbitrum": {
       title: "Arbitrum",
       description: "700,000 ARB将通过三次月度分发分发给Arbitrum Kaito排行榜前150名创作者（第二季）",
@@ -2504,6 +2637,25 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "المكافآت الشهرية: أفضل 100 Yapper حسب الحصة الذهنية مؤهلون للمطالبة بـ $BARD",
         "أسابيع التحدي الإبداعي: مكافأة $BARD لأفضل 10 مبدعين متميزين في الأصالة والمعرفة",
         "إنهم يوسعون برنامج السفراء — يجلبون قادة من جميع أنحاء نظام Bitcoin البيئي وما بعده"
+      ]
+    },
+    "kaito-beldex": {
+      title: "Beldex",
+      description: "150K USDC لأفضل 100 مبدع لمدة 30 يوماً، موزعة بالتساوي على 3 أشهر",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      rewardPool: "$150K USDC ($50K شهرياً)",
+      participants: "أفضل 100 مبدع",
+      timeLeft: "01 أكتوبر 2025 - 31 ديسمبر 2025",
+      claimPeriod: "قريباً",
+      vestingSchedule: "لا يوجد تقييد",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "متابعة @BeldexCoin على X",
+        "استخدام الهاشتاغ #Beldex في منشوراتك",
+        "نصيحة محترف: كلما كان المحتوى أكثر أصالة وجاذبية واتساقاً، كلما صعدت أعلى"
       ]
     },
     "kaito-turtle": {
@@ -2957,6 +3109,27 @@ export const projectsData: Record<string, Project[]> = {
         "Monthly Rewards: Top 100 Yappers by mindshare will be eligible to claim $BARD",
         "Creative Challenge Weeks: Bonus $BARD for the Top 10 standout creators in originality and knowledge",
         "They are expanding the Ambassador Program — bringing in leaders from across and beyond the Bitcoin ecosystem"
+      ]
+    },
+    {
+      id: "kaito-beldex",
+      title: "Beldex",
+      description: "150K USDC to the top 100 30D Creators, split equally over 3 months",
+      rewardPool: "$150K USDC ($50K/Month)",
+      participants: "Top 100 Creators",
+      timeLeft: "Oct 01, 2025 - Dec 31, 2025",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/BeldexCoin",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F976042792706166784.jpg/w=48&q=90",
+      source: "https://x.com/BeldexCoin/status/1972957466381148473",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No Vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Follow @BeldexCoin on X",
+        "Use the hashtag #Beldex in your posts",
+        "Pro tip: The more original, engaging, and consistent your content is, the higher you'll climb"
       ]
     },
     {
