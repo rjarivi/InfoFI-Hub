@@ -53,83 +53,77 @@ const Leaderboards = () => {
     setProjectLeaderboards([]);
 
     try {
-      // Use Netlify function to fetch both APIs
-      const response = await fetch(
-        `/api/leaderboards?username=${encodeURIComponent(searchUsername)}`
-      );
+      // Use Netlify Functions to call the APIs
+      const [kaitoResponse, wallchainResponse] = await Promise.all([
+        fetch(`/.netlify/functions/kaito-yaps?username=${encodeURIComponent(searchUsername)}`),
+        fetch(`/.netlify/functions/wallchain?username=${encodeURIComponent(searchUsername)}`)
+      ]);
       
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      // Handle Kaito response
+      if (kaitoResponse.ok) {
+        const kaitoResult = await kaitoResponse.json();
+        setKaitoData(kaitoResult);
+      } else {
+        console.warn('Kaito API failed:', kaitoResponse.status);
       }
 
-      const result = await response.json();
+      // Handle Wallchain response
+      if (wallchainResponse.ok) {
+        const wallchainResult = await wallchainResponse.json();
+        setWallchainData(wallchainResult);
+      } else {
+        console.warn('Wallchain API failed:', wallchainResponse.status);
+      }
+
+      // Mock project-specific leaderboards (these would come from individual project APIs)
+      const mockProjectLeaderboards: ProjectLeaderboard[] = [
+        {
+          id: "kaito-playai",
+          name: "PlayAI",
+          platform: "Kaito",
+          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1763587749138051072.jpg/w=48&q=90",
+          link: "https://x.com/playAInetwork",
+          userRank: Math.floor(Math.random() * 500) + 1,
+          userScore: Math.random() * 1000 + 100,
+          totalParticipants: 500,
+          description: "AI Platform - Top 500 Creators"
+        },
+        {
+          id: "kaito-lombard",
+          name: "Lombard",
+          platform: "Kaito",
+          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1787773163209732096.jpg/w=48&q=90",
+          link: "https://x.com/lombard_finance",
+          userRank: Math.floor(Math.random() * 100) + 1,
+          userScore: Math.random() * 500 + 50,
+          totalParticipants: 100,
+          description: "Yap - Top 100 Contributors monthly"
+        },
+        {
+          id: "kaito-beldex",
+          name: "Beldex",
+          platform: "Kaito",
+          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F976042792706166784.jpg/w=48&q=90",
+          link: "https://x.com/BeldexCoin",
+          userRank: Math.floor(Math.random() * 100) + 1,
+          userScore: Math.random() * 300 + 30,
+          totalParticipants: 100,
+          description: "Yap - Top 100 Creators"
+        },
+        {
+          id: "wallchain-general",
+          name: "Wallchain General",
+          platform: "Wallchain",
+          logo: "https://app.wallchain.xyz/favicon.ico",
+          link: "https://app.wallchain.xyz",
+          userRank: Math.floor(Math.random() * 1000) + 1,
+          userScore: Math.random() * 1000 + 100,
+          totalParticipants: 10000,
+          description: "General Wallchain Leaderboard"
+        }
+      ];
       
-      // Set Kaito data if available
-      if (result.kaito) {
-        setKaitoData(result.kaito);
-      }
-
-      // Set Wallchain data if available
-      if (result.wallchain) {
-        setWallchainData(result.wallchain);
-      }
-
-      // Generate project-specific leaderboards based on the data
-      if (result.kaito || result.wallchain) {
-        const mockProjectLeaderboards: ProjectLeaderboard[] = [
-          {
-            id: "kaito-playai",
-            name: "PlayAI",
-            platform: "Kaito",
-            logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1763587749138051072.jpg/w=48&q=90",
-            link: "https://x.com/playAInetwork",
-            userRank: Math.floor(Math.random() * 500) + 1,
-            userScore: Math.random() * 1000 + 100,
-            totalParticipants: 500,
-            description: "AI Platform - Top 500 Creators"
-          },
-          {
-            id: "kaito-lombard",
-            name: "Lombard",
-            platform: "Kaito",
-            logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1787773163209732096.jpg/w=48&q=90",
-            link: "https://x.com/lombard_finance",
-            userRank: Math.floor(Math.random() * 100) + 1,
-            userScore: Math.random() * 500 + 50,
-            totalParticipants: 100,
-            description: "Yap - Top 100 Contributors monthly"
-          },
-          {
-            id: "kaito-beldex",
-            name: "Beldex",
-            platform: "Kaito",
-            logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F976042792706166784.jpg/w=48&q=90",
-            link: "https://x.com/BeldexCoin",
-            userRank: Math.floor(Math.random() * 100) + 1,
-            userScore: Math.random() * 300 + 30,
-            totalParticipants: 100,
-            description: "Yap - Top 100 Creators"
-          },
-          {
-            id: "wallchain-general",
-            name: "Wallchain General",
-            platform: "Wallchain",
-            logo: "https://app.wallchain.xyz/favicon.ico",
-            link: "https://app.wallchain.xyz",
-            userRank: result.wallchain?.rank || Math.floor(Math.random() * 1000) + 1,
-            userScore: result.wallchain?.score || Math.random() * 1000 + 100,
-            totalParticipants: 10000,
-            description: "General Wallchain Leaderboard"
-          }
-        ];
-        
-        setProjectLeaderboards(mockProjectLeaderboards);
-      }
-
-      // Show errors if any
-      if (result.errors && result.errors.length > 0) {
-        console.warn('API errors:', result.errors);
-      }
+      setProjectLeaderboards(mockProjectLeaderboards);
 
     } catch (err) {
       setError("Failed to fetch leaderboard data. Please try again.");
@@ -416,11 +410,11 @@ const Leaderboards = () => {
                   Visit Wallchain <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
-              <div className="mt-4 p-3 bg-green-500/10 border border-green-500/20 rounded-lg">
-                <h4 className="font-medium text-green-400 mb-2">✅ Real API Integration</h4>
-                <p className="text-sm text-green-300">
-                  Now using Netlify Functions to call real Kaito Yaps API! Wallchain API integration ready when available.
-                  Project leaderboards show mock data for demonstration.
+              <div className="mt-4 p-3 bg-blue-500/10 border border-blue-500/20 rounded-lg">
+                <h4 className="font-medium text-blue-400 mb-2">API Integration</h4>
+                <p className="text-sm text-blue-300">
+                  Now using Netlify Functions to proxy API calls and avoid CORS issues. 
+                  Kaito Yaps data comes from the real API, Wallchain data uses mock data until their API is available.
                 </p>
               </div>
             </div>
