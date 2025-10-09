@@ -72,6 +72,12 @@ const menuItems = [
   { id: "parle", label: "Parle", logo: projectLogos.parle }
 ];
 
+// Main navigation items (always visible)
+const mainMenuItems = menuItems.slice(0, 7); // All Projects + 6 main platforms
+
+// Overflow items (in dropdown)
+const overflowMenuItems = menuItems.slice(7);
+
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
   const [copied, setCopied] = useState(false);
@@ -138,15 +144,15 @@ const Index = () => {
           <div className="flex items-center justify-between gap-2 md:gap-4">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 md:w-16 md:h-14 rounded-xl glass-card p-2 flex items-center justify-center">
+              <div className="flex items-center gap-2">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl glass-card p-2 flex items-center justify-center">
                   <img 
                     src="/InfoFI-Icon.svg" 
                     alt="InfoFi Hub" 
-                    className="w-8 h-8 md:w-10 md:h-10"
+                    className="w-6 h-6 md:w-8 md:h-8"
                   />
                 </div>
-                <h1 className="text-2xl md:text-3xl font-bold text-neon-green" style={{ 
+                <h1 className="text-xl md:text-2xl font-bold text-neon-green" style={{ 
                   fontFamily: 'Gasoek One, sans-serif',
                   letterSpacing: '0.027em',
                   fontWeight: '400'
@@ -159,7 +165,8 @@ const Index = () => {
             {/* Navigation Menu */}
             <div className="flex-1 flex justify-center min-w-0">
               <ResponsiveNavigation
-                items={menuItems}
+                mainItems={mainMenuItems}
+                overflowItems={overflowMenuItems}
                 activeItem={activeTab}
                 onItemClick={setActiveTab}
               />
