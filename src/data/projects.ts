@@ -68,6 +68,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Avoid spam, plagiarism, and misinformation"
       ]
     },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "The Yapper Program Season 2 is underway — with opportunities to earn $BARD, and become an Official Lombard Ambassador",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% BARD supply",
+      participants: "Top 100 Contributors each month",
+      timeLeft: "Jan 01, 2025 - Mar 31, 2026",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "50% upfront, 50% in 6 months",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD is awarded monthly to the top 100 contributors of Lombard based on mindshare",
+        "Monthly Rewards: Top 100 Yappers by mindshare will be eligible to claim $BARD",
+        "Creative Challenge Weeks: Bonus $BARD for the Top 10 standout creators in originality and knowledge",
+        "They are expanding the Ambassador Program — bringing in leaders from across and beyond the Bitcoin ecosystem"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Month to their top 50 30D Creators",
@@ -375,6 +395,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Evitar spam, plagio y desinformación"
       ]
     },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "El Programa Yapper Temporada 2 está en marcha — con oportunidades para ganar $BARD y convertirse en Embajador Oficial de Lombard",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% del suministro BARD",
+      participants: "Top 100 Contribuidores cada mes",
+      timeLeft: "01 Ene 2025 - 31 Mar 2026",
+      claimPeriod: "Próximamente",
+      vestingSchedule: "50% por adelantado, 50% en 6 meses",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD se otorga mensualmente a los top 100 contribuidores de Lombard basado en mindshare",
+        "Recompensas Mensuales: Top 100 Yappers por mindshare serán elegibles para reclamar $BARD",
+        "Semanas de Desafío Creativo: Bono $BARD para los Top 10 creadores destacados en originalidad y conocimiento",
+        "Están expandiendo el Programa de Embajadores — trayendo líderes de todo el ecosistema Bitcoin y más allá"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Mes para sus mejores 50 Creadores de 30D",
@@ -647,6 +687,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Éviter le spam, le plagiat et la désinformation"
       ]
     },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "Le Programme Yapper Saison 2 est en cours — avec des opportunités pour gagner $BARD et devenir Ambassadeur Officiel Lombard",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% de l'offre BARD",
+      participants: "Top 100 Contributeurs chaque mois",
+      timeLeft: "01 Jan 2025 - 31 Mar 2026",
+      claimPeriod: "À venir",
+      vestingSchedule: "50% d'avance, 50% en 6 mois",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD est attribué mensuellement aux top 100 contributeurs de Lombard basé sur le mindshare",
+        "Récompenses Mensuelles: Top 100 Yappers par mindshare seront éligibles pour réclamer $BARD",
+        "Semaines de Défi Créatif: Bonus $BARD pour les Top 10 créateurs exceptionnels en originalité et connaissance",
+        "Ils étendent le Programme d'Ambassadeurs — amenant des leaders de tout l'écosystème Bitcoin et au-delà"
+      ]
+    },
     "kaito-polygon": {
       title: "Polygon",
       description: "$30K USDC/Mois pour leurs meilleurs 50 Créateurs de 30J",
@@ -896,6 +956,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Originale, durchdachte und hochwertige Inhalte vor Volumen priorisieren",
         "Langfristiges, konsistentes Engagement aufrechterhalten, auch von kleineren Accounts",
         "Spam, Plagiat und Fehlinformationen vermeiden"
+      ]
+    },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "Das Yapper-Programm Saison 2 läuft — mit Möglichkeiten, $BARD zu verdienen und offizieller Lombard-Botschafter zu werden",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% BARD-Versorgung",
+      participants: "Top 100 Beiträger jeden Monat",
+      timeLeft: "01. Jan 2025 - 31. Mär 2026",
+      claimPeriod: "Bevorstehend",
+      vestingSchedule: "50% im Voraus, 50% in 6 Monaten",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD wird monatlich an die Top 100 Beiträger von Lombard basierend auf Mindshare vergeben",
+        "Monatliche Belohnungen: Top 100 Yappers nach Mindshare sind berechtigt, $BARD zu beanspruchen",
+        "Kreative Herausforderungswochen: Bonus $BARD für die Top 10 herausragenden Schöpfer in Originalität und Wissen",
+        "Sie erweitern das Botschafter-Programm — bringen Führer aus dem gesamten Bitcoin-Ökosystem und darüber hinaus"
       ]
     },
     "kaito-polygon": {
@@ -1199,6 +1279,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "ボリュームよりもオリジナルで思慮深く高品質なコンテンツを優先",
         "小さなアカウントでも長期的で一貫したエンゲージメントを維持",
         "スパム、盗用、誤情報を避ける"
+      ]
+    },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "Yapperプログラムシーズン2が進行中 — $BARDを獲得し、公式Lombardアンバサダーになる機会",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% BARD供給量",
+      participants: "月間上位100名の貢献者",
+      timeLeft: "2025年1月1日 - 2026年3月31日",
+      claimPeriod: "近日公開",
+      vestingSchedule: "50%前払い、50%は6ヶ月後",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARDは月間でLombardの上位100名の貢献者にマインドシェアに基づいて授与",
+        "月間報酬：マインドシェア上位100名のYapperが$BARDを請求する資格",
+        "クリエイティブチャレンジ週間：独創性と知識で上位10名の優秀なクリエイターにボーナス$BARD",
+        "アンバサダープログラムを拡張中 — ビットコインエコシステム全体とその先のリーダーを招致"
       ]
     },
     "kaito-turtle": {
@@ -1554,6 +1654,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "볼륨보다 원본적이고 사려 깊으며 고품질의 콘텐츠를 우선시",
         "작은 계정이라도 장기적이고 일관된 참여 유지",
         "스팸, 표절, 허위 정보 피하기"
+      ]
+    },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "Yapper 프로그램 시즌 2 진행 중 — $BARD 획득 및 공식 Lombard 앰배서더가 될 기회",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% BARD 공급량",
+      participants: "월간 상위 100명의 기여자",
+      timeLeft: "2025년 1월 1일 - 2026년 3월 31일",
+      claimPeriod: "곧 출시",
+      vestingSchedule: "50% 선불, 50%는 6개월 후",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD는 월간으로 Lombard의 상위 100명 기여자에게 마인드셰어 기반으로 수여",
+        "월간 보상: 마인드셰어 상위 100명의 Yapper가 $BARD 청구 자격",
+        "크리에이티브 챌린지 주간: 독창성과 지식에서 상위 10명의 뛰어난 크리에이터에게 보너스 $BARD",
+        "앰배서더 프로그램 확장 중 — 비트코인 생태계 전체와 그 너머의 리더들 영입"
       ]
     },
     "kaito-turtle": {
@@ -1954,6 +2074,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "避免垃圾信息、抄袭和错误信息"
       ]
     },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "Yapper计划第2季正在进行 — 有机会赚取$BARD并成为官方Lombard大使",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% BARD供应量",
+      participants: "每月前100名贡献者",
+      timeLeft: "2025年1月1日 - 2026年3月31日",
+      claimPeriod: "即将推出",
+      vestingSchedule: "50%预付款，50%在6个月后",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD每月根据思维份额奖励给Lombard的前100名贡献者",
+        "月度奖励：思维份额前100名的Yapper有资格领取$BARD",
+        "创意挑战周：为原创性和知识方面前10名杰出创作者提供奖金$BARD",
+        "他们正在扩展大使计划 — 引入来自整个比特币生态系统及更远范围的领导者"
+      ]
+    },
     "kaito-arbitrum": {
       title: "Arbitrum",
       description: "700,000 ARB将通过三次月度分发分发给Arbitrum Kaito排行榜前150名创作者（第二季）",
@@ -2344,6 +2484,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "إعطاء الأولوية للمحتوى الأصلي والمدروس والعالية الجودة على الحجم",
         "الحفاظ على المشاركة طويلة المدى والمتسقة، حتى من الحسابات الأصغر",
         "تجنب الرسائل المزعجة والانتحال والمعلومات المضللة"
+      ]
+    },
+    "kaito-lombard": {
+      title: "Lombard",
+      description: "برنامج Yapper الموسم الثاني جاري — مع فرص لكسب $BARD وأن تصبح سفيراً رسمياً لـ Lombard",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      rewardPool: "0.8% من إمداد BARD",
+      participants: "أفضل 100 مساهم شهرياً",
+      timeLeft: "01 يناير 2025 - 31 مارس 2026",
+      claimPeriod: "قريباً",
+      vestingSchedule: "50% مقدماً، 50% خلال 6 أشهر",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "يتم منح BARD شهرياً لأفضل 100 مساهم في Lombard بناءً على الحصة الذهنية",
+        "المكافآت الشهرية: أفضل 100 Yapper حسب الحصة الذهنية مؤهلون للمطالبة بـ $BARD",
+        "أسابيع التحدي الإبداعي: مكافأة $BARD لأفضل 10 مبدعين متميزين في الأصالة والمعرفة",
+        "إنهم يوسعون برنامج السفراء — يجلبون قادة من جميع أنحاء نظام Bitcoin البيئي وما بعده"
       ]
     },
     "kaito-turtle": {
@@ -2775,6 +2935,28 @@ export const projectsData: Record<string, Project[]> = {
         "Prioritize original, thoughtful, and high-quality content over volume",
         "Maintain long-term, consistent engagement, even from smaller accounts",
         "Avoid spam, plagiarism, and misinformation"
+      ]
+    },
+    {
+      id: "kaito-lombard",
+      title: "Lombard",
+      description: "The Yapper Program Season 2 is underway — with opportunities to earn $BARD, and become an Official Lombard Ambassador",
+      rewardPool: "0.8% BARD supply",
+      participants: "Top 100 Contributors each month",
+      timeLeft: "Jan 01, 2025 - Mar 31, 2026",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/lombard_finance",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1787773163209732096.jpg/w=48&q=90",
+      source: "https://x.com/Lombard_Finance/status/1970371793228910645",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "50% upfront, 50% in 6 months",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "BARD is awarded monthly to the top 100 contributors of Lombard based on mindshare",
+        "Monthly Rewards: Top 100 Yappers by mindshare will be eligible to claim $BARD",
+        "Creative Challenge Weeks: Bonus $BARD for the Top 10 standout creators in originality and knowledge",
+        "They are expanding the Ambassador Program — bringing in leaders from across and beyond the Bitcoin ecosystem"
       ]
     },
     {
