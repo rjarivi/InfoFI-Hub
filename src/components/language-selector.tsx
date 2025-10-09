@@ -43,7 +43,7 @@ export function LanguageSelector({ className }: LanguageSelectorProps) {
   return (
     <div className={className}>
       <Select value={language} onValueChange={handleLanguageChange}>
-        <SelectTrigger className="w-[100px] md:w-[140px] h-12 md:h-[60px] glass-card border-primary/30 hover:border-primary/50 transition-colors">
+        <SelectTrigger className="w-[100px] md:w-[140px] h-10 md:h-12 glass-card border-primary/30 hover:border-primary/50 transition-colors">
           <div className="flex items-center gap-2">
             <Globe className="w-3 h-3 md:w-4 md:h-4 text-primary" />
             <SelectValue>

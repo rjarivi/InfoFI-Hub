@@ -86,74 +86,38 @@ export function ResponsiveNavigation({
     );
   }
 
-  // Desktop version - hybrid approach with main items + dropdown
-  return (
-    <div className={cn("flex items-center gap-2", className)}>
-      {/* Main navigation items */}
-      <div className="flex gap-2 p-1 rounded-2xl glass-card">
-        {mainItems.map((item) => (
-          <motion.button
-            key={item.id}
-            onClick={() => onItemClick(item.id)}
-            className={cn(
-              "relative px-6 py-3 rounded-xl text-sm font-medium transition-all duration-300 whitespace-nowrap",
-              "hover:scale-105 active:scale-95",
-              activeItem === item.id
-                ? "bg-card/80 backdrop-blur-sm text-foreground border border-primary/30 shadow-lg relative before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-r before:from-primary/20 before:to-secondary/20 before:-z-10"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
-            )}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <div className="flex items-center justify-center gap-2 w-full">
-              {item.logo ? (
-                <img src={item.logo} alt={`${item.label} logo`} className="w-4 h-4 object-contain" />
-              ) : (
-                item.icon
-              )}
-              <span>{item.label}</span>
-            </div>
-          </motion.button>
-        ))}
-      </div>
-
-      {/* Overflow dropdown */}
-      {overflowItems.length > 0 && (
-        <div className="relative">
-          <Select value={activeItem} onValueChange={onItemClick}>
-            <SelectTrigger className="h-12 px-4 py-3 glass-card border-primary/30 hover:border-primary/50 transition-colors">
-              <SelectValue>
-                <div className="flex items-center gap-2">
-                  <ChevronDown className="w-4 h-4" />
-                  <span className="text-sm">More</span>
-                </div>
-              </SelectValue>
-            </SelectTrigger>
-            <SelectContent className="glass-card border-primary/30 z-[60]">
-              {overflowItems.map((item) => (
-                <SelectItem key={item.id} value={item.id}>
-                  <div className="flex items-center gap-2">
+        // Desktop version - all items in main bar
+        return (
+          <div className={cn("flex items-center", className)}>
+            {/* All navigation items in main bar */}
+            <div className="flex gap-2 p-1 rounded-2xl glass-card">
+              {mainItems.map((item) => (
+                <motion.button
+                  key={item.id}
+                  onClick={() => onItemClick(item.id)}
+                  className={cn(
+                    "relative px-6 py-3 rounded-xl text-sm font-medium transition-all duration-300 whitespace-nowrap",
+                    "hover:scale-105 active:scale-95",
+                    activeItem === item.id
+                      ? "bg-card/80 backdrop-blur-sm text-foreground border border-primary/30 shadow-lg relative before:absolute before:inset-0 before:rounded-xl before:bg-gradient-to-r before:from-primary/20 before:to-secondary/20 before:-z-10"
+                      : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
+                  )}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <div className="flex items-center justify-center gap-2 w-full">
                     {item.logo ? (
-                      <img 
-                        src={item.logo} 
-                        alt={`${item.label} logo`} 
-                        className="w-4 h-4 object-contain" 
-                      />
+                      <img src={item.logo} alt={`${item.label} logo`} className="w-4 h-4 object-contain" />
                     ) : (
-                      <div className="w-4 h-4 flex items-center justify-center">
-                        {item.icon}
-                      </div>
+                      item.icon
                     )}
                     <span>{item.label}</span>
                   </div>
-                </SelectItem>
+                </motion.button>
               ))}
-            </SelectContent>
-          </Select>
-        </div>
-      )}
-    </div>
-  );
+            </div>
+          </div>
+        );
 }
 
 // Updated interface for hybrid navigation

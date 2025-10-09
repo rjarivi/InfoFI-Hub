@@ -72,11 +72,11 @@ const menuItems = [
   { id: "parle", label: "Parle", logo: projectLogos.parle }
 ];
 
-// Main navigation items (always visible)
-const mainMenuItems = menuItems.slice(0, 7); // All Projects + 6 main platforms
+      // All navigation items visible in main bar
+      const mainMenuItems = menuItems; // All platforms in main bar
 
-// Overflow items (in dropdown)
-const overflowMenuItems = menuItems.slice(7);
+      // Overflow items (empty for now, can be used when we add more projects)
+      const overflowMenuItems: NavigationItem[] = [];
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
