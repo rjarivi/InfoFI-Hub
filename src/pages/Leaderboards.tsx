@@ -53,87 +53,83 @@ const Leaderboards = () => {
     setProjectLeaderboards([]);
 
     try {
-      // For development, we'll use realistic mock data based on the screenshots
-      // In production, you'd need a backend proxy to handle CORS
+      // Use Netlify function to fetch both APIs
+      const response = await fetch(
+        `/api/leaderboards?username=${encodeURIComponent(searchUsername)}`
+      );
       
-      // Mock Kaito data based on waleswoosh example
-      const mockKaitoData: KaitoYapsData = {
-        user_id: "123456789",
-        username: searchUsername,
-        yaps_all: searchUsername.toLowerCase() === "waleswoosh" ? 20007 : Math.random() * 20000 + 1000,
-        yaps_l24h: searchUsername.toLowerCase() === "waleswoosh" ? 93 : Math.random() * 200 + 10,
-        yaps_l48h: searchUsername.toLowerCase() === "waleswoosh" ? 233 : Math.random() * 500 + 20,
-        yaps_l7d: searchUsername.toLowerCase() === "waleswoosh" ? 555 : Math.random() * 1000 + 50,
-        yaps_l30d: searchUsername.toLowerCase() === "waleswoosh" ? 1520 : Math.random() * 3000 + 100,
-        yaps_l3m: searchUsername.toLowerCase() === "waleswoosh" ? 5144 : Math.random() * 8000 + 500,
-        yaps_l6m: Math.random() * 12000 + 1000,
-        yaps_l12m: Math.random() * 20000 + 2000
-      };
-      
-      setKaitoData(mockKaitoData);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
 
-      // Mock Wallchain data
-      const mockWallchainData: WallchainData = {
-        username: searchUsername,
-        score: searchUsername.toLowerCase() === "waleswoosh" ? 303.64 : Math.random() * 500 + 50,
-        rank: searchUsername.toLowerCase() === "waleswoosh" ? 406 : Math.floor(Math.random() * 1000) + 1
-      };
+      const result = await response.json();
       
-      setWallchainData(mockWallchainData);
+      // Set Kaito data if available
+      if (result.kaito) {
+        setKaitoData(result.kaito);
+      }
 
-      // Mock project-specific leaderboards
-      const mockProjectLeaderboards: ProjectLeaderboard[] = [
-        {
-          id: "kaito-playai",
-          name: "PlayAI",
-          platform: "Kaito",
-          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1763587749138051072.jpg/w=48&q=90",
-          link: "https://x.com/playAInetwork",
-          userRank: Math.floor(Math.random() * 500) + 1,
-          userScore: Math.random() * 1000 + 100,
-          totalParticipants: 500,
-          description: "AI Platform - Top 500 Creators"
-        },
-        {
-          id: "kaito-lombard",
-          name: "Lombard",
-          platform: "Kaito",
-          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1787773163209732096.jpg/w=48&q=90",
-          link: "https://x.com/lombard_finance",
-          userRank: Math.floor(Math.random() * 100) + 1,
-          userScore: Math.random() * 500 + 50,
-          totalParticipants: 100,
-          description: "Yap - Top 100 Contributors monthly"
-        },
-        {
-          id: "kaito-beldex",
-          name: "Beldex",
-          platform: "Kaito",
-          logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F976042792706166784.jpg/w=48&q=90",
-          link: "https://x.com/BeldexCoin",
-          userRank: Math.floor(Math.random() * 100) + 1,
-          userScore: Math.random() * 300 + 30,
-          totalParticipants: 100,
-          description: "Yap - Top 100 Creators"
-        },
-        {
-          id: "wallchain-general",
-          name: "Wallchain General",
-          platform: "Wallchain",
-          logo: "https://app.wallchain.xyz/favicon.ico",
-          link: "https://app.wallchain.xyz",
-          userRank: Math.floor(Math.random() * 1000) + 1,
-          userScore: Math.random() * 1000 + 100,
-          totalParticipants: 10000,
-          description: "General Wallchain Leaderboard"
-        }
-      ];
-      
-      setProjectLeaderboards(mockProjectLeaderboards);
+      // Set Wallchain data if available
+      if (result.wallchain) {
+        setWallchainData(result.wallchain);
+      }
 
-      // Note: In production, you would need a backend proxy to handle CORS
-      // Example backend endpoint: /api/kaito-yaps?username=${username}
-      // The backend would then call the Kaito API and return the data
+      // Generate project-specific leaderboards based on the data
+      if (result.kaito || result.wallchain) {
+        const mockProjectLeaderboards: ProjectLeaderboard[] = [
+          {
+            id: "kaito-playai",
+            name: "PlayAI",
+            platform: "Kaito",
+            logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1763587749138051072.jpg/w=48&q=90",
+            link: "https://x.com/playAInetwork",
+            userRank: Math.floor(Math.random() * 500) + 1,
+            userScore: Math.random() * 1000 + 100,
+            totalParticipants: 500,
+            description: "AI Platform - Top 500 Creators"
+          },
+          {
+            id: "kaito-lombard",
+            name: "Lombard",
+            platform: "Kaito",
+            logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1787773163209732096.jpg/w=48&q=90",
+            link: "https://x.com/lombard_finance",
+            userRank: Math.floor(Math.random() * 100) + 1,
+            userScore: Math.random() * 500 + 50,
+            totalParticipants: 100,
+            description: "Yap - Top 100 Contributors monthly"
+          },
+          {
+            id: "kaito-beldex",
+            name: "Beldex",
+            platform: "Kaito",
+            logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F976042792706166784.jpg/w=48&q=90",
+            link: "https://x.com/BeldexCoin",
+            userRank: Math.floor(Math.random() * 100) + 1,
+            userScore: Math.random() * 300 + 30,
+            totalParticipants: 100,
+            description: "Yap - Top 100 Creators"
+          },
+          {
+            id: "wallchain-general",
+            name: "Wallchain General",
+            platform: "Wallchain",
+            logo: "https://app.wallchain.xyz/favicon.ico",
+            link: "https://app.wallchain.xyz",
+            userRank: result.wallchain?.rank || Math.floor(Math.random() * 1000) + 1,
+            userScore: result.wallchain?.score || Math.random() * 1000 + 100,
+            totalParticipants: 10000,
+            description: "General Wallchain Leaderboard"
+          }
+        ];
+        
+        setProjectLeaderboards(mockProjectLeaderboards);
+      }
+
+      // Show errors if any
+      if (result.errors && result.errors.length > 0) {
+        console.warn('API errors:', result.errors);
+      }
 
     } catch (err) {
       setError("Failed to fetch leaderboard data. Please try again.");
@@ -420,10 +416,11 @@ const Leaderboards = () => {
                   Visit Wallchain <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
-              <div className="mt-4 p-3 bg-blue-500/10 border border-blue-500/20 rounded-lg">
-                <h4 className="font-medium text-blue-400 mb-2">Development Note</h4>
-                <p className="text-sm text-blue-300">
-                  Currently showing mock data for demonstration. In production, a backend proxy is needed to handle CORS restrictions when calling external APIs directly from the browser.
+              <div className="mt-4 p-3 bg-green-500/10 border border-green-500/20 rounded-lg">
+                <h4 className="font-medium text-green-400 mb-2">✅ Real API Integration</h4>
+                <p className="text-sm text-green-300">
+                  Now using Netlify Functions to call real Kaito Yaps API! Wallchain API integration ready when available.
+                  Project leaderboards show mock data for demonstration.
                 </p>
               </div>
             </div>
