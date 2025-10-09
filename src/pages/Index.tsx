@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ResponsiveNavigation } from "@/components/responsive-navigation";
+import { HamburgerMenu } from "@/components/hamburger-menu";
 import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
 import { TextPressure } from "@/components/text-pressure";
@@ -175,6 +176,11 @@ const Index = () => {
             {/* Language Selector */}
             <div className="flex-shrink-0">
               <LanguageSelector />
+            </div>
+            
+            {/* Hamburger Menu */}
+            <div className="flex-shrink-0">
+              <HamburgerMenu />
             </div>
           </div>
         </div>
