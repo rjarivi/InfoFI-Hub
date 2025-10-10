@@ -20,17 +20,16 @@ export function HamburgerMenu({ className }: HamburgerMenuProps) {
         navigate("/");
         setIsOpen(false);
       }
+    },
+    {
+      id: "leaderboards",
+      label: "Leaderboards",
+      icon: <BarChart3 className="w-4 h-4" />,
+      action: () => {
+        navigate("/leaderboards");
+        setIsOpen(false);
+      }
     }
-    // Leaderboards temporarily hidden during development
-    // {
-    //   id: "leaderboards",
-    //   label: "Leaderboards",
-    //   icon: <BarChart3 className="w-4 h-4" />,
-    //   action: () => {
-    //     navigate("/leaderboards");
-    //     setIsOpen(false);
-    //   }
-    // }
   ];
 
   return (

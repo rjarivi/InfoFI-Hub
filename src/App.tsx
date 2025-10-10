@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/hooks/use-language";
 import Index from "./pages/Index";
-import Leaderboards from "./pages/Leaderboards";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,9 +19,6 @@ const App = () => (
           <Routes>
             {/* Main route - no language paths */}
             <Route path="/" element={<Index />} />
-            
-            {/* Leaderboards route */}
-            <Route path="/leaderboards" element={<Leaderboards />} />
             
             {/* Catch-all for invalid routes */}
             <Route path="*" element={<NotFound />} />
