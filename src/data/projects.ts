@@ -3645,6 +3645,264 @@ export const projectsData: Record<string, Project[]> = {
         tradingFees: "0.5% (lowest on market)",
         supportedChains: "Solana, BNB, Base, Abstract, HyperEVM"
       }
+    },
+    // cSnaps Campaigns
+    {
+      id: "cookie-vooi",
+      title: "Vooi",
+      description: "Commit your capital to Vooi, the #1 perp DEX aggregator, bid up your trading volume and earn rewards.",
+      rewardPool: "1.92% of Total Token Supply",
+      participants: "Top 300 cSnappers, Top 500 Snappers, Top 100 Korean Snappers, Stakers",
+      timeLeft: "Pre-TGE",
+      category: "cSnaps Campaign",
+      platform: "Vooi",
+      link: "https://www.cookie.fun/tokens/vooi?tab=analytics",
+      logo: "https://www.cookie.fun/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1938271243876155393%2FfXAC9P_h_400x400.jpg&w=64&q=75",
+      source: "https://x.com/vooi_io",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Commit capital to Vooi project",
+        "Top 300 cSnappers: 0.8% of TTS",
+        "Top 500 Snappers: 0.65% of TTS", 
+        "Top 100 Korean Snappers: 0.15% of TTS",
+        "Stakers: 0.32% of TTS",
+        "Part of Attention Capital Markets",
+        "Creators with capital commitment eligible for multipliers"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "cSnaps"
+      }
+    },
+    {
+      id: "cookie-almanak",
+      title: "Almanak",
+      description: "Commit your capital to Almanak and earn exclusive rewards in the first Attention Capital Markets campaign launched in partnership with Legion.",
+      rewardPool: "0.55% of total supply",
+      participants: "Top 500 cSnappers, Top 250 Snappers, $COOKIE stakers",
+      timeLeft: "Pre-TGE",
+      category: "cSnaps Campaign",
+      platform: "Almanak",
+      link: "https://www.cookie.fun/tokens/almanak",
+      logo: "https://www.cookie.fun/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1933390399005208578%2FtBlaw9Jj_400x400.png&w=64&q=75",
+      source: "https://x.com/Almanak__",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "100% at TGE",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Commit capital to Almanak project",
+        "Top 500 cSnappers: 80% of 0.55%",
+        "Top 250 Snappers: 15% of 0.55%",
+        "$COOKIE stakers: 5% of 0.55%",
+        "Distribution: 100% at TGE",
+        "Part of Attention Capital Markets",
+        "Creators with capital commitment eligible for multipliers"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "cSnaps"
+      }
+    },
+    {
+      id: "cookie-tria",
+      title: "Tria",
+      description: "Commit your capital to Tria, bid up your trading volume and earn exclusive rewards. Trade, earn, and spend in the real world.",
+      rewardPool: "$650K in $TRIA",
+      participants: "Top 250 cSnappers, Top 500 Snappers, $COOKIE Stakers",
+      timeLeft: "Pre-TGE",
+      category: "cSnaps Campaign",
+      platform: "Tria",
+      link: "https://www.cookie.fun/tokens/tria",
+      logo: "https://www.cookie.fun/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1947271337057079296%2F_smOX_4e_400x400.jpg&w=64&q=75",
+      source: "https://x.com/useTria",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Commit capital to Tria project",
+        "Top 250 cSnappers: 70% of 520K",
+        "Top 500 Snappers: 30% of 520K",
+        "$COOKIE Stakers: 130K",
+        "Part of Attention Capital Markets",
+        "Creators with capital commitment eligible for multipliers"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "cSnaps"
+      }
+    },
+    // SNAPS Campaigns
+    {
+      id: "cookie-layerbank",
+      title: "LayerBank",
+      description: "Post about LayerBank on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
+      rewardPool: "$280,000 in $ULAB",
+      participants: "Snappers, Stakers",
+      timeLeft: "Pre-TGE",
+      category: "SNAPS Campaign",
+      platform: "LayerBank",
+      link: "https://www.cookie.fun/tokens/layerbank",
+      logo: "https://pbs.twimg.com/profile_images/1874059175967547396/p25s8fYo_400x400.jpg",
+      source: "https://x.com/LayerBankFi",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about LayerBank on X to earn SNAPS",
+        "Snappers: $280K",
+        "Stakers: $70K",
+        "Distribution: TGE",
+        "More SNAPS = bigger share of reward pool"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS"
+      }
+    },
+    {
+      id: "cookie-rayls",
+      title: "Rayls",
+      description: "Post about the Rayls on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
+      rewardPool: "$400,000 in $RLS",
+      participants: "Snappers",
+      timeLeft: "Pre-TGE",
+      category: "SNAPS Campaign",
+      platform: "Rayls",
+      link: "https://www.cookie.fun/tokens/rayls",
+      logo: "https://pbs.twimg.com/profile_images/1787938574702116864/W_-vmST3_400x400.png",
+      source: "https://x.com/RaylsLabs",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "7 Days after TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about Rayls on X to earn SNAPS",
+        "Snappers: $400K",
+        "Distribution: 7 Days after TGE",
+        "More SNAPS = bigger share of reward pool"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS"
+      }
+    },
+    {
+      id: "cookie-velora",
+      title: "Velora",
+      description: "Post about Velora on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
+      rewardPool: "TBD",
+      participants: "Snappers",
+      timeLeft: "Pre-TGE",
+      category: "SNAPS Campaign",
+      platform: "Velora",
+      link: "https://www.cookie.fun/tokens/velora",
+      logo: "https://pbs.twimg.com/profile_images/1907811140056358913/gE8rJ5CT_400x400.jpg",
+      source: "https://x.com/VeloraDEX",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TBD",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about Velora on X to earn SNAPS",
+        "More SNAPS = bigger share of reward pool"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS"
+      }
+    },
+    {
+      id: "cookie-antix",
+      title: "Antix",
+      description: "Post about the Antix on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
+      rewardPool: "0.038% in $ANTIX",
+      participants: "Snappers, Stakers",
+      timeLeft: "Pre-TGE",
+      category: "SNAPS Campaign",
+      platform: "Antix",
+      link: "https://www.cookie.fun/tokens/antix",
+      logo: "https://pbs.twimg.com/profile_images/1944008841135280128/dnHkwyiA_400x400.jpg",
+      source: "https://x.com/antix_in",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about Antix on X to earn SNAPS",
+        "Snappers: 0.212% in $ANTIX",
+        "Stakers: 0.038% in $ANTIX",
+        "Distribution: TGE",
+        "More SNAPS = bigger share of reward pool"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS"
+      }
+    },
+    {
+      id: "cookie-bob",
+      title: "BOB (Build on Bitcoin)",
+      description: "Post about the BOB (Build on Bitcoin) on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
+      rewardPool: "$350K in $BOB",
+      participants: "Snappers, Stakers",
+      timeLeft: "Pre-TGE",
+      category: "SNAPS Campaign",
+      platform: "BOB",
+      link: "https://www.cookie.fun/tokens/bob",
+      logo: "https://pbs.twimg.com/profile_images/1959908677692870656/307MR6F4_400x400.jpg",
+      source: "https://x.com/build_on_bob",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about BOB (Build on Bitcoin) on X to earn SNAPS",
+        "Snappers: $300K in $BOB",
+        "Stakers: $50K in $BOB",
+        "Distribution: TGE",
+        "More SNAPS = bigger share of reward pool"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS"
+      }
+    },
+    {
+      id: "cookie-ten",
+      title: "TEN",
+      description: "Post about the TEN on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
+      rewardPool: "$360K in $TEN",
+      participants: "Phase 1 Snappers, Phase 2 Snappers, Top Korean/Japanese/Chinese Snappers",
+      timeLeft: "Pre-TGE",
+      category: "SNAPS Campaign",
+      platform: "TEN",
+      link: "https://www.cookie.fun/tokens/ten",
+      logo: "https://pbs.twimg.com/profile_images/1948670923596234752/CjzIhnby_400x400.jpg",
+      source: "https://x.com/tenprotocol",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about TEN on X to earn SNAPS",
+        "Phase 1 Snappers: $360K",
+        "Phase 2 Snappers: $200K",
+        "Top 50 Korean Snappers: $50K",
+        "Top 25 Japanese Snappers: $25K",
+        "Top 25 Chinese Snappers: $25K",
+        "Distribution: TGE",
+        "More SNAPS = bigger share of reward pool"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS"
+      }
     }
   ],
   rey: [
