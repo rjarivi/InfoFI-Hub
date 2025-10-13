@@ -3,6 +3,7 @@ import { ResponsiveNavigation } from "@/components/responsive-navigation";
 import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
 import { TextPressure } from "@/components/text-pressure";
+import { AdCarousel } from "@/components/ad-carousel";
 import { projectsData, translateProject } from "@/data/projects";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -76,22 +77,11 @@ const menuItems = [
       const mainMenuItems = menuItems; // All platforms in main bar
 
       // Overflow items (empty for now, can be used when we add more projects)
-      const overflowMenuItems: NavigationItem[] = [];
+      const overflowMenuItems: any[] = [];
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
-  const [copied, setCopied] = useState(false);
   const { t, language } = useLanguage();
-  
-  const copyInviteCode = async () => {
-    try {
-      await navigator.clipboard.writeText("GPC22222");
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error('Failed to copy: ', err);
-    }
-  };
   
   const getAllProjects = () => {
     const allProjects = Object.values(projectsData).flat().map(project => translateProject(project, language));
@@ -355,58 +345,14 @@ const Index = () => {
               </div>
             </motion.div>
 
-            {/* Addicted Ad Promotion */}
+            {/* Ad Carousel */}
             <motion.div 
               className="w-full lg:w-auto"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-500/20 rounded-xl p-6 max-w-sm mx-auto lg:mx-0">
-                <div className="flex items-center gap-3 mb-4">
-                  <img 
-                    src="/assets/Addicted.png" 
-                    alt="Addicted Logo" 
-                    className="w-12 h-12 rounded-lg"
-                  />
-                  <div>
-                    <h3 className="text-xl font-bold text-green-400">Addicted</h3>
-                    <p className="text-sm text-muted-foreground">Farm & Earn $WEED</p>
-                  </div>
-                </div>
-                
-                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                  Earn $WEED by running your farm, use it for packs, upgrades & more — and every purchase burns $WEED, keeping the economy self-sustaining
-                </p>
-                
-                {/* Invite Code */}
-                <div className="mb-4">
-                  <div className="text-xs text-muted-foreground mb-2">Invite Code:</div>
-                  <div className="flex items-center gap-2 bg-background/50 rounded-lg p-2">
-                    <code className="text-sm font-mono text-green-400 flex-1">GPC22222</code>
-                    <Button
-                      size="sm"
-                      variant="ghost"
-                      onClick={copyInviteCode}
-                      className="h-8 w-8 p-0"
-                    >
-                      {copied ? (
-                        <Check className="h-4 w-4 text-green-500" />
-                      ) : (
-                        <Copy className="h-4 w-4" />
-                      )}
-                    </Button>
-                  </div>
-                </div>
-                
-                <Button 
-                  className="w-full bg-green-500 hover:bg-green-600 text-white"
-                  onClick={() => window.open('https://www.addicted.fun', '_blank')}
-                >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Visit Addicted
-                </Button>
-              </div>
+              <AdCarousel />
             </motion.div>
           </div>
           
