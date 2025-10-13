@@ -87,6 +87,9 @@ export function ProjectCard({
     return value;
   };
 
+  // Check if project is ended
+  const isEnded = timeLeft === "ENDED";
+
   return (
     <>
       <Drawer open={isOpen} onOpenChange={setIsOpen}>
@@ -167,7 +170,9 @@ export function ProjectCard({
                      </div>
                      <div className="text-center p-2 rounded-lg bg-muted/30">
                        <div className="text-xs text-muted-foreground mb-1">{t("status")}</div>
-                       <div className="text-xs font-medium text-green-500 leading-tight">{t("active")}</div>
+                       <div className={`text-xs font-medium leading-tight ${isEnded ? 'text-red-500' : 'text-green-500'}`}>
+                         {isEnded ? t("ended") : t("active")}
+                       </div>
                      </div>
                    </div>
                  </div>
@@ -213,13 +218,22 @@ export function ProjectCard({
                    <Button 
                      variant="default" 
                      size="sm"
-                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium shadow-lg hover:shadow-xl transition-all duration-200"
-                     asChild
+                     className={`w-full font-medium shadow-lg transition-all duration-200 ${
+                       isEnded 
+                         ? 'bg-gray-400 text-gray-600 cursor-not-allowed opacity-60' 
+                         : 'bg-primary hover:bg-primary/90 text-primary-foreground hover:shadow-xl'
+                     }`}
+                     asChild={!isEnded}
+                     disabled={isEnded}
                      onClick={(e) => e.stopPropagation()}
                    >
-                     <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                       {t("joinProject")}
-                     </a>
+                     {isEnded ? (
+                       <span>ENDED</span>
+                     ) : (
+                       <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                         {t("joinProject")}
+                       </a>
+                     )}
                    </Button>
                  </div>
                </div>
@@ -292,7 +306,9 @@ export function ProjectCard({
               </div>
               <div className="p-4 rounded-lg bg-muted/30">
                 <div className="text-sm text-muted-foreground mb-1">{t("status")}</div>
-                <div className="font-medium text-green-500">{t("active")}</div>
+                <div className={`font-medium ${isEnded ? 'text-red-500' : 'text-green-500'}`}>
+                  {isEnded ? t("ended") : t("active")}
+                </div>
               </div>
               <div className="p-4 rounded-lg bg-muted/30">
                 <div className="text-sm text-muted-foreground mb-1">{t("platform")}</div>
@@ -471,12 +487,21 @@ export function ProjectCard({
               Close
             </Button>
             <Button 
-              className="flex-1"
-              asChild
+              className={`flex-1 ${
+                isEnded 
+                  ? 'bg-gray-400 text-gray-600 cursor-not-allowed opacity-60' 
+                  : ''
+              }`}
+              asChild={!isEnded}
+              disabled={isEnded}
             >
-              <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                Visit Project
-              </a>
+              {isEnded ? (
+                <span>ENDED</span>
+              ) : (
+                <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                  Visit Project
+                </a>
+              )}
             </Button>
           </DrawerFooter>
         </DrawerContent>

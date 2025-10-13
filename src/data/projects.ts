@@ -3612,7 +3612,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
       rewardPool: "1.5M LAB ($52,500)",
       participants: "500,000 $COOKIE Pool",
-      timeLeft: "Starting: 08 Oct 2025",
+      timeLeft: "ENDED",
       category: "Trading Infrastructure",
       platform: "LAB",
       link: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
