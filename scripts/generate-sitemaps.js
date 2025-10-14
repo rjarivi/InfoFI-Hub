@@ -9,7 +9,7 @@ import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
 
 const languages = ['en', 'es', 'fr', 'de', 'ja', 'ko', 'zh', 'ar'];
-const baseUrl = process.env.VITE_BASE_URL || 'https://infofi-hub.com';
+const baseUrl = process.env.VITE_BASE_URL || 'https://jeet.ing';
 const distDir = process.env.VITE_DIST_DIR || 'dist';
 
 console.log('🗺️  Generating sitemaps for multilingual SEO...');
@@ -18,7 +18,7 @@ console.log(`📁 Dist directory: ${distDir}`);
 
 // Simple sitemap generator class
 class SitemapGenerator {
-  constructor(baseUrl = 'https://infofi-hub.com') {
+  constructor(baseUrl = 'https://jeet.ing') {
     this.baseUrl = baseUrl;
     this.languages = languages;
   }
