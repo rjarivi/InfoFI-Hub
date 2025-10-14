@@ -269,6 +269,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Airaa HQ is the central hub for Airaa ecosystem projects and community initiatives.",
       category: "Ecosystem Hub"
     },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "A self-custodial neobank that unifies trading, spending, and earning in a single app - with no bridges, no gas, and no intermediaries. Pay, trade, and earn yield across any network and currency! Tria has raised $12M and partnered with 70+ top protocols, including Arbitrum, Polygon, Injective, Sentient, Aethir, and Katana.",
+      category: "Neobank"
+    },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
       description: "Cryptorubic is an advanced cryptocurrency trading platform with AI-powered market analysis.",
@@ -594,6 +599,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ es el centro central para proyectos del ecosistema Airaa e iniciativas comunitarias.",
       category: "Centro del Ecosistema"
+    },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "Un neobanco auto-custodial que unifica el trading, gasto y ganancias en una sola aplicación - sin puentes, sin gas y sin intermediarios. ¡Paga, comercia y gana rendimiento en cualquier red y moneda! Tria ha recaudado $12M y se ha asociado con más de 70 protocolos principales, incluyendo Arbitrum, Polygon, Injective, Sentient, Aethir y Katana.",
+      category: "Neobanco"
     },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
@@ -921,6 +931,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Airaa HQ est le centre central pour les projets de l'écosystème Airaa et les initiatives communautaires.",
       category: "Centre de l'Écosystème"
     },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "Une néobanque auto-custodiale qui unifie le trading, les dépenses et les gains dans une seule application - sans ponts, sans gas et sans intermédiaires. Payez, tradez et gagnez des rendements sur n'importe quel réseau et devise ! Tria a levé 12M$ et s'est associé à plus de 70 protocoles de premier plan, notamment Arbitrum, Polygon, Injective, Sentient, Aethir et Katana.",
+      category: "Néobanque"
+    },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
       description: "Cryptorubic est une plateforme de trading de cryptomonnaies avancée avec analyse de marché alimentée par l'IA.",
@@ -1230,6 +1245,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ ist das zentrale Zentrum für Airaa-Ökosystem-Projekte und Community-Initiativen.",
       category: "Ökosystem-Zentrum"
+    },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "Eine selbstverwaltete Neobank, die Trading, Ausgaben und Einnahmen in einer einzigen App vereint - ohne Brücken, ohne Gas und ohne Zwischenhändler. Zahlen, handeln und Rendite verdienen über jedes Netzwerk und jede Währung! Tria hat 12M$ eingesammelt und sich mit über 70 Top-Protokollen zusammengetan, darunter Arbitrum, Polygon, Injective, Sentient, Aethir und Katana.",
+      category: "Neobank"
     },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
@@ -1645,6 +1665,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQは、Airaaエコシステムプロジェクトとコミュニティイニシアチブの中央ハブです。",
       category: "エコシステムハブ"
+    },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "トレーディング、支出、収益を単一のアプリに統合する自己保管ネオバンク - ブリッジなし、ガスなし、仲介者なし。あらゆるネットワークと通貨で支払い、取引、収益を得ることができます！Triaは1200万ドルを調達し、Arbitrum、Polygon、Injective、Sentient、Aethir、Katanaを含む70以上のトッププロトコルと提携しています。",
+      category: "ネオバンク"
     },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
@@ -2080,6 +2105,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ는 Airaa 생태계 프로젝트와 커뮤니티 이니셔티브의 중앙 허브입니다.",
       category: "생태계 허브"
+    },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "거래, 지출, 수익을 단일 앱으로 통합하는 자체 보관 네오뱅크 - 브리지 없음, 가스 없음, 중개자 없음. 모든 네트워크와 통화에서 결제, 거래, 수익을 얻으세요! Tria는 1200만 달러를 모금했으며 Arbitrum, Polygon, Injective, Sentient, Aethir, Katana를 포함한 70개 이상의 최고 프로토콜과 파트너십을 맺었습니다.",
+      category: "네오뱅크"
     },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
@@ -2529,6 +2559,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Airaa HQ是Airaa生态系统项目和社区倡议的中心枢纽。",
       category: "生态系统枢纽"
     },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "一个自托管的新银行，将交易、支出和收益统一在一个应用程序中 - 无桥接、无gas费、无中介。在任何网络和货币上支付、交易和赚取收益！Tria已筹集1200万美元并与70多个顶级协议合作，包括Arbitrum、Polygon、Injective、Sentient、Aethir和Katana。",
+      category: "新银行"
+    },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
       description: "Cryptorubic是一个具有AI驱动市场分析的高级加密货币交易平台。",
@@ -2953,6 +2988,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ هو المركز المركزي لمشاريع نظام Airaa البيئي ومبادرات المجتمع.",
       category: "مركز النظام البيئي"
+    },
+    "mindoai-tria": {
+      title: "Tria",
+      description: "بنك نيو ذاتي الحفظ يوحد التداول والإنفاق والكسب في تطبيق واحد - بدون جسور، بدون غاز، بدون وسطاء. ادفع وتداول واكسب العائد عبر أي شبكة وعملة! جمعت Tria 12 مليون دولار وشراكت مع أكثر من 70 بروتوكولًا رائدًا، بما في ذلك Arbitrum وPolygon وInjective وSentient وAethir وKatana.",
+      category: "نيوبانك"
     },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
@@ -4091,6 +4131,33 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   mindoai: [
+    {
+      id: "mindoai-tria",
+      title: "Tria",
+      description: "A self-custodial neobank that unifies trading, spending, and earning in a single app - with no bridges, no gas, and no intermediaries. Pay, trade, and earn yield across any network and currency! Tria has raised $12M and partnered with 70+ top protocols, including Arbitrum, Polygon, Injective, Sentient, Aethir, and Katana.",
+      rewardPool: "$120K $TRIA ($40K/Month)",
+      participants: "Top 100 Minders",
+      timeLeft: "92D",
+      category: "Neobank",
+      platform: "MindoAi",
+      link: "https://mindoshare.ai/projects/useTria",
+      logo: "https://pbs.twimg.com/profile_images/1947271337057079296/_smOX_4e_200x200.jpg",
+      source: "https://x.com/MindoAI/status/1978086845243170915",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "Sign up at app.tria.so and create your @tria account",
+        "Complete KYC and receive your Visa-powered card",
+        "Connect any wallet - no bridging or gas required",
+        "Start spending via Apple Pay or Google Pay, and trade using BestPath on the web app",
+        "Create content about self-custodial neobanking and how Tria compares to Plasma",
+        "Cover how Tria unifies consumer and institutional finance into a single model",
+        "Discuss economic loops between card usage, yield generation, and token value capture",
+        "Explore the macro narrative: programmable finance for both humans and AI agents"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
     {
       id: "mindoai-cryptorubic",
       title: "Rubic",
