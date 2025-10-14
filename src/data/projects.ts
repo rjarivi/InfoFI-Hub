@@ -3013,6 +3013,33 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
+      id: "kaito-theo",
+      title: "Theo",
+      description: "50,000 $THBILL distributed equally monthly to 100 creators. Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators.",
+      rewardPool: "50K $THBILL / month",
+      participants: "Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators",
+      timeLeft: "Oct 14, 2025 - Dec 14, 2025",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/Theo_Network",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1789368212947136512.jpg/w=48&q=90",
+      source: "https://x.com/Theo_Network",
+      referralLink: "https://app.theo.xyz/invite?invite=JEETING",
+      referralCode: "JEETING",
+      claimPeriod: "Nov 15, 2025 - Dec 15, 2025",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 50 Theo Creators",
+        "Top 25 Korean Theo Creators", 
+        "Top 25 Chinese Theo Creators",
+        "A total of 50,000 thBILL is distributed evenly among them."
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
+    {
       id: "kaito-arbitrum",
       title: "Arbitrum Season 2",
       description: "700,000 ARB will be distributed to the top 150 creators on the Arbitrum Kaito Leaderboard across three monthly distributions",
@@ -3371,30 +3398,6 @@ export const projectsData: Record<string, Project[]> = {
         "Split across Talus Creators (50%)",
         "KR+CN+JP specific Creators (30%)",
         "Kaito Eco (20%)"
-      ]
-    },
-    {
-      id: "kaito-theo",
-      title: "Theo",
-      description: "50,000 $THBILL distributed equally monthly to 100 creators. Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators.",
-      rewardPool: "50K $THBILL / month",
-      participants: "Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators",
-      timeLeft: "Oct 14, 2025 - Dec 14, 2025",
-      category: "Yap",
-      platform: "Kaito",
-      link: "https://x.com/Theo_Network",
-      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1789368212947136512.jpg/w=48&q=90",
-      source: "https://x.com/Theo_Network",
-      referralLink: "https://app.theo.xyz/invite?invite=JEETING",
-      referralCode: "JEETING",
-      claimPeriod: "Nov 15, 2025 - Dec 15, 2025",
-      vestingSchedule: "No vesting",
-      distributionPlatform: "Kaito",
-      campaignRules: [
-        "Top 50 Theo Creators",
-        "Top 25 Korean Theo Creators", 
-        "Top 25 Chinese Theo Creators",
-        "A total of 50,000 thBILL is distributed evenly among them."
       ]
     }
   ],
