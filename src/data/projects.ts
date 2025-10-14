@@ -3372,6 +3372,28 @@ export const projectsData: Record<string, Project[]> = {
         "KR+CN+JP specific Creators (30%)",
         "Kaito Eco (20%)"
       ]
+    },
+    {
+      id: "kaito-theo",
+      title: "Theo",
+      description: "50,000 $THBILL distributed equally monthly to 100 creators. Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators.",
+      rewardPool: "50K $THBILL / month",
+      participants: "Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators",
+      timeLeft: "Oct 14, 2025 - Dec 14, 2025",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/Theo_Network",
+      logo: "/assets/Info Fi Logo/Theo.jpg",
+      source: "https://x.com/Theo_Network",
+      claimPeriod: "Nov 15, 2025 - Dec 15, 2025",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 50 Theo Creators",
+        "Top 25 Korean Theo Creators", 
+        "Top 25 Chinese Theo Creators",
+        "A total of 50,000 thBILL is distributed evenly among them."
+      ]
     }
   ],
   bantr: [
