@@ -20,6 +20,7 @@ export interface Project {
   claimPeriod?: string;
   vestingSchedule?: string;
   distributionPlatform?: string;
+  status?: 'active' | 'ended';
   additionalData?: {
     bakers?: string;
     airdropRecipients?: string;
@@ -4064,9 +4065,9 @@ export const projectsData: Record<string, Project[]> = {
       id: "aira-xo-market",
       title: "XO Market",
       description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies.",
-      rewardPool: "To Be Confirmed",
+      rewardPool: "$50,000",
       participants: "To Be Confirmed",
-      timeLeft: "TBD",
+      timeLeft: "ENDED",
       category: "Trading",
       platform: "XO Market",
       link: "https://airaa.xyz/project/xo-market",
@@ -4074,7 +4075,8 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://airaa.xyz/project/xo-market",
       referralLink: "https://airaa.xyz?ref=infofi",
       zealyLink: "https://zealy.io/cw/xomarket/invite/-qo_kHzDUN8pc-d1Azabi?questId=3d22d445-51b4-4b3f-9432-920b6f714382",
-      referralCode: "XO-WAITNOMORE"
+      referralCode: "XO-WAITNOMORE",
+      status: "ended"
     },
     {
       id: "aira-hq",

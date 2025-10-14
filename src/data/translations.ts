@@ -24,6 +24,7 @@ export const translations = {
     distributionPlatform: "Distribution Platform",
     campaignRules: "Campaign Rules",
     joinProject: "Join Project",
+    viewProject: "View Project",
     enterReferralCode: "Enter a referral code:",
     copyCode: "Copy code",
     codeCopied: "Code copied!",
@@ -31,6 +32,8 @@ export const translations = {
     rewardPool: "Reward Pool",
     status: "Status",
     duration: "Duration",
+    hideExpiredProjects: "Hide Expired Projects",
+    endedProjectSupport: "The project is ended but you can still support us by using the referral",
     
     // Project Data
     toBeConfirmed: "To Be Confirmed",
@@ -95,6 +98,7 @@ export const translations = {
     distributionPlatform: "Plataforma de Distribución",
     campaignRules: "Reglas de Campaña",
     joinProject: "Unirse al Proyecto",
+    viewProject: "Ver Proyecto",
     enterReferralCode: "Ingresa un código de referido:",
     copyCode: "Copiar código",
     codeCopied: "¡Código copiado!",
@@ -102,6 +106,8 @@ export const translations = {
     rewardPool: "Fondo de Recompensas",
     status: "Estado",
     duration: "Duración",
+    hideExpiredProjects: "Ocultar Proyectos Expirados",
+    endedProjectSupport: "El proyecto ha terminado pero aún puedes apoyarnos usando la referencia",
     
     // Project Data
     toBeConfirmed: "Por Confirmar",
@@ -166,6 +172,7 @@ export const translations = {
     distributionPlatform: "Plateforme de Distribution",
     campaignRules: "Règles de Campagne",
     joinProject: "Rejoindre le Projet",
+    viewProject: "Voir le Projet",
     enterReferralCode: "Entrez un code de parrainage :",
     copyCode: "Copier le code",
     codeCopied: "Code copié !",
@@ -173,6 +180,8 @@ export const translations = {
     rewardPool: "Fonds de Récompenses",
     status: "Statut",
     duration: "Durée",
+    hideExpiredProjects: "Masquer les Projets Expirés",
+    endedProjectSupport: "Le projet est terminé mais vous pouvez toujours nous soutenir en utilisant le parrainage",
     
     // Project Data
     toBeConfirmed: "À Confirmer",
@@ -224,6 +233,7 @@ export const translations = {
     distributionPlatform: "Verteilungsplattform",
     campaignRules: "Kampagnenregeln",
     joinProject: "Projekt Beitreten",
+    viewProject: "Projekt Anzeigen",
     enterReferralCode: "Empfehlungscode eingeben:",
     copyCode: "Code kopieren",
     codeCopied: "Code kopiert!",
@@ -231,6 +241,8 @@ export const translations = {
     rewardPool: "Belohnungspool",
     status: "Status",
     duration: "Dauer",
+    hideExpiredProjects: "Abgelaufene Projekte Ausblenden",
+    endedProjectSupport: "Das Projekt ist beendet, aber Sie können uns weiterhin durch die Verwendung der Empfehlung unterstützen",
     
     // Project Data
     toBeConfirmed: "Zu Bestätigen",
@@ -282,6 +294,7 @@ export const translations = {
     distributionPlatform: "配布プラットフォーム",
     campaignRules: "キャンペーンルール",
     joinProject: "プロジェクトに参加",
+    viewProject: "プロジェクトを表示",
     enterReferralCode: "紹介コードを入力:",
     copyCode: "コードをコピー",
     codeCopied: "コードをコピーしました！",
@@ -289,6 +302,8 @@ export const translations = {
     rewardPool: "報酬プール",
     status: "ステータス",
     duration: "期間",
+    hideExpiredProjects: "期限切れプロジェクトを非表示",
+    endedProjectSupport: "プロジェクトは終了しましたが、紹介リンクを使用して引き続きサポートできます",
     
     // Project Data
     toBeConfirmed: "未確定",
@@ -340,6 +355,7 @@ export const translations = {
     distributionPlatform: "배포 플랫폼",
     campaignRules: "캠페인 규칙",
     joinProject: "프로젝트 참여",
+    viewProject: "프로젝트 보기",
     enterReferralCode: "추천 코드 입력:",
     copyCode: "코드 복사",
     codeCopied: "코드가 복사되었습니다!",
@@ -347,6 +363,8 @@ export const translations = {
     rewardPool: "보상 풀",
     status: "상태",
     duration: "기간",
+    hideExpiredProjects: "만료된 프로젝트 숨기기",
+    endedProjectSupport: "프로젝트가 종료되었지만 추천 링크를 사용하여 여전히 지원할 수 있습니다",
     
     // Project Data
     toBeConfirmed: "확정 대기",
@@ -398,6 +416,7 @@ export const translations = {
     distributionPlatform: "分发平台",
     campaignRules: "活动规则",
     joinProject: "加入项目",
+    viewProject: "查看项目",
     enterReferralCode: "输入推荐代码:",
     copyCode: "复制代码",
     codeCopied: "代码已复制！",
@@ -405,6 +424,8 @@ export const translations = {
     rewardPool: "奖励池",
     status: "状态",
     duration: "持续时间",
+    hideExpiredProjects: "隐藏过期项目",
+    endedProjectSupport: "项目已结束，但您仍可以通过使用推荐链接来支持我们",
     
     // Project Data
     toBeConfirmed: "待确认",
@@ -456,6 +477,7 @@ export const translations = {
     distributionPlatform: "منصة التوزيع",
     campaignRules: "قواعد الحملة",
     joinProject: "انضم للمشروع",
+    viewProject: "عرض المشروع",
     enterReferralCode: "أدخل رمز الإحالة:",
     copyCode: "نسخ الرمز",
     codeCopied: "تم نسخ الرمز!",
@@ -463,6 +485,8 @@ export const translations = {
     rewardPool: "مجمع المكافآت",
     status: "الحالة",
     duration: "المدة",
+    hideExpiredProjects: "إخفاء المشاريع المنتهية",
+    endedProjectSupport: "انتهى المشروع ولكن يمكنك دعمنا باستخدام رابط الإحالة",
     
     // Project Data
     toBeConfirmed: "في انتظار التأكيد",
