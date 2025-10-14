@@ -41,7 +41,7 @@ export function AdCarousel() {
   const currentAd = ads[currentAdIndex];
 
   return (
-    <div className="relative w-full max-w-md mx-auto">
+    <div className="relative w-full max-w-sm mx-auto">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentAd.id}
@@ -49,14 +49,14 @@ export function AdCarousel() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -20 }}
           transition={{ duration: 0.5 }}
-          className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-xl p-4 shadow-lg"
+          className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-xl p-4 shadow-lg max-w-sm"
         >
           {/* Ad Image */}
           <div className="mb-4">
             <img
               src={currentAd.image}
               alt={currentAd.ctaText}
-              className="w-full h-64 object-cover rounded-lg"
+              className="w-full h-48 object-cover rounded-lg"
             />
           </div>
 
