@@ -254,6 +254,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our entire ecosystem.",
       category: "Affiliate System"
     },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "The ZkAGI x Airaa Auraboard Campaign is a 3-month community initiative that rewards contributors across Twitter, Discord, and onchain activity. Up to 2.5% of ZkAGI's total token supply has been allocated for this campaign. Rewards will be released in stages based on FDV milestones verified through platforms such as DexScreener and Birdeye.",
+      category: "Campaign"
+    },
     "aira-xo-market": {
       title: "XO Market",
       description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies.",
@@ -574,6 +579,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - Sistema de Afiliados Onchain Avanzado",
       description: "Tea3 es el sistema de afiliados y referidos abierto más avanzado de la web. Te permite hacer crecer tu legado onchain y maximizar tus ganancias en todo nuestro ecosistema.",
       category: "Sistema de Afiliados"
+    },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "La Campaña ZkAGI x Airaa Auraboard es una iniciativa comunitaria de 3 meses que recompensa a los contribuidores en Twitter, Discord y actividad onchain. Hasta el 2.5% del suministro total de tokens de ZkAGI ha sido asignado para esta campaña. Las recompensas se liberarán en etapas basadas en hitos de FDV verificados a través de plataformas como DexScreener y Birdeye.",
+      category: "Campaña"
     },
     "aira-xo-market": {
       title: "XO Market",
@@ -896,6 +906,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Tea3 est le système d'affiliation et de parrainage ouvert le plus avancé du web. Il vous permet de développer votre héritage onchain et de maximiser vos gains dans tout notre écosystème.",
       category: "Système d'Affiliation"
     },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "La Campagne ZkAGI x Airaa Auraboard est une initiative communautaire de 3 mois qui récompense les contributeurs sur Twitter, Discord et l'activité onchain. Jusqu'à 2,5% de l'offre totale de tokens ZkAGI a été alloué pour cette campagne. Les récompenses seront libérées par étapes basées sur les jalons FDV vérifiés via des plateformes comme DexScreener et Birdeye.",
+      category: "Campagne"
+    },
     "aira-xo-market": {
       title: "XO Market",
       description: "XO Market est une plateforme de trading décentralisée pour les actifs numériques et les cryptomonnaies.",
@@ -1200,6 +1215,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - Fortgeschrittenes Onchain-Affiliate-System",
       description: "Tea3 ist das fortschrittlichste offene Affiliate- und Empfehlungssystem des Webs. Es ermöglicht Ihnen, Ihr Onchain-Vermächtnis zu vergrößern und Ihre Gewinne in unserem gesamten Ökosystem zu maximieren.",
       category: "Affiliate-System"
+    },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "Die ZkAGI x Airaa Auraboard-Kampagne ist eine 3-monatige Community-Initiative, die Beiträger auf Twitter, Discord und Onchain-Aktivitäten belohnt. Bis zu 2,5% des gesamten ZkAGI-Token-Angebots wurde für diese Kampagne zugewiesen. Belohnungen werden in Stufen basierend auf FDV-Meilensteinen freigegeben, die über Plattformen wie DexScreener und Birdeye verifiziert werden.",
+      category: "Kampagne"
     },
     "aira-xo-market": {
       title: "XO Market",
@@ -1610,6 +1630,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - 高度なオンチェーンアフィリエイトシステム",
       description: "Tea3は、ウェブで最も高度なオープンアフィリエイト・紹介システムです。オンチェーンのレガシーを成長させ、エコシステム全体で勝利を最大化できます。",
       category: "アフィリエイトシステム"
+    },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "ZkAGI x Airaa Auraboardキャンペーンは、Twitter、Discord、オンチェーン活動の貢献者に報酬を与える3ヶ月間のコミュニティイニシアチブです。ZkAGIの総トークン供給量の最大2.5%がこのキャンペーンに割り当てられています。報酬は、DexScreenerやBirdeyeなどのプラットフォームを通じて検証されたFDVマイルストーンに基づいて段階的にリリースされます。",
+      category: "キャンペーン"
     },
     "aira-xo-market": {
       title: "XO Market",
@@ -2040,6 +2065,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - 고급 온체인 제휴 시스템",
       description: "Tea3는 웹에서 가장 고급스러운 오픈 제휴 및 추천 시스템입니다. 온체인 레거시를 성장시키고 전체 생태계에서 승리를 극대화할 수 있습니다.",
       category: "제휴 시스템"
+    },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "ZkAGI x Airaa Auraboard 캠페인은 Twitter, Discord 및 온체인 활동에 기여하는 기여자들에게 보상을 제공하는 3개월 커뮤니티 이니셔티브입니다. ZkAGI의 총 토큰 공급량의 최대 2.5%가 이 캠페인에 할당되었습니다. 보상은 DexScreener 및 Birdeye와 같은 플랫폼을 통해 검증된 FDV 마일스톤을 기반으로 단계적으로 출시됩니다.",
+      category: "캠페인"
     },
     "aira-xo-market": {
       title: "XO Market",
@@ -2484,6 +2514,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Tea3是网络上最先进的开放联盟和推荐系统。它允许您发展链上遗产并在整个生态系统中最大化您的收益。",
       category: "联盟系统"
     },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "ZkAGI x Airaa Auraboard活动是一个为期3个月的社区倡议，奖励在Twitter、Discord和链上活动中做出贡献的参与者。ZkAGI总代币供应量的2.5%已分配给此活动。奖励将根据通过DexScreener和Birdeye等平台验证的FDV里程碑分阶段释放。",
+      category: "活动"
+    },
     "aira-xo-market": {
       title: "XO Market",
       description: "XO Market是数字资产和加密货币的去中心化交易平台。",
@@ -2903,6 +2938,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Tea3 - نظام الشراكة المتقدم على السلسلة",
       description: "Tea3 هو أكثر أنظمة الشراكة والتحويل المفتوحة تطوراً على الويب. يتيح لك تنمية إرثك على السلسلة وتحقيق أقصى استفادة من أرباحك عبر نظامنا البيئي بالكامل.",
       category: "نظام الشراكة"
+    },
+    "aira-zkagi": {
+      title: "ZkAGI",
+      description: "حملة ZkAGI x Airaa Auraboard هي مبادرة مجتمعية لمدة 3 أشهر تكافئ المساهمين عبر Twitter وDiscord والنشاط على السلسلة. تم تخصيص ما يصل إلى 2.5% من إجمالي عرض الرموز المميزة ZkAGI لهذه الحملة. سيتم إصدار المكافآت على مراحل بناءً على معالم FDV التي تم التحقق منها من خلال منصات مثل DexScreener وBirdeye.",
+      category: "حملة"
     },
     "aira-xo-market": {
       title: "XO Market",
@@ -3963,6 +4003,23 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   aira: [
+    {
+      id: "aira-zkagi",
+      title: "ZkAGI",
+      description: "The ZkAGI x Airaa Auraboard Campaign is a 3-month community initiative that rewards contributors across Twitter, Discord, and onchain activity. Up to 2.5% of ZkAGI's total token supply has been allocated for this campaign. Rewards will be released in stages based on FDV milestones verified through platforms such as DexScreener and Birdeye.",
+      rewardPool: "2.5% of $ZKAGI",
+      participants: "Contributors across Twitter, Discord, and onchain activity",
+      timeLeft: "92D",
+      category: "Campaign",
+      platform: "Airaa",
+      link: "https://x.com/zk_agi",
+      logo: "/assets/Info Fi Logo/ZKK.png",
+      source: "https://x.com/zk_agi",
+      referralLink: "https://airaa.xyz?ref=infofi",
+      additionalData: {
+        isNew: "true"
+      }
+    },
     {
       id: "aira-xo-market",
       title: "XO Market",
