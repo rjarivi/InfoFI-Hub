@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ResponsiveNavigation } from "@/components/responsive-navigation";
 import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
+import { HideEndedToggle } from "@/components/hide-ended-toggle";
 import { TextPressure } from "@/components/text-pressure";
 import { AdCarousel } from "@/components/ad-carousel";
 import { projectsData, translateProject } from "@/data/projects";
@@ -81,13 +82,19 @@ const menuItems = [
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
+  const [hideEnded, setHideEnded] = useState(false);
   const { t, language } = useLanguage();
   
   const getAllProjects = () => {
     const allProjects = Object.values(projectsData).flat().map(project => translateProject(project, language));
     
+    // Filter out ended projects if hideEnded is true
+    const filteredProjects = hideEnded 
+      ? allProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
+      : allProjects;
+    
     // Sort projects to prioritize NEW projects at the top
-    return allProjects.sort((a, b) => {
+    return filteredProjects.sort((a, b) => {
       const aIsNew = a.additionalData?.isNew === "true";
       const bIsNew = b.additionalData?.isNew === "true";
       
@@ -104,7 +111,12 @@ const Index = () => {
     if (activeTab === "all") {
       return getAllProjects();
     }
-    return (projectsData[activeTab] || []).map(project => translateProject(project, language));
+    const platformProjects = (projectsData[activeTab] || []).map(project => translateProject(project, language));
+    
+    // Filter out ended projects if hideEnded is true
+    return hideEnded 
+      ? platformProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
+      : platformProjects;
   };
 
   const allActiveProjects = getActiveProjects();
@@ -190,6 +202,12 @@ const Index = () => {
                 Page {currentPage} of {totalPages}
               </Badge>
             )}
+            {/* Hide Ended Projects Toggle */}
+            <HideEndedToggle 
+              hideEnded={hideEnded} 
+              onToggle={setHideEnded}
+              className="ml-auto"
+            />
           </div>
           
           {/* CTA Button for platforms with referral links */}

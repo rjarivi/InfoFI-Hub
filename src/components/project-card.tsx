@@ -33,6 +33,7 @@ interface ProjectCardProps {
   claimPeriod?: string;
   vestingSchedule?: string;
   distributionPlatform?: string;
+  status?: 'active' | 'ended';
   additionalData?: {
     airdropRecipients?: string;
     crumbsDistributed?: string;
@@ -60,6 +61,7 @@ export function ProjectCard({
   claimPeriod,
   vestingSchedule,
   distributionPlatform,
+  status,
   additionalData,
   className
 }: ProjectCardProps) {
@@ -88,7 +90,7 @@ export function ProjectCard({
   };
 
   // Check if project is ended
-  const isEnded = timeLeft === "ENDED";
+  const isEnded = status === 'ended' || timeLeft === "ENDED";
 
   return (
     <>
@@ -98,6 +100,7 @@ export function ProjectCard({
             "group relative overflow-hidden rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50 p-6 transition-all duration-300 cursor-pointer",
             "hover:scale-[1.02] hover:shadow-lg hover:border-primary/50 hover:bg-card/80",
             "min-h-[520px] h-full flex flex-col",
+            isEnded && "opacity-75",
       className
     )}>
       <div className="relative z-10 flex flex-col h-full">
@@ -214,21 +217,27 @@ export function ProjectCard({
                    </div>
                  )}
 
+                   {/* Ended Project Support Text */}
+                   {isEnded && (
+                     <div className="mb-3 p-2 rounded-lg bg-muted/30 border border-border/50">
+                       <p className="text-xs text-muted-foreground text-center leading-relaxed">
+                         {t("endedProjectSupport")}
+                       </p>
+                     </div>
+                   )}
+
                    {/* View Project Button */}
                    <Button 
                      variant="default" 
                      size="sm"
-                     className={`w-full font-medium shadow-lg transition-all duration-200 ${
-                       isEnded 
-                         ? 'bg-gray-400 text-gray-600 cursor-not-allowed opacity-60' 
-                         : 'bg-primary hover:bg-primary/90 text-primary-foreground hover:shadow-xl'
-                     }`}
-                     asChild={!isEnded}
-                     disabled={isEnded}
+                     className="w-full font-medium shadow-lg transition-all duration-200 bg-primary hover:bg-primary/90 text-primary-foreground hover:shadow-xl"
+                     asChild={true}
                      onClick={(e) => e.stopPropagation()}
                    >
                      {isEnded ? (
-                       <span>ENDED</span>
+                       <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                         {t("viewProject")}
+                       </a>
                      ) : (
                        <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
                          {t("joinProject")}
@@ -422,6 +431,15 @@ export function ProjectCard({
               </div>
             )}
 
+            {/* Ended Project Support Text */}
+            {isEnded && (
+              <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
+                <p className="text-sm text-muted-foreground text-center leading-relaxed">
+                  {t("endedProjectSupport")}
+                </p>
+              </div>
+            )}
+
             {/* Links Section */}
             {(source || platform || zealyLink) && (
               <div className="p-4 rounded-lg bg-muted/20">
@@ -487,16 +505,13 @@ export function ProjectCard({
               Close
             </Button>
             <Button 
-              className={`flex-1 ${
-                isEnded 
-                  ? 'bg-gray-400 text-gray-600 cursor-not-allowed opacity-60' 
-                  : ''
-              }`}
-              asChild={!isEnded}
-              disabled={isEnded}
+              className="flex-1"
+              asChild={true}
             >
               {isEnded ? (
-                <span>ENDED</span>
+                <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                  {t("viewProject")}
+                </a>
               ) : (
                 <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
                   Visit Project
