@@ -4107,7 +4107,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Trading Tools",
       platform: "Boost",
       link: "https://www.alphabot.app/pulse/boost",
-      logo: "https://pbs.twimg.com/profile_images/1972611732351688704/i1h1Cju4_400x400.jpg",
+      logo: "/assets/Info Fi Logo/Boost.jpg",
       source: "https://www.alphabot.app/pulse/boost",
       referralLink: "https://www.alphabot.app?ref=infofi"
     },
