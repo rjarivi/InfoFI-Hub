@@ -36,10 +36,10 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cash is a decentralized platform for tracking and managing cryptocurrency transactions and rewards",
       category: "DeFi"
     },
-    "breadcrumbs-a0x": {
-      title: "A0x",
-      description: "A0x is an advanced trading bot and automation platform for cryptocurrency markets",
-      category: "Trading Bot"
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — The Official Black Mirror Token — Built on @korprotocol. Backed by @avax, @solana, @republiccrypto, @animocabrands",
+      category: "Token"
     },
     "kaito-multipli": {
       title: "Multipli Creator Currency",
@@ -392,10 +392,10 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cash es una plataforma descentralizada para rastrear y gestionar transacciones de criptomonedas y recompensas",
       category: "DeFi"
     },
-    "breadcrumbs-a0x": {
-      title: "A0x",
-      description: "A0x es una plataforma avanzada de bots de trading y automatización para mercados de criptomonedas",
-      category: "Bot de Trading"
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — El Token Oficial de Black Mirror — Construido en @korprotocol. Respaldado por @avax, @solana, @republiccrypto, @animocabrands",
+      category: "Token"
     },
     "kaito-multipli": {
       title: "Multipli Creator Currency",
@@ -4112,21 +4112,23 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
-      id: "breadcrumbs-a0x",
-      title: "A0x",
-      description: "A0x is an advanced trading bot and automation platform for cryptocurrency markets.",
-      rewardPool: "23,000,000 A0X",
-      participants: "892 Bakers",
-      timeLeft: "10 days",
-      category: "Trading Bot",
-      platform: "A0x",
-      link: "https://www.breadcrumb.cash/leaderboard/0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
-      logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
-      source: "https://x.com/a0xbot/status/1972697312024506709",
+      id: "breadcrumbs-blackmirror-xp",
+      title: "blackmirror_xp",
+      description: "$MIRROR — The Official Black Mirror Token — Built on @korprotocol. Backed by @avax, @solana, @republiccrypto, @animocabrands",
+      rewardPool: "20,000 $MIRROR",
+      participants: "Top 100",
+      timeLeft: "7D",
+      category: "Token",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14",
+      logo: "https://pbs.twimg.com/profile_images/1859995016476667905/-B0m6i66_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1970885609586569569",
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
       additionalData: {
-        airdropRecipients: "Top 150",
-        crumbsDistributed: "36,000"
+        bakers: "2,805",
+        airdropRecipients: "Top 100",
+        crumbsDistributed: "41,584"
       }
     }
   ],
