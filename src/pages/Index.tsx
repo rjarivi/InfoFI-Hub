@@ -3,7 +3,7 @@ import { ResponsiveNavigation } from "@/components/responsive-navigation";
 import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
 import { TextPressure } from "@/components/text-pressure";
-import { AdCarousel } from "@/components/ad-carousel";
+// import { AdCarousel } from "@/components/ad-carousel";
 import { projectsData, translateProject } from "@/data/projects";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -348,14 +348,14 @@ const Index = () => {
             </motion.div>
 
             {/* Ad Carousel */}
-            <motion.div 
+            {/* <motion.div 
               className="w-full lg:w-auto"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <AdCarousel />
-            </motion.div>
+            </motion.div> */}
           </div>
           
           {/* Made with Love Section */}
