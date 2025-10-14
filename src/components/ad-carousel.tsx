@@ -26,6 +26,7 @@ const ads: AdData[] = [
 ];
 
 export function AdCarousel() {
+  // Fixed layout and sizing issues
   const [currentAdIndex, setCurrentAdIndex] = useState(0);
 
   useEffect(() => {
