@@ -16,6 +16,7 @@ export interface Project {
   referralLink?: string;
   referralCode?: string;
   zealyLink?: string;
+  platformLink?: string;
   campaignRules?: string[];
   claimPeriod?: string;
   vestingSchedule?: string;
@@ -53,6 +54,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "AI Platform",
       platform: "Kaito",
       link: "https://x.com/playAInetwork",
+      platformLink: "https://yaps.kaito.ai/referral/2522887435",
       source: "https://x.com/playAInetwork/status/1975901146016518472",
       referralCode: "rjarivi",
       rewardPool: "0.5% PLAI Supply",
@@ -75,6 +77,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Yap",
       platform: "Kaito",
       link: "https://x.com/lombard_finance",
+      platformLink: "https://yaps.kaito.ai/referral/2522887435",
       source: "https://x.com/Lombard_Finance/status/1970371793228910645",
       rewardPool: "0.8% BARD supply",
       participants: "Top 100 Contributors each month",
@@ -3103,6 +3106,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Yap",
       platform: "Kaito",
       link: "https://x.com/Theo_Network",
+      platformLink: "https://app.theo.xyz/invite?invite=JEETING",
       logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1789368212947136512.jpg/w=48&q=90",
       source: "https://x.com/Theo_Network",
       referralLink: "https://app.theo.xyz/invite?invite=JEETING",
@@ -3483,6 +3487,37 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   bantr: [
+    {
+      id: "bantr-bluwhale",
+      title: "Bluwhale",
+      description: "Bluwhale AI is revolutionizing Web3 analytics and user insights. Join the campaign to earn rewards by creating quality content about Bluwhale's innovative AI-powered analytics platform and Whale Score system.",
+      rewardPool: "$100,000 worth of $BLUAI",
+      participants: "Community Contributors",
+      timeLeft: "Oct 15 - Nov 15, 2025",
+      category: "AI Analytics",
+      platform: "Bantr",
+      link: "https://profile.bluwhale.com/login?referral=undefined",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F4a3a160845cb47afbe4d78ed5418d16d.jpg&w=96&q=75",
+      source: "https://x.com/Bantr_fun/status/1978506242827157802",
+      referralLink: "https://profile.bluwhale.com/login?referral=undefined",
+      claimPeriod: "Oct 15 - Nov 15, 2025",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "You should have logged in at least once with your X account on bantr.fun",
+        "Follow @bluwhaleai on X and explore Bluwhale.com to understand the project before creating content",
+        "Create original, high-quality posts that highlight your thoughts about Bluwhale AI",
+        "Be creative, insightful, and authentic in your content",
+        "Check the Creator Guide for reference and detailed guidelines",
+        "Engage with the community and share your experiences with Bluwhale AI"
+      ],
+      additionalData: {
+        isNew: "true",
+        creatorGuide: "https://docs.google.com/document/d/1E6lH5eqoxUZtDLwKs2ZtrzrbIJHgNtBj-KdkkNakR90/edit?usp=sharing",
+        additionalInfo: "🔗 Key Links & Channels: App: https://profile.bluwhale.com — Try the dashboard, connect accounts, explore Whale Score. Website: https://bluwhale.ai — Overview, announcements, and resources. GitBook Docs: https://bluwhale.gitbook.io/bluwhaleai — Tokenomics, product, and protocol. Twitter/X: https://twitter.com/BluwhaleAI — Latest updates & campaigns. Press Kit: https://bluwhale.ai/press — Logos, product shots, founder photos. Media Kit: https://bluwhale.ai/media-kit — Banners, social assets, thumbnails."
+      }
+    },
     {
       id: "bantr-bidget",
       title: "Bidget",

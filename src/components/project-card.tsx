@@ -34,6 +34,7 @@ interface ProjectCardProps {
   referralLink?: string;
   referralCode?: string;
   zealyLink?: string;
+  platformLink?: string;
   campaignRules?: string[];
   claimPeriod?: string;
   vestingSchedule?: string;
@@ -62,6 +63,7 @@ export function ProjectCard({
   referralLink,
   referralCode,
   zealyLink,
+  platformLink,
   campaignRules,
   claimPeriod,
   vestingSchedule,
@@ -231,24 +233,39 @@ export function ProjectCard({
                      </div>
                    )}
 
-                   {/* View Project Button */}
-                   <Button 
-                     variant="default" 
-                     size="sm"
-                     className="w-full font-medium shadow-lg transition-all duration-200 bg-primary hover:bg-primary/90 text-primary-foreground hover:shadow-xl"
-                     asChild={true}
-                     onClick={(e) => e.stopPropagation()}
-                   >
-                     {isEnded ? (
-                       <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                         {t("viewProject")}
-                       </a>
-                     ) : (
-                       <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                         {t("joinProject")}
-                       </a>
+                   {/* CTA Buttons */}
+                   <div className="flex gap-2">
+                     {platformLink && (
+                       <Button 
+                         variant="outline" 
+                         size="sm"
+                         className="flex-1 font-medium transition-all duration-200"
+                         asChild={true}
+                         onClick={(e) => e.stopPropagation()}
+                       >
+                         <a href={platformLink} target="_blank" rel="noopener noreferrer">
+                           Visit {platform}
+                         </a>
+                       </Button>
                      )}
-                   </Button>
+                     <Button 
+                       variant="default" 
+                       size="sm"
+                       className={`${platformLink ? 'flex-1' : 'w-full'} font-medium shadow-lg transition-all duration-200 bg-primary hover:bg-primary/90 text-primary-foreground hover:shadow-xl`}
+                       asChild={true}
+                       onClick={(e) => e.stopPropagation()}
+                     >
+                       {isEnded ? (
+                         <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                           {t("viewProject")}
+                         </a>
+                       ) : (
+                         <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
+                           Join {title}
+                         </a>
+                       )}
+                     </Button>
+                   </div>
                  </div>
                </div>
       </div>
@@ -543,6 +560,17 @@ export function ProjectCard({
             >
               Close
             </Button>
+            {platformLink && (
+              <Button 
+                variant="outline"
+                className="flex-1"
+                asChild={true}
+              >
+                <a href={platformLink} target="_blank" rel="noopener noreferrer">
+                  Visit {platform}
+                </a>
+              </Button>
+            )}
             <Button 
               className="flex-1"
               asChild={true}
@@ -553,7 +581,7 @@ export function ProjectCard({
                 </a>
               ) : (
                 <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                  Visit Project
+                  Join {title}
                 </a>
               )}
             </Button>
