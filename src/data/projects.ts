@@ -3484,6 +3484,37 @@ export const projectsData: Record<string, Project[]> = {
   ],
   bantr: [
     {
+      id: "bantr-bidget",
+      title: "Bidget",
+      description: "Bitget Wallet is a comprehensive crypto wallet solution that provides secure storage, seamless trading, and advanced DeFi features. Join the campaign to earn rewards by creating quality content about Bitget Wallet's innovative features and user experience.",
+      rewardPool: "$166,666 worth of $BGB",
+      participants: "Community Contributors",
+      timeLeft: "Oct 15 - Nov 15, 2025",
+      category: "Wallet",
+      platform: "Bitget Wallet",
+      link: "https://bantr.fun/project/bitgetwallet",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2Fa81d8e7dc5cf4e19a8150fa5a8e8c260.jpg&w=96&q=75",
+      source: "https://x.com/bitgetglobal",
+      referralLink: "https://bantr.fun?ic=3066Y7V",
+      claimPeriod: "Oct 15 - Nov 15, 2025",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "You should have logged in at least once with your X account on bantr.fun",
+        "Download Bitget Wallet and connect your wallet on Bantr",
+        "Create original, high-quality posts that highlight your thoughts about Bitget Wallet",
+        "Be creative, insightful, and authentic in your content",
+        "Engage with the community and share your experiences",
+        "Follow campaign guidelines and requirements",
+        "Check Creator Guide for detailed help and resources"
+      ],
+      additionalData: {
+        isNew: "true",
+        creatorGuide: "https://docs.google.com/document/d/1XBPVVajGJoJOf_jiGAOOc2us_PXTGWcved39M8Xt88o/edit?usp=sharing",
+        additionalInfo: "💳Bitget Wallet Card just launched in Asia! Activate Bitget Wallet Card in under 10 minutes. No fees, no hassle. Free activation + Rewards: First 500 users: Top up $50 → Get $20. All other users: Top up $50 → Get $10. Bonus: Free card activation during the campaign period."
+      }
+    },
+    {
       id: "bantr-blazpay",
       title: "BlazPay",
       description: "Blazpay AI is redefining crypto interactions by combining cutting-edge artificial intelligence with seamless DeFi solutions. Designed to simplify even the most complex tasks, Blaz AI empowers users to manage, trade, and explore crypto effortlessly, all through a conversational interface.",

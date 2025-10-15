@@ -9,10 +9,15 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import { 
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/hooks/use-language";
 import { useState } from "react";
-import { Copy, Check } from "lucide-react";
+import { Copy, Check, ChevronDown, ExternalLink } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;
@@ -346,27 +351,61 @@ export function ProjectCard({
             {/* Additional Data */}
             {additionalData && (
               <div className="p-4 rounded-lg bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20">
-                <div className="text-sm font-semibold text-blue-600 mb-3">Additional Information</div>
-                <div className="grid grid-cols-2 gap-3">
-                  {additionalData.bakers && (
-                    <div className="p-3 rounded-lg bg-white/5">
-                      <div className="text-xs text-muted-foreground mb-1">Bakers</div>
-                      <div className="text-sm font-medium">{additionalData.bakers}</div>
+                <Collapsible>
+                  <CollapsibleTrigger className="flex items-center justify-between w-full text-left">
+                    <div className="text-sm font-semibold text-blue-600">Additional Information</div>
+                    <ChevronDown className="h-4 w-4 text-blue-600 transition-transform duration-200 group-data-[state=open]:rotate-180" />
+                  </CollapsibleTrigger>
+                  <CollapsibleContent className="mt-3">
+                    <div className="space-y-3">
+                      {/* Additional Info - Main content */}
+                      {additionalData.additionalInfo && (
+                        <div className="p-3 rounded-lg bg-white/5 border border-blue-500/10">
+                          <div className="text-xs text-muted-foreground mb-2">Campaign Updates</div>
+                          <div className="text-sm font-medium leading-relaxed">{additionalData.additionalInfo}</div>
+                        </div>
+                      )}
+                      
+                      {/* Creator Guide Link */}
+                      {additionalData.creatorGuide && (
+                        <div className="p-3 rounded-lg bg-white/5 border border-blue-500/10">
+                          <div className="text-xs text-muted-foreground mb-2">Creator Guide</div>
+                          <a 
+                            href={additionalData.creatorGuide} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-500 transition-colors"
+                          >
+                            <ExternalLink className="h-3 w-3" />
+                            View Creator Guide
+                          </a>
+                        </div>
+                      )}
+                      
+                      {/* Other additional data fields */}
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        {additionalData.bakers && (
+                          <div className="p-3 rounded-lg bg-white/5">
+                            <div className="text-xs text-muted-foreground mb-1">Bakers</div>
+                            <div className="text-sm font-medium">{additionalData.bakers}</div>
+                          </div>
+                        )}
+                        {additionalData.airdropRecipients && (
+                          <div className="p-3 rounded-lg bg-white/5">
+                            <div className="text-xs text-muted-foreground mb-1">Airdrop Recipients</div>
+                            <div className="text-sm font-medium">{additionalData.airdropRecipients}</div>
+                          </div>
+                        )}
+                        {additionalData.crumbsDistributed && (
+                          <div className="p-3 rounded-lg bg-white/5">
+                            <div className="text-xs text-muted-foreground mb-1">Crumbs Distributed</div>
+                            <div className="text-sm font-medium">{additionalData.crumbsDistributed}</div>
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  )}
-                  {additionalData.airdropRecipients && (
-                    <div className="p-3 rounded-lg bg-white/5">
-                      <div className="text-xs text-muted-foreground mb-1">Airdrop Recipients</div>
-                      <div className="text-sm font-medium">{additionalData.airdropRecipients}</div>
-                    </div>
-                  )}
-                  {additionalData.crumbsDistributed && (
-                    <div className="p-3 rounded-lg bg-white/5">
-                      <div className="text-xs text-muted-foreground mb-1">Crumbs Distributed</div>
-                      <div className="text-sm font-medium">{additionalData.crumbsDistributed}</div>
-                    </div>
-                  )}
-                </div>
+                  </CollapsibleContent>
+                </Collapsible>
               </div>
             )}
 
