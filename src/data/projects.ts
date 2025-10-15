@@ -3511,7 +3511,7 @@ export const projectsData: Record<string, Project[]> = {
       additionalData: {
         isNew: "true",
         creatorGuide: "https://docs.google.com/document/d/1XBPVVajGJoJOf_jiGAOOc2us_PXTGWcved39M8Xt88o/edit?usp=sharing",
-        additionalInfo: "💳Bitget Wallet Card just launched in Asia! Activate Bitget Wallet Card in under 10 minutes. No fees, no hassle. Free activation + Rewards: First 500 users: Top up $50 → Get $20. All other users: Top up $50 → Get $10. Bonus: Free card activation during the campaign period."
+        additionalInfo: "💳Bitget Wallet Card just launched in Asia! Activate Bitget Wallet Card in under 10 minutes. No fees, no hassle. Free activation + Rewards: First 500 users: Top up $50 → Get $20. All other users: Top up $50 → Get $10. Bonus: Free card activation during the campaign period. Eligible regions: Singapore, Vietnam, Malaysia, Philippines, Thailand, Korea, Taiwan, Australia, Japan. Campaign period: Oct 15, 18:00 – Oct 22, 18:00 (UTC+8). Each user can participate once only."
       }
     },
     {
