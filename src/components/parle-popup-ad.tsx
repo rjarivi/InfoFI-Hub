@@ -60,21 +60,39 @@ const ParlePopupAd: React.FC<ParlePopupAdProps> = ({ isOpen, onClose }) => {
             NFA.DYOR
           </p>
           
-          {/* CTA Button */}
-          <Tooltip delayDuration={0}>
-            <TooltipTrigger asChild>
-              <Button 
-                onClick={handleJoinNow}
-                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-3 rounded-lg flex items-center justify-center gap-2"
-              >
-                <ExternalLink className="w-4 h-4" />
-                Join Now
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent side="top">
-              <p>parle.id</p>
-            </TooltipContent>
-          </Tooltip>
+          {/* CTA Buttons */}
+          <div className="space-y-2">
+            <Tooltip delayDuration={0}>
+              <TooltipTrigger asChild>
+                <Button 
+                  onClick={handleJoinNow}
+                  className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-3 rounded-lg flex items-center justify-center gap-2"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Join Now
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent side="top">
+                <p>parle.id</p>
+              </TooltipContent>
+            </Tooltip>
+            
+            <Tooltip delayDuration={0}>
+              <TooltipTrigger asChild>
+                <Button 
+                  onClick={handleImageClick}
+                  variant="outline"
+                  className="w-full border-gray-300 text-white hover:bg-gray-50 hover:text-gray-700 font-medium py-2 rounded-lg flex items-center justify-center gap-2"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  View Token Page
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent side="top">
+                <p>parle.id</p>
+              </TooltipContent>
+            </Tooltip>
+          </div>
         </div>
       </DialogContent>
     </Dialog>
