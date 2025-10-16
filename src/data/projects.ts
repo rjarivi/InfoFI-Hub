@@ -3221,7 +3221,7 @@ export const projectsData: Record<string, Project[]> = {
       title: "Theo",
       description: "50,000 $THBILL distributed equally monthly to 100 creators. Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators.",
       rewardPool: "50K $THBILL / month",
-      participants: "Top 50 Theo Creators, top 25 Korean Theo Creators, top 25 Chinese Theo Creators",
+      participants: "Top 50 Theo Creator",
       timeLeft: "Oct 14, 2025 - Dec 14, 2025",
       category: "Yap",
       platform: "Kaito",

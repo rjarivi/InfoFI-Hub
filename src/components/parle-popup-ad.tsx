@@ -51,8 +51,13 @@ const ParlePopupAd: React.FC<ParlePopupAdProps> = ({ isOpen, onClose }) => {
           </Tooltip>
           
           {/* Description */}
-          <p className="text-sm text-gray-700 text-center">
+          <p className="text-sm text-gray-400 text-center">
             You can help circle graduates in 7-day period and earn incentives while farming for Parle Platform Token.
+          </p>
+          
+          {/* Disclaimer */}
+          <p className="text-[10px] text-gray-700 text-center">
+            NFA.DYOR
           </p>
           
           {/* CTA Button */}
