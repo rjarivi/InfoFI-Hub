@@ -43,6 +43,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "$MIRROR — The Official Black Mirror Token — Built on @korprotocol. Backed by @avax, @solana, @republiccrypto, @animocabrands",
       category: "Token"
     },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace is the first vibe coding canvas for crypto's creatives ✨ we make it easy for anyone — not just devs — to build, ship, and monetize onchain apps without touching code. dream it → generate it → ship it → monetize it.",
+      category: "Development Tools"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
+      category: "Gaming"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
+      category: "DeFi"
+    },
     "kaito-multipli": {
       title: "Multipli Creator Currency",
       description: "100k Crystals / Week (24.7 bps at TGE) - the liquid creator currency of Multipli, built on top of Kaito",
@@ -401,6 +416,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "$MIRROR — El Token Oficial de Black Mirror — Construido en @korprotocol. Respaldado por @avax, @solana, @republiccrypto, @animocabrands",
       category: "Token"
     },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace es el primer lienzo de codificación de vibraciones para creativos de crypto ✨ facilitamos que cualquiera — no solo desarrolladores — construya, lance y monetice aplicaciones onchain sin tocar código. sueña → genera → lanza → monetiza.",
+      category: "Herramientas de Desarrollo"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons es una experiencia blockchain habilitada por IA que combina Tamagotchi con Pokémon. PvP, PvE y chat interactivo con IA.",
+      category: "Gaming"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance tokeniza bonos corporativos públicamente cotizados en productos de renta fija onchain. Cada Bond Token representa exposición fraccional a bonos corporativos denominados en USD.",
+      category: "DeFi"
+    },
     "kaito-multipli": {
       title: "Multipli Creator Currency",
       description: "100k Crystals / Week (24.7 bps at TGE) - la moneda líquida de creadores de Multipli, construida sobre Kaito",
@@ -578,11 +608,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Xeet",
       description: "Xeet es una plataforma integral para señales de trading de criptomonedas y análisis de mercado",
       category: "Plataforma"
-    },
-    "wallchain-limitless": {
-      title: "Limitless Exchange",
-      description: "¡0.5% del suministro para los mejores Quackers! Limitless es el mercado de predicciones más grande en Base (>$260M en apuestas) y la forma más fácil de operar tus activos favoritos.",
-      category: "Trading"
     },
     "rey-tea3": {
       title: "Tea3 - Sistema de Afiliados Onchain Avanzado",
@@ -905,15 +930,30 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cash est une plateforme décentralisée pour suivre et gérer les transactions et récompenses de cryptomonnaies",
       category: "DeFi"
     },
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — Le Token Officiel de Black Mirror — Construit sur @korprotocol. Soutenu par @avax, @solana, @republiccrypto, @animocabrands",
+      category: "Token"
+    },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace est la première toile de codage vibes pour les créatifs crypto ✨ nous facilitons à quiconque — pas seulement les développeurs — de construire, lancer et monétiser des applications onchain sans toucher au code. rêve → génère → lance → monétise.",
+      category: "Outils de Développement"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons est une expérience blockchain alimentée par l'IA qui combine Tamagotchi et Pokémon. PvP, PvE et chat interactif avec IA.",
+      category: "Gaming"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance tokenise les obligations d'entreprises publiquement négociées en produits de revenus fixes onchain. Chaque Bond Token représente une exposition fractionnaire aux obligations d'entreprises libellées en USD.",
+      category: "DeFi"
+    },
     "breadcrumbs-a0x": {
       title: "A0x",
       description: "A0x est un bot de trading avancé et une plateforme d\'automatisation pour les marchés de cryptomonnaies",
       category: "Bot de Trading"
-    },
-    "wallchain-limitless": {
-      title: "Limitless Exchange",
-      description: "0.5% de l'offre pour les meilleurs Quackers! Limitless est le plus grand marché de prédictions sur Base (>260M$ de paris) et le moyen le plus facile de trader vos actifs favoris.",
-      category: "Trading"
     },
     "rey-tea3": {
       title: "Tea3 - Système d'Affiliation Onchain Avancé",
@@ -1218,6 +1258,26 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     "breadcrumbs-breadcrumb-cash": {
       title: "Breadcrumb.cash",
       description: "Breadcrumb.cash ist eine dezentrale Plattform zur Verfolgung und Verwaltung von Kryptowährungs-Transaktionen und Belohnungen",
+      category: "DeFi"
+    },
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — Der Offizielle Black Mirror Token — Erbaut auf @korprotocol. Unterstützt von @avax, @solana, @republiccrypto, @animocabrands",
+      category: "Token"
+    },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace ist die erste Vibe-Coding-Leinwand für Krypto-Kreative ✨ wir machen es jedem leicht — nicht nur Entwicklern — Onchain-Apps zu bauen, zu veröffentlichen und zu monetarisieren, ohne Code zu berühren. träumen → generieren → veröffentlichen → monetarisieren.",
+      category: "Entwicklungstools"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons ist eine KI-gestützte Blockchain-Erfahrung, die Tamagotchi mit Pokémon verbindet. PvP, PvE und interaktiver KI-Chat.",
+      category: "Gaming"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance tokenisiert öffentlich gehandelte Unternehmensanleihen in Onchain-Festzinsprodukte. Jeder Bond Token repräsentiert eine fraktionale Exposition gegenüber USD-denominierten Unternehmensanleihen.",
       category: "DeFi"
     },
     "breadcrumbs-a0x": {
@@ -1640,15 +1700,30 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cashは、暗号通貨取引と報酬の追跡・管理のための分散型プラットフォームです",
       category: "DeFi"
     },
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — 公式Black Mirrorトークン — @korprotocolで構築。@avax、@solana、@republiccrypto、@animocabrandsが支援",
+      category: "トークン"
+    },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspaceは、クリプトクリエイター向けの最初のバイブコーディングキャンバスです ✨ 開発者だけでなく、誰でもコードに触れることなくオンチェーンアプリを構築、公開、収益化できるようにします。夢見る → 生成する → 公開する → 収益化する。",
+      category: "開発ツール"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmonsは、AI搭載のタマゴッチとポケモンを組み合わせたブロックチェーン体験です。PvP、PvE、インタラクティブAIチャット。",
+      category: "ゲーミング"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Financeは、公開取引されている企業債券をオンチェーンの固定収入商品にトークン化します。各Bondトークンは、USD建て企業債券への部分的なエクスポージャーを表します。",
+      category: "DeFi"
+    },
     "breadcrumbs-a0x": {
       title: "A0x",
       description: "A0xは、暗号通貨市場向けの高度なトレーディングボットと自動化プラットフォームです",
       category: "トレーディングボット"
-    },
-    "wallchain-limitless": {
-      title: "Limitless Exchange",
-      description: "トップQuackersに供給量の0.5%！LimitlessはBaseで最大の予測市場（>2億6千万ドルのベット）で、お気に入りの資産を取引する最も簡単な方法です。",
-      category: "トレーディング"
     },
     "rey-tea3": {
       title: "Tea3 - 高度なオンチェーンアフィリエイトシステム",
@@ -2080,15 +2155,30 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cash는 암호화폐 거래 및 보상 추적 및 관리를 위한 분산형 플랫폼입니다",
       category: "DeFi"
     },
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — 공식 Black Mirror 토큰 — @korprotocol에서 구축. @avax, @solana, @republiccrypto, @animocabrands가 지원",
+      category: "토큰"
+    },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace는 크립토 크리에이티브를 위한 첫 번째 바이브 코딩 캔버스입니다 ✨ 개발자가 아닌 누구나 코드를 건드리지 않고 온체인 앱을 구축, 출시, 수익화할 수 있도록 합니다. 꿈꾸기 → 생성하기 → 출시하기 → 수익화하기.",
+      category: "개발 도구"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons는 AI 기반의 타마고치와 포켓몬을 결합한 블록체인 경험입니다. PvP, PvE 및 대화형 AI 채팅.",
+      category: "게이밍"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance는 공개 거래되는 기업 채권을 온체인 고정 수익 상품으로 토큰화합니다. 각 Bond 토큰은 USD 표시 기업 채권에 대한 부분적 노출을 나타냅니다.",
+      category: "DeFi"
+    },
     "breadcrumbs-a0x": {
       title: "A0x",
       description: "A0x는 암호화폐 시장을 위한 고급 거래 봇 및 자동화 플랫폼입니다",
       category: "거래 봇"
-    },
-    "wallchain-limitless": {
-      title: "Limitless Exchange",
-      description: "상위 Quacker를 위한 공급량의 0.5%! Limitless는 Base에서 가장 큰 예측 시장(>2억 6천만 달러 베팅)이며 좋아하는 자산을 거래하는 가장 쉬운 방법입니다.",
-      category: "트레이딩"
     },
     "rey-tea3": {
       title: "Tea3 - 고급 온체인 제휴 시스템",
@@ -2533,15 +2623,30 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cash是一个用于跟踪和管理加密货币交易和奖励的去中心化平台",
       category: "DeFi"
     },
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — 官方黑镜代币 — 基于@korprotocol构建。由@avax、@solana、@republiccrypto、@animocabrands支持",
+      category: "代币"
+    },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace是加密创意者的第一个氛围编码画布 ✨ 我们让任何人——不仅仅是开发者——都能轻松构建、发布和货币化链上应用，而无需接触代码。梦想 → 生成 → 发布 → 货币化。",
+      category: "开发工具"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons是一个AI驱动的区块链体验，结合了电子宠物和宝可梦。PvP、PvE和交互式AI聊天。",
+      category: "游戏"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance将公开交易的公司债券代币化为链上固定收益产品。每个债券代币代表对美元计价公司债券的部分敞口。",
+      category: "DeFi"
+    },
     "breadcrumbs-a0x": {
       title: "A0x",
       description: "A0x是用于加密货币市场的高级交易机器人和自动化平台",
       category: "交易机器人"
-    },
-    "wallchain-limitless": {
-      title: "Limitless Exchange",
-      description: "为顶级Quackers提供0.5%的供应量！Limitless是Base上最大的预测市场（>2.6亿美元投注），是交易您喜爱资产的最简单方式。",
-      category: "交易"
     },
     "rey-tea3": {
       title: "Tea3 - 高级链上联盟系统",
@@ -2963,15 +3068,30 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Breadcrumb.cash هو منصة لامركزية لتتبع وإدارة معاملات العملات المشفرة والمكافآت",
       category: "DeFi"
     },
+    "breadcrumbs-blackmirror-xp": {
+      title: "blackmirror_xp",
+      description: "$MIRROR — الرمز المميز الرسمي لـ Black Mirror — مبني على @korprotocol. مدعوم من @avax و@solana و@republiccrypto و@animocabrands",
+      category: "الرمز المميز"
+    },
+    "breadcrumbs-dream-space-hq": {
+      title: "Dream Space HQ",
+      description: "Dreamspace هو أول لوحة ترميز مزاجية لمبدعي العملات المشفرة ✨ نجعل من السهل على أي شخص — وليس فقط المطورين — بناء ونشر وتحقيق الدخل من التطبيقات على السلسلة دون لمس الكود. احلم → أنتج → انشر → حقق الدخل.",
+      category: "أدوات التطوير"
+    },
+    "breadcrumbs-daemons": {
+      title: "Dæmons",
+      description: "Dæmons هي تجربة بلوك تشين مدعومة بالذكاء الاصطناعي تجمع بين Tamagotchi وPokémon. PvP وPvE وChat تفاعلي مع الذكاء الاصطناعي.",
+      category: "الألعاب"
+    },
+    "breadcrumbs-bondi-finance": {
+      title: "Bondi Finance",
+      description: "Bondi Finance يقوم بتقسيم السندات المؤسسية المتداولة علناً إلى منتجات دخل ثابت على السلسلة. كل رمز Bond يمثل تعرضاً جزئياً لسندات مؤسسية مقومة بالدولار الأمريكي.",
+      category: "DeFi"
+    },
     "breadcrumbs-a0x": {
       title: "A0x",
       description: "A0x هو روبوت تداول متقدم ومنصة أتمتة لأسواق العملات المشفرة",
       category: "روبوت التداول"
-    },
-    "wallchain-limitless": {
-      title: "تبادل Limitless",
-      description: "0.5% من العرض لأفضل Quackers! Limitless هو أكبر سوق تنبؤات على Base (>260 مليون دولار رهان) وأسهل طريقة لتداول أصولك المفضلة",
-      category: "التداول"
     },
     "rey-tea3": {
       title: "Tea3 - نظام الشراكة المتقدم على السلسلة",
@@ -3108,7 +3228,7 @@ export const projectsData: Record<string, Project[]> = {
       link: "https://x.com/Theo_Network",
       platformLink: "https://app.theo.xyz/invite?invite=JEETING",
       logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1789368212947136512.jpg/w=48&q=90",
-      source: "https://x.com/Theo_Network",
+      source: "https://x.com/KaitoAI/status/1977750590194159777",
       referralLink: "https://app.theo.xyz/invite?invite=JEETING",
       referralCode: "JEETING",
       claimPeriod: "Nov 15, 2025 - Dec 15, 2025",
@@ -3611,7 +3731,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS.",
       rewardPool: "$50,000 in $COLS",
       participants: "Community Contributors",
-      timeLeft: "Sep 12 - Oct 13, 2025",
+      timeLeft: "ENDED",
       category: "Analytics",
       platform: "Cointel",
       link: "https://bantr.fun/project/cointel",
@@ -3621,6 +3741,7 @@ export const projectsData: Record<string, Project[]> = {
       claimPeriod: "TBD",
       vestingSchedule: "TBD",
       distributionPlatform: "Bantr",
+      status: "ended",
       campaignRules: [
         "Post on X with @cointel_io + $COLS or include Cointel in your post",
         "Share thoughtful, quality content (see creator kit for tips)",
@@ -4161,6 +4282,63 @@ export const projectsData: Record<string, Project[]> = {
   ],
   breadcrumbs: [
     {
+      id: "breadcrumbs-dream-space-hq",
+      title: "Dream Space HQ",
+      description: "Dreamspace is the first vibe coding canvas for crypto's creatives ✨ we make it easy for anyone — not just devs — to build, ship, and monetize onchain apps without touching code. dream it → generate it → ship it → monetize it.",
+      rewardPool: "$0.1 WETH",
+      participants: "To Be Confirmed",
+      timeLeft: "7 days left",
+      category: "Development Tools",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
+      logo: "https://pbs.twimg.com/profile_images/1944738936120639488/0ali8N6b_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1978569404410462652",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      additionalData: {
+        xHandle: "@dreamspaceHQ",
+        isNew: "true"
+      }
+    },
+    {
+      id: "breadcrumbs-daemons",
+      title: "Dæmons",
+      description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
+      rewardPool: "$500",
+      participants: "To Be Confirmed",
+      timeLeft: "13 days left",
+      category: "Gaming",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      logo: "https://pbs.twimg.com/profile_images/1848964228490940416/HmW7B-Tc_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1978220112990667026",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      additionalData: {
+        xHandle: "@daemons_gamefi",
+        isNew: "true"
+      }
+    },
+    {
+      id: "breadcrumbs-bondi-finance",
+      title: "Bondi Finance",
+      description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
+      rewardPool: "$1,469 USD",
+      participants: "To Be Confirmed",
+      timeLeft: "14 days left",
+      category: "DeFi",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+      logo: "https://pbs.twimg.com/profile_images/1890906474957664256/eDEJ3Q4G_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1978540840994668743",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      additionalData: {
+        xHandle: "@bondifinance",
+        isNew: "true"
+      }
+    },
+    {
       id: "breadcrumbs-breadcrumb-cash",
       title: "Breadcrumb.cash",
       description: "Breadcrumb.cash is a decentralized platform for tracking and managing cryptocurrency transactions and rewards.",
@@ -4196,7 +4374,8 @@ export const projectsData: Record<string, Project[]> = {
       additionalData: {
         bakers: "2,805",
         airdropRecipients: "Top 100",
-        crumbsDistributed: "41,584"
+        crumbsDistributed: "41,584",
+        xHandle: "@blackmirror_xp"
       }
     }
   ],

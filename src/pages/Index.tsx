@@ -395,7 +395,7 @@ const Index = () => {
                 className="flex items-center gap-2 hover:text-primary transition-colors group"
               >
                 <img 
-                  src="https://pbs.twimg.com/profile_images/1885136753436360704/GXeray52_400x400.jpg" 
+                  src="https://pbs.twimg.com/profile_images/1978094221182529536/Uf7CZDo3_400x400.jpg" 
                   alt="@rjarivi" 
                   className="w-6 h-6 rounded-full border border-border/50 group-hover:border-primary/50 transition-colors"
                 />

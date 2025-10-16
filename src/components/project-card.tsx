@@ -130,7 +130,7 @@ export function ProjectCard({
                   </Badge>
                 )}
               </div>
-              <p className="text-sm text-muted-foreground">@{platform}</p>
+              <p className="text-sm text-muted-foreground">@{additionalData?.xHandle || platform}</p>
             </div>
           </div>
                 <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
@@ -517,16 +517,16 @@ export function ProjectCard({
                       </a>
                     </div>
                   )}
-                  {platform && (
+                  {(additionalData?.xHandle || platform) && (
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-muted-foreground">X Profile:</span>
                       <a 
-                        href={`https://x.com/${platform}`} 
+                        href={`https://x.com/${additionalData?.xHandle || platform}`} 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-sm text-primary hover:underline flex items-center gap-1"
                       >
-                        @{platform}
+                        @{additionalData?.xHandle || platform}
                         <img src="/logo.svg" alt="X" className="w-3 h-3" />
                       </a>
                     </div>
