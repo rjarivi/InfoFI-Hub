@@ -3717,6 +3717,7 @@ export const projectsData: Record<string, Project[]> = {
       claimPeriod: "TBD",
       vestingSchedule: "TBD",
       distributionPlatform: "Bantr",
+      status: "ended",
       campaignRules: [
         "Participate in Morph ecosystem activities",
         "Complete tasks and challenges",

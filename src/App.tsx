@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/hooks/use-language";
+import ParlePopupManager from "@/components/parle-popup-manager";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
             {/* Catch-all for invalid routes */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <ParlePopupManager />
         </LanguageProvider>
       </BrowserRouter>
     </TooltipProvider>
