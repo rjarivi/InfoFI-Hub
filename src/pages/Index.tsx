@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/use-language";
 import { usePagination } from "@/hooks/use-pagination";
+import { SiteCaptcha } from "@/components/site-captcha";
 import { motion } from "framer-motion";
 import { 
   Brain,
@@ -83,6 +84,7 @@ const menuItems = [
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
   const [hideEnded, setHideEnded] = useState(false);
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
   const { t, language } = useLanguage();
   
   const getAllProjects = () => {
@@ -184,10 +186,26 @@ const Index = () => {
 
       {/* Projects Grid */}
       <main className="flex-1 container mx-auto px-4 md:px-6 py-6 md:py-8">
+        {/* Site Captcha */}
+        {!isCaptchaVerified && (
+          <motion.div 
+            className="flex justify-center mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <SiteCaptcha
+              sitekey="0x4AAAAAAABkMYinukE8nzYV0"
+              onVerified={() => setIsCaptchaVerified(true)}
+              className="max-w-md"
+            />
+          </motion.div>
+        )}
+
         <motion.div 
           className="flex flex-col gap-4 mb-6 md:mb-8"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity: isCaptchaVerified ? 1 : 0.3 }}
           transition={{ delay: 0.2 }}
         >
           <div className="flex items-center gap-4">
@@ -236,7 +254,7 @@ const Index = () => {
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-start"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity: isCaptchaVerified ? 1 : 0.3 }}
           transition={{ delay: 0.4 }}
         >
           {activeProjects.map((project, index) => (
