@@ -84,7 +84,7 @@ const menuItems = [
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
   const [hideEnded, setHideEnded] = useState(false);
-  const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
+  const [isCaptchaVerified, setIsCaptchaVerified] = useState(true); // Start as verified to avoid blank screen
   const { t, language } = useLanguage();
   
   const getAllProjects = () => {
@@ -186,8 +186,8 @@ const Index = () => {
 
       {/* Projects Grid */}
       <main className="flex-1 container mx-auto px-4 md:px-6 py-6 md:py-8">
-        {/* Site Captcha */}
-        {!isCaptchaVerified && (
+        {/* Site Captcha - Temporarily disabled to fix loading issues */}
+        {/* {!isCaptchaVerified && (
           <motion.div 
             className="flex justify-center mb-8"
             initial={{ opacity: 0, y: 20 }}
@@ -200,12 +200,12 @@ const Index = () => {
               className="max-w-md"
             />
           </motion.div>
-        )}
+        )} */}
 
         <motion.div 
           className="flex flex-col gap-4 mb-6 md:mb-8"
           initial={{ opacity: 0 }}
-          animate={{ opacity: isCaptchaVerified ? 1 : 0.3 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
           <div className="flex items-center gap-4">
@@ -254,7 +254,7 @@ const Index = () => {
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 items-start"
           initial={{ opacity: 0 }}
-          animate={{ opacity: isCaptchaVerified ? 1 : 0.3 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
           {activeProjects.map((project, index) => (
