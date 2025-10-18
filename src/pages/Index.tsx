@@ -44,7 +44,7 @@ const projectLogos = {
   aira: "/assets/Info Fi Logo/Aira.svg",
   breadcrumbs: "/assets/Info Fi Logo/Breadcrumbs.svg",
   mindoai: "/assets/Info Fi Logo/MindoAi.svg",
-  parle: "/assets/Info Fi Logo/parle.svg",
+  galxe: "/assets/Info Fi Logo/Galxe.svg",
   pulse: "/assets/Info Fi Logo/Pulse.svg"
 };
 
@@ -57,22 +57,22 @@ const referralLinks = {
   rey: "https://app.rey.xyz/rjarivi",
   pulse: "https://www.alphabot.app/pulse/boost/XQ9S9C",
   mindoai: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
-  breadcrumbs: "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK"
+  galxe: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
 };
 
 const menuItems = [
   { id: "all", label: "All Projects", icon: <Globe className="w-4 h-4" /> },
   { id: "kaito", label: "Kaito", logo: projectLogos.kaito },
-  { id: "bantr", label: "Bantr", logo: projectLogos.bantr },
-  { id: "xeet", label: "Xeet", logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1947308130301255680%2FZ71pe0B2_400x400.png&w=32&q=75" },
   { id: "wallchain", label: "Wallchain", logo: projectLogos.wallchain },
+  { id: "xeet", label: "Xeet", logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1947308130301255680%2FZ71pe0B2_400x400.png&w=32&q=75" },
+  { id: "bantr", label: "Bantr", logo: projectLogos.bantr },
+  { id: "galxe", label: "Galxe", logo: projectLogos.galxe },
+  { id: "cookie", label: "Cookie", logo: projectLogos.cookie },
   { id: "pulse", label: "Pulse", logo: projectLogos.pulse },
   { id: "aira", label: "Aira", logo: projectLogos.aira },
   { id: "mindoai", label: "MindoAi", logo: projectLogos.mindoai },
-  { id: "cookie", label: "Cookie", logo: projectLogos.cookie },
   { id: "rey", label: "Rey", logo: projectLogos.rey },
-  { id: "breadcrumbs", label: "Breadcrumbs", logo: projectLogos.breadcrumbs },
-  { id: "parle", label: "Parle", logo: projectLogos.parle }
+  { id: "breadcrumbs", label: "Breadcrumbs", logo: projectLogos.breadcrumbs }
 ];
 
       // All navigation items visible in main bar

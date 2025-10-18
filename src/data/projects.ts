@@ -303,9 +303,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI is an intelligent AI assistant for cryptocurrency market insights and trading strategies.",
       category: "AI Assistant"
     },
-    "parle-platform": {
-      title: "Parle Platform",
-      description: "Parle Platform is a comprehensive social media and content creation platform for Web3 communities.",
+    "galxe-platform": {
+      title: "Galxe Platform",
+      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure.",
       category: "Social Platform"
     },
     "pulse-grvt": {
@@ -644,9 +644,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI es un asistente de IA inteligente para insights del mercado de criptomonedas y estrategias de trading.",
       category: "Asistente de IA"
     },
-    "parle-platform": {
-      title: "Plataforma Parle",
-      description: "La Plataforma Parle es una plataforma integral de redes sociales y creación de contenido para comunidades Web3.",
+    "galxe-platform": {
+      title: "Plataforma Galxe",
+      description: "Galxe es una red de datos de credenciales Web3. Construye mejores productos y comunidades con la infraestructura de credenciales de Galxe.",
       category: "Plataforma Social"
     },
     "pulse-grvt": {
@@ -990,9 +990,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI est un assistant IA intelligent pour les insights du marché des cryptomonnaies et les stratégies de trading.",
       category: "Assistant IA"
     },
-    "parle-platform": {
-      title: "Plateforme Parle",
-      description: "La Plateforme Parle est une plateforme complète de médias sociaux et de création de contenu pour les communautés Web3.",
+    "galxe-platform": {
+      title: "Plateforme Galxe",
+      description: "Galxe est un réseau de données d'identifiants Web3. Construisez de meilleurs produits et communautés avec l'infrastructure d'identifiants de Galxe.",
       category: "Plateforme Sociale"
     },
     "pulse-grvt": {
@@ -1325,9 +1325,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI ist ein intelligenter KI-Assistent für Kryptowährungs-Markteinblicke und Trading-Strategien.",
       category: "KI-Assistent"
     },
-    "parle-platform": {
-      title: "Parle-Plattform",
-      description: "Die Parle-Plattform ist eine umfassende Social-Media- und Content-Erstellungsplattform für Web3-Communities.",
+    "galxe-platform": {
+      title: "Galxe-Plattform",
+      description: "Galxe ist ein Web3-Credential-Datennetzwerk. Erstellen Sie bessere Produkte und Gemeinschaften mit Galxes Credential-Infrastruktur.",
       category: "Soziale Plattform"
     },
     "pulse-grvt": {
@@ -1625,9 +1625,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI is an advanced AI platform for market analysis and predictions in cryptocurrency",
       category: "AI"
     },
-    "parle-platform": {
-      title: "Parle Platform",
-      description: "Parle Platform is a comprehensive communication and sharing system in the Web3 space",
+    "galxe-platform": {
+      title: "Galxe Platform",
+      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
       category: "Communication"
     },
     "pulse-boost": {
@@ -1760,9 +1760,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAIは、暗号通貨市場の洞察と取引戦略のためのインテリジェントAIアシスタントです。",
       category: "AIアシスタント"
     },
-    "parle-platform": {
-      title: "Parleプラットフォーム",
-      description: "Parleプラットフォームは、Web3コミュニティ向けの包括的なソーシャルメディア・コンテンツ作成プラットフォームです。",
+    "galxe-platform": {
+      title: "Galxeプラットフォーム",
+      description: "GalxeはWeb3クレデンシャルデータネットワークです。Galxeのクレデンシャルインフラストラクチャでより良い製品とコミュニティを構築します。",
       category: "ソーシャルプラットフォーム"
     },
     "pulse-grvt": {
@@ -2075,9 +2075,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI는 암호화폐 시장 분석 및 예측을 위한 고급 AI 플랫폼입니다",
       category: "AI"
     },
-    "parle-platform": {
-      title: "Parle Platform",
-      description: "Parle Platform은 Web3 공간에서 포괄적인 커뮤니케이션 및 공유 시스템입니다",
+    "galxe-platform": {
+      title: "Galxe Platform",
+      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
       category: "커뮤니케이션"
     },
     "pulse-boost": {
@@ -2215,9 +2215,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI는 암호화폐 시장 인사이트와 거래 전략을 위한 지능형 AI 어시스턴트입니다.",
       category: "AI 어시스턴트"
     },
-    "parle-platform": {
-      title: "Parle 플랫폼",
-      description: "Parle 플랫폼은 Web3 커뮤니티를 위한 포괄적인 소셜 미디어 및 콘텐츠 제작 플랫폼입니다.",
+    "galxe-platform": {
+      title: "Galxe 플랫폼",
+      description: "Galxe는 Web3 크리덴셜 데이터 네트워크입니다. Galxe의 크리덴셜 인프라로 더 나은 제품과 커뮤니티를 구축하세요.",
       category: "소셜 플랫폼"
     },
     "pulse-boost": {
@@ -2548,9 +2548,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI is an advanced AI platform for market analysis and predictions in cryptocurrency",
       category: "AI"
     },
-    "parle-platform": {
-      title: "Parle Platform",
-      description: "Parle Platform is a comprehensive communication and sharing system in the Web3 space",
+    "galxe-platform": {
+      title: "Galxe Platform",
+      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
       category: "Communication"
     },
     "pulse-boost": {
@@ -2683,9 +2683,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI是用于加密货币市场洞察和交易策略的智能AI助手。",
       category: "AI助手"
     },
-    "parle-platform": {
-      title: "Parle平台",
-      description: "Parle平台是为Web3社区提供全面的社交媒体和内容创作平台。",
+    "galxe-platform": {
+      title: "Galxe平台",
+      description: "Galxe是Web3凭证数据网络。使用Galxe的凭证基础设施构建更好的产品和社区。",
       category: "社交平台"
     },
     "pulse-boost": {
@@ -2993,9 +2993,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI هو منصة ذكاء اصطناعي متقدمة لتحليل السوق والتنبؤات في العملات المشفرة",
       category: "الذكاء الاصطناعي"
     },
-    "parle-platform": {
-      title: "منصة Parle",
-      description: "منصة Parle هي نظام شامل للتواصل والمشاركة في مساحة Web3",
+    "galxe-platform": {
+      title: "منصة Galxe",
+      description: "Galxe هي شبكة بيانات اعتماد Web3. أنشئ منتجات ومجتمعات أفضل مع البنية التحتية لاعتماد Galxe",
       category: "التواصل"
     },
     "pulse-boost": {
@@ -3128,9 +3128,9 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI هو مساعد ذكي بالذكاء الاصطناعي لرؤى سوق العملات المشفرة واستراتيجيات التداول.",
       category: "مساعد الذكاء الاصطناعي"
     },
-    "parle-platform": {
-      title: "منصة Parle",
-      description: "منصة Parle هي منصة شاملة للوسائط الاجتماعية وإنشاء المحتوى لمجتمعات Web3.",
+    "galxe-platform": {
+      title: "منصة Galxe",
+      description: "Galxe هي منصة شاملة للوسائط الاجتماعية وإنشاء المحتوى لمجتمعات Web3.",
       category: "منصة اجتماعية"
     },
     "pulse-boost": {
@@ -4452,31 +4452,214 @@ export const projectsData: Record<string, Project[]> = {
       ]
     }
   ],
-  parle: [
+  galxe: [
     {
-      id: "parle-platform",
-      title: "Parle - InfoFi Reward Engine",
-      description: "An InfoFi-native reward engine for token creators and communities. Our algorithm tracks real engagement. No bots. No whales gaming the system. Just signals.",
-      rewardPool: "To Be Confirmed",
-      participants: "Token Creators & Communities",
-      timeLeft: "Active",
-      category: "Reward Engine",
-      platform: "Parle",
-      link: "https://parle.xyz",
-      logo: "/assets/Info Fi Logo/parle.svg",
-      source: "https://parle.xyz",
-      referralLink: "https://parle.xyz?ref=infofi",
+      id: "mememarket-galxe",
+      title: "MemeMarket - The Road to $SMFUN",
+      description: "MemeMarket rewards creators and market movers shaping crypto culture. The final sprint to TGE has begun. Up to $100,000 in $MFUN available for top Aura contributors and GalxeQuest participants.",
+      rewardPool: "$100,000 of $MFUN",
+      participants: "Top Aura Contributors & GalxeQuest Participants",
+      timeLeft: "2025/10/13 02:30:00 - 2025/12/16",
+      category: "Meme Token",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/mememarket/starboard/794",
+      logo: "https://cdn.galxe.com/galaxy/192/72ff9759-eae4-4603-bef6-05551dd0f730.png",
+      source: "https://x.com/Galxe/status/1979185882637963513",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "Ongoing",
+      vestingSchedule: "TBA",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Post relevant content on X to increase your social impact",
+        "Complete GalxeQuest tasks to earn rewards",
+        "Build Aura index through social engagement",
+        "Top contributors receive $MFUN tokens"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/MemeMarketFun",
+        getStartedLink: "https://app.galxe.com/quest/mememarket/GCiTet8JSG?refer=space_home",
+        joinProjectLink: "https://mememarket.fun/mfun-public-sale"
+      }
+    },
+    {
+      id: "xyo-galxe",
+      title: "XYO - XL1 Frenzy",
+      description: "XYO is a global network making real-world data reliable, bridging the physical world with web3 apps. Up to $50,000 in $XL1 tokens is available for top Aura contributors and GalxeQuest participants.",
+      rewardPool: "$50K in XL1* $25K for Galxe Quest, $25K for Starboard Aura contributors",
+      participants: "Top Aura Contributors & GalxeQuest Participants",
+      timeLeft: "Started: 2025/10/10, End: TBA",
+      category: "Data Network",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/xyo/starboard/792",
+      logo: "https://cdn.galxe.com/galaxy/cdca05cad9884969a5b9cd4017f0d2b1/.png_thumbnail.webp",
+      source: "https://x.com/Galxe/status/1978498854652670295",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "Ongoing",
+      vestingSchedule: "Distributed via Earndrop over 12 months",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Complete GalxeQuest tasks to earn rewards",
+        "Build Aura index through social engagement",
+        "Top contributors receive $XL1 tokens",
+        "Rewards distributed via Earndrop over 12 months"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/OfficialXYO"
+      }
+    },
+    {
+      id: "ditto-labs-galxe",
+      title: "Ditto Labs - Ditto Quest",
+      description: "Lead your heroes in Ditto Quest and grow your onchain legacy in the Ditto Portal. Build your Aura, climb the leaderboard & earn from 1.5% of the upcoming $DITTO airdrop.",
+      rewardPool: "1.5% of $DITTO Supply",
+      participants: "Ditto Labs Starboard and Galxe Quest Participants",
+      timeLeft: "2025/10/12 21:30:00 - 2025/11/13",
+      category: "Gaming",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/DittoLabs/starboard/793",
+      logo: "https://cdn.galxe.com/galaxy/logo/397c3693-6134-45b4-a254-d27a7fa981ed.png",
+      source: "https://x.com/Galxe/status/1977721704840355949",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "Ongoing",
+      vestingSchedule: "TBA",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Play Ditto Quest pixel-art idle RPG",
+        "Farm, craft, breed, and fight monsters",
+        "Build Aura index through social engagement",
+        "Earn $DITTO and USDT through combat and progression"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/dittocoin",
+        gameDescription: "Our flagship title, Ditto Quest, is a pixel-art idle RPG where players farm, craft, breed, and fight monsters to earn real rewards. Designed as a stable faucet economy, Ditto Quest rewards players with $DITTO and even USDT through combat and progression."
+      }
+    },
+    {
+      id: "x1-ecochain-galxe",
+      title: "X1 EcoChain - Layer-1 Blockchain",
+      description: "X1 EcoChain is a Layer-1 blockchain powered by thousands of plug-and-play X1Nodes running in homes and offices worldwide. Up to $100,000 in $X1 coins are available for top Aura contributors.",
+      rewardPool: "$100,000 in $X1 coins (1% of total)",
+      participants: "Top Aura Contributors",
+      timeLeft: "Started: 2025/08/01",
+      category: "Blockchain",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/x1ecochain/starboard/791",
+      logo: "https://cdn.galxe.com/tooljet/logoframe.png",
+      source: "https://x.com/Galxe/status/1971210524718506385",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "Ongoing",
+      vestingSchedule: "TBA",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Build Aura index through social engagement",
+        "Complete GalxeQuest tasks",
+        "Top contributors receive $X1 coins",
+        "1% of total $X1 supply distributed"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/X1_EcoChain",
+        technicalDetails: "X1 EcoChain is a Layer-1 network secured by Proof of Authority validators running on X1Nodes consuming just 3 watts per hour. Fully EVM-compatible, it delivers sub-cent gas fees, instant finality, and carbon-light operation—bringing smart-contract utility to anyone with a power outlet."
+      }
+    },
+    {
+      id: "assemble-ai-galxe",
+      title: "Assemble AI - AI-Powered Crypto News Super App",
+      description: "AI-Powered Crypto News Super App - http://ns3.ai | Read News & Earn $ASM | Breaking News Alerts | 98% Global Crypto News Coverage | AI News Analysis & Market Summary",
+      rewardPool: "$100,000 in $ASM tokens",
+      participants: "Top 200 contributors (Season 1)",
+      timeLeft: "Season 1: 18 September – 18 November 2025",
+      category: "AI / News",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/AssembleProtocol/starboard/790",
+      logo: "https://cdn.galxe.com/galaxy/logo/f43bd1dd-4347-41a8-bc69-87050f048459.png",
+      source: "https://x.com/Galxe/status/1968689948086706597",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "Distributed in Season 1 (18 September – 18 November 2025), Season 2 TBA",
+      vestingSchedule: "To Be Confirmed",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "In Season 1 (18 September – 18 November 2025), we're distributing $50,000 in $ASM tokens among the top 200 contributors, with rewards increasing by tier.",
+        "The second season, with the remaining $50,000, will be announced later.",
+        "Campaign Full Details: https://x.com/Assemble_io/status/1969012579059056645"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/Assemble_io"
+      }
+    },
+    {
+      id: "threshold-network-galxe",
+      title: "Threshold Network (tBTC) - Decentralized Wrapped Bitcoin",
+      description: "The Leading Decentralized Wrapped Bitcoin. Unleash Bitcoin's full potential, without giving up control.",
+      rewardPool: "Up to 50K USDC (Galxe Quest & Starboard)",
+      participants: "Galxe Quest & Starboard Participants",
+      timeLeft: "Phase 1: Ends October 30 (Quest #1), October 24 (Quest #2). Phase 2: Running until December 14, 2025.",
+      category: "DeFi / Wrapped Bitcoin",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/Threshold/starboard/755",
+      logo: "https://d257b89266utxb.cloudfront.net/galaxy/images/avatar/0xd88f19d444019b3726d83099c8c1dd9b85f19bac-1665454500991901234.jpeg",
+      source: "https://x.com/TheTNetwork/status/1978472380424151245",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "All rewards are distributed in USDC only.",
+      vestingSchedule: "To Be Confirmed",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Phase 1: Starboard Series - Two introductory quests on Galxe.",
+        "Starboard Series #1: Follow Threshold and tBTC (Ends: October 30). Rewards: 250 winners share $500 USDC ($2 each). Required before Quest #2.",
+        "Starboard Series #2: Spread the Word About tBTC (Ends: October 24). Eligibility: 3,000 AURA points. Rewards: 90 qualified winners share $4,500 USDC (~$45 each).",
+        "How to qualify: Create Galxe account, Connect ERC-20 wallet, Submit wallet address, Tweet about 'Threshold network' and 'tBTC' (correct info only), Verification by Threshold team, Galxe account address must match submitted address.",
+        "Phase 2: Starboard Rank - Share posts about Threshold on X with 'Threshold Network' and 'tBTC'. Engagement impacts Aura Points and leaderboard ranking. Running until December 14, 2025.",
+        "Participation Guidelines: Accuracy and professionalism essential. Misinformation/duplication leads to disqualification.",
+        "Note: tBTC is not undergoing TGE/token launch. Threshold does not issue NFTs. Rewards in USDC only. Repeated/misleading posts lead to 500 AURA point deduction or removal.",
+        "Reward structure: Top 1–5: $500 USDC each; Top 6–10: $400 USDC each.",
+        "FAQs: https://x.com/TheTNetwork/status/1978472380424151245"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/TheTNetwork"
+      }
+    },
+    {
+      id: "dolomite-galxe",
+      title: "Dolomite - Next-Gen Margin Trading",
+      description: "A next-gen margin trading, lending, and hedging protocol on Arbitrum.",
+      rewardPool: "500 Aura → +10 XP; 2,500 Aura → +20 XP; 10,000 Aura → +30 XP",
+      participants: "Community Members",
+      timeLeft: "Ongoing",
+      category: "DeFi / Trading",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/dolomite/starboard/757",
+      logo: "https://cdn.galxe.com/galaxy/avatar/2d4f5b4d-4730-4134-827f-e88a9b14b3af.jpeg",
+      source: "https://app.galxe.com/quest/dolomite/starboard/757",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
       claimPeriod: "Ongoing",
       vestingSchedule: "To Be Confirmed",
-      distributionPlatform: "Parle",
+      distributionPlatform: "Galxe",
       campaignRules: [
-        "Algorithm tracks real engagement only",
-        "No bots or fake engagement allowed",
-        "No whales gaming the system",
-        "Launch your circle in 60 seconds",
-        "No code required, pure momentum",
-        "Built-in community features"
-      ]
+        "Learn more about Dolomite Community XP here: https://docs.dolomite.io/community-xp"
+      ],
+      additionalData: {
+        xAccount: "https://x.com/Dolomite_io"
+      }
+    },
+    {
+      id: "kadena-galxe",
+      title: "Kadena - Scalable Layer 1 PoW Blockchain",
+      description: "Founded in the U.S. in 2017 by Stuart Popejoy and Will Martino - creators of J.P. Morgan's first blockchain and leaders of the SEC's Crypto Committee - Kadena delivers industry-leading performance as the only scalable Layer 1 Proof of Work blockchain.",
+      rewardPool: "$50,000 worth of $KDA",
+      participants: "Galxe Quest & Starboard Participants",
+      timeLeft: "2025/09/08 20:30:00 - 2025/12/08 21:30:00 GMT+05:30",
+      category: "Blockchain",
+      platform: "Galxe",
+      link: "https://app.galxe.com/quest/Kadena/starboard/650",
+      logo: "https://cdn.galxe.com/galaxy/logo/0b22f7cb-caef-4581-89af-4199c29c1e3f.png",
+      source: "https://x.com/Galxe/status/1965067856149967124",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      claimPeriod: "To Be Confirmed",
+      vestingSchedule: "To Be Confirmed",
+      distributionPlatform: "Galxe",
+      campaignRules: [],
+      additionalData: {
+        xAccount: "https://x.com/kadena_io"
+      }
     }
   ],
   pulse: [
