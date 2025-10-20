@@ -269,7 +269,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Trading"
     },
     "rey-tea3": {
-      title: "Tea3 - Advanced Onchain Affiliate System",
+      title: "Tea3",
       description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our entire ecosystem.",
       category: "Affiliate System"
     },
@@ -1601,7 +1601,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Community"
     },
     "rey-tea3": {
-      title: "Tea3 - Advanced Onchain Affiliate System",
+      title: "Tea3",
       description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our platforms",
       category: "Affiliate System"
     },
@@ -2051,7 +2051,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "커뮤니티"
     },
     "rey-tea3": {
-      title: "Tea3 - Advanced Onchain Affiliate System",
+      title: "Tea3",
       description: "Tea3는 웹에서 가장 고급 오픈 어필리에이트 및 추천 시스템입니다. 온체인 유산을 성장시키고 플랫폼에서 승리를 극대화할 수 있습니다",
       category: "어필리에이트 시스템"
     },
@@ -2524,7 +2524,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       category: "Community"
     },
     "rey-tea3": {
-      title: "Tea3 - Advanced Onchain Affiliate System",
+      title: "Tea3",
       description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our platforms",
       category: "Affiliate System"
     },
@@ -4204,7 +4204,7 @@ export const projectsData: Record<string, Project[]> = {
   rey: [
     {
       id: "rey-tea3",
-      title: "Tea3 - Advanced Onchain Affiliate System",
+      title: "Tea3",
       description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our entire ecosystem.",
       rewardPool: "Points + USDT + Multipliers",
       participants: "Active Users with 2+ invitees",
@@ -4455,7 +4455,7 @@ export const projectsData: Record<string, Project[]> = {
   galxe: [
     {
       id: "mememarket-galxe",
-      title: "MemeMarket - The Road to $SMFUN",
+      title: "MemeMarket",
       description: "MemeMarket rewards creators and market movers shaping crypto culture. The final sprint to TGE has begun. Up to $100,000 in $MFUN available for top Aura contributors and GalxeQuest participants.",
       rewardPool: "$100,000 of $MFUN",
       participants: "Top Aura Contributors & GalxeQuest Participants",
@@ -4477,13 +4477,14 @@ export const projectsData: Record<string, Project[]> = {
       ],
       additionalData: {
         xAccount: "https://x.com/MemeMarketFun",
+        xHandle: "MemeMarketFun",
         getStartedLink: "https://app.galxe.com/quest/mememarket/GCiTet8JSG?refer=space_home",
         joinProjectLink: "https://mememarket.fun/mfun-public-sale"
       }
     },
     {
       id: "xyo-galxe",
-      title: "XYO - XL1 Frenzy",
+      title: "XYO",
       description: "XYO is a global network making real-world data reliable, bridging the physical world with web3 apps. Up to $50,000 in $XL1 tokens is available for top Aura contributors and GalxeQuest participants.",
       rewardPool: "$50K in XL1* $25K for Galxe Quest, $25K for Starboard Aura contributors",
       participants: "Top Aura Contributors & GalxeQuest Participants",
@@ -4504,12 +4505,13 @@ export const projectsData: Record<string, Project[]> = {
         "Rewards distributed via Earndrop over 12 months"
       ],
       additionalData: {
-        xAccount: "https://x.com/OfficialXYO"
+        xAccount: "https://x.com/OfficialXYO",
+        xHandle: "OfficialXYO"
       }
     },
     {
       id: "ditto-labs-galxe",
-      title: "Ditto Labs - Ditto Quest",
+      title: "Ditto Labs",
       description: "Lead your heroes in Ditto Quest and grow your onchain legacy in the Ditto Portal. Build your Aura, climb the leaderboard & earn from 1.5% of the upcoming $DITTO airdrop.",
       rewardPool: "1.5% of $DITTO Supply",
       participants: "Ditto Labs Starboard and Galxe Quest Participants",
@@ -4531,12 +4533,13 @@ export const projectsData: Record<string, Project[]> = {
       ],
       additionalData: {
         xAccount: "https://x.com/dittocoin",
+        xHandle: "dittocoin",
         gameDescription: "Our flagship title, Ditto Quest, is a pixel-art idle RPG where players farm, craft, breed, and fight monsters to earn real rewards. Designed as a stable faucet economy, Ditto Quest rewards players with $DITTO and even USDT through combat and progression."
       }
     },
     {
       id: "x1-ecochain-galxe",
-      title: "X1 EcoChain - Layer-1 Blockchain",
+      title: "X1 EcoChain",
       description: "X1 EcoChain is a Layer-1 blockchain powered by thousands of plug-and-play X1Nodes running in homes and offices worldwide. Up to $100,000 in $X1 coins are available for top Aura contributors.",
       rewardPool: "$100,000 in $X1 coins (1% of total)",
       participants: "Top Aura Contributors",
@@ -4558,12 +4561,13 @@ export const projectsData: Record<string, Project[]> = {
       ],
       additionalData: {
         xAccount: "https://x.com/X1_EcoChain",
+        xHandle: "X1_EcoChain",
         technicalDetails: "X1 EcoChain is a Layer-1 network secured by Proof of Authority validators running on X1Nodes consuming just 3 watts per hour. Fully EVM-compatible, it delivers sub-cent gas fees, instant finality, and carbon-light operation—bringing smart-contract utility to anyone with a power outlet."
       }
     },
     {
       id: "assemble-ai-galxe",
-      title: "Assemble AI - AI-Powered Crypto News Super App",
+      title: "Assemble AI",
       description: "AI-Powered Crypto News Super App - http://ns3.ai | Read News & Earn $ASM | Breaking News Alerts | 98% Global Crypto News Coverage | AI News Analysis & Market Summary",
       rewardPool: "$100,000 in $ASM tokens",
       participants: "Top 200 contributors (Season 1)",
@@ -4583,12 +4587,13 @@ export const projectsData: Record<string, Project[]> = {
         "Campaign Full Details: https://x.com/Assemble_io/status/1969012579059056645"
       ],
       additionalData: {
-        xAccount: "https://x.com/Assemble_io"
+        xAccount: "https://x.com/Assemble_io",
+        xHandle: "Assemble_io"
       }
     },
     {
       id: "threshold-network-galxe",
-      title: "Threshold Network (tBTC) - Decentralized Wrapped Bitcoin",
+      title: "Threshold Network",
       description: "The Leading Decentralized Wrapped Bitcoin. Unleash Bitcoin's full potential, without giving up control.",
       rewardPool: "Up to 50K USDC (Galxe Quest & Starboard)",
       participants: "Galxe Quest & Starboard Participants",
@@ -4614,12 +4619,13 @@ export const projectsData: Record<string, Project[]> = {
         "FAQs: https://x.com/TheTNetwork/status/1978472380424151245"
       ],
       additionalData: {
-        xAccount: "https://x.com/TheTNetwork"
+        xAccount: "https://x.com/TheTNetwork",
+        xHandle: "TheTNetwork"
       }
     },
     {
       id: "dolomite-galxe",
-      title: "Dolomite - Next-Gen Margin Trading",
+      title: "Dolomite",
       description: "A next-gen margin trading, lending, and hedging protocol on Arbitrum.",
       rewardPool: "500 Aura → +10 XP; 2,500 Aura → +20 XP; 10,000 Aura → +30 XP",
       participants: "Community Members",
@@ -4637,12 +4643,13 @@ export const projectsData: Record<string, Project[]> = {
         "Learn more about Dolomite Community XP here: https://docs.dolomite.io/community-xp"
       ],
       additionalData: {
-        xAccount: "https://x.com/Dolomite_io"
+        xAccount: "https://x.com/Dolomite_io",
+        xHandle: "Dolomite_io"
       }
     },
     {
       id: "kadena-galxe",
-      title: "Kadena - Scalable Layer 1 PoW Blockchain",
+      title: "Kadena",
       description: "Founded in the U.S. in 2017 by Stuart Popejoy and Will Martino - creators of J.P. Morgan's first blockchain and leaders of the SEC's Crypto Committee - Kadena delivers industry-leading performance as the only scalable Layer 1 Proof of Work blockchain.",
       rewardPool: "$50,000 worth of $KDA",
       participants: "Galxe Quest & Starboard Participants",
@@ -4658,7 +4665,8 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Galxe",
       campaignRules: [],
       additionalData: {
-        xAccount: "https://x.com/kadena_io"
+        xAccount: "https://x.com/kadena_io",
+        xHandle: "kadena_io"
       }
     }
   ],
