@@ -68,8 +68,8 @@ const DonationWidget: React.FC = () => {
           <Tabs defaultValue="evm" className="w-full">
             <TabsList className="grid grid-cols-2 w-full">
               <TabsTrigger value="evm" className="flex items-center gap-2">
-                <img src={ETH_ICON} alt="EVM" className="w-4 h-4" />
-                EVM (Ethereum & EVM chains)
+                <img src={ETH_ICON} alt="Ethereum" className="w-4 h-4" />
+                Ethereum
               </TabsTrigger>
               <TabsTrigger value="sol" className="flex items-center gap-2">
                 <img src={SOL_ICON} alt="Solana" className="w-4 h-4" />
