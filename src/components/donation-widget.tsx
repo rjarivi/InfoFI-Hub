@@ -10,8 +10,8 @@ const SOL_ADDRESS = '5iT6JkW3XPsLhPv6gB1zvoRnyBS2HkH8GGpBrk4kigAp';
 
 const ETH_ICON = 'https://ethereum.org/images/assets/svgs/eth-diamond-purple.svg';
 const SOL_ICON = 'https://solana.com/src/img/branding/solanaLogoMark.svg';
-const USDC_ICON = 'https://cryptologos.cc/logos/usd-coin-usdc-logo.svg';
-const USDT_ICON = 'https://cryptologos.cc/logos/tether-usdt-logo.svg';
+const USDC_ICON = 'https://cryptologos.cc/logos/usd-coin-usdc-logo.svg?v=040';
+const USDT_ICON = 'https://cryptologos.cc/logos/tether-usdt-logo.svg?v=040';
 
 const CopyField: React.FC<{ label: string; value: string }> = ({ label, value }) => {
   const onCopy = async () => {
