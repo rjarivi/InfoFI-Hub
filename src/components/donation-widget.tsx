@@ -10,7 +10,7 @@ const SOL_ADDRESS = '5iT6JkW3XPsLhPv6gB1zvoRnyBS2HkH8GGpBrk4kigAp';
 
 const ETH_ICON = 'https://ethereum.org/images/assets/svgs/eth-diamond-purple.svg';
 const SOL_ICON = 'https://solana.com/src/img/branding/solanaLogoMark.svg';
-const USDC_ICON = '/assets/usdc.svg';
+const USDC_ICON = 'https://cryptologos.cc/logos/usd-coin-usdc-logo.svg?v=040';
 const USDT_ICON = '/assets/usdt.svg';
 
 const CopyField: React.FC<{ label: string; value: string }> = ({ label, value }) => {
