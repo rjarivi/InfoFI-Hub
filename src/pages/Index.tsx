@@ -148,21 +148,24 @@ const Index = () => {
           <div className="flex items-center justify-between gap-2 md:gap-4">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl glass-card p-2 flex items-center justify-center">
-                  <img 
-                    src="/InfoFI-Icon.svg" 
-                    alt="InfoFi Hub" 
-                    className="w-6 h-6 md:w-8 md:h-8"
-                  />
-                </div>
-                <h1 className="text-xl md:text-2xl font-bold text-neon-green" style={{ 
-                  fontFamily: 'Gasoek One, sans-serif',
-                  letterSpacing: '0.027em',
-                  fontWeight: '400'
-                }}>
-                  Jeet.ing
-                </h1>
+              <div className="flex flex-col">
+                <img 
+                  src="/Jeet.ing.svg" 
+                  alt="Jeet.ing" 
+                  className="h-[2.6rem] md:h-[3.12rem] w-auto"
+                />
+              </div>
+              {/* Creator badge under the logo */}
+              <div className="mt-1">
+                <a
+                  href="https://otgstats.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-200 px-2.5 py-1 text-xs hover:bg-emerald-800 transition-colors"
+                >
+                  <span className="opacity-80">Creator of</span>
+                  <span className="font-medium underline">OTGStats</span>
+                </a>
               </div>
             </div>
             
@@ -209,7 +212,7 @@ const Index = () => {
           transition={{ delay: 0.2 }}
         >
           <div className="flex items-center gap-4">
-            <h2 className="text-xl md:text-2xl font-bold">
+            <h2 className="text-lg md:text-xl font-bold">
               {activeTab === "all" ? t("allProjects") : menuItems.find(item => item.id === activeTab)?.label}
             </h2>
             <Badge variant="secondary" className="neon-border">
@@ -349,27 +352,15 @@ const Index = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
+              <div className="flex items-center justify-start gap-2 mb-6 -translate-x-[10%]">
                 <img 
-                  src="/InfoFI-Icon.svg" 
-                  alt="InfoFi Hub Logo" 
-                  className="w-10 h-10"
+                  src="/Jeet.ing.svg" 
+                  alt="Jeet.ing" 
+                  className="h-[5.4rem] md:h-[7.2rem] w-auto"
                 />
-                <h1 className="text-5xl font-bold text-neon-green" style={{ 
-                  fontFamily: 'Gasoek One, sans-serif',
-                  letterSpacing: '0.027em',
-                  fontWeight: '400'
-                }}>
-                  <TextPressure 
-                    text={t("title")} 
-                  />
-                </h1>
               </div>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                {t("description")}
-              </p>
               
-              <div className="flex items-center justify-center lg:justify-start gap-6">
+              <div className="flex items-center justify-start gap-6">
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-neon-green animate-pulse" />
                   <span className="text-sm font-medium">{totalProjects} {t("activeProjects")}</span>

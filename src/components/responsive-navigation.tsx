@@ -57,7 +57,7 @@ export function ResponsiveNavigation({
                     {activeItemData?.icon}
                   </div>
                 )}
-                <span className="text-sm md:text-base">{activeItemData?.label}</span>
+                    <span className="text-sm md:text-[0.95rem]">{activeItemData?.label}</span>
               </div>
             </SelectValue>
           </SelectTrigger>
