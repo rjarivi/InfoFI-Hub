@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/hooks/use-language";
 import ParlePopupManager from "@/components/parle-popup-manager";
+import DonationWidget from "@/components/donation-widget";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +26,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
           <ParlePopupManager />
+          <DonationWidget />
         </LanguageProvider>
       </BrowserRouter>
     </TooltipProvider>
