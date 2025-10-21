@@ -95,7 +95,7 @@ const Index = () => {
       ? allProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
       : allProjects;
     
-    // Sort projects to prioritize NEW projects at the top
+    // Sort projects to prioritize NEW projects at the top, then by section order
     return filteredProjects.sort((a, b) => {
       const aIsNew = a.additionalData?.isNew === "true";
       const bIsNew = b.additionalData?.isNew === "true";
@@ -104,8 +104,39 @@ const Index = () => {
       if (aIsNew && !bIsNew) return -1;
       if (!aIsNew && bIsNew) return 1;
       
-      // If both are new or both are not new, maintain original order
-      return 0;
+      // If both are new or both are not new, sort by section priority
+      // Define section order priority (lower number = higher priority)
+      const sectionOrder = {
+        'cookie': 1,
+        'kaito': 2,
+        'bantr': 3,
+        'wallchain': 4,
+        'aira': 5,
+        'rey': 6,
+        'breadcrumbs': 7,
+        'mindoai': 8,
+        'galxe': 9,
+        'pulse': 10,
+        'xeet': 11
+      };
+      
+      // Get section for each project by checking which section contains it
+      const getProjectSection = (project: any) => {
+        for (const [sectionName, projects] of Object.entries(projectsData)) {
+          if (projects.some(p => p.id === project.id)) {
+            return sectionName;
+          }
+        }
+        return 'other';
+      };
+      
+      const aSection = getProjectSection(a);
+      const bSection = getProjectSection(b);
+      
+      const aOrder = sectionOrder[aSection as keyof typeof sectionOrder] || 999;
+      const bOrder = sectionOrder[bSection as keyof typeof sectionOrder] || 999;
+      
+      return aOrder - bOrder;
     });
   };
 
@@ -116,9 +147,22 @@ const Index = () => {
     const platformProjects = (projectsData[activeTab] || []).map(project => translateProject(project, language));
     
     // Filter out ended projects if hideEnded is true
-    return hideEnded 
+    const filteredProjects = hideEnded 
       ? platformProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
       : platformProjects;
+    
+    // Sort projects to prioritize NEW projects at the top
+    return filteredProjects.sort((a, b) => {
+      const aIsNew = a.additionalData?.isNew === "true";
+      const bIsNew = b.additionalData?.isNew === "true";
+      
+      // If one is new and the other isn't, new one comes first
+      if (aIsNew && !bIsNew) return -1;
+      if (!aIsNew && bIsNew) return 1;
+      
+      // If both are new or both are not new, maintain original order within the platform
+      return 0;
+    });
   };
 
   const allActiveProjects = getActiveProjects();
