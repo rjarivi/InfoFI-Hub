@@ -213,6 +213,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
       category: "Trading Infrastructure"
     },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol just pulled up with $230K+ in rewards for Snappers. Top 5 Snappers can expect rewards over $5K for 2 months of snapping. Important: The Solv team decided not to allocate rewards for $COOKIE stakers in this campaign. All other ongoing Snaps campaigns on cookie(dot)fun still include rewards for stakers.",
+      category: "SNAPS Campaign"
+    },
     "bantr-blazpay": {
       title: "BlazPay",
       description: "Blazpay AI is redefining crypto interactions by combining cutting-edge artificial intelligence with seamless DeFi solutions. Designed to simplify even the most complex tasks, Blaz AI empowers users to manage, trade, and explore crypto effortlessly, all through a conversational interface.",
@@ -584,6 +589,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "LAB es el ecosistema de trading multi-cadena definitivo con las tarifas más bajas. Una plataforma de trading integral que permite a los usuarios comerciar, desplegar y analizar tokens con velocidad, precisión y control excepcionales en cualquier plataforma.",
       category: "Infraestructura de Trading"
     },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol acaba de llegar con más de $230K en recompensas para Snappers. Los 5 mejores Snappers pueden esperar recompensas de más de $5K por 2 meses de snapping. Importante: El equipo de Solv decidió no asignar recompensas para los stakers de $COOKIE en esta campaña. Todas las demás campañas de Snaps en curso en cookie(dot)fun aún incluyen recompensas para stakers.",
+      category: "Campaña SNAPS"
+    },
     "bantr-blazpay": {
       title: "BlazPay",
       description: "Blazpay AI está redefiniendo las interacciones cripto al combinar inteligencia artificial de vanguardia con soluciones DeFi perfectas. Diseñado para simplificar incluso las tareas más complejas, Blaz AI permite a los usuarios gestionar, comerciar y explorar cripto sin esfuerzo, todo a través de una interfaz conversacional.",
@@ -869,6 +879,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB est l'écosystème de trading multi-chaînes ultime avec les frais les plus bas. Une plateforme de trading complète permettant aux utilisateurs de trader, déployer et analyser des tokens avec une vitesse, précision et contrôle exceptionnels sur toute plateforme.",
       category: "Infrastructure de Trading"
+    },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol vient d'arriver avec plus de 230K$ en récompenses pour les Snappers. Les 5 meilleurs Snappers peuvent s'attendre à des récompenses de plus de 5K$ pour 2 mois de snapping. Important : L'équipe Solv a décidé de ne pas allouer de récompenses pour les stakers de $COOKIE dans cette campagne. Toutes les autres campagnes Snaps en cours sur cookie(dot)fun incluent encore des récompenses pour les stakers.",
+      category: "Campagne SNAPS"
     },
     "bantr-blazpay": {
       title: "BlazPay",
@@ -1184,6 +1199,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB ist das ultimative Multi-Chain-Trading-Ökosystem mit den niedrigsten Gebühren. Eine umfassende Trading-Plattform, die Benutzern ermöglicht, Token mit außergewöhnlicher Geschwindigkeit, Präzision und Kontrolle auf jeder Plattform zu handeln, bereitzustellen und zu analysieren.",
       category: "Trading-Infrastruktur"
+    },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol ist gerade mit über $230K Belohnungen für Snappers aufgetaucht. Die Top 5 Snappers können Belohnungen von über $5K für 2 Monate Snapping erwarten. Wichtig: Das Solv-Team hat beschlossen, keine Belohnungen für $COOKIE-Staker in dieser Kampagne zuzuweisen. Alle anderen laufenden Snaps-Kampagnen auf cookie(dot)fun beinhalten weiterhin Belohnungen für Staker.",
+      category: "SNAPS-Kampagne"
     },
     "bantr-blazpay": {
       title: "BlazPay",
@@ -1825,6 +1845,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "LABは最低手数料の究極のマルチチェーントレーディングエコシステムです。ユーザーが任意のプラットフォームで例外的な速度、精度、制御でトークンを取引、展開、分析できる包括的なトレーディングプラットフォームです。",
       category: "トレーディングインフラ"
     },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocolがSnapper向けに$230K+の報酬で登場しました。上位5名のSnapperは2ヶ月間のスナッピングで$5K以上の報酬を期待できます。重要：Solvチームはこのキャンペーンで$COOKIEステーカー向けの報酬を割り当てないことを決定しました。cookie(dot)funの他の進行中のSnapsキャンペーンでは、ステーカー向けの報酬が引き続き含まれています。",
+      category: "SNAPSキャンペーン"
+    },
     "bantr-blazpay": {
       title: "BlazPay",
       description: "Blazpay AIは、最先端の人工知能とシームレスなDeFiソリューションを組み合わせて、暗号通貨の相互作用を再定義しています。最も複雑なタスクでさえも簡素化するように設計され、Blaz AIはユーザーが会話型インターフェースを通じて暗号通貨を簡単に管理、取引、探索できるようにします。",
@@ -2274,6 +2299,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB은 최저 수수료의 궁극적인 멀티체인 거래 생태계입니다. 사용자가 모든 플랫폼에서 예외적인 속도, 정확성 및 제어로 토큰을 거래, 배포 및 분석할 수 있는 포괄적인 거래 플랫폼입니다.",
       category: "거래 인프라"
+    },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol이 Snapper들을 위해 $230K+ 상당의 보상을 가지고 등장했습니다. 상위 5명의 Snapper는 2개월간의 스냅핑으로 $5K 이상의 보상을 기대할 수 있습니다. 중요: Solv 팀은 이 캠페인에서 $COOKIE 스테이커들에게 보상을 할당하지 않기로 결정했습니다. cookie(dot)fun의 다른 진행 중인 Snaps 캠페인들은 여전히 스테이커들을 위한 보상을 포함합니다.",
+      category: "SNAPS 캠페인"
     },
     "bantr-blazpay": {
       title: "BlazPay",
@@ -2743,6 +2773,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "LAB是终极多链交易生态系统，具有最低费用。一个综合交易平台，使用户能够在任何平台上以卓越的速度、精度和控制力交易、部署和分析代币。",
       category: "交易基础设施"
     },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol刚刚为Snapper们带来了超过$230K的奖励。前5名Snapper可以期待在2个月的snapping中获得超过$5K的奖励。重要：Solv团队决定在此活动中不为$COOKIE质押者分配奖励。cookie(dot)fun上所有其他正在进行的Snaps活动仍包括质押者的奖励。",
+      category: "SNAPS活动"
+    },
     "bantr-blazpay": {
       title: "BlazPay",
       description: "Blazpay AI正在通过结合尖端人工智能和无缝DeFi解决方案重新定义加密货币交互。旨在简化最复杂的任务，Blaz AI使用户能够通过对话界面轻松管理、交易和探索加密货币。",
@@ -3187,6 +3222,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "LAB",
       description: "LAB هو النظام البيئي النهائي للتداول متعدد السلاسل مع أقل الرسوم. منصة تداول شاملة تمكن المستخدمين من تداول ونشر وتحليل الرموز المميزة بسرعة ودقة وتحكم استثنائيين عبر أي منصة.",
       category: "بنية تحتية للتداول"
+    },
+    "cookie-solv-protocol": {
+      title: "Solv Protocol",
+      description: "@SolvProtocol ظهر للتو بمكافآت تزيد عن $230K للـ Snappers. يمكن لأفضل 5 Snappers توقع مكافآت تزيد عن $5K لمدة شهرين من الـ snapping. مهم: قرر فريق Solv عدم تخصيص مكافآت لحاملي $COOKIE في هذه الحملة. جميع حملات Snaps الجارية الأخرى على cookie(dot)fun لا تزال تشمل مكافآت للحامليين.",
+      category: "حملة SNAPS"
     },
     "bantr-blazpay": {
       title: "BlazPay",
@@ -3702,6 +3742,20 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
+      id: "bantr-bantr",
+      title: "Bantr",
+      description: "Bantr is a social trading platform that connects traders and provides community-driven insights.",
+      rewardPool: "To Be Confirmed",
+      participants: "To Be Confirmed",
+      timeLeft: "TBD",
+      category: "Social Trading",
+      platform: "Bantr",
+      link: "https://bantr.fun/project/bantr",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2Fundefined%2F9d3fc45e69b645fc8b749c0c2c2e71ad.png&w=96&q=75",
+      source: "https://bantr.fun/project/bantr",
+      referralLink: "https://bantr.fun?ic=3066Y7V"
+    },
+    {
       id: "bantr-morph",
       title: "Morph",
       description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools.",
@@ -3750,20 +3804,6 @@ export const projectsData: Record<string, Project[]> = {
         "Rally your community to dive into Cointel",
         "Creator Kit: https://docs.google.com/document/d/1-CupwMBF7Hk6X0vP6pFMdKrwnQPP1Iv7exEQYHvg19w/edit"
       ]
-    },
-    {
-      id: "bantr-bantr",
-      title: "Bantr",
-      description: "Bantr is a social trading platform that connects traders and provides community-driven insights.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Social Trading",
-      platform: "Bantr",
-      link: "https://bantr.fun/project/bantr",
-      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2Fundefined%2F9d3fc45e69b645fc8b749c0c2c2e71ad.png&w=96&q=75",
-      source: "https://bantr.fun/project/bantr",
-      referralLink: "https://bantr.fun?ic=3066Y7V"
     }
   ],
   wallchain: [
@@ -3903,43 +3943,37 @@ export const projectsData: Record<string, Project[]> = {
   ],
   cookie: [
     {
-      id: "cookie-lab",
-      title: "LAB",
-      description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
-      rewardPool: "1.5M LAB ($52,500)",
-      participants: "500,000 $COOKIE Pool",
-      timeLeft: "ENDED",
-      category: "Trading Infrastructure",
-      platform: "LAB",
-      link: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
-      logo: "https://assets.cookie.community//assets/community/farming-projects/e9c58e2b-72a4-43d7-8b89-babe5353ad1f/logoUrl.webp?random=1759514759386",
-      source: "https://x.com/LABtrade_/status/1967249197314494775",
-      referralLink: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
-      claimPeriod: "2 days",
-      vestingSchedule: "6 months vesting, 40% TGE",
+      id: "cookie-solv-protocol",
+      title: "Solv Protocol",
+      description: "@SolvProtocol just pulled up with $230K+ in rewards for Snappers. Top 5 Snappers can expect rewards over $5K for 2 months of snapping. Important: The Solv team decided not to allocate rewards for $COOKIE stakers in this campaign. All other ongoing Snaps campaigns on cookie(dot)fun still include rewards for stakers.",
+      rewardPool: "$230K+ worth of $vSOLV",
+      participants: "Top 200 Snappers",
+      timeLeft: "2025-12-20",
+      category: "SNAPS Campaign",
+      platform: "Solv Protocol",
+      link: "https://www.cookie.fun/tokens/solv-protocol",
+      logo: "https://pbs.twimg.com/profile_images/1971489442235092992/njLUqgMN_400x400.jpg",
+      source: "https://x.com/SolvProtocol",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TBD",
+      vestingSchedule: "100% unlock on $vSOLV",
       distributionPlatform: "Cookie",
       campaignRules: [
-        "Follow @LABtrade_ on X (Twitter)",
-        "Join Discord Server",
-        "Join Telegram Channel",
-        "Accumulate Cookie Points - Snapshot taken on 05 Oct 2025",
-        "Complete 3 tasks to be eligible for farming",
-        "Farming opens on 08 Oct 2025",
-        "Multi-round structure: Guaranteed Round, Stakers FCFS, General Access",
-        "Guaranteed Round: 2025-10-08 at 7:30 PM - 2025-10-09 at 7:29 PM",
-        "Round II - Stakers FCFS: 2025-10-09 at 7:30 PM - 2025-10-10 at 7:29 PM",
-        "General Access: 2025-10-10 at 7:30 PM - 2025-10-11 at 7:29 PM",
-        "Connect wallet to participate",
-        "Stake $COOKIE tokens for allocation"
+        "Post about Solv Protocol on X to earn SNAPS",
+        "Top 200 Snappers eligible for rewards",
+        "Top 5 Snappers can expect rewards over $5K",
+        "Distribution: 100% unlock on $vSOLV",
+        "Built-in burn mechanism when swapping to $SOLV",
+        "Reward calculation based on 30-day TWAP at campaign end",
+        "No rewards for $COOKIE stakers in this campaign",
+        "Campaign duration: 2 months"
       ],
       additionalData: {
         isNew: "true",
-        totalSupply: "1,000,000,000 LAB",
-        fdv: "$35,000,000",
-        tradingVolume: "$500M+ processed",
-        revenue: "$2.5M+ generated",
-        tradingFees: "0.5% (lowest on market)",
-        supportedChains: "Solana, BNB, Base, Abstract, HyperEVM"
+        campaignType: "SNAPS",
+        burnMechanism: "Built-in burn mechanism when swapping to $SOLV",
+        rewardCalculation: "Token amount distributed based on 30-day TWAP measured on campaign end date",
+        stakerNote: "No rewards for $COOKIE stakers in this campaign"
       }
     },
     // cSnaps Campaigns
@@ -4229,6 +4263,46 @@ export const projectsData: Record<string, Project[]> = {
         "Sybil farming will result in blacklisting",
         "Squads provide additional multipliers for ambassadors"
       ]
+    },
+    {
+      id: "cookie-lab",
+      title: "LAB",
+      description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
+      rewardPool: "1.5M LAB ($52,500)",
+      participants: "500,000 $COOKIE Pool",
+      timeLeft: "ENDED",
+      category: "Trading Infrastructure",
+      platform: "LAB",
+      link: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
+      logo: "https://assets.cookie.community//assets/community/farming-projects/e9c58e2b-72a4-43d7-8b89-babe5353ad1f/logoUrl.webp?random=1759514759386",
+      source: "https://x.com/LABtrade_/status/1967249197314494775",
+      referralLink: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
+      claimPeriod: "2 days",
+      vestingSchedule: "6 months vesting, 40% TGE",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Follow @LABtrade_ on X (Twitter)",
+        "Join Discord Server",
+        "Join Telegram Channel",
+        "Accumulate Cookie Points - Snapshot taken on 05 Oct 2025",
+        "Complete 3 tasks to be eligible for farming",
+        "Farming opens on 08 Oct 2025",
+        "Multi-round structure: Guaranteed Round, Stakers FCFS, General Access",
+        "Guaranteed Round: 2025-10-08 at 7:30 PM - 2025-10-09 at 7:29 PM",
+        "Round II - Stakers FCFS: 2025-10-09 at 7:30 PM - 2025-10-10 at 7:29 PM",
+        "General Access: 2025-10-10 at 7:30 PM - 2025-10-11 at 7:29 PM",
+        "Connect wallet to participate",
+        "Stake $COOKIE tokens for allocation"
+      ],
+      additionalData: {
+        isNew: "true",
+        totalSupply: "1,000,000,000 LAB",
+        fdv: "$35,000,000",
+        tradingVolume: "$500M+ processed",
+        revenue: "$2.5M+ generated",
+        tradingFees: "0.5% (lowest on market)",
+        supportedChains: "Solana, BNB, Base, Abstract, HyperEVM"
+      }
     }
   ],
   aira: [
@@ -4250,6 +4324,20 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
+      id: "aira-hq",
+      title: "Airaa HQ 🌾",
+      description: "Airaa HQ is the central hub for Airaa ecosystem projects and community initiatives.",
+      rewardPool: "To Be Confirmed",
+      participants: "To Be Confirmed",
+      timeLeft: "TBD",
+      category: "Platform",
+      platform: "Airaa HQ",
+      link: "https://airaa.xyz/project/airaa-hq-🌾",
+      logo: "https://pbs.twimg.com/profile_images/1950917690605912067/5RQykFto_400x400.jpg",
+      source: "https://airaa.xyz/project/airaa-hq-🌾",
+      referralLink: "https://airaa.xyz?ref=infofi"
+    },
+    {
       id: "aira-xo-market",
       title: "XO Market",
       description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies.",
@@ -4265,20 +4353,6 @@ export const projectsData: Record<string, Project[]> = {
       zealyLink: "https://zealy.io/cw/xomarket/invite/-qo_kHzDUN8pc-d1Azabi?questId=3d22d445-51b4-4b3f-9432-920b6f714382",
       referralCode: "XO-WAITNOMORE",
       status: "ended"
-    },
-    {
-      id: "aira-hq",
-      title: "Airaa HQ 🌾",
-      description: "Airaa HQ is the central hub for Airaa ecosystem projects and community initiatives.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "TBD",
-      category: "Platform",
-      platform: "Airaa HQ",
-      link: "https://airaa.xyz/project/airaa-hq-🌾",
-      logo: "https://pbs.twimg.com/profile_images/1950917690605912067/5RQykFto_400x400.jpg",
-      source: "https://airaa.xyz/project/airaa-hq-🌾",
-      referralLink: "https://airaa.xyz?ref=infofi"
     }
   ],
   breadcrumbs: [
