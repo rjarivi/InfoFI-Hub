@@ -4782,6 +4782,7 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/breadcrumbcash/status/1978569404410462652",
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
       referralCode: "REF-MEAL-C4CK",
+      status: "ended",
       additionalData: {
         xHandle: "@dreamspaceHQ",
         isNew: "true"
@@ -4858,6 +4859,7 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/breadcrumbcash/status/1970885609586569569",
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
       referralCode: "REF-MEAL-C4CK",
+      status: "ended",
       additionalData: {
         bakers: "2,805",
         airdropRecipients: "Top 100",
