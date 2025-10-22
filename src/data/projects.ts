@@ -4601,7 +4601,7 @@ export const projectsData: Record<string, Project[]> = {
       platform: "Airaa",
       link: "https://airaa.xyz/project/folks-finance",
       logo: "https://pbs.twimg.com/profile_images/1898632548495831040/7blTbbiv_400x400.jpg",
-      source: "https://x.com/FolksFinance",
+      source: "https://x.com/AiraaAgent/status/1980980664770900358",
       referralLink: "https://airaa.xyz?ref=infofi",
       campaignRules: [
         "0.1% of the total $FOLKS token supply is allocated for this campaign",
