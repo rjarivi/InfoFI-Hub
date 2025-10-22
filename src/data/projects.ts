@@ -4769,26 +4769,6 @@ export const projectsData: Record<string, Project[]> = {
   ],
   breadcrumbs: [
     {
-      id: "breadcrumbs-dream-space-hq",
-      title: "Dream Space HQ",
-      description: "Dreamspace is the first vibe coding canvas for crypto's creatives ✨ we make it easy for anyone — not just devs — to build, ship, and monetize onchain apps without touching code. dream it → generate it → ship it → monetize it.",
-      rewardPool: "$0.1 WETH",
-      participants: "To Be Confirmed",
-      timeLeft: "7 days left",
-      category: "Development Tools",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
-      logo: "https://pbs.twimg.com/profile_images/1944738936120639488/0ali8N6b_400x400.jpg",
-      source: "https://x.com/breadcrumbcash/status/1978569404410462652",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK",
-      status: "ended",
-      additionalData: {
-        xHandle: "@dreamspaceHQ",
-        isNew: "true"
-      }
-    },
-    {
       id: "breadcrumbs-daemons",
       title: "Dæmons",
       description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
@@ -4843,6 +4823,26 @@ export const projectsData: Record<string, Project[]> = {
       additionalData: {
         bakers: "6,888",
         crumbsDistributed: "354,261"
+      }
+    },
+    {
+      id: "breadcrumbs-dream-space-hq",
+      title: "Dream Space HQ",
+      description: "Dreamspace is the first vibe coding canvas for crypto's creatives ✨ we make it easy for anyone — not just devs — to build, ship, and monetize onchain apps without touching code. dream it → generate it → ship it → monetize it.",
+      rewardPool: "$0.1 WETH",
+      participants: "To Be Confirmed",
+      timeLeft: "7 days left",
+      category: "Development Tools",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
+      logo: "https://pbs.twimg.com/profile_images/1944738936120639488/0ali8N6b_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1978569404410462652",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      status: "ended",
+      additionalData: {
+        xHandle: "@dreamspaceHQ",
+        isNew: "true"
       }
     },
     {
