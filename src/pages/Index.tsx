@@ -49,7 +49,7 @@ const projectLogos = {
 };
 
 const referralLinks = {
-  kaito: "https://metawin.com/rjarivi/",
+  kaito: "https://yaps.kaito.ai/referral/2522887435",
   bantr: "https://bantr.fun/?ic=D490AA7",
   xeet: "https://www.xeet.ai/refer/godofbayc",
   wallchain: "https://app.wallchain.xyz/leaderboards?ref=godofbayc",
