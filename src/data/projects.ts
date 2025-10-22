@@ -3613,28 +3613,6 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
-      id: "galxe-dagama-s2",
-      title: "daGama (S2)",
-      description: "Following its first success, daGama launches Season 2! Explore and champion the AI-powered Arbitrum protocol making recommendations transparent, trusted & rewarding.",
-      rewardPool: "$65,000 in $DGMA tokens (0.17% of total)",
-      participants: "TBD",
-      timeLeft: "21 Oct'25 to 21 Jan'26",
-      category: "AI Protocol",
-      platform: "Galxe",
-      link: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
-      logo: "https://cdn.galxe.com/galaxy/05f44e717a054f9182a6ec5bf82363ff/.jpeg_thumbnail.webp",
-      source: "https://x.com/Galxe/status/1980967622117323169",
-      referralLink: "https://dagama.go.link/?adj_t=1go1g649&adj_label=N4ax7I",
-      referralCode: "N4ax7I",
-      additionalData: {
-        isNew: "true",
-        additionalInfo: "🌍 daGama is a RWL (Real World Locations) platform that leverages blockchain and AI technology to provide authentic info and trusted recommendations.\n\n💡 RWL (Real World Locations) are all real-world places, both commercial and non-commercial, integrated through WEB3 infrastructure. This integration combines common real-world locations with the advantages of blockchain technology, fostering mass adoption.\n\nUp to $65K in $DGMA for top Aura contributors",
-        campaignDuration: "3 months (Season 2)",
-        totalRewards: "$65,000 in $DGMA tokens",
-        tokenAllocation: "0.17% of total supply"
-      }
-    },
-    {
       id: "kaito-integra",
       title: "Integra",
       description: "0.5% of Integra's IRL supply (TGE soon) is allocated to reward Integra's points program and Kaito Creators, Referrers, and Kaito Eco",

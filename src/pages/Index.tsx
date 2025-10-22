@@ -108,15 +108,15 @@ const Index = () => {
       // Define section order priority (lower number = higher priority)
       const sectionOrder = {
         'xeet': 1,
-        'cookie': 2,
-        'kaito': 3,
-        'bantr': 4,
-        'wallchain': 5,
-        'aira': 6,
-        'rey': 7,
-        'breadcrumbs': 8,
-        'mindoai': 9,
-        'galxe': 10,
+        'wallchain': 2,
+        'galxe': 3,
+        'cookie': 4,
+        'kaito': 5,
+        'bantr': 6,
+        'aira': 7,
+        'rey': 8,
+        'breadcrumbs': 9,
+        'mindoai': 10,
         'pulse': 11
       };
       
