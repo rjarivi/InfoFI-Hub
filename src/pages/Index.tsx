@@ -198,18 +198,18 @@ const Index = () => {
                   alt="Jeet.ing" 
                   className="h-[2.6rem] md:h-[3.12rem] w-auto"
                 />
-              </div>
-              {/* Creator badge under the logo - only visible on hover */}
-              <div className="mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <a
-                  href="https://otgstats.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-200 px-2.5 py-1 text-xs hover:bg-emerald-800 transition-colors"
-                >
-                  <span className="opacity-80">Creator of</span>
-                  <span className="font-medium underline">OTGStats</span>
-                </a>
+                {/* Creator badge under the logo - only visible on hover, no space when hidden */}
+                <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-1">
+                  <a
+                    href="https://otgstats.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-200 px-2.5 py-1 text-xs hover:bg-emerald-800 transition-colors"
+                  >
+                    <span className="opacity-80">Creator of</span>
+                    <span className="font-medium underline">OTGStats</span>
+                  </a>
+                </div>
               </div>
             </div>
             
