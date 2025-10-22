@@ -4672,46 +4672,6 @@ export const projectsData: Record<string, Project[]> = {
         "Sybil farming will result in blacklisting",
         "Squads provide additional multipliers for ambassadors"
       ]
-    },
-    {
-      id: "cookie-lab",
-      title: "LAB",
-      description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
-      rewardPool: "1.5M LAB ($52,500)",
-      participants: "500,000 $COOKIE Pool",
-      timeLeft: "ENDED",
-      category: "Trading Infrastructure",
-      platform: "LAB",
-      link: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
-      logo: "https://assets.cookie.community//assets/community/farming-projects/e9c58e2b-72a4-43d7-8b89-babe5353ad1f/logoUrl.webp?random=1759514759386",
-      source: "https://x.com/LABtrade_/status/1967249197314494775",
-      referralLink: "https://www.cookie.community/multi-airdrop/68e011f8a5242ed5e52722b2#tasks",
-      claimPeriod: "2 days",
-      vestingSchedule: "6 months vesting, 40% TGE",
-      distributionPlatform: "Cookie",
-      campaignRules: [
-        "Follow @LABtrade_ on X (Twitter)",
-        "Join Discord Server",
-        "Join Telegram Channel",
-        "Accumulate Cookie Points - Snapshot taken on 05 Oct 2025",
-        "Complete 3 tasks to be eligible for farming",
-        "Farming opens on 08 Oct 2025",
-        "Multi-round structure: Guaranteed Round, Stakers FCFS, General Access",
-        "Guaranteed Round: 2025-10-08 at 7:30 PM - 2025-10-09 at 7:29 PM",
-        "Round II - Stakers FCFS: 2025-10-09 at 7:30 PM - 2025-10-10 at 7:29 PM",
-        "General Access: 2025-10-10 at 7:30 PM - 2025-10-11 at 7:29 PM",
-        "Connect wallet to participate",
-        "Stake $COOKIE tokens for allocation"
-      ],
-      additionalData: {
-        isNew: "true",
-        totalSupply: "1,000,000,000 LAB",
-        fdv: "$35,000,000",
-        tradingVolume: "$500M+ processed",
-        revenue: "$2.5M+ generated",
-        tradingFees: "0.5% (lowest on market)",
-        supportedChains: "Solana, BNB, Base, Abstract, HyperEVM"
-      }
     }
   ],
   aira: [
