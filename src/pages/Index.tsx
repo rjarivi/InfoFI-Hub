@@ -192,14 +192,14 @@ const Index = () => {
           <div className="flex items-center justify-between gap-2 md:gap-4">
             {/* Logo */}
             <div className="flex-shrink-0 group flex items-center">
-              <div className="flex flex-col">
+              <div className="flex flex-col relative">
                 <img 
                   src="/Jeet.ing.svg" 
                   alt="Jeet.ing" 
                   className="h-[2.6rem] md:h-[3.12rem] w-auto"
                 />
-                {/* Creator badge under the logo - only visible on hover, no space when hidden */}
-                <div className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-1">
+                {/* Creator badge under the logo - only visible on hover, positioned below logo */}
+                <div className="absolute top-full left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-1 z-10">
                   <a
                     href="https://otgstats.com"
                     target="_blank"
