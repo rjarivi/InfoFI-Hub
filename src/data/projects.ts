@@ -340,6 +340,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI is an intelligent AI assistant for cryptocurrency market insights and trading strategies.",
       category: "AI Assistant"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "Following its first success, daGama launches Season 2! Explore and champion the AI-powered Arbitrum protocol making recommendations transparent, trusted & rewarding.",
+      category: "AI Protocol"
+    },
     "galxe-platform": {
       title: "Galxe Platform",
       description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure.",
@@ -399,6 +404,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract offers abstract trading strategies and advanced market insights for cryptocurrency traders.",
       category: "Trading Strategies"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "Join \"The Internet of People\" with $100,000 per month in $OPN $300,000 in total rewards over the next 3 months paid out at TGE (date TBA). IOPn is building OPN chain which is a scalable L1 that integrates decentralized digital identity, real-world asset tokenization, and sovereign AI infrastructure to empower users with borderless digital ownership.",
+      category: "Infrastructure"
     }
   },
   es: {
@@ -718,6 +728,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI es un asistente de IA inteligente para insights del mercado de criptomonedas y estrategias de trading.",
       category: "Asistente de IA"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "¡Tras su primer éxito, daGama lanza la Temporada 2! Explora y defiende el protocolo Arbitrum impulsado por IA que hace las recomendaciones transparentes, confiables y gratificantes.",
+      category: "Protocolo de IA"
+    },
     "galxe-platform": {
       title: "Plataforma Galxe",
       description: "Galxe es una red de datos de credenciales Web3. Construye mejores productos y comunidades con la infraestructura de credenciales de Galxe.",
@@ -777,6 +792,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract ofrece estrategias de trading abstractas e insights avanzados de mercado para traders de criptomonedas.",
       category: "Estrategias de Trading"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "Únete a \"La Internet de las Personas\" con $100,000 por mes en $OPN $300,000 en recompensas totales durante los próximos 3 meses pagados en TGE (fecha por confirmar). IOPn está construyendo la cadena OPN que es una L1 escalable que integra identidad digital descentralizada, tokenización de activos del mundo real e infraestructura de IA soberana para empoderar a los usuarios con propiedad digital sin fronteras.",
+      category: "Infraestructura"
     }
   },
   fr: {
@@ -1101,6 +1121,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI est un assistant IA intelligent pour les insights du marché des cryptomonnaies et les stratégies de trading.",
       category: "Assistant IA"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "Suite à son premier succès, daGama lance la Saison 2 ! Explorez et défendez le protocole Arbitrum alimenté par l'IA qui rend les recommandations transparentes, fiables et gratifiantes.",
+      category: "Protocole IA"
+    },
     "galxe-platform": {
       title: "Plateforme Galxe",
       description: "Galxe est un réseau de données d'identifiants Web3. Construisez de meilleurs produits et communautés avec l'infrastructure d'identifiants de Galxe.",
@@ -1160,6 +1185,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract offre des stratégies de trading abstraites et des insights avancés du marché pour les traders de cryptomonnaies.",
       category: "Stratégies de Trading"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "Rejoignez \"L'Internet des Personnes\" avec $100,000 par mois en $OPN $300,000 en récompenses totales sur les 3 prochains mois payés au TGE (date à confirmer). IOPn construit la chaîne OPN qui est une L1 évolutive intégrant l'identité numérique décentralisée, la tokenisation d'actifs du monde réel et l'infrastructure d'IA souveraine pour autonomiser les utilisateurs avec la propriété numérique sans frontières.",
+      category: "Infrastructure"
     }
   },
   de: {
@@ -1446,6 +1476,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI ist ein intelligenter KI-Assistent für Kryptowährungs-Markteinblicke und Trading-Strategien.",
       category: "KI-Assistent"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "Nach seinem ersten Erfolg startet daGama die Saison 2! Erkunden und fördern Sie das KI-gestützte Arbitrum-Protokoll, das Empfehlungen transparent, vertrauenswürdig und belohnend macht.",
+      category: "KI-Protokoll"
+    },
     "galxe-platform": {
       title: "Galxe-Plattform",
       description: "Galxe ist ein Web3-Credential-Datennetzwerk. Erstellen Sie bessere Produkte und Gemeinschaften mit Galxes Credential-Infrastruktur.",
@@ -1505,6 +1540,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract bietet abstrakte Trading-Strategien und erweiterte Markteinblicke für Kryptowährungs-Trader.",
       category: "Trading-Strategien"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "Treten Sie dem \"Internet der Menschen\" bei mit $100,000 pro Monat in $OPN $300,000 in Gesamtbelohnungen über die nächsten 3 Monate ausgezahlt bei TGE (Datum TBA). IOPn baut die OPN-Kette auf, die eine skalierbare L1 ist, die dezentrale digitale Identität, Tokenisierung von Real-World-Assets und souveräne KI-Infrastruktur integriert, um Benutzern grenzenlosen digitalen Besitz zu ermöglichen.",
+      category: "Infrastruktur"
     },
     "kaito-integra": {
       title: "Integra",
@@ -1913,6 +1953,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAIは、暗号通貨市場の洞察と取引戦略のためのインテリジェントAIアシスタントです。",
       category: "AIアシスタント"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "最初の成功を受けて、daGamaがシーズン2を開始！推奨を透明で信頼でき、報酬のあるものにするAI搭載のArbitrumプロトコルを探索し、支援しましょう。",
+      category: "AIプロトコル"
+    },
     "galxe-platform": {
       title: "Galxeプラットフォーム",
       description: "GalxeはWeb3クレデンシャルデータネットワークです。Galxeのクレデンシャルインフラストラクチャでより良い製品とコミュニティを構築します。",
@@ -1972,6 +2017,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstractは、暗号通貨トレーダー向けの抽象的な取引戦略と高度な市場洞察を提供します。",
       category: "取引戦略"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "「人々のインターネット」に参加して、$OPNで月額$100,000、次の3ヶ月間で合計$300,000の報酬をTGEで受け取ります（日付は後日発表）。IOPnは、分散型デジタルアイデンティティ、リアルワールドアセットのトークン化、主権AIインフラストラクチャを統合し、ユーザーに国境のないデジタル所有権を提供するスケーラブルなL1であるOPNチェーンを構築しています。",
+      category: "インフラストラクチャ"
     },
     "cookie-lab": {
       title: "LAB",
@@ -2405,6 +2455,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI는 암호화폐 시장 인사이트와 거래 전략을 위한 지능형 AI 어시스턴트입니다.",
       category: "AI 어시스턴트"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "첫 번째 성공에 이어 daGama가 시즌 2를 시작합니다! 추천을 투명하고 신뢰할 수 있으며 보상이 있는 것으로 만드는 AI 기반 Arbitrum 프로토콜을 탐색하고 지원하세요.",
+      category: "AI 프로토콜"
+    },
     "galxe-platform": {
       title: "Galxe 플랫폼",
       description: "Galxe는 Web3 크리덴셜 데이터 네트워크입니다. Galxe의 크리덴셜 인프라로 더 나은 제품과 커뮤니티를 구축하세요.",
@@ -2459,6 +2514,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract는 암호화폐 거래자를 위한 추상적인 거래 전략과 고급 시장 인사이트를 제공합니다.",
       category: "거래 전략"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "\"사람들의 인터넷\"에 참여하여 $OPN으로 월 $100,000, 다음 3개월 동안 총 $300,000의 보상을 TGE에서 받으세요 (날짜 추후 발표). IOPn은 분산형 디지털 신원, 실물 자산 토큰화, 주권 AI 인프라를 통합하여 사용자에게 국경 없는 디지털 소유권을 제공하는 확장 가능한 L1인 OPN 체인을 구축하고 있습니다.",
+      category: "인프라"
     },
     "cookie-lab": {
       title: "LAB",
@@ -2910,6 +2970,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI是用于加密货币市场洞察和交易策略的智能AI助手。",
       category: "AI助手"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "继首次成功后，daGama推出第二季！探索并支持AI驱动的Arbitrum协议，让推荐变得透明、可信且有回报。",
+      category: "AI协议"
+    },
     "galxe-platform": {
       title: "Galxe平台",
       description: "Galxe是Web3凭证数据网络。使用Galxe的凭证基础设施构建更好的产品和社区。",
@@ -2964,6 +3029,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract为加密货币交易者提供抽象交易策略和高级市场洞察。",
       category: "交易策略"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "加入\"人民互联网\"，每月获得$100,000的$OPN代币，未来3个月总计$300,000的奖励将在TGE时支付（日期待定）。IOPn正在构建OPN链，这是一个可扩展的L1，集成了去中心化数字身份、现实世界资产代币化和主权AI基础设施，为用户提供无国界的数字所有权。",
+      category: "基础设施"
     },
     "cookie-lab": {
       title: "LAB",
@@ -3392,6 +3462,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MindoAI هو مساعد ذكي بالذكاء الاصطناعي لرؤى سوق العملات المشفرة واستراتيجيات التداول.",
       category: "مساعد الذكاء الاصطناعي"
     },
+    "galxe-dagama-s2": {
+      title: "daGama (S2)",
+      description: "بعد نجاحها الأول، تطلق daGama الموسم الثاني! استكشف ودعم بروتوكول Arbitrum المدعوم بالذكاء الاصطناعي الذي يجعل التوصيات شفافة وموثوقة ومجزية.",
+      category: "بروتوكول الذكاء الاصطناعي"
+    },
     "galxe-platform": {
       title: "منصة Galxe",
       description: "Galxe هي منصة شاملة للوسائط الاجتماعية وإنشاء المحتوى لمجتمعات Web3.",
@@ -3446,6 +3521,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract يقدم استراتيجيات تداول مجردة ورؤى متقدمة للسوق لمتداولي العملات المشفرة.",
       category: "استراتيجيات التداول"
+    },
+    "xeet-iopn": {
+      title: "IOPn",
+      description: "انضم إلى \"إنترنت الأشخاص\" مع $100,000 شهرياً في $OPN $300,000 في إجمالي المكافآت على مدى الأشهر الثلاثة القادمة تُدفع في TGE (التاريخ سيُعلن لاحقاً). IOPn تبني سلسلة OPN وهي L1 قابلة للتوسع تدمج الهوية الرقمية اللامركزية، وتوكنيز الأصول الواقعية، والبنية التحتية للذكاء الاصطناعي السيادي لتمكين المستخدمين من الملكية الرقمية بدون حدود.",
+      category: "البنية التحتية"
     },
     "cookie-lab": {
       title: "LAB",
@@ -3512,6 +3592,51 @@ export function translateProject(project: Project, language: Language): Project 
 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
+    {
+      id: "xeet-iopn",
+      title: "IOPn",
+      description: "Join \"The Internet of People\" with $100,000 per month in $OPN $300,000 in total rewards over the next 3 months paid out at TGE (date TBA). IOPn is building OPN chain which is a scalable L1 that integrates decentralized digital identity, real-world asset tokenization, and sovereign AI infrastructure to empower users with borderless digital ownership.",
+      rewardPool: "$300K $OPN + Xeets Top 100 receive $100K OPN per monthly tournament",
+      participants: "TBD",
+      timeLeft: "23 Oct'25 to 23 Jan'26",
+      category: "Infrastructure",
+      platform: "Xeet",
+      link: "https://badge.iopn.io/?ref=WLUNWO8G",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1929775799478956032%2FeNc_Kixr_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1980997976844574839",
+      referralLink: "https://badge.iopn.io/?ref=WLUNWO8G",
+      referralCode: "WLUNWO8G",
+      additionalData: {
+        isNew: "true",
+        additionalInfo: "IOPn is a decentralised infrastructure pioneering the OPN Chain, a sovereign ready L1 designed for identity verified participants. IOPn provides solutions in real world asset tokenisation, sovereign AI, and decentralised ownership.\n\nClaim Your Badge: https://badge.iopn.io/?ref=WLUNWO8G\nDocs: https://iopn.gitbook.io/iopn/origin-nft-gamified-proof-of-participation#what-is-rep",
+        campaignDuration: "3 months",
+        totalRewards: "$300,000 in $OPN tokens",
+        monthlyTournament: "$100K OPN for top 100 Xeets participants",
+        earlyAdopterBadge: "https://badge.iopn.io/?ref=WLUNWO8G"
+      }
+    },
+    {
+      id: "galxe-dagama-s2",
+      title: "daGama (S2)",
+      description: "Following its first success, daGama launches Season 2! Explore and champion the AI-powered Arbitrum protocol making recommendations transparent, trusted & rewarding.",
+      rewardPool: "$65,000 in $DGMA tokens (0.17% of total)",
+      participants: "TBD",
+      timeLeft: "21 Oct'25 to 21 Jan'26",
+      category: "AI Protocol",
+      platform: "Galxe",
+      link: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      logo: "https://cdn.galxe.com/galaxy/05f44e717a054f9182a6ec5bf82363ff/.jpeg_thumbnail.webp",
+      source: "https://x.com/Galxe/status/1980967622117323169",
+      referralLink: "https://dagama.go.link/?adj_t=1go1g649&adj_label=N4ax7I",
+      referralCode: "N4ax7I",
+      additionalData: {
+        isNew: "true",
+        additionalInfo: "🌍 daGama is a RWL (Real World Locations) platform that leverages blockchain and AI technology to provide authentic info and trusted recommendations.\n\n💡 RWL (Real World Locations) are all real-world places, both commercial and non-commercial, integrated through WEB3 infrastructure. This integration combines common real-world locations with the advantages of blockchain technology, fostering mass adoption.\n\nUp to $65K in $DGMA for top Aura contributors",
+        campaignDuration: "3 months (Season 2)",
+        totalRewards: "$65,000 in $DGMA tokens",
+        tokenAllocation: "0.17% of total supply"
+      }
+    },
     {
       id: "kaito-integra",
       title: "Integra",
@@ -4853,6 +4978,28 @@ export const projectsData: Record<string, Project[]> = {
   ],
   galxe: [
     {
+      id: "galxe-dagama-s2",
+      title: "daGama (S2)",
+      description: "Following its first success, daGama launches Season 2! Explore and champion the AI-powered Arbitrum protocol making recommendations transparent, trusted & rewarding.",
+      rewardPool: "$65,000 in $DGMA tokens (0.17% of total)",
+      participants: "TBD",
+      timeLeft: "21 Oct'25 to 21 Jan'26",
+      category: "AI Protocol",
+      platform: "Galxe",
+      link: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      logo: "https://cdn.galxe.com/galaxy/05f44e717a054f9182a6ec5bf82363ff/.jpeg_thumbnail.webp",
+      source: "https://x.com/Galxe/status/1980967622117323169",
+      referralLink: "https://dagama.go.link/?adj_t=1go1g649&adj_label=N4ax7I",
+      referralCode: "N4ax7I",
+      additionalData: {
+        isNew: "true",
+        additionalInfo: "🌍 daGama is a RWL (Real World Locations) platform that leverages blockchain and AI technology to provide authentic info and trusted recommendations.\n\n💡 RWL (Real World Locations) are all real-world places, both commercial and non-commercial, integrated through WEB3 infrastructure. This integration combines common real-world locations with the advantages of blockchain technology, fostering mass adoption.\n\nUp to $65K in $DGMA for top Aura contributors",
+        campaignDuration: "3 months (Season 2)",
+        totalRewards: "$65,000 in $DGMA tokens",
+        tokenAllocation: "0.17% of total supply"
+      }
+    },
+    {
       id: "mememarket-galxe",
       title: "MemeMarket",
       description: "MemeMarket rewards creators and market movers shaping crypto culture. The final sprint to TGE has begun. Up to $100,000 in $MFUN available for top Aura contributors and GalxeQuest participants.",
@@ -5174,6 +5321,29 @@ export const projectsData: Record<string, Project[]> = {
     },
   ],
   xeet: [
+    {
+      id: "xeet-iopn",
+      title: "IOPn",
+      description: "Join \"The Internet of People\" with $100,000 per month in $OPN $300,000 in total rewards over the next 3 months paid out at TGE (date TBA). IOPn is building OPN chain which is a scalable L1 that integrates decentralized digital identity, real-world asset tokenization, and sovereign AI infrastructure to empower users with borderless digital ownership.",
+      rewardPool: "$300K $OPN + Xeets Top 100 receive $100K OPN per monthly tournament",
+      participants: "TBD",
+      timeLeft: "23 Oct'25 to 23 Jan'26",
+      category: "Infrastructure",
+      platform: "Xeet",
+      link: "https://badge.iopn.io/?ref=WLUNWO8G",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1929775799478956032%2FeNc_Kixr_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1980997976844574839",
+      referralLink: "https://badge.iopn.io/?ref=WLUNWO8G",
+      referralCode: "WLUNWO8G",
+      additionalData: {
+        isNew: "true",
+        additionalInfo: "IOPn is a decentralised infrastructure pioneering the OPN Chain, a sovereign ready L1 designed for identity verified participants. IOPn provides solutions in real world asset tokenisation, sovereign AI, and decentralised ownership.\n\nClaim Your Badge: https://badge.iopn.io/?ref=WLUNWO8G\nDocs: https://iopn.gitbook.io/iopn/origin-nft-gamified-proof-of-participation#what-is-rep",
+        campaignDuration: "3 months",
+        totalRewards: "$300,000 in $OPN tokens",
+        monthlyTournament: "$100K OPN for top 100 Xeets participants",
+        earlyAdopterBadge: "https://badge.iopn.io/?ref=WLUNWO8G"
+      }
+    },
     {
       id: "xeet-kona",
       title: "KonaDeFi",
