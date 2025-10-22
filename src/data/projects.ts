@@ -4213,7 +4213,9 @@ export const projectsData: Record<string, Project[]> = {
         monthlyRewards: "$50K in $ANLOG rewards each month",
         rewardStructure: "Top 80 creators + 10 random from 81-300",
         vestingSchedule: "Full unlock, no cliff, no vesting",
-        creatorGuide: "https://teamanalog.notion.site/ANALOG-WallChain-Creator-Guide-28e4872af8ca80de82e6facbb988bf4d"
+        creatorGuide: "https://teamanalog.notion.site/ANALOG-WallChain-Creator-Guide-28e4872af8ca80de82e6facbb988bf4d",
+        xAccount: "https://x.com/OneAnalog",
+        xHandle: "OneAnalog"
       }
     },
     {
@@ -4956,7 +4958,9 @@ export const projectsData: Record<string, Project[]> = {
         additionalInfo: "🌍 daGama is a RWL (Real World Locations) platform that leverages blockchain and AI technology to provide authentic info and trusted recommendations.\n\n💡 RWL (Real World Locations) are all real-world places, both commercial and non-commercial, integrated through WEB3 infrastructure. This integration combines common real-world locations with the advantages of blockchain technology, fostering mass adoption.\n\nUp to $65K in $DGMA for top Aura contributors",
         campaignDuration: "3 months (Season 2)",
         totalRewards: "$65,000 in $DGMA tokens",
-        tokenAllocation: "0.17% of total supply"
+        tokenAllocation: "0.17% of total supply",
+        xAccount: "https://x.com/dagama_world",
+        xHandle: "dagama_world"
       }
     },
     {
@@ -5301,7 +5305,9 @@ export const projectsData: Record<string, Project[]> = {
         campaignDuration: "3 months",
         totalRewards: "$300,000 in $OPN tokens",
         monthlyTournament: "$100K OPN for top 100 Xeets participants",
-        earlyAdopterBadge: "https://badge.iopn.io/?ref=WLUNWO8G"
+        earlyAdopterBadge: "https://badge.iopn.io/?ref=WLUNWO8G",
+        xAccount: "https://x.com/IOPn_io",
+        xHandle: "IOPn_io"
       }
     },
     {
