@@ -320,6 +320,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Airaa HQ is the central hub for Airaa ecosystem projects and community initiatives.",
       category: "Ecosystem Hub"
     },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "The Folks Finance x Airaa campaign runs for about 4 months starting with the pre-TGE phase, followed by 3 months post-TGE. It's designed to reward contributors across Twitter, Discord, and onchain through the Auraboard leaderboard. Folks Finance is the leading crosschain DeFi lending protocol backed by Coinbase Ventures, Jump, ParaFi, OKX Ventures, and Borderless Capital. The FOLKS token (and airdrop) will launch on November 6th, 2025.",
+      category: "DeFi"
+    },
     "mindoai-tria": {
       title: "Tria",
       description: "A self-custodial neobank that unifies trading, spending, and earning in a single app - with no bridges, no gas, and no intermediaries. Pay, trade, and earn yield across any network and currency! Tria has raised $12M and partnered with 70+ top protocols, including Arbitrum, Polygon, Injective, Sentient, Aethir, and Katana.",
@@ -692,6 +697,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ es el centro central para proyectos del ecosistema Airaa e iniciativas comunitarias.",
       category: "Centro del Ecosistema"
+    },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "La campaña Folks Finance x Airaa se ejecuta durante aproximadamente 4 meses comenzando con la fase pre-TGE, seguida de 3 meses post-TGE. Está diseñada para recompensar a los contribuidores a través de Twitter, Discord y onchain a través del leaderboard Auraboard. Folks Finance es el protocolo líder de préstamos DeFi crosschain respaldado por Coinbase Ventures, Jump, ParaFi, OKX Ventures y Borderless Capital. El token FOLKS (y airdrop) se lanzará el 6 de noviembre de 2025.",
+      category: "DeFi"
     },
     "mindoai-tria": {
       title: "Tria",
@@ -1071,6 +1081,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Airaa HQ est le centre central pour les projets de l'écosystème Airaa et les initiatives communautaires.",
       category: "Centre de l'Écosystème"
     },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "La campagne Folks Finance x Airaa dure environ 4 mois en commençant par la phase pré-TGE, suivie de 3 mois post-TGE. Elle est conçue pour récompenser les contributeurs sur Twitter, Discord et onchain via le leaderboard Auraboard. Folks Finance est le protocole de prêt DeFi crosschain leader soutenu par Coinbase Ventures, Jump, ParaFi, OKX Ventures et Borderless Capital. Le token FOLKS (et airdrop) sera lancé le 6 novembre 2025.",
+      category: "DeFi"
+    },
     "mindoai-tria": {
       title: "Tria",
       description: "Une néobanque auto-custodiale qui unifie le trading, les dépenses et les gains dans une seule application - sans ponts, sans gas et sans intermédiaires. Payez, tradez et gagnez des rendements sur n'importe quel réseau et devise ! Tria a levé 12M$ et s'est associé à plus de 70 protocoles de premier plan, notamment Arbitrum, Polygon, Injective, Sentient, Aethir et Katana.",
@@ -1410,6 +1425,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ ist das zentrale Zentrum für Airaa-Ökosystem-Projekte und Community-Initiativen.",
       category: "Ökosystem-Zentrum"
+    },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "Die Folks Finance x Airaa Kampagne läuft etwa 4 Monate, beginnend mit der Pre-TGE-Phase, gefolgt von 3 Monaten Post-TGE. Sie ist darauf ausgelegt, Beiträger über Twitter, Discord und Onchain durch das Auraboard Leaderboard zu belohnen. Folks Finance ist das führende Crosschain DeFi-Kreditprotokoll, unterstützt von Coinbase Ventures, Jump, ParaFi, OKX Ventures und Borderless Capital. Der FOLKS Token (und Airdrop) wird am 6. November 2025 gestartet.",
+      category: "DeFi"
     },
     "mindoai-tria": {
       title: "Tria",
@@ -1872,6 +1892,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQは、Airaaエコシステムプロジェクトとコミュニティイニシアチブの中央ハブです。",
       category: "エコシステムハブ"
+    },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "Folks Finance x Airaaキャンペーンは、Pre-TGEフェーズから始まり、3ヶ月のPost-TGEフェーズが続く約4ヶ月間実行されます。Auraboardリーダーボードを通じて、Twitter、Discord、オンチェーンでの貢献者に報酬を与えるように設計されています。Folks Financeは、Coinbase Ventures、Jump、ParaFi、OKX Ventures、Borderless Capitalに支援された主要なクロスチェーンDeFiレンディングプロトコルです。FOLKSトークン（およびエアドロップ）は2025年11月6日にローンチされます。",
+      category: "DeFi"
     },
     "mindoai-tria": {
       title: "Tria",
@@ -2359,6 +2384,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ는 Airaa 생태계 프로젝트와 커뮤니티 이니셔티브의 중앙 허브입니다.",
       category: "생태계 허브"
+    },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "Folks Finance x Airaa 캠페인은 Pre-TGE 단계로 시작하여 3개월의 Post-TGE 단계가 이어지는 약 4개월 동안 진행됩니다. Auraboard 리더보드를 통해 Twitter, Discord, 온체인에서 기여자들에게 보상을 제공하도록 설계되었습니다. Folks Finance는 Coinbase Ventures, Jump, ParaFi, OKX Ventures, Borderless Capital이 지원하는 선도적인 크로스체인 DeFi 대출 프로토콜입니다. FOLKS 토큰(및 에어드롭)은 2025년 11월 6일에 출시됩니다.",
+      category: "DeFi"
     },
     "mindoai-tria": {
       title: "Tria",
@@ -2860,6 +2890,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Airaa HQ是Airaa生态系统项目和社区倡议的中心枢纽。",
       category: "生态系统枢纽"
     },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "Folks Finance x Airaa活动持续约4个月，从Pre-TGE阶段开始，然后是3个月的Post-TGE阶段。它旨在通过Auraboard排行榜奖励Twitter、Discord和链上活动的贡献者。Folks Finance是由Coinbase Ventures、Jump、ParaFi、OKX Ventures和Borderless Capital支持的领先跨链DeFi借贷协议。FOLKS代币（和空投）将于2025年11月6日推出。",
+      category: "DeFi"
+    },
     "mindoai-tria": {
       title: "Tria",
       description: "一个自托管的新银行，将交易、支出和收益统一在一个应用程序中 - 无桥接、无gas费、无中介。在任何网络和货币上支付、交易和赚取收益！Tria已筹集1200万美元并与70多个顶级协议合作，包括Arbitrum、Polygon、Injective、Sentient、Aethir和Katana。",
@@ -3336,6 +3371,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Airaa HQ 🌾",
       description: "Airaa HQ هو المركز المركزي لمشاريع نظام Airaa البيئي ومبادرات المجتمع.",
       category: "مركز النظام البيئي"
+    },
+    "aira-folks-finance": {
+      title: "Folks Finance",
+      description: "حملة Folks Finance x Airaa تستمر لمدة 4 أشهر تقريباً بدءاً من مرحلة ما قبل TGE، تليها 3 أشهر بعد TGE. وهي مصممة لمكافأة المساهمين عبر Twitter وDiscord وعلى السلسلة من خلال لوحة المتصدرين Auraboard. Folks Finance هو بروتوكول الإقراض DeFi عبر السلاسل الرائد المدعوم من Coinbase Ventures وJump وParaFi وOKX Ventures وBorderless Capital. سيتم إطلاق رمز FOLKS (والإسقاط الجوي) في 6 نوفمبر 2025.",
+      category: "DeFi"
     },
     "mindoai-tria": {
       title: "Tria",
@@ -4550,6 +4590,47 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   aira: [
+    {
+      id: "aira-folks-finance",
+      title: "Folks Finance",
+      description: "The Folks Finance x Airaa campaign runs for about 4 months starting with the pre-TGE phase, followed by 3 months post-TGE. It's designed to reward contributors across Twitter, Discord, and onchain through the Auraboard leaderboard. Folks Finance is the leading crosschain DeFi lending protocol backed by Coinbase Ventures, Jump, ParaFi, OKX Ventures, and Borderless Capital. The FOLKS token (and airdrop) will launch on November 6th, 2025.",
+      rewardPool: "0.1% of $FOLKS",
+      participants: "23,301",
+      timeLeft: "22 Oct'25 to 22 Feb'26",
+      category: "DeFi",
+      platform: "Airaa",
+      link: "https://airaa.xyz/project/folks-finance",
+      logo: "https://pbs.twimg.com/profile_images/1898632548495831040/7blTbbiv_400x400.jpg",
+      source: "https://x.com/FolksFinance",
+      referralLink: "https://airaa.xyz?ref=infofi",
+      campaignRules: [
+        "0.1% of the total $FOLKS token supply is allocated for this campaign",
+        "Rewards will be split into two parts: 25% at TGE and the rest after TGE based on TVL milestones",
+        "Make sure the same wallet is connected on both Folks Finance and Airaa to activate multipliers",
+        "Formula: (X contributions + Discord contributions) × Folks Finance onchain usage",
+        "Every position, post, and reply becomes your Aura for TGE"
+      ],
+      additionalData: {
+        isNew: "true",
+        fundsRaised: "$6.20M at $75.00M Val",
+        tokenLaunch: "November 6th, 2025",
+        campaignDuration: "4 months (pre-TGE + 3 months post-TGE)",
+        multiplierFormula: "(X contributions + Discord contributions) × Folks Finance onchain usage",
+        additionalInfo: "You will earn multipliers for:\n• Depositing and collateralising assets on Folks Finance\n• Borrowing and repaying from the protocol\n• Inviting others to join Folks Finance\n\nEURC, Circle's euro stablecoin, is now live on Folks Finance for crosschain lending and borrowing.\nFunds raised: $6.20M at $75.00M Val\n\nYou can boost your leaderboard score through onchain multipliers by:\n• Holding Folks Finance NFTs\n• Earning Folks Points, which reflect your activity in the Folks ecosystem\nMake sure the same EVM wallet address is connected on both Airaa and Folks Finance for accurate tracking.\n\n🔍 INTERACTIONS RECOMMENDED BY SOME PEOPLE (DYOR):\n• Audit Wormhole NTT implementation on Folks Finance\n• Engage with Folks Finance protocol on Zerion Rewards platform and TaskOn\n• Mint Silver Pass NFT on Folks Finance\n• Stake assets and convert SEI to iSEI on Folks Finance\n• Check Retrodrop Allocation on Folks App\n• Deposit sMON and MON and stake Monad on Folks Finance\n• Deposit USDC on Folks Finance\n• Mint Founders Pass NFT on Folks Finance\n• Register for Folks Founders Pass\n• Register for WL through official form",
+        recommendedInteractions: [
+          "Audit Wormhole NTT implementation on Folks Finance",
+          "Engage with Folks Finance protocol on Zerion Rewards platform and TaskOn",
+          "Mint Silver Pass NFT on Folks Finance",
+          "Stake assets and convert SEI to iSEI on Folks Finance",
+          "Check Retrodrop Allocation on Folks App",
+          "Deposit sMON and MON and stake Monad on Folks Finance",
+          "Deposit USDC on Folks Finance",
+          "Mint Founders Pass NFT on Folks Finance",
+          "Register for Folks Founders Pass",
+          "Register for WL through official form"
+        ]
+      }
+    },
     {
       id: "aira-zkagi",
       title: "ZkAGI",

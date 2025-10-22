@@ -378,8 +378,7 @@ export function ProjectCard({
                       {/* Additional Info - Main content */}
                       {additionalData.additionalInfo && (
                         <div className="p-3 rounded-lg bg-white/5 border border-blue-500/10">
-                          <div className="text-xs text-muted-foreground mb-2">Campaign Updates</div>
-                          <div className="text-sm font-medium leading-relaxed">{additionalData.additionalInfo}</div>
+                          <div className="text-sm font-medium leading-relaxed whitespace-pre-line">{additionalData.additionalInfo}</div>
                         </div>
                       )}
                       
