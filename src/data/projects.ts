@@ -235,6 +235,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "2% of $NOME Supply for Top Quackers! Genome Protocol is Web3's user engagement engine - a modular, intelligent middleware layer",
       category: "Infrastructure"
     },
+    "wallchain-analog": {
+      title: "Analog",
+      description: "With over $200,000 in $ANLOG rewards to be earned by our top contributors, the earlier you start, the better! The best part is it's free for any and everyone to participate.",
+      category: "Infrastructure"
+    },
     "cookie-lab": {
       title: "LAB",
       description: "LAB is the ultimate multi-chain trading ecosystem with lowest fees. A comprehensive trading platform enabling users to trade, deploy, and analyze tokens with exceptional speed, precision, and control across any platform.",
@@ -653,6 +658,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "2% del suministro de $NOME para los mejores Quackers! Genome Protocol es el motor de participación de usuarios de Web3 - una capa de middleware modular e inteligente",
       category: "Infraestructura"
     },
+    "wallchain-analog": {
+      title: "Analog",
+      description: "Con más de $200,000 en recompensas $ANLOG para ser ganadas por nuestros mejores contribuidores, ¡cuanto antes empieces, mejor! La mejor parte es que es gratis para cualquiera y todos pueden participar.",
+      category: "Infraestructura"
+    },
     "cookie-lab": {
       title: "LAB",
       description: "LAB es el ecosistema de trading multi-cadena definitivo con las tarifas más bajas. Una plataforma de trading integral que permite a los usuarios comerciar, desplegar y analizar tokens con velocidad, precisión y control excepcionales en cualquier plataforma.",
@@ -984,6 +994,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     "wallchain-genome": {
       title: "Protocole Genome",
       description: "2% de l'offre de $NOME pour les meilleurs Quackers! Genome Protocol est le moteur d'engagement utilisateur de Web3 - une couche middleware modulaire et intelligente",
+      category: "Infrastructure"
+    },
+    "wallchain-analog": {
+      title: "Analog",
+      description: "Avec plus de 200 000 $ en récompenses $ANLOG à gagner par nos meilleurs contributeurs, plus vous commencez tôt, mieux c'est ! La meilleure partie est que c'est gratuit pour tous et que tout le monde peut participer.",
       category: "Infrastructure"
     },
     "cookie-lab": {
@@ -1319,6 +1334,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     "wallchain-genome": {
       title: "Genome Protokoll",
       description: "2% des $NOME-Angebots für Top Quackers! Genome Protocol ist Web3's Benutzerengagement-Motor - eine modulare, intelligente Middleware-Schicht",
+      category: "Infrastruktur"
+    },
+    "wallchain-analog": {
+      title: "Analog",
+      description: "Mit über 200.000 $ in $ANLOG-Belohnungen, die von unseren Top-Beiträgern verdient werden können, je früher Sie anfangen, desto besser! Das Beste daran ist, dass es kostenlos ist und jeder teilnehmen kann.",
       category: "Infrastruktur"
     },
     "cookie-lab": {
@@ -3593,29 +3613,6 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
-      id: "xeet-iopn",
-      title: "IOPn",
-      description: "Join \"The Internet of People\" with $100,000 per month in $OPN $300,000 in total rewards over the next 3 months paid out at TGE (date TBA). IOPn is building OPN chain which is a scalable L1 that integrates decentralized digital identity, real-world asset tokenization, and sovereign AI infrastructure to empower users with borderless digital ownership.",
-      rewardPool: "$300K $OPN + Xeets Top 100 receive $100K OPN per monthly tournament",
-      participants: "TBD",
-      timeLeft: "23 Oct'25 to 23 Jan'26",
-      category: "Infrastructure",
-      platform: "Xeet",
-      link: "https://badge.iopn.io/?ref=WLUNWO8G",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1929775799478956032%2FeNc_Kixr_400x400.jpg&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1980997976844574839",
-      referralLink: "https://badge.iopn.io/?ref=WLUNWO8G",
-      referralCode: "WLUNWO8G",
-      additionalData: {
-        isNew: "true",
-        additionalInfo: "IOPn is a decentralised infrastructure pioneering the OPN Chain, a sovereign ready L1 designed for identity verified participants. IOPn provides solutions in real world asset tokenisation, sovereign AI, and decentralised ownership.\n\nClaim Your Badge: https://badge.iopn.io/?ref=WLUNWO8G\nDocs: https://iopn.gitbook.io/iopn/origin-nft-gamified-proof-of-participation#what-is-rep",
-        campaignDuration: "3 months",
-        totalRewards: "$300,000 in $OPN tokens",
-        monthlyTournament: "$100K OPN for top 100 Xeets participants",
-        earlyAdopterBadge: "https://badge.iopn.io/?ref=WLUNWO8G"
-      }
-    },
-    {
       id: "galxe-dagama-s2",
       title: "daGama (S2)",
       description: "Following its first success, daGama launches Season 2! Explore and champion the AI-powered Arbitrum protocol making recommendations transparent, trusted & rewarding.",
@@ -4216,6 +4213,31 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   wallchain: [
+    {
+      id: "wallchain-analog",
+      title: "Analog",
+      description: "With over $200,000 in $ANLOG rewards to be earned by our top contributors, the earlier you start, the better! The best part is it's free for any and everyone to participate.",
+      rewardPool: "$200K $ANLOG for Quackers",
+      participants: "Top 80 Quackers + 10 random from Top 81 to 300",
+      timeLeft: "4 months total",
+      category: "Infrastructure",
+      platform: "Analog",
+      link: "https://quacks.app/?ref=rjarivi&",
+      logo: "https://app.wallchain.xyz/external-bucket/hashed/image-url/PStSzO3-_400x400.d6df7c97043c733dceda2c035f8be6d4.png",
+      source: "https://x.com/OneAnalog/status/1980641590965334496",
+      referralLink: "https://quacks.app/?ref=rjarivi&",
+      referralCode: "rjarivi",
+      additionalData: {
+        isNew: "true",
+        additionalInfo: "Here's the deal 👇\n💰 $50K in $ANLOG rewards each month\n\n🗓️ 4 months total\n🔐 Rewards: full unlock, no cliff, no vesting\n🎯 The top 80 creators ranked by mindshare, not follower count, win.\n\nIn addition, we will select 10 random creators from 81-300 to recieve rewards. 🤩\n\nCreator Guide: https://teamanalog.notion.site/ANALOG-WallChain-Creator-Guide-28e4872af8ca80de82e6facbb988bf4d\n\n### **Ecosystem Snapshot**\n\n**⚡ Analog** – The Infrastructure Layer of Liquidity\n\n> Unifies all chains into one liquidity fabric.\n\n**💧 Zenswap** – Cross-Chain Liquidity Without the Chaos\n\n> Swap any token across any chain instantly with USDC routing.\n\n**🔥 Firestarter** – The Utility Launchpad for Everyone\n\n> Turn any idea, brand, or fanbase into a tokenized storefront in 20 seconds.",
+        campaignDuration: "4 months",
+        totalRewards: "$200,000 in $ANLOG tokens",
+        monthlyRewards: "$50K in $ANLOG rewards each month",
+        rewardStructure: "Top 80 creators + 10 random from 81-300",
+        vestingSchedule: "Full unlock, no cliff, no vesting",
+        creatorGuide: "https://teamanalog.notion.site/ANALOG-WallChain-Creator-Guide-28e4872af8ca80de82e6facbb988bf4d"
+      }
+    },
     {
       id: "wallchain-klout",
       title: "KLOUT",

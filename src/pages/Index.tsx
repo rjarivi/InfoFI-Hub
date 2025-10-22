@@ -107,17 +107,17 @@ const Index = () => {
       // If both are new or both are not new, sort by section priority
       // Define section order priority (lower number = higher priority)
       const sectionOrder = {
-        'cookie': 1,
-        'kaito': 2,
-        'bantr': 3,
-        'wallchain': 4,
-        'aira': 5,
-        'rey': 6,
-        'breadcrumbs': 7,
-        'mindoai': 8,
-        'galxe': 9,
-        'pulse': 10,
-        'xeet': 11
+        'xeet': 1,
+        'cookie': 2,
+        'kaito': 3,
+        'bantr': 4,
+        'wallchain': 5,
+        'aira': 6,
+        'rey': 7,
+        'breadcrumbs': 8,
+        'mindoai': 9,
+        'galxe': 10,
+        'pulse': 11
       };
       
       // Get section for each project by checking which section contains it
