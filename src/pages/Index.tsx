@@ -191,7 +191,7 @@ const Index = () => {
         <div className="w-full px-4 md:px-6 py-4">
           <div className="flex items-center justify-between gap-2 md:gap-4">
             {/* Logo */}
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 group">
               <div className="flex flex-col">
                 <img 
                   src="/Jeet.ing.svg" 
@@ -199,8 +199,8 @@ const Index = () => {
                   className="h-[2.6rem] md:h-[3.12rem] w-auto"
                 />
               </div>
-              {/* Creator badge under the logo */}
-              <div className="mt-1">
+              {/* Creator badge under the logo - only visible on hover */}
+              <div className="mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <a
                   href="https://otgstats.com"
                   target="_blank"
