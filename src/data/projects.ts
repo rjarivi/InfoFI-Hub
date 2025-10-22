@@ -58,6 +58,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
       category: "DeFi"
     },
+    "kaito-integra": {
+      title: "Integra",
+      description: "0.5% of Integra's IRL supply (TGE soon) is allocated to reward Integra's points program and Kaito Creators, Referrers, and Kaito Eco",
+      category: "Infrastructure",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% IRL Supply",
+      participants: "Creators, Referrers, and Kaito Eco",
+      timeLeft: "TGE Soon",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Breakdown: 0.4% for creators, 0.1% for eco",
+        "Post high-quality content about Integra to climb the leaderboard",
+        "Rewards are based on leaderboard rank considering content quality, engagement, and consistency with other tasks in the points program",
+        "Tag @integra_layer in your posts",
+        "Create original, thoughtful content",
+        "Do not spam or post low-effort content",
+        "Do not plagiarize or copy others' work"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
     "kaito-multipli": {
       title: "Multipli Creator Currency",
       description: "100k Crystals / Week (24.7 bps at TGE) - the liquid creator currency of Multipli, built on top of Kaito",
@@ -370,6 +397,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     }
   },
   es: {
+    "kaito-integra": {
+      title: "Integra",
+      description: "0.5% del suministro IRL de Integra (TGE pronto) se asigna para recompensar el programa de puntos de Integra y los Creadores de Kaito, Referidos y Ecosistema Kaito",
+      category: "Infraestructura",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% Suministro IRL",
+      participants: "Creadores, Referidos y Ecosistema Kaito",
+      timeLeft: "TGE Pronto",
+      claimPeriod: "Próximamente",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Desglose: 0.4% para creadores, 0.1% para eco",
+        "Publica contenido de alta calidad sobre Integra para escalar en el ranking",
+        "Las recompensas se basan en el ranking considerando calidad del contenido, engagement y consistencia con otras tareas en el programa de puntos",
+        "Etiqueta @integra_layer en tus publicaciones",
+        "Crea contenido original y reflexivo",
+        "No hagas spam o publiques contenido de bajo esfuerzo",
+        "No plagies o copies el trabajo de otros"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
     "kaito-metawin": {
       title: "Ecosistema MetaWin Web3",
       description: "Gana una parte de $100K USDC mensuales por compartir sobre el ecosistema MetaWin Web3. Comienza a ganar en Web3 hoy.",
@@ -716,6 +770,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     }
   },
   fr: {
+    "kaito-integra": {
+      title: "Integra",
+      description: "0.5% de l'offre IRL d'Integra (TGE bientôt) est alloué pour récompenser le programme de points d'Integra et les Créateurs Kaito, Parrains et Écosystème Kaito",
+      category: "Infrastructure",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% Offre IRL",
+      participants: "Créateurs, Parrains et Écosystème Kaito",
+      timeLeft: "TGE Bientôt",
+      claimPeriod: "À venir",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Répartition: 0.4% pour les créateurs, 0.1% pour l'écosystème",
+        "Publiez du contenu de haute qualité sur Integra pour grimper dans le classement",
+        "Les récompenses sont basées sur le rang du classement en considérant la qualité du contenu, l'engagement et la cohérence avec d'autres tâches du programme de points",
+        "Mentionnez @integra_layer dans vos publications",
+        "Créez du contenu original et réfléchi",
+        "Ne faites pas de spam ou ne publiez pas de contenu de faible effort",
+        "Ne plagiez pas ou ne copiez pas le travail d'autrui"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
     "kaito-metawin": {
       title: "Écosystème MetaWin Web3",
       description: "Gagnez une part de 100K USDC par mois en partageant sur l'écosystème MetaWin Web3. Commencez à gagner en Web3 aujourd'hui.",
@@ -1404,6 +1485,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Abstract",
       description: "Xeet Abstract bietet abstrakte Trading-Strategien und erweiterte Markteinblicke für Kryptowährungs-Trader.",
       category: "Trading-Strategien"
+    },
+    "kaito-integra": {
+      title: "Integra",
+      description: "0.5% von Integras IRL-Versorgung (TGE bald) ist für die Belohnung von Integras Punkteprogramm und Kaito-Creators, Referrern und Kaito-Ökosystem vorgesehen",
+      category: "Infrastruktur",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% IRL-Versorgung",
+      participants: "Creators, Referrer und Kaito-Ökosystem",
+      timeLeft: "TGE Bald",
+      claimPeriod: "Bevorstehend",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Aufschlüsselung: 0.4% für Creators, 0.1% für Ökosystem",
+        "Veröffentlichen Sie hochwertige Inhalte über Integra, um im Leaderboard zu steigen",
+        "Belohnungen basieren auf Leaderboard-Rang unter Berücksichtigung von Inhaltsqualität, Engagement und Konsistenz mit anderen Aufgaben im Punkteprogramm",
+        "Erwähnen Sie @integra_layer in Ihren Posts",
+        "Erstellen Sie originelle, durchdachte Inhalte",
+        "Spammen Sie nicht oder veröffentlichen Sie keine Low-Effort-Inhalte",
+        "Plagiieren oder kopieren Sie nicht die Arbeit anderer"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
     }
   },
   ja: {
@@ -1859,6 +1967,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "KLOUT",
       description: "KLOUTは、2つのエポックにわたって上位QuackerにKLOUT供給量の1%を報酬として与えるソーシャルインフルエンスプラットフォームです。エポックIは40日10時間で上位300名のQuackerに0.5%の供給量、その後エポックIIでさらに上位300名のQuackerに0.5%の供給量を提供します。",
       category: "ソーシャルインフルエンス"
+    },
+    "kaito-integra": {
+      title: "Integra",
+      description: "IntegraのIRL供給量の0.5%（TGE間もなく）は、IntegraのポイントプログラムとKaitoクリエイター、リファラー、Kaitoエコシステムへの報酬に割り当てられています",
+      category: "インフラストラクチャ",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% IRL供給量",
+      participants: "クリエイター、リファラー、Kaitoエコシステム",
+      timeLeft: "TGE間もなく",
+      claimPeriod: "近日公開",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "内訳：クリエイターに0.4%、エコシステムに0.1%",
+        "リーダーボードを上昇させるためにIntegraについて高品質なコンテンツを投稿",
+        "報酬は、ポイントプログラムの他のタスクとの一貫性、コンテンツの品質、エンゲージメントを考慮したリーダーボードランクに基づきます",
+        "投稿で@integra_layerをタグ付け",
+        "オリジナルで思慮深いコンテンツを作成",
+        "スパムや低品質なコンテンツを投稿しない",
+        "他人の作品を盗用やコピーしない"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
     }
   },
   ko: {
@@ -2314,6 +2449,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "KLOUT",
       description: "KLOUT는 두 에포크에 걸쳐 상위 Quacker에게 KLOUT 공급량의 1%를 보상으로 제공하는 소셜 인플루언스 플랫폼입니다. 에포크 I은 40일 10시간 동안 상위 300명의 Quacker에게 0.5% 공급량을 제공하고, 그 후 에포크 II에서 상위 300명의 Quacker에게 추가로 0.5% 공급량을 제공합니다.",
       category: "소셜 인플루언스"
+    },
+    "kaito-integra": {
+      title: "Integra",
+      description: "Integra의 IRL 공급량의 0.5%(TGE 곧 출시)는 Integra의 포인트 프로그램과 Kaito 크리에이터, 추천인, Kaito 생태계에 대한 보상으로 할당됩니다",
+      category: "인프라",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% IRL 공급량",
+      participants: "크리에이터, 추천인, Kaito 생태계",
+      timeLeft: "TGE 곧 출시",
+      claimPeriod: "곧 출시",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "세부사항: 크리에이터에게 0.4%, 생태계에게 0.1%",
+        "리더보드를 올리기 위해 Integra에 대한 고품질 콘텐츠 게시",
+        "보상은 포인트 프로그램의 다른 작업과의 일관성, 콘텐츠 품질, 참여도를 고려한 리더보드 순위에 기반합니다",
+        "게시물에서 @integra_layer 태그",
+        "독창적이고 사려 깊은 콘텐츠 생성",
+        "스팸이나 저품질 콘텐츠 게시 금지",
+        "타인의 작품 표절이나 복사 금지"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
     }
   },
   zh: {
@@ -2787,6 +2949,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "KLOUT",
       description: "KLOUT是一个社交影响力平台，在两个时代中为顶级Quacker提供KLOUT供应量的1%作为奖励。时代I持续40天10小时，为顶级300名Quacker提供0.5%供应量，随后时代II为顶级300名Quacker提供另外0.5%供应量。",
       category: "社交影响力"
+    },
+    "kaito-integra": {
+      title: "Integra",
+      description: "Integra的IRL供应量的0.5%（TGE即将推出）分配给奖励Integra积分计划和Kaito创作者、推荐人以及Kaito生态系统",
+      category: "基础设施",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% IRL供应量",
+      participants: "创作者、推荐人、Kaito生态系统",
+      timeLeft: "TGE即将推出",
+      claimPeriod: "即将推出",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "分配：创作者0.4%，生态系统0.1%",
+        "发布关于Integra的高质量内容以提升排行榜排名",
+        "奖励基于排行榜排名，考虑内容质量、参与度和与积分计划中其他任务的一致性",
+        "在帖子中标记@integra_layer",
+        "创建原创、深思熟虑的内容",
+        "不要发送垃圾信息或发布低质量内容",
+        "不要抄袭或复制他人的作品"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
     }
   },
   ar: {
@@ -3237,6 +3426,33 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "KLOUT",
       description: "KLOUT هي منصة تأثير اجتماعي تكافئ أفضل Quackers بـ 1% من عرض KLOUT عبر عصرين. العصر الأول يستمر 40 يوماً و10 ساعات مع 0.5% من العرض لأفضل 300 Quacker، يليه العصر الثاني مع 0.5% إضافي من العرض لأفضل 300 Quacker.",
       category: "التأثير الاجتماعي"
+    },
+    "kaito-integra": {
+      title: "Integra",
+      description: "0.5% من عرض IRL لـ Integra (TGE قريباً) مخصص لمكافأة برنامج نقاط Integra ومبدعي Kaito والمرجعين ونظام Kaito البيئي",
+      category: "البنية التحتية",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% عرض IRL",
+      participants: "المبدعون والمرجعون ونظام Kaito البيئي",
+      timeLeft: "TGE قريباً",
+      claimPeriod: "قريباً",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "التفصيل: 0.4% للمبدعين، 0.1% للنظام البيئي",
+        "انشر محتوى عالي الجودة حول Integra لتسلق لوحة المتصدرين",
+        "المكافآت مبنية على ترتيب لوحة المتصدرين مع مراعاة جودة المحتوى والمشاركة والاتساق مع المهام الأخرى في برنامج النقاط",
+        "ضع علامة @integra_layer في منشوراتك",
+        "أنشئ محتوى أصلي ومدروس",
+        "لا ترسل رسائل مزعجة أو تنشر محتوى منخفض الجهد",
+        "لا تسرق أو تنسخ عمل الآخرين"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
     }
   }
 };
@@ -3256,6 +3472,34 @@ export function translateProject(project: Project, language: Language): Project 
 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
+    {
+      id: "kaito-integra",
+      title: "Integra",
+      description: "0.5% of Integra's IRL supply (TGE soon) is allocated to reward Integra's points program and Kaito Creators, Referrers, and Kaito Eco",
+      category: "Infrastructure",
+      platform: "Kaito",
+      link: "https://x.com/integra_layer",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1795808049908621312.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1980671802545217844",
+      rewardPool: "0.5% IRL Supply",
+      participants: "Creators, Referrers, and Kaito Eco",
+      timeLeft: "TGE Soon",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Breakdown: 0.4% for creators, 0.1% for eco",
+        "Post high-quality content about Integra to climb the leaderboard",
+        "Rewards are based on leaderboard rank considering content quality, engagement, and consistency with other tasks in the points program",
+        "Tag @integra_layer in your posts",
+        "Create original, thoughtful content",
+        "Do not spam or post low-effort content",
+        "Do not plagiarize or copy others' work"
+      ],
+      additionalData: {
+        isNew: "true"
+      }
+    },
     {
       id: "kaito-theo",
       title: "Theo",
