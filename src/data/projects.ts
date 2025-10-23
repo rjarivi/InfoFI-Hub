@@ -5510,6 +5510,36 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-claynosaurz",
+      title: "Claynosaurz",
+      description: "Create content, and complete tasks to earn Xeets + the Clayno token. In celebration of their new studio announcement Heeboo, Clayno is rewarding creators with a % of their upcoming ecosystem token.",
+      rewardPool: "TBA + Xeets",
+      participants: "Top 50 creators will win",
+      timeLeft: "Started 10/24/2025",
+      category: "NFT/Gaming",
+      platform: "Xeet",
+      link: "https://x.com/Claynosaurz",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1927449655270416385%2F21LJ1SfL_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1981377429554729165",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      claimPeriod: "TBA",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Complete quests to earn extra rewards",
+        "Connect & Link Ethereum Wallet",
+        "Connect & Link Solana Wallet",
+        "Follow Heeboo on X",
+        "Follow Claynosaurz on X",
+        "Follow Nobody Sausages on X"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "Claynosaurz",
+        additionalInfo: "Claynosaurz is a clay‑animated character universe and Solana NFT project featuring seven dinosaur species and 10,222 unique collectibles set in the whimsical world of Claynotopia. The brand blends viral short‑form storytelling with on‑chain collectibles, crafting tools (Clay, Claymaker), and IRL activations to bridge digital and physical fandom. What is HEEBOO? - Heeboo aims to redefine how global entertainment is created, owned and experienced for SUPERFANS. - Market driven franchise model - Monetize early"
+      }
+    },
+    {
       id: "xeet-iopn",
       title: "IOPn",
       description: "Join \"The Internet of People\" with $100,000 per month in $OPN $300,000 in total rewards over the next 3 months paid out at TGE (date TBA). IOPn is building OPN chain which is a scalable L1 that integrates decentralized digital identity, real-world asset tokenization, and sovereign AI infrastructure to empower users with borderless digital ownership.",

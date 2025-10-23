@@ -22,6 +22,12 @@ const ads: AdData[] = [
     image: "/assets/otgstats-AD.png",
     ctaText: "Visit OTGstats",
     ctaLink: "https://otgstats.com"
+  },
+  {
+    id: "comet",
+    image: "/assets/Comet-Ad.png",
+    ctaText: "Try Comet Browser",
+    ctaLink: "https://pplx.ai/jeet.ing"
   }
 ];
 
