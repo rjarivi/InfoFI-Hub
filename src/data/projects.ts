@@ -200,6 +200,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Bantr is a social trading platform that connects traders and provides community-driven insights",
       category: "Social Trading"
     },
+    "bantr-multichainz": {
+      title: "MultichainZ",
+      description: "MultichainZ is a next-gen omnichain credit platform connecting RWAs with DeFi. Users can supply ETH, stables, or even NFTs as collateral and borrow seamlessly across chains.",
+      category: "DeFi"
+    },
+    "bantr-firestarter": {
+      title: "Firestarter",
+      description: "Drive conversations around how creators can own and monetise their communities directly. Firestarter is a \"Shopify for tokens\" platform that lets anyone launch their own digital token in minutes.",
+      category: "Creator Economy"
+    },
+    "bantr-quranium": {
+      title: "Quranium",
+      description: "Quranium is rewarding creators who spark authentic conversations around their AI x blockchain x quantum security vision.",
+      category: "AI & Blockchain"
+    },
     "kaito-turtle": {
       title: "TURTLE Liquidity Program",
       description: "0.3% to Creators (Liquidity Leaderboard + Kaito Creators), with additional 0.2% upon milestone unlock",
@@ -623,6 +638,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Bantr es una plataforma de trading social que conecta traders y proporciona insights impulsados por la comunidad",
       category: "Trading Social"
     },
+    "bantr-multichainz": {
+      title: "MultichainZ",
+      description: "MultichainZ es una plataforma de crédito omnichain de próxima generación que conecta RWAs con DeFi. Los usuarios pueden suministrar ETH, estables, o incluso NFTs como garantía y pedir prestado sin problemas a través de cadenas.",
+      category: "DeFi"
+    },
+    "bantr-firestarter": {
+      title: "Firestarter",
+      description: "Impulsa conversaciones sobre cómo los creadores pueden poseer y monetizar sus comunidades directamente. Firestarter es una plataforma \"Shopify para tokens\" que permite a cualquiera lanzar su propio token digital en minutos.",
+      category: "Economía de Creadores"
+    },
+    "bantr-quranium": {
+      title: "Quranium",
+      description: "Quranium está recompensando a los creadores que generan conversaciones auténticas en torno a su visión de IA x blockchain x seguridad cuántica.",
+      category: "IA y Blockchain"
+    },
     "kaito-turtle": {
       title: "Programa de Liquidez TURTLE",
       description: "0.3% para Creadores (Tabla de Líderes de Liquidez + Creadores de Kaito), con 0.2% adicional al desbloquear hitos",
@@ -991,6 +1021,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Bantr est une plateforme de trading social qui connecte les traders et fournit des insights communautaires",
       category: "Trading Social"
     },
+    "bantr-multichainz": {
+      title: "MultichainZ",
+      description: "MultichainZ est une plateforme de crédit omnichain de nouvelle génération connectant les RWAs avec DeFi. Les utilisateurs peuvent fournir ETH, stablecoins, ou même des NFTs comme garantie et emprunter de manière transparente à travers les chaînes.",
+      category: "DeFi"
+    },
+    "bantr-firestarter": {
+      title: "Firestarter",
+      description: "Déclenchez des conversations sur la façon dont les créateurs peuvent posséder et monétiser leurs communautés directement. Firestarter est une plateforme \"Shopify pour les tokens\" qui permet à quiconque de lancer son propre token numérique en quelques minutes.",
+      category: "Économie des Créateurs"
+    },
+    "bantr-quranium": {
+      title: "Quranium",
+      description: "Quranium récompense les créateurs qui suscitent des conversations authentiques autour de leur vision IA x blockchain x sécurité quantique.",
+      category: "IA et Blockchain"
+    },
     "wallchain-genome": {
       title: "Protocole Genome",
       description: "2% de l'offre de $NOME pour les meilleurs Quackers! Genome Protocol est le moteur d'engagement utilisateur de Web3 - une couche middleware modulaire et intelligente",
@@ -1330,6 +1375,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bantr",
       description: "Bantr ist eine Social-Trading-Plattform, die Trader verbindet und Community-gesteuerte Insights bietet",
       category: "Social Trading"
+    },
+    "bantr-multichainz": {
+      title: "MultichainZ",
+      description: "MultichainZ ist eine Next-Gen-Omnichain-Kreditplattform, die RWAs mit DeFi verbindet. Benutzer können ETH, Stablecoins oder sogar NFTs als Sicherheit hinterlegen und nahtlos über Ketten hinweg borgen.",
+      category: "DeFi"
+    },
+    "bantr-firestarter": {
+      title: "Firestarter",
+      description: "Führen Sie Gespräche darüber, wie Ersteller ihre Communities direkt besitzen und monetarisieren können. Firestarter ist eine \"Shopify für Token\"-Plattform, die es jedem ermöglicht, seinen eigenen digitalen Token in Minuten zu starten.",
+      category: "Creator Economy"
+    },
+    "bantr-quranium": {
+      title: "Quranium",
+      description: "Quranium belohnt Ersteller, die authentische Gespräche über ihre AI x Blockchain x Quantensicherheitsvision führen.",
+      category: "KI & Blockchain"
     },
     "wallchain-genome": {
       title: "Genome Protokoll",
@@ -2274,6 +2334,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       title: "Bantr",
       description: "Bantr는 거래자를 연결하고 커뮤니티 중심의 인사이트를 제공하는 소셜 거래 플랫폼입니다",
       category: "소셜 트레이딩"
+    },
+    "bantr-multichainz": {
+      title: "MultichainZ",
+      description: "MultichainZ는 RWA와 DeFi를 연결하는 차세대 옴니체인 크레딧 플랫폼입니다. 사용자는 ETH, 스테이블코인, 심지어 NFT를 담보로 제공하고 체인 간에 원활하게 차용할 수 있습니다.",
+      category: "DeFi"
+    },
+    "bantr-firestarter": {
+      title: "Firestarter",
+      description: "크리에이터가 커뮤니티를 직접 소유하고 수익화하는 방법에 대한 대화를 촉진합니다. Firestarter는 누구나 몇 분 만에 자신만의 디지털 토큰을 출시할 수 있는 \"토큰용 Shopify\" 플랫폼입니다.",
+      category: "크리에이터 경제"
+    },
+    "bantr-quranium": {
+      title: "Quranium",
+      description: "Quranium는 AI x 블록체인 x 양자 보안 비전에 대한 진정한 대화를 불러일으키는 크리에이터에게 보상을 제공합니다.",
+      category: "AI & 블록체인"
     },
     "wallchain-genome": {
       title: "Genome Protocol",
@@ -3287,6 +3362,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Bantr هو منصة تداول اجتماعية تربط المتداولين وتوفر رؤى مدفوعة من المجتمع",
       category: "التداول الاجتماعي"
     },
+    "bantr-multichainz": {
+      title: "MultichainZ",
+      description: "MultichainZ هي منصة ائتمان متعددة السلاسل من الجيل القادم تربط RWAs مع DeFi. يمكن للمستخدمين توفير ETH أو العملات المستقرة أو حتى NFTs كضمان والاقتراض بسلاسة عبر السلاسل.",
+      category: "DeFi"
+    },
+    "bantr-firestarter": {
+      title: "Firestarter",
+      description: "دفع المحادثات حول كيفية تمكين المبدعين من امتلاك وتنويع مجتمعاتهم مباشرة. Firestarter هي منصة \"Shopify للرموز المميزة\" تسمح لأي شخص بإطلاق رمزه الرقمي الخاص في دقائق.",
+      category: "اقتصاد المبدعين"
+    },
+    "bantr-quranium": {
+      title: "Quranium",
+      description: "Quranium تكافئ المبدعين الذين يثيرون محادثات أصيلة حول رؤيتهم للذكاء الاصطناعي x البلوك تشين x الأمان الكمي.",
+      category: "الذكاء الاصطناعي والبلوك تشين"
+    },
     "wallchain-genome": {
       title: "بروتوكول Genome",
       description: "2% من عرض $NOME لأفضل Quackers! بروتوكول Genome هو محرك مشاركة المستخدمين في Web3 - طبقة وسطية معيارية وذكية",
@@ -4031,6 +4121,106 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   bantr: [
+    {
+      id: "bantr-multichainz",
+      title: "MultichainZ",
+      description: "MultichainZ is a next-gen omnichain credit platform connecting RWAs with DeFi. Users can supply ETH, stables, or even NFTs as collateral and borrow seamlessly across chains.",
+      rewardPool: "$300k in $CHAINZ tokens",
+      participants: "Top 200 creators monthly",
+      timeLeft: "Oct 22 - Jan 22",
+      category: "DeFi",
+      platform: "Bantr",
+      link: "https://x.com/MultichainZ_",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F6211d5455fd3438f9a5ecba4d633cca5.png&w=64&q=75",
+      source: "https://x.com/Bantr_fun/status/1981085905038561747",
+      referralLink: "https://bantr.fun?ic=3066Y7V",
+      claimPeriod: "Oct 22 - Jan 22",
+      vestingSchedule: "$150K unlocked at TGE, $150K vested (6-month staking bonus)",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in at least once using your X account on bantr.fun",
+        "Explore the MultichainZ Docs: https://multichainz.gitbook.io/beta-multichainz-docs/ to understand the project",
+        "Create and post original MultichainZ content on X, tagging @MultichainZ_",
+        "Engage with @MultichainZ_ on X by quoting, replying, and ensuring your posts include context and visuals",
+        "Monthly snapshots for top 200 creators",
+        "Onchain multipliers going live soon!"
+      ],
+      additionalData: {
+        isNew: "true",
+        miniCampaign: "true",
+        miniCampaignNote: "Mini Campaigns",
+        xHandle: "MultichainZ_",
+        creatorGuide: "https://intract-io.notion.site/MultichainZ-Creator-Guide-294b31fb6eb680b0a888d520d195a76b",
+        additionalInfo: "Reward breakdown: $150K unlocked at TGE, $150K vested (6-month staking bonus). Monthly snapshots for top 200 creators. Onchain multipliers going live soon!"
+      }
+    },
+    {
+      id: "bantr-firestarter",
+      title: "Firestarter",
+      description: "Drive conversations around how creators can own and monetise their communities directly. Firestarter is a \"Shopify for tokens\" platform that lets anyone launch their own digital token in minutes.",
+      rewardPool: "$60,000 USDT worth $FSTAR",
+      participants: "Top 100 creators monthly",
+      timeLeft: "Oct 21 - Jan 21, 2026",
+      category: "Creator Economy",
+      platform: "Bantr",
+      link: "https://www.firestarter.fun/token/0x7564849baE8Fd974F9c5301c9a01911928cd1b67",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2Fdafdc597c6db4e0ba13ecf9c39f1dbe4.png&w=96&q=75",
+      source: "https://x.com/Bantr_fun/status/1980669855419506784",
+      referralLink: "https://bantr.fun?ic=3066Y7V",
+      claimPeriod: "Oct 21 - Jan 21, 2026",
+      vestingSchedule: "$20K monthly (claimable on TGE)",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "You should have logged in atleast once with your X account on bantr.fun",
+        "Retweets, mentions, and engagement with Firestarter posts earn points",
+        "Extra points for users who launch a token or promote creator storefronts",
+        "The campaign features a $60K total reward pool, with $20K distributed monthly (claimable on TGE)",
+        "Only the social leaderboard is live for now; onchain multipliers are coming soon"
+      ],
+      additionalData: {
+        isNew: "true",
+        miniCampaign: "true",
+        miniCampaignNote: "Mini Campaigns",
+        xHandle: "Firestarter_fun",
+        creatorGuide: "https://www.notion.so/teamanalog/Creator-Guidance-Document-For-Firestarter-28e4872af8ca80af8617cc7af29dc00e",
+        additionalInfo: "Firestarter is a \"Shopify for tokens\" platform that lets anyone launch their own digital token in minutes. Creators, influencers, and businesses can tokenize their community, create perks, and start earning from their audience instantly."
+      }
+    },
+    {
+      id: "bantr-quranium",
+      title: "Quranium",
+      description: "Quranium is rewarding creators who spark authentic conversations around their AI x blockchain x quantum security vision.",
+      rewardPool: "$50k worth $QRN",
+      participants: "Top 100 creators monthly",
+      timeLeft: "Oct 16 - Dec 16, 2025",
+      category: "AI & Blockchain",
+      platform: "Bantr",
+      link: "https://x.com/quranium_org",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2Fc3c527157ac442bf907aa97c57b33713.png&w=96&q=75",
+      source: "https://x.com/Bantr_fun/status/1978901509430718933",
+      referralLink: "https://bantr.fun?ic=3066Y7V",
+      claimPeriod: "Oct 16 - Dec 16, 2025",
+      vestingSchedule: "Month 1: $30K ($15K liquid, $15K vested linearly over 3 months). Month 2: $20K ($10K liquid, $10K vested linearly over 3 months)",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "You should have logged in atleast once with your X account on bantr.fun",
+        "Follow @quranium_org on X and explore quranium.org to understand the project before creating content",
+        "Create original, high-quality posts that highlight your thoughts about Quranium — be creative, insightful, and authentic",
+        "Check the Creator Guide for reference",
+        "Top 100 creators will be rewarded each month"
+      ],
+      additionalData: {
+        isNew: "true",
+        miniCampaign: "true",
+        miniCampaignNote: "Mini Campaigns",
+        xHandle: "quranium_org",
+        creatorGuide: "https://intract-io.notion.site/Quranium-Creator-Guide-28eb31fb6eb680a68f2ec9405580ece9",
+        additionalInfo: "Quranium $50K total reward pool - Month 1: $30K ($15K liquid, $15K vested linearly over 3 months) - Month 2: $20K ($10K liquid, $10K vested linearly over 3 months)"
+      }
+    },
     {
       id: "bantr-bluwhale",
       title: "Bluwhale",

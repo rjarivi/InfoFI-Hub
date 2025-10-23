@@ -155,7 +155,7 @@ export function ProjectCard({
 
                    {/* Source Link */}
                    {source && (
-                     <div className="mb-4">
+                     <div className="mb-4 flex justify-between items-center">
                        <a 
                          href={source} 
                          target="_blank" 
@@ -165,6 +165,11 @@ export function ProjectCard({
                        >
                          {t("viewSource")}
                        </a>
+                       {additionalData?.miniCampaign === "true" && (
+                         <span className="text-xs text-blue-500 font-medium">
+                           {additionalData?.miniCampaignNote || "Mini Campaigns"}
+                         </span>
+                       )}
                      </div>
                    )}
 
@@ -286,6 +291,11 @@ export function ProjectCard({
                   {additionalData?.isNew === "true" && (
                     <Badge variant="default" className="bg-green-500 text-white text-xs px-2 py-1 animate-pulse">
                       NEW
+                    </Badge>
+                  )}
+                  {additionalData?.miniCampaign === "true" && (
+                    <Badge variant="outline" className="bg-blue-500/10 text-blue-500 border-blue-500/20 text-xs px-2 py-1">
+                      {additionalData?.miniCampaignNote || "Mini Campaigns"}
                     </Badge>
                   )}
                 </div>
