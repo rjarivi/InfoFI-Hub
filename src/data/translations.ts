@@ -70,7 +70,7 @@ export const translations = {
     arbitrumEligibilityText: "Just like in Season 1, accounts that are affiliated with Arbitrum (such as employees) are not eligible for the Arbitrum Kaito grant. If any of these accounts appear in the Top 150, they will be excluded from the grant distribution, and the grant will simply roll down to the next eligible participants to ensure 150 non-affiliated users receive the grant.",
     
     // Meta
-    pageTitle: "Jeet.ing - Discover Cutting-Edge Crypto Opportunities",
+    pageTitle: "Jeet.ing - Discover all InfoFi in one place",
     pageDescription: "Explore and participate in innovative InfoFi projects. Earn rewards through Kaito, Bantr, Wallchain, Cookie, and Rey platforms."
   },
   
