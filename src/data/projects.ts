@@ -58,6 +58,11 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
       category: "DeFi"
     },
+    "kaito-anichess": {
+      title: "Anichess",
+      description: "Top 200 Creators monthly till april 1, 2026. 5,000,000 CHECK total reward pool with 1,000,000 CHECK distributed monthly to top 200 Anichess creators.",
+      category: "Yap"
+    },
     "kaito-integra": {
       title: "Integra",
       description: "0.5% of Integra's IRL supply (TGE soon) is allocated to reward Integra's points program and Kaito Creators, Referrers, and Kaito Eco",
@@ -3702,6 +3707,33 @@ export function translateProject(project: Project, language: Language): Project 
 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
+    {
+      id: "kaito-anichess",
+      title: "Anichess",
+      description: "Top 200 Creators monthly till april 1, 2026. 5,000,000 CHECK total reward pool with 1,000,000 CHECK distributed monthly to top 200 Anichess creators.",
+      rewardPool: "5,000,000 CHECK",
+      participants: "Top 200 Creators monthly",
+      timeLeft: "Oct 01, 2025 - Apr 01, 2026",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/AnichessGame",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1546841681525444610.jpg/w=48&q=90",
+      source: "https://x.com/AnichessGame/status/1981347110030098682",
+      referralLink: "https://yaps.kaito.ai/reward-station",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No Vesting",
+      distributionPlatform: "Anichess",
+      campaignRules: [
+        "Prioritize original, thoughtful, and high-quality content over volume",
+        "Maintain long-term, consistent engagement, even from smaller accounts",
+        "Avoid spam, plagiarism, and misinformation"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "AnichessGame",
+        additionalInfo: "1,000,000 CHECK to the top 200 Anichess creators monthly"
+      }
+    },
     {
       id: "kaito-integra",
       title: "Integra",
