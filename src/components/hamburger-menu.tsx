@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, BarChart3, Home } from "lucide-react";
+import { motion } from "framer-motion";
+import { Menu, X, BookOpen } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface HamburgerMenuProps {
@@ -8,88 +8,45 @@ interface HamburgerMenuProps {
 }
 
 export function HamburgerMenu({ className }: HamburgerMenuProps) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
 
-  const menuItems = [
-    {
-      id: "home",
-      label: "Home",
-      icon: <Home className="w-4 h-4" />,
-      action: () => {
-        navigate("/");
-        setIsOpen(false);
-      }
-    },
-    {
-      id: "leaderboards",
-      label: "Leaderboards",
-      icon: <BarChart3 className="w-4 h-4" />,
-      action: () => {
-        navigate("/leaderboards");
-        setIsOpen(false);
-      }
-    }
-  ];
+  const handleResourcesClick = () => {
+    navigate('/resources');
+    setIsMenuOpen(false);
+  };
 
   return (
     <div className={`relative ${className}`}>
-      {/* Hamburger Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-10 h-10 md:w-12 md:h-12 rounded-xl glass-card flex items-center justify-center hover:bg-muted/50 transition-colors"
-        aria-label="Open menu"
+      {/* Hamburger Menu Button */}
+      <motion.button
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        className="p-2 rounded-lg glass-card border-primary/30 hover:border-primary/50 transition-colors"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
       >
+        {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+      </motion.button>
+      
+      {/* Menu Dropdown */}
+      {isMenuOpen && (
         <motion.div
-          animate={{ rotate: isOpen ? 90 : 0 }}
-          transition={{ duration: 0.2 }}
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          className="absolute top-full right-0 mt-2 p-4 glass-card border border-primary/30 rounded-xl z-50 min-w-[200px]"
         >
-          {isOpen ? (
-            <X className="w-5 h-5 text-foreground" />
-          ) : (
-            <Menu className="w-5 h-5 text-foreground" />
-          )}
-        </motion.div>
-      </button>
-
-      {/* Dropdown Menu */}
-      <AnimatePresence>
-        {isOpen && (
-          <>
-            {/* Backdrop */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.2 }}
-              className="fixed inset-0 z-40 bg-black/20 backdrop-blur-sm"
-              onClick={() => setIsOpen(false)}
-            />
-            
-            {/* Menu */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95, y: -10 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: -10 }}
-              transition={{ duration: 0.2 }}
-              className="absolute right-0 top-full mt-2 w-48 glass-card rounded-xl border border-primary/30 shadow-lg z-50"
+          <div className="space-y-2">
+            <button
+              onClick={handleResourcesClick}
+              className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors text-left"
             >
-              <div className="p-2">
-                {menuItems.map((item) => (
-                  <button
-                    key={item.id}
-                    onClick={item.action}
-                    className="w-full flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-foreground hover:bg-muted/50 transition-colors"
-                  >
-                    {item.icon}
-                    <span>{item.label}</span>
-                  </button>
-                ))}
-              </div>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
+              <BookOpen className="w-4 h-4" />
+              <span>Resources</span>
+            </button>
+          </div>
+        </motion.div>
+      )}
     </div>
   );
 }

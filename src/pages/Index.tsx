@@ -45,7 +45,8 @@ const projectLogos = {
   breadcrumbs: "/assets/Info Fi Logo/Breadcrumbs.svg",
   mindoai: "/assets/Info Fi Logo/MindoAi.svg",
   galxe: "/assets/Info Fi Logo/Galxe.svg",
-  pulse: "/assets/Info Fi Logo/Pulse.svg"
+  pulse: "/assets/Info Fi Logo/Pulse.svg",
+  stake: "/assets/Info Fi Logo/stake.jpg"
 };
 
 const referralLinks = {
@@ -58,6 +59,7 @@ const referralLinks = {
   pulse: "https://www.alphabot.app/pulse/boost/XQ9S9C",
   mindoai: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
   galxe: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+  stake: "https://www.alphabot.app/pulse/boost/XQ9S9C"
 };
 
 const menuItems = [
@@ -220,6 +222,7 @@ const Index = () => {
                 overflowItems={overflowMenuItems}
                 activeItem={activeTab}
                 onItemClick={setActiveTab}
+                showResourcesButton={false}
               />
             </div>
             

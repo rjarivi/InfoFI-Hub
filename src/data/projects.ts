@@ -3622,6 +3622,21 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Pulse Play AI هو منصة مدعومة بالذكاء الاصطناعي للإدارة الآلية وتحسين مشاريع Web3.",
       category: "إدارة الذكاء الاصطناعي"
     },
+    "pulse-stake": {
+      title: "Stake",
+      description: "@Stake x Pulse x Boost is LIVE. Only new Stake accounts are eligible for this campaign. $40,000 in total rewards, split amongst 40 winners. 40 winners will each receive: - $500 in stables - $500 in $BOOST",
+      category: "Online Casino",
+      platform: "Pulse Boost",
+      link: "https://alphabot.app/pulse/stake",
+      source: "https://x.com/PulseInfra/status/1981035229591622073",
+      logo: "stake.jpg",
+      rewardPool: "$20k USD + $20k $BOOST",
+      participants: "40 winners",
+      timeLeft: "45 days (Ends December 8th)",
+      campaignRules: "1. Go to https://alphabot.app/pulse/stake\n2. On the right side, see the Action Layer and connect a new Stake account\n3. Complete actions → earn points → gain mindshare → climb the leaderboard\n4. Bonus: invite friends to boost your points & qualify",
+      additionalData: "Play the best online casino games, slots & live casino games, or bet on sports at Stake.com • Unlock VIP bonuses, bet with crypto and win big prizes.",
+      referralLink: "default"
+    },
     "xeet-solstice": {
       title: "Solstice",
       description: "Solstice يركز على تقديم عوائد مستقرة وحقيقية من خلال استراتيجيات لا تعتمد على الضجة أو المضاربة. نهجنا يجمع بين التداول المحايد دلتا المثبت، والبنية التحتية القوية، وإدارة المخاطر على مستوى المؤسسات لبناء أساس للعوائد الإيجابية طويلة المدى. المكافآت: 1% من عرض رموز $SLX",
@@ -5405,6 +5420,23 @@ export const projectsData: Record<string, Project[]> = {
     }
   ],
   pulse: [
+    {
+      id: "pulse-stake",
+      title: "Stake",
+      description: "@Stake x Pulse x Boost is LIVE. Only new Stake accounts are eligible for this campaign. $40,000 in total rewards, split amongst 40 winners. 40 winners will each receive: - $500 in stables - $500 in $BOOST",
+      rewardPool: "$20k USD + $20k $BOOST",
+      participants: "40 winners",
+      timeLeft: "45D",
+      category: "Online Casino",
+      platform: "Pulse Boost",
+      link: "https://alphabot.app/pulse/stake",
+      logo: "/assets/Info Fi Logo/stake.jpg",
+      source: "https://x.com/PulseInfra/status/1981035229591622073",
+      referralLink: "https://www.alphabot.app/pulse/boost/XQ9S9C",
+      additionalData: {
+        isNew: "true"
+      }
+    },
     {
       id: "pulse-grvt",
       title: "GRVT",

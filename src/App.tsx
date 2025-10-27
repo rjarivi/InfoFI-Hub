@@ -7,6 +7,8 @@ import { LanguageProvider } from "@/hooks/use-language";
 import DonationWidget from "@/components/donation-widget";
 import CometInvitePopup from "@/components/comet-invite-popup";
 import Index from "./pages/Index";
+import Resources from "./pages/Resources";
+import ProjectDetails from "./pages/ProjectDetails";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +23,8 @@ const App = () => (
           <Routes>
             {/* Main route - no language paths */}
             <Route path="/" element={<Index />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/project/:projectId" element={<ProjectDetails />} />
             
             {/* Catch-all for invalid routes */}
             <Route path="*" element={<NotFound />} />

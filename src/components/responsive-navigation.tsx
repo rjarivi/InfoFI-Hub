@@ -9,7 +9,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Menu, X, BookOpen } from "lucide-react";
+import { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 
 interface NavigationItem {
   id: string;
@@ -24,6 +26,7 @@ interface ResponsiveNavigationProps {
   activeItem: string;
   onItemClick: (id: string) => void;
   className?: string;
+  showResourcesButton?: boolean;
 }
 
 export function ResponsiveNavigation({ 
@@ -31,19 +34,38 @@ export function ResponsiveNavigation({
   overflowItems, 
   activeItem, 
   onItemClick, 
-  className 
+  className,
+  showResourcesButton = true
 }: ResponsiveNavigationProps) {
   const isMobile = useIsMobile();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const allItems = [...mainItems, ...overflowItems];
 
   // Find the active item for display
   const activeItemData = allItems.find(item => item.id === activeItem);
 
+  const handleResourcesClick = () => {
+    navigate('/resources');
+    setIsMenuOpen(false);
+  };
+
+  const handleProjectClick = (id: string) => {
+    if (id === 'all') {
+      navigate('/');
+    } else {
+      navigate('/');
+      onItemClick(id);
+    }
+    setIsMenuOpen(false);
+  };
+
   if (isMobile) {
     return (
-      <div className={cn("w-full max-w-sm mx-auto", className)}>
+      <div className={cn("w-full max-w-sm mx-auto flex items-center gap-2 relative", className)}>
         <Select value={activeItem} onValueChange={onItemClick}>
-          <SelectTrigger className="w-full h-12 md:h-auto glass-card border-primary/30 hover:border-primary/50 transition-colors">
+          <SelectTrigger className="flex-1 h-12 md:h-auto glass-card border-primary/30 hover:border-primary/50 transition-colors">
             <SelectValue placeholder="Select platform">
               <div className="flex items-center gap-3">
                 {activeItemData?.logo ? (
@@ -82,13 +104,42 @@ export function ResponsiveNavigation({
             ))}
           </SelectContent>
         </Select>
+        
+        {/* Mobile Menu Button */}
+        <motion.button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="p-2 rounded-lg glass-card border-primary/30 hover:border-primary/50 transition-colors"
+          whileTap={{ scale: 0.95 }}
+        >
+          {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+        </motion.button>
+        
+        {/* Mobile Menu Dropdown */}
+        {isMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            className="absolute top-full right-0 mt-2 p-4 glass-card border border-primary/30 rounded-xl z-50 min-w-[200px]"
+          >
+            <div className="space-y-2">
+              <button
+                onClick={handleResourcesClick}
+                className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-muted/50 transition-colors text-left"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span>Resources</span>
+              </button>
+            </div>
+          </motion.div>
+        )}
       </div>
     );
   }
 
         // Desktop version - all items in main bar
         return (
-          <div className={cn("flex items-center", className)}>
+          <div className={cn("flex items-center gap-4", className)}>
             {/* All navigation items in main bar */}
             <div className="flex gap-2 p-1 rounded-2xl glass-card">
               {mainItems.map((item) => (
