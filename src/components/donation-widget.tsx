@@ -45,7 +45,7 @@ const DonationWidget: React.FC = () => {
 
   return (
     <>
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-6 z-50" data-donate-button>
         <Button onClick={() => setOpen(true)} className="bg-rose-600 hover:bg-rose-700 text-white font-medium px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2">
           <Heart className="w-4 h-4" />
           <span className="hidden sm:inline">Support InfoFI</span>

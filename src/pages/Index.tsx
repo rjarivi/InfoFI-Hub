@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ResponsiveNavigation } from "@/components/responsive-navigation";
 import { LanguageSelector } from "@/components/language-selector";
 import { ProjectCard } from "@/components/project-card";
@@ -12,6 +12,8 @@ import { useLanguage } from "@/hooks/use-language";
 import { usePagination } from "@/hooks/use-pagination";
 import { SiteCaptcha } from "@/components/site-captcha";
 import { motion } from "framer-motion";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { MobileFloatingProjectSelector } from "@/components/mobile-floating-project-selector";
 import { 
   Brain,
   MessageSquare, 
@@ -88,6 +90,21 @@ const Index = () => {
   const [hideEnded, setHideEnded] = useState(false);
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(true); // Start as verified to avoid blank screen
   const { t, language } = useLanguage();
+  const isMobile = useIsMobile();
+  const [isPortrait, setIsPortrait] = useState<boolean>(() => {
+    if (typeof window !== "undefined") {
+      return window.matchMedia("(orientation: portrait)").matches;
+    }
+    return false;
+  });
+
+  useEffect(() => {
+    const mql = window.matchMedia("(orientation: portrait)");
+    const handleChange = () => setIsPortrait(mql.matches);
+    mql.addEventListener("change", handleChange);
+    setIsPortrait(mql.matches);
+    return () => mql.removeEventListener("change", handleChange);
+  }, []);
   
   const getAllProjects = () => {
     const allProjects = Object.values(projectsData).flat().map(project => translateProject(project, language));
@@ -217,13 +234,15 @@ const Index = () => {
             
             {/* Navigation Menu */}
             <div className="flex-1 flex justify-center min-w-0">
-              <ResponsiveNavigation
-                mainItems={mainMenuItems}
-                overflowItems={overflowMenuItems}
-                activeItem={activeTab}
-                onItemClick={setActiveTab}
-                showResourcesButton={false}
-              />
+              {(!isMobile || !isPortrait) && (
+                <ResponsiveNavigation
+                  mainItems={mainMenuItems}
+                  overflowItems={overflowMenuItems}
+                  activeItem={activeTab}
+                  onItemClick={setActiveTab}
+                  showResourcesButton={false}
+                />
+              )}
             </div>
             
             {/* Language Selector */}
@@ -233,6 +252,14 @@ const Index = () => {
           </div>
         </div>
       </header>
+
+      {/* Floating bottom project selector for mobile/tablet portrait only */}
+      <MobileFloatingProjectSelector
+        mainItems={mainMenuItems}
+        overflowItems={overflowMenuItems}
+        activeItem={activeTab}
+        onItemChange={setActiveTab}
+      />
 
       {/* Projects Grid */}
       <main className="flex-1 container mx-auto px-4 md:px-6 py-6 md:py-8">

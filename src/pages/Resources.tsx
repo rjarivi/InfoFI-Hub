@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ResponsiveNavigation } from "@/components/responsive-navigation";
+import { MobileFloatingProjectSelector } from "@/components/mobile-floating-project-selector";
 import { LanguageSelector } from "@/components/language-selector";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useLanguage } from "@/hooks/use-language";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { useNavigate } from "react-router-dom";
 import { 
   Globe,
@@ -54,6 +56,21 @@ const Resources = () => {
   const [activeTab, setActiveTab] = useState("all");
   const { t, language } = useLanguage();
   const navigate = useNavigate();
+  const isMobile = useIsMobile();
+  const [isPortrait, setIsPortrait] = useState<boolean>(() => {
+    if (typeof window !== "undefined") {
+      return window.matchMedia("(orientation: portrait)").matches;
+    }
+    return false;
+  });
+
+  useEffect(() => {
+    const mql = window.matchMedia("(orientation: portrait)");
+    const handleChange = () => setIsPortrait(mql.matches);
+    mql.addEventListener("change", handleChange);
+    setIsPortrait(mql.matches);
+    return () => mql.removeEventListener("change", handleChange);
+  }, []);
 
   const handleProjectClick = (id: string) => {
     navigate('/');
@@ -147,13 +164,15 @@ Now, tell me what's the hardest part about writing for you? Let's see how I can 
             
             {/* Navigation Menu */}
             <div className="flex-1 flex justify-center min-w-0">
-              <ResponsiveNavigation
-                mainItems={mainMenuItems}
-                overflowItems={[]}
-                activeItem={activeTab}
-                onItemClick={handleProjectClick}
-                showResourcesButton={true}
-              />
+              {(!isMobile || !isPortrait) && (
+                <ResponsiveNavigation
+                  mainItems={mainMenuItems}
+                  overflowItems={[]}
+                  activeItem={activeTab}
+                  onItemClick={handleProjectClick}
+                  showResourcesButton={true}
+                />
+              )}
             </div>
             
             {/* Language Selector */}
@@ -163,6 +182,14 @@ Now, tell me what's the hardest part about writing for you? Let's see how I can 
           </div>
         </div>
       </header>
+
+      {/* Floating bottom project selector for mobile/tablet portrait only */}
+      <MobileFloatingProjectSelector
+        mainItems={mainMenuItems}
+        overflowItems={[]}
+        activeItem={activeTab}
+        onItemChange={handleProjectClick}
+      />
 
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 md:px-6 py-6 md:py-8">
