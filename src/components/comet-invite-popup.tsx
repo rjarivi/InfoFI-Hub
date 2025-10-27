@@ -35,43 +35,41 @@ const CometInvitePopup: React.FC = () => {
 
   return (
     <Dialog open={open && !hasSeenPopup} onOpenChange={handleClose}>
-      <DialogContent className="sm:max-w-md bg-gradient-to-br from-gray-900 to-gray-800 border-gray-700">
-        <DialogHeader className="space-y-4">
+      <DialogContent className="sm:max-w-md bg-card border-border">
+        <DialogHeader className="space-y-2">
           {/* Comet Logo */}
-          <div className="flex justify-center">
-            <div className="w-16 h-16 rounded-xl overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600 p-2">
-              <img 
-                src="/assets/comet-logo.svg" 
-                alt="Comet Logo" 
-                className="w-full h-full object-contain"
-              />
-            </div>
+          <div className="flex justify-center -mt-4 -mb-2">
+            <img 
+              src="/assets/comet-logo.svg" 
+              alt="Comet Logo" 
+              className="w-40 h-40 object-contain"
+            />
           </div>
           
           {/* Limited Time Badge */}
           <div className="flex justify-center">
-            <Badge variant="secondary" className="bg-gray-800 text-white border-gray-600">
+            <Badge variant="secondary" className="bg-muted text-secondary border-border">
               LIMITED TIME
             </Badge>
           </div>
           
           {/* Title */}
-          <DialogTitle className="text-center text-2xl font-serif text-white leading-tight">
+          <DialogTitle className="text-center text-2xl font-serif text-foreground leading-tight">
             Accept your Comet invite with Pro included
           </DialogTitle>
           
           {/* Steps */}
-          <DialogDescription className="space-y-3 text-gray-300">
+          <DialogDescription className="space-y-3 text-muted-foreground">
             <div className="flex items-start gap-3">
-              <span className="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-medium">1</span>
+              <span className="flex-shrink-0 w-6 h-6 bg-[hsl(var(--neon-cyan))] text-primary-foreground rounded-full flex items-center justify-center text-sm font-medium">1</span>
               <span>Download Comet and sign into your account</span>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-medium">2</span>
+              <span className="flex-shrink-0 w-6 h-6 bg-[hsl(var(--neon-cyan))] text-primary-foreground rounded-full flex items-center justify-center text-sm font-medium">2</span>
               <span>Ask at least one question using Comet</span>
             </div>
             <div className="flex items-start gap-3">
-              <span className="flex-shrink-0 w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-medium">3</span>
+              <span className="flex-shrink-0 w-6 h-6 bg-[hsl(var(--neon-cyan))] text-primary-foreground rounded-full flex items-center justify-center text-sm font-medium">3</span>
               <span>Get 1 month of Perplexity Pro for free</span>
             </div>
           </DialogDescription>
@@ -81,7 +79,7 @@ const CometInvitePopup: React.FC = () => {
         <div className="flex justify-center pt-4">
           <Button 
             onClick={handleClaimInvitation}
-            className="bg-gray-200 hover:bg-gray-100 text-gray-900 font-medium px-6 py-3 rounded-lg flex items-center gap-2 transition-all duration-200 hover:scale-105"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-6 py-3 rounded-lg flex items-center gap-2 transition-all duration-200 hover:scale-105"
           >
             <Check className="w-4 h-4" />
             Claim invitation
@@ -92,7 +90,7 @@ const CometInvitePopup: React.FC = () => {
         <div className="flex justify-center pt-2">
           <button 
             onClick={handleClose}
-            className="text-gray-400 hover:text-gray-300 text-sm underline"
+            className="text-muted-foreground hover:text-secondary text-sm underline"
           >
             Maybe later
           </button>
