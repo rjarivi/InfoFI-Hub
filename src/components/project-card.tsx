@@ -264,6 +264,26 @@ export function ProjectCard({
                          </a>
                        )}
                      </Button>
+                     {/* Haven't joined CTA for Breadcrumbs */}
+                     {(
+                       (platform?.toLowerCase?.().includes('breadcrumb') || id.startsWith('breadcrumbs-'))
+                     ) && (
+                       <Button
+                         variant="outline"
+                         size="sm"
+                         className="flex-1 font-medium transition-all duration-200"
+                         asChild={true}
+                         onClick={(e) => e.stopPropagation()}
+                       >
+                         <a
+                           href={(additionalData as any)?.signupLink || 'https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK'}
+                           target="_blank"
+                           rel="noopener noreferrer"
+                         >
+                           {t("haventJoined")}
+                         </a>
+                       </Button>
+                     )}
                    </div>
                  </div>
                </div>

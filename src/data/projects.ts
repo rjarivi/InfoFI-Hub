@@ -5039,6 +5039,29 @@ export const projectsData: Record<string, Project[]> = {
   ],
   breadcrumbs: [
     {
+      id: "breadcrumbs-townies",
+      title: "Townies",
+      description: "A fully onchain city-builder, born on @base. 🏡 Build your world, make it grow!",
+      rewardPool: "$458.28",
+      participants: "Bakers 928",
+      timeLeft: "10 days left",
+      category: "Gaming",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
+      logo: "https://pbs.twimg.com/profile_images/1945652432530280448/IVPq6Juo_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1982869907231346959",
+      distributionPlatform: "Breadcrumbs",
+      additionalData: {
+        xHandle: "Townies_",
+        isNew: "true",
+        airdropRecipients: "Top 150",
+        bakers: "928",
+        crumbsDistributed: "25125",
+        additionalInfo: "Townies is a fully onchain city-builder game built natively on Base, where players construct, expand, and optimize their towns to generate yield. The game uses Account Abstraction (AA) for gasless, seamless onboarding and is playable on Farcaster, the Base App, and a mobile web app. Players earn through strategy, progression, and onchain engagement. Currently in beta, Townies will officially launch in early November 2025 with integrated Play-to-Airdrop campaigns and Base ecosystem partnerships.",
+        signupLink: "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK"
+      }
+    },
+    {
       id: "breadcrumbs-daemons",
       title: "Dæmons",
       description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
@@ -5053,7 +5076,7 @@ export const projectsData: Record<string, Project[]> = {
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
       referralCode: "REF-MEAL-C4CK",
       additionalData: {
-        xHandle: "@daemons_gamefi",
+        xHandle: "daemons_gamefi",
         isNew: "true"
       }
     },
