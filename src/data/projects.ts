@@ -4169,6 +4169,38 @@ export const projectsData: Record<string, Project[]> = {
   ],
   bantr: [
     {
+      id: "bantr-espresso-foundation",
+      title: "Espresso Foundation",
+      description: "Indexed since May 30, it captures both your social + onchain participation in the Espresso ecosystem, rewarding those who've been part of their journey from the start. Rewards: 600,000 $ESP across 3 regions — Top 60: Global/English, Top 20: Korean, Top 20: Chinese.",
+      rewardPool: "600,000 $ESP",
+      participants: "Top 60 Global, Top 20 Korean, Top 20 Chinese",
+      timeLeft: "Oct 30 - Nov 30, 2025",
+      category: "Ecosystem",
+      platform: "Espresso",
+      link: "https://x.com/espressoFNDN",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2Fb420c0ec25914444a1ae4c765dc1982a.png&w=96&q=75",
+      source: "https://x.com/Bantr_fun/status/1983886941402886410",
+      referralLink: "http://bantr.fun/project/espresso",
+      claimPeriod: "Oct 30 - Nov 30, 2025",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in at least once using your X account on bantr.fun.",
+        "Create original, high-quality posts highlighting Espresso’s vision of uniting all chains as one.",
+        "Tag @espressosys or @espressofndn, or include the keyword ‘Espresso’ in the crypto/blockchain context.",
+        "Use assets from the brand toolkit; aim for educational and visionary content around Espresso’s ecosystem, composables, and partner integrations.",
+        "Multipliers: Personal (Composable NFT, Espresso POAPs, past campaign engagement) and Community (followers participate)."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "espressoFNDN",
+        creatorGuide: "Available on the leaderboard page",
+        cta: "https://bantr.fun/project/espresso",
+        additionalInfo: "Marks Espresso’s Mainnet 1.0 PoS upgrade and $ESP token launch by the Espresso Foundation. Your content should help audiences understand how Espresso solves blockchain fragmentation in real-time."
+      }
+    },
+    {
       id: "bantr-multichainz",
       title: "MultichainZ",
       description: "MultichainZ is a next-gen omnichain credit platform connecting RWAs with DeFi. Users can supply ETH, stables, or even NFTs as collateral and borrow seamlessly across chains.",
