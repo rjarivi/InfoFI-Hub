@@ -4178,7 +4178,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Ecosystem",
       platform: "Espresso",
       link: "https://x.com/espressoFNDN",
-      platformLink: "https://bantr.fun?ic=3066Y7V",
+      platformLink: "https://bantr.fun/?ic=D490AA7",
       logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2Fb420c0ec25914444a1ae4c765dc1982a.png&w=96&q=75",
       source: "https://x.com/Bantr_fun/status/1983886941402886410",
       referralLink: "http://bantr.fun/project/espresso",
@@ -4197,6 +4197,7 @@ export const projectsData: Record<string, Project[]> = {
         xHandle: "espressoFNDN",
         creatorGuide: "Available on the leaderboard page",
         cta: "https://bantr.fun/project/espresso",
+        joinLabel: "Espresso",
         additionalInfo: "Marks Espresso’s Mainnet 1.0 PoS upgrade and $ESP token launch by the Espresso Foundation. Your content should help audiences understand how Espresso solves blockchain fragmentation in real-time."
       }
     },

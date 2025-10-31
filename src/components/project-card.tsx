@@ -243,7 +243,7 @@ export function ProjectCard({
                          onClick={(e) => e.stopPropagation()}
                        >
                          <a href={platformLink} target="_blank" rel="noopener noreferrer">
-                           Visit {platform}
+                           Visit {distributionPlatform || platform}
                          </a>
                        </Button>
                      )}
@@ -260,7 +260,7 @@ export function ProjectCard({
                          </a>
                        ) : (
                          <a href={referralLink || link} target="_blank" rel="noopener noreferrer">
-                           Join {title}
+                           {additionalData?.joinLabel ? additionalData.joinLabel : `Join ${title}`}
                          </a>
                        )}
                      </Button>

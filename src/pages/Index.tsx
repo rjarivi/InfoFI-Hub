@@ -48,7 +48,8 @@ const projectLogos = {
   mindoai: "/assets/Info Fi Logo/MindoAi.svg",
   galxe: "/assets/Info Fi Logo/Galxe.svg",
   pulse: "/assets/Info Fi Logo/Pulse.svg",
-  stake: "/assets/Info Fi Logo/stake.jpg"
+  stake: "/assets/Info Fi Logo/stake.jpg",
+  xeet: "/assets/Info Fi Logo/Xeet.svg"
 };
 
 const referralLinks = {
@@ -68,7 +69,7 @@ const menuItems = [
   { id: "all", label: "All Projects", icon: <Globe className="w-4 h-4" /> },
   { id: "kaito", label: "Kaito", logo: projectLogos.kaito },
   { id: "wallchain", label: "Wallchain", logo: projectLogos.wallchain },
-  { id: "xeet", label: "Xeet", logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1947308130301255680%2FZ71pe0B2_400x400.png&w=32&q=75" },
+  { id: "xeet", label: "Xeet", logo: projectLogos.xeet },
   { id: "bantr", label: "Bantr", logo: projectLogos.bantr },
   { id: "galxe", label: "Galxe", logo: projectLogos.galxe },
   { id: "cookie", label: "Cookie", logo: projectLogos.cookie },
