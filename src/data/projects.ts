@@ -4492,6 +4492,65 @@ export const projectsData: Record<string, Project[]> = {
   ],
   wallchain: [
     {
+      id: "wallchain-spaace",
+      title: "Spaace",
+      description: "$250,000 $SPAACE for Top 333 Quackers + 50 random from Top 1000. Wallchain Mindshare Leaderboard distributes $1,000,000 worth of $SPAACE to the most impactful contributors across epochs.",
+      rewardPool: "$1,000,000 $SPAACE for Top Quackers!",
+      participants: "Top 333 + 50 random from Top 1000",
+      timeLeft: "Live Q4 2025 → Q1 2026 (TGE mid-epochs)",
+      category: "NFT Marketplace",
+      platform: "Spaace",
+      link: "https://x.com/spaace_io",
+      logo: "https://pbs.twimg.com/profile_images/1651202265405898753/6PanR3uY_400x400.jpg",
+      source: "https://x.com/spaace_io/status/1985704620904083525",
+      referralLink: "https://spaace.io/?invite=G027wh",
+      distributionPlatform: "Wallchain",
+      campaignRules: [
+        "Share strategies, feedback, news, tutorials with screenshots/proof",
+        "Use Spaace actions (trade, bid, list, referrals) to boost multiplier",
+        "Follow the Creator Playbook on Wallchain Spaace page",
+        "Post referral link and onboard new Spaacers to earn daily ETH",
+        "Onchain actions increase Mindshare multiplier",
+        "Climb from Bronze to Platinum to unlock higher $SPAACE airdrop"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "spaace_io",
+        additionalInfo: "$1,000,000 $SPAACE campaign to reward the real ones — traders, creators & collectors pushing Spaace’s vision: making NFTs great, fun, fair, and rewarding again.",
+        cta: "https://spaace.io/?invite=G027wh"
+      }
+    },
+    {
+      id: "wallchain-warden",
+      title: "Warden",
+      description: "Warden Mindshare Leaderboard is LIVE with $900K in $WARD across 4 epochs. Epoch I: Starting Nov 3rd and ending in Q4 2025 — $250K to Top 225 contributors + 25 random from ranks 226–500. Unlocks: 100% unlocked, no cliffs, no vesting.",
+      rewardPool: "$900K $WARD across 4 Epochs",
+      participants: "Top 225 + 25 random from 226–500",
+      timeLeft: "Nov 3, 2025 – Q4 (TBD)",
+      category: "Agent Economy",
+      platform: "Warden",
+      link: "https://x.com/wardenprotocol",
+      logo: "https://pbs.twimg.com/profile_images/1904848026742484992/nO3RP237_400x400.jpg",
+      source: "https://x.com/wallchain/status/1985329332848619995",
+      referralLink: "https://app.wardenprotocol.org/welcome?code=3GTUF",
+      distributionPlatform: "Wallchain",
+      campaignRules: [
+        "Create content: threads, memes, videos, explainers about Warden",
+        "Educate: simplify key ideas and help others understand the tech",
+        "Collaborate: engage with Warden community and ecosystem projects",
+        "Be consistent: regular, high-quality contributions compound momentum",
+        "Register and connect account via Creator Guide",
+        "Activity tracked via Quacks on Wallchain"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "wardenprotocol",
+        additionalInfo: "Creator Guide explains registration, content tips, and growth strategies.",
+        creatorGuideLink: "https://wardenprotocol.notion.site/Quackers-Welcome-Pack-2a0fb9f091ca81c9a3bad7b587daa5bb",
+        cta: "https://app.wardenprotocol.org/welcome?code=3GTUF"
+      }
+    },
+    {
       id: "wallchain-analog",
       title: "Analog",
       description: "With over $200,000 in $ANLOG rewards to be earned by our top contributors, the earlier you start, the better! The best part is it's free for any and everyone to participate.",
