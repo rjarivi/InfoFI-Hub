@@ -4492,6 +4492,86 @@ export const projectsData: Record<string, Project[]> = {
   ],
   wallchain: [
     {
+      id: "wallchain-apecoin-new",
+      title: "Apecoin",
+      description: "50K $APE for Top 300 Quackers. Full unlock, no cliff, no vesting. Mention Otherside, Amazon, ApeCoin, Nexus, Roblox, Minecraft, Arbitrum, or OpenSea. Mindshare is boosted by cumulative multiplier (BAYC 2X, MAYC 1.7X, 500+ $APE 2X).",
+      rewardPool: "50K $APE for Top 300 Quackers",
+      participants: "Top 300 Quackers",
+      timeLeft: "Oct 31 - Nov 28",
+      category: "Community",
+      platform: "Apecoin",
+      link: "https://app.wallchain.xyz/apecoin",
+      logo: "https://app.wallchain.xyz/external-bucket/hashed/image-url/ApeCoin%20Profile%20Image.5792ada29bccfe100fb114e65840ae7e.jpg",
+      source: "https://x.com/wallchain/status/1984288208864395576",
+      referralLink: "https://app.wallchain.xyz/apecoin",
+      distributionPlatform: "Wallchain",
+      platformLink: "https://quacks.app/?ref=rjarivi",
+      additionalData: {
+        isNew: "true",
+        xHandle: "apecoin"
+      }
+    },
+    {
+      id: "wallchain-beyond",
+      title: "Beyond",
+      description: "4% of supply for Top 125 mindshare contributors + 25 random from top 126-500. Epoch 1 ends Dec 8th with 2% of supply. Full unlock, no cliff, no vesting.",
+      rewardPool: "4% of Supply",
+      participants: "Top 125 + 25 random",
+      timeLeft: "Oct 29, 2025 - Jan 8, 2026",
+      category: "Technology",
+      platform: "Beyond",
+      link: "https://quacks.app/?ref=rjarivi",
+      logo: "https://app.wallchain.xyz/external-bucket/hashed/small-icon-white-url/beyond_small_white.8603113ce83fdb84208b324a6956203e.svg",
+      distributionPlatform: "Wallchain",
+      referralLink: "https://quacks.app/?ref=rjarivi",
+      additionalData: {
+        isNew: "true",
+        xHandle: "beyond__tech",
+        creatorGuideLink: "https://beyond-btc.notion.site/Beyond-s-Wallchain-Creator-Guide-e9158385641a46898e6f783b5d2bf3ce",
+        additionalInfo: "Creator Guide: Check out the full guide and join the TG chat with fellow Beyond Quackers."
+      }
+    },
+    {
+      id: "wallchain-velvet-capital",
+      title: "Velvet Capital",
+      description: "$132,000 of $VELVET rewards ($44k monthly). Top 100 mindshare contributors + 20 random from top 101-300. Epoch 1 ends Nov 24th with $44k. Full unlock, no cliff, no vesting. Trade & deposit with Velvet to earn more.",
+      rewardPool: "$132,000 $VELVET",
+      participants: "Top 100 + 20 random",
+      timeLeft: "Oct 24 - Dec 24",
+      category: "DeFi",
+      platform: "Velvet Capital",
+      link: "https://dapp.velvet.capital/Referred/690a1264a96eaaaf24b10d3a",
+      source: "https://x.com/wallchain/status/1981710472849301596",
+      referralLink: "https://dapp.velvet.capital/Referred/690a1264a96eaaaf24b10d3a",
+      referralCode: "690a1264a96eaaaf24b10d3a",
+      distributionPlatform: "Wallchain",
+      platformLink: "https://quacks.app/?ref=rjarivi",
+      additionalData: {
+        isNew: "true",
+        xHandle: "Velvet_Capital",
+        additionalInfo: "Velvet Capital is a DeFAI Trading & Portfolio Management Ecosystem powered by intents. Get the creator guide in the app and join the TG chat."
+      }
+    },
+    {
+      id: "wallchain-scorprotocol",
+      title: "SCORProtocol",
+      description: "SCOR Mindshare Leaderboard is LIVE with 0.5% of supply across 3 epochs. Epoch 1: 0.25% supply, ends Q4 2025 (TBD). Top 125 mindshare contributors + 25 random from top 126-500. Unlocks: 50% full unlock, 50% 1 month after Epoch 1.",
+      rewardPool: "0.5% of $SCOR Supply",
+      participants: "Top 125 + 25 random",
+      timeLeft: "Oct 27 - Q4 2025 (TBD)",
+      category: "Sports",
+      platform: "SCORProtocol",
+      link: "http://app.wallchain.xyz/scor",
+      logo: "https://pbs.twimg.com/profile_images/1938234858486026240/ni8B0Piy_400x400.jpg",
+      distributionPlatform: "Wallchain",
+      platformLink: "https://quacks.app/?ref=rjarivi",
+      additionalData: {
+        isNew: "true",
+        xHandle: "SCORProtocol",
+        additionalInfo: "SCOR is backed by over $12M in SAFT funding to date, with rounds valued up to $125M FDV. SCOR is building the infrastructure that powers the next generation of sports fandom."
+      }
+    },
+    {
       id: "wallchain-spaace",
       title: "Spaace",
       description: "$250,000 $SPAACE for Top 333 Quackers + 50 random from Top 1000. Wallchain Mindshare Leaderboard distributes $1,000,000 worth of $SPAACE to the most impactful contributors across epochs.",
@@ -4646,7 +4726,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "$200K in $CXT rewards over the next 5 months Epoch wise. Covalent provides unified APIs to access blockchain data across multiple networks.",
       rewardPool: "$200k $CXT for Quackers",
       participants: "Quackers",
-      timeLeft: "Epoch II ends in 09 days",
+      timeLeft: "12 days",
       category: "Data",
       platform: "Covalent",
       link: "https://app.wallchain.xyz/covalent",
