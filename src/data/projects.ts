@@ -3723,6 +3723,40 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
+      id: "kaito-flipster",
+      title: "Flipster",
+      description: "20K USDT Rewards for Creators and Social Campaign Winners over 2 weeks. No vesting. Top 50 Creators, Social Campaign Winners",
+      rewardPool: "20K USDT",
+      participants: "Top 50 Creators, Social Campaign Winners",
+      timeLeft: "Nov 03, 2025 - Nov 16, 2025",
+      category: "Trading Platform",
+      platform: "Flipster",
+      link: "https://x.com/flipster_io",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1491981522550738944.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1985354985974947963",
+      referralLink: "https://flipster.com/",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Flipster",
+      campaignRules: [
+        "🎙️ Main Leaderboard Pool",
+        "🏆 9K USDT Rewards distributed amongst ranked participants",
+        "🔹 Rank 1~10: 500 USDT each",
+        "🔹 Rank 11~50: 100 USDT each",
+        "📝 How to Participate:",
+        "1️⃣ Connect your X account to Kaito and sign up for a Flipster account and complete identity verification",
+        "2️⃣ Create Flipster-related content on X to earn a base Mindshare score",
+        "3️⃣ Boost Mindshare via multipliers: Proof of Trader (≥10K USDT in past 30 days), Proof of Referrer (≥1 referred trader)",
+        "✨ Social Campaign: 1K USDT — 100 USDT x 20 lucky winners",
+        "Instructions: Follow @flipster_io; RT + Like main post; Reply with your Flipster post using #flipsterkaito"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "flipster_io",
+        endsAt: "2025-11-16T23:59:59Z"
+      }
+    },
+    {
       id: "kaito-anichess",
       title: "Anichess",
       description: "Top 200 Creators monthly till april 1, 2026. 5,000,000 CHECK total reward pool with 1,000,000 CHECK distributed monthly to top 200 Anichess creators.",
@@ -5153,7 +5187,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "A fully onchain city-builder, born on @base. 🏡 Build your world, make it grow!",
       rewardPool: "$458.28",
       participants: "Bakers 928",
-      timeLeft: "10 days left",
+      timeLeft: "6 days left",
       category: "Gaming",
       platform: "Breadcrumb.cash",
       link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
@@ -5176,7 +5210,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
       rewardPool: "$500",
       participants: "To Be Confirmed",
-      timeLeft: "13 days left",
+      timeLeft: "ENDED",
       category: "Gaming",
       platform: "Breadcrumb.cash",
       link: "https://www.breadcrumb.cash/leaderboard/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -5184,6 +5218,7 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/breadcrumbcash/status/1978220112990667026",
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
       referralCode: "REF-MEAL-C4CK",
+      status: "ended",
       additionalData: {
         xHandle: "daemons_gamefi",
         isNew: "true"
@@ -5195,7 +5230,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
       rewardPool: "$1,469 USD",
       participants: "To Be Confirmed",
-      timeLeft: "14 days left",
+      timeLeft: "ENDED",
       category: "DeFi",
       platform: "Breadcrumb.cash",
       link: "https://www.breadcrumb.cash/leaderboard/0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
@@ -5203,6 +5238,7 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/breadcrumbcash/status/1978540840994668743",
       referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
       referralCode: "REF-MEAL-C4CK",
+      status: "ended",
       additionalData: {
         xHandle: "@bondifinance",
         isNew: "true"
@@ -5214,7 +5250,8 @@ export const projectsData: Record<string, Project[]> = {
       description: "Breadcrumb.cash is a decentralized platform for tracking and managing cryptocurrency transactions and rewards.",
       rewardPool: "To Be Confirmed",
       participants: "To Be Confirmed",
-      timeLeft: "TBD",
+      timeLeft: "ENDED",
+      status: "ended",
       category: "DeFi",
       platform: "Breadcrumb.cash",
       link: "https://www.breadcrumb.cash/leaderboard/0x0000000000000000000000000000000000000000",
