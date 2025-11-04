@@ -5280,7 +5280,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "A self-custodial neobank that unifies trading, spending, and earning in a single app - with no bridges, no gas, and no intermediaries. Pay, trade, and earn yield across any network and currency! Tria has raised $12M and partnered with 70+ top protocols, including Arbitrum, Polygon, Injective, Sentient, Aethir, and Katana.",
       rewardPool: "$120K $TRIA ($40K/Month)",
       participants: "Top 100 Minders",
-      timeLeft: "92D",
+      timeLeft: "10/14/2025 - 1/14/2026",
       category: "Neobank",
       platform: "MindoAi",
       link: "https://mindoshare.ai/projects/useTria",
@@ -5301,28 +5301,7 @@ export const projectsData: Record<string, Project[]> = {
         isNew: "true"
       }
     },
-    {
-      id: "mindoai-cryptorubic",
-      title: "Rubic",
-      description: "Rubic. Your Best Rate Finder across 70+ chains and 360+ DEXs, bridges, aggregators & intent protocols. For users and dApps.",
-      rewardPool: "$30,000",
-      participants: "Top 100 Minders",
-      timeLeft: "TBD",
-      category: "DeFi Aggregator",
-      platform: "Rubic",
-      link: "https://mindoshare.ai/projects/MindoAI",
-      logo: "https://pbs.twimg.com/profile_images/1965705110043967488/TUJOs4nC_200x200.jpg",
-      source: "https://x.com/CryptoRubic/status/1968633624124666199",
-      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
-      campaignRules: [
-        "Follow @CryptoRubic on X → stay updated on Rubic's 5th birthday campaign news and drops",
-        "Create original (not AI) content about Rubic's app — highlight its real value for traders",
-        "Post in your own CT style — tweets, threads, or QRTs all work",
-        "Check the Campaign Playbook weekly → sync with activities and events",
-        "Engage with Rubic's official content — like, comment, QRT, and help push the narrative",
-        "Earn rewards → by the end of the campaign, the Top 100 Minders will split the $30K pool"
-      ]
-    },
+    
     {
       id: "mindoai-mindoai",
       title: "MindoAI",

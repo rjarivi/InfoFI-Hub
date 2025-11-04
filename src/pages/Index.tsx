@@ -62,7 +62,8 @@ const referralLinks = {
   pulse: "https://www.alphabot.app/pulse/boost/XQ9S9C",
   mindoai: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
   galxe: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
-  stake: "https://www.alphabot.app/pulse/boost/XQ9S9C"
+  stake: "https://www.alphabot.app/pulse/boost/XQ9S9C",
+  breadcrumbs: "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK"
 };
 
 const menuItems = [
@@ -310,7 +311,7 @@ const Index = () => {
           {(() => {
             const ctaLink = activeTab !== "all"
               ? (referralLinks[activeTab as keyof typeof referralLinks]
-                 || (activeTab === "breadcrumbs" ? "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK" : undefined))
+                 || (activeTab === "breadcrumbs" ? "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK" : undefined))
               : undefined;
             return ctaLink ? (
             <a 
