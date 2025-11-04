@@ -86,7 +86,14 @@ export function ProjectCard({
   };
 
   // Check if project is ended
-  const isEnded = status === 'ended' || timeLeft === "ENDED";
+  const endedByEndsAt = (() => {
+    const endsAt = additionalData?.endsAt as string | undefined;
+    if (!endsAt) return false;
+    const end = new Date(endsAt);
+    return !isNaN(end.getTime()) && end.getTime() < Date.now();
+  })();
+
+  const isEnded = status === 'ended' || timeLeft === "ENDED" || endedByEndsAt;
 
   // Handle card click to navigate to details page
   const handleCardClick = () => {
@@ -264,26 +271,7 @@ export function ProjectCard({
                          </a>
                        )}
                      </Button>
-                     {/* Haven't joined CTA for Breadcrumbs */}
-                     {(
-                       (platform?.toLowerCase?.().includes('breadcrumb') || id.startsWith('breadcrumbs-'))
-                     ) && (
-                       <Button
-                         variant="outline"
-                         size="sm"
-                         className="flex-1 font-medium transition-all duration-200"
-                         asChild={true}
-                         onClick={(e) => e.stopPropagation()}
-                       >
-                         <a
-                           href={(additionalData as any)?.signupLink || 'https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK'}
-                           target="_blank"
-                           rel="noopener noreferrer"
-                         >
-                           {t("haventJoined")}
-                         </a>
-                       </Button>
-                     )}
+                     {/* Removed special Breadcrumbs CTA to match other tabs */}
                    </div>
                  </div>
                </div>

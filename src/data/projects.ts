@@ -4439,56 +4439,8 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://bantr.fun/project/bantr",
       referralLink: "https://bantr.fun?ic=3066Y7V"
     },
-    {
-      id: "bantr-morph",
-      title: "Morph",
-      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools.",
-      rewardPool: "$500,000 in BGB Tokens",
-      participants: "Community Contributors",
-      timeLeft: "Ongoing",
-      category: "DeFi",
-      platform: "Morph",
-      link: "https://bantr.fun/project/morph",
-      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2Fundefined%2F9f41746babce47d89f28441d9b1ad6f9.jpg&w=96&q=75",
-      source: "https://bantr.fun/project/morph",
-      referralLink: "https://morphl2.io",
-      claimPeriod: "TBD",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Bantr",
-      status: "ended",
-      campaignRules: [
-        "Participate in Morph ecosystem activities",
-        "Complete tasks and challenges",
-        "Earn rewards based on contribution level",
-        "Engage with Morph Layer 2 blockchain",
-        "Support consumer finance innovation"
-      ]
-    },
-    {
-      id: "bantr-cointel",
-      title: "Cointel",
-      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS.",
-      rewardPool: "$50,000 in $COLS",
-      participants: "Community Contributors",
-      timeLeft: "ENDED",
-      category: "Analytics",
-      platform: "Cointel",
-      link: "https://bantr.fun/project/cointel",
-      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F3335fb7ecc1346a087e494f402c5e663.jpg&w=96&q=75",
-      source: "https://bantr.fun/project/cointel",
-      referralLink: "https://www.cointel.io/en/login",
-      claimPeriod: "TBD",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Bantr",
-      status: "ended",
-      campaignRules: [
-        "Post on X with @cointel_io + $COLS or include Cointel in your post",
-        "Share thoughtful, quality content (see creator kit for tips)",
-        "Spread awareness and earn your way up the leaderboard",
-        "Rally your community to dive into Cointel",
-        "Creator Kit: https://docs.google.com/document/d/1-CupwMBF7Hk6X0vP6pFMdKrwnQPP1Iv7exEQYHvg19w/edit"
-      ]
-    }
+    
+    
   ],
   wallchain: [
     {
@@ -4508,7 +4460,8 @@ export const projectsData: Record<string, Project[]> = {
       platformLink: "https://quacks.app/?ref=rjarivi",
       additionalData: {
         isNew: "true",
-        xHandle: "apecoin"
+        xHandle: "apecoin",
+        endsAt: "2025-11-28T23:59:59Z"
       }
     },
     {
@@ -4528,7 +4481,8 @@ export const projectsData: Record<string, Project[]> = {
         isNew: "true",
         xHandle: "beyond__tech",
         creatorGuideLink: "https://beyond-btc.notion.site/Beyond-s-Wallchain-Creator-Guide-e9158385641a46898e6f783b5d2bf3ce",
-        additionalInfo: "Creator Guide: Check out the full guide and join the TG chat with fellow Beyond Quackers."
+        additionalInfo: "Creator Guide: Check out the full guide and join the TG chat with fellow Beyond Quackers.",
+        endsAt: "2026-01-08T23:59:59Z"
       }
     },
     {
@@ -4541,6 +4495,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "DeFi",
       platform: "Velvet Capital",
       link: "https://dapp.velvet.capital/Referred/690a1264a96eaaaf24b10d3a",
+      logo: "https://pbs.twimg.com/profile_images/1886396330471313408/EDNgUErh_400x400.jpg",
       source: "https://x.com/wallchain/status/1981710472849301596",
       referralLink: "https://dapp.velvet.capital/Referred/690a1264a96eaaaf24b10d3a",
       referralCode: "690a1264a96eaaaf24b10d3a",
@@ -4549,7 +4504,8 @@ export const projectsData: Record<string, Project[]> = {
       additionalData: {
         isNew: "true",
         xHandle: "Velvet_Capital",
-        additionalInfo: "Velvet Capital is a DeFAI Trading & Portfolio Management Ecosystem powered by intents. Get the creator guide in the app and join the TG chat."
+        additionalInfo: "Velvet Capital is a DeFAI Trading & Portfolio Management Ecosystem powered by intents. Get the creator guide in the app and join the TG chat.",
+        endsAt: "2025-12-24T23:59:59Z"
       }
     },
     {
@@ -5188,23 +5144,7 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://airaa.xyz/project/airaa-hq-🌾",
       referralLink: "https://airaa.xyz?ref=infofi"
     },
-    {
-      id: "aira-xo-market",
-      title: "XO Market",
-      description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies.",
-      rewardPool: "$50,000",
-      participants: "To Be Confirmed",
-      timeLeft: "ENDED",
-      category: "Trading",
-      platform: "XO Market",
-      link: "https://airaa.xyz/project/xo-market",
-      logo: "https://pbs.twimg.com/profile_images/1916374865168257024/rElRdBOL_400x400.jpg",
-      source: "https://airaa.xyz/project/xo-market",
-      referralLink: "https://airaa.xyz?ref=infofi",
-      zealyLink: "https://zealy.io/cw/xomarket/invite/-qo_kHzDUN8pc-d1Azabi?questId=3d22d445-51b4-4b3f-9432-920b6f714382",
-      referralCode: "XO-WAITNOMORE",
-      status: "ended"
-    }
+    
   ],
   breadcrumbs: [
     {
@@ -5287,48 +5227,8 @@ export const projectsData: Record<string, Project[]> = {
         crumbsDistributed: "354,261"
       }
     },
-    {
-      id: "breadcrumbs-dream-space-hq",
-      title: "Dream Space HQ",
-      description: "Dreamspace is the first vibe coding canvas for crypto's creatives ✨ we make it easy for anyone — not just devs — to build, ship, and monetize onchain apps without touching code. dream it → generate it → ship it → monetize it.",
-      rewardPool: "$0.1 WETH",
-      participants: "To Be Confirmed",
-      timeLeft: "7 days left",
-      category: "Development Tools",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
-      logo: "https://pbs.twimg.com/profile_images/1944738936120639488/0ali8N6b_400x400.jpg",
-      source: "https://x.com/breadcrumbcash/status/1978569404410462652",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK",
-      status: "ended",
-      additionalData: {
-        xHandle: "@dreamspaceHQ",
-        isNew: "true"
-      }
-    },
-    {
-      id: "breadcrumbs-blackmirror-xp",
-      title: "blackmirror_xp",
-      description: "$MIRROR — The Official Black Mirror Token — Built on @korprotocol. Backed by @avax, @solana, @republiccrypto, @animocabrands",
-      rewardPool: "20,000 $MIRROR",
-      participants: "Top 100",
-      timeLeft: "7D",
-      category: "Token",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0xe1bfA25468AF64e366ddAFC9D91bCc6c97439A14",
-      logo: "https://pbs.twimg.com/profile_images/1859995016476667905/-B0m6i66_400x400.jpg",
-      source: "https://x.com/breadcrumbcash/status/1970885609586569569",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK",
-      status: "ended",
-      additionalData: {
-        bakers: "2,805",
-        airdropRecipients: "Top 100",
-        crumbsDistributed: "41,584",
-        xHandle: "@blackmirror_xp"
-      }
-    }
+    
+    
   ],
   mindoai: [
     {
