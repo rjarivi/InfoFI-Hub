@@ -4202,6 +4202,36 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
+      id: "bantr-syndicate",
+      title: "Syndicate",
+      description: "Week 1: Social impact only. Weeks 2-3: Personal & community multipliers kick in. They have launched a 3-week campaign with Bantr to showcase how Syndicate’s infrastructure powers programmable, decentralized rollups and sequencers that horizontally scale Ethereum.",
+      rewardPool: "$100K in $SYND",
+      participants: "Top 150 creators",
+      timeLeft: "Oct 28 - Nov 18",
+      category: "Infrastructure",
+      platform: "Syndicate",
+      link: "https://x.com/syndicateio",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F3fefc3e972df48e6b9b6aeba9d7b130f.png&w=96&q=75",
+      source: "https://x.com/Bantr_fun/status/1983204892891328839",
+      referralLink: "https://bantr.fun?ic=3066Y7V",
+      claimPeriod: "Oct 28 - Nov 18",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in using your X account and wallet on bantr.fun.",
+        "Create original, high-quality content about Syndicate and $SYND.",
+        "Drive real engagement through comments, discussions, and shares."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "syndicateio",
+        creatorGuide: "https://www.notion.so/syndicateprotocol/Syndicate-x-Bantr-Content-Guide-28f94475eae680fd8fa2e6af9eb506a6?source=copy_link",
+        additionalInfo: "Syndicate is building Ethereum’s next evolution — a horizontally scalable network of customizable, community-owned chains. Powered by SYND, it transforms Ethereum into an open ecosystem where every app can own its stack, economics, and future.",
+        cta: "https://bantr.fun?ic=3066Y7V"
+      }
+    },
+    {
       id: "bantr-multichainz",
       title: "MultichainZ",
       description: "MultichainZ is a next-gen omnichain credit platform connecting RWAs with DeFi. Users can supply ETH, stables, or even NFTs as collateral and borrow seamlessly across chains.",
