@@ -5628,6 +5628,163 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-lute",
+      title: "Lute",
+      description: "Lute is a platform designed for active traders who want to trade alongside their networks while earning rewards. Send tokens directly to friends, call high‑conviction trades to your crew (with trades marked on charts for visibility), and share custom token links. Get rewarded for sharing, calling, and sending tokens — unlock higher multipliers from Bronze to Master.",
+      rewardPool: "1M Lute XP + Xeets",
+      participants: "2,555",
+      timeLeft: "Oct 27, 2025 - Nov 28, 2025",
+      category: "Social Trading",
+      platform: "Lute",
+      link: "https://x.com/lute",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1982520824734048256%2Fxn0sTpGa_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1983302127155040714",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create original, high‑quality content and signal trades",
+        "Send tokens and share custom token links",
+        "Call high‑conviction trades to your crew",
+        "Advance tiers to unlock higher multipliers"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "lute",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
+      id: "xeet-wow",
+      title: "World of Women",
+      description: "Top 50 creators win. 5 WoW Galaxy NFTs randomly to creators. Eyes on their upcoming strategy $WOWSTR — a new chapter in the WoW ecosystem. To celebrate, WoW is rewarding the top 50 creators with 1% of the upcoming token.",
+      rewardPool: "1% $WOWSTR + Xeets",
+      participants: "573",
+      timeLeft: "Oct 28, 2025 - Nov 30, 2025",
+      category: "NFT/Community",
+      platform: "World of Women",
+      link: "https://x.com/worldofwomenxyz",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962854143422337024%2FFiIdP95H_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1983540152384262305",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create original content about WoW and $WOWSTR",
+        "Engage with the community and WoW ecosystem updates",
+        "Top 50 creators eligible for token distribution"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "worldofwomenxyz",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
+      id: "xeet-desci-news",
+      title: "DeSci News",
+      description: "Top 25 win USDC, 1.5x Xeets for all. Top 500 get Xeets bonus. A $10K Flash Tournament (2 weeks) with 1.5x Xeets for all creators (+bonus). This $3T+ R&D industry is moving on‑chain and will change how research is funded and developed.",
+      rewardPool: "$10K USDC + 1.5x Xeets",
+      participants: "1,367",
+      timeLeft: "Oct 30, 2025 - Nov 13, 2025",
+      category: "DeSci / Media",
+      platform: "DeSci News",
+      link: "https://x.com/DeSciNews",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2Fc823dc1f-cdd2-4dc7-9d1d-ed117dc09371%2F1761518890670_1000165244.jpg%3Fw%3D128%26q%3D75&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1983912063178072471",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Flash Tournament: 2 weeks",
+        "Post high‑quality content about DeSci",
+        "Engage through replies, quotes, and discussions"
+      ],
+      additionalData: {
+        isNew: "true",
+        miniCampaign: "true",
+        miniCampaignNote: "Flash Tournament",
+        xHandle: "DeSciNews",
+        additionalInfo: "DeSci News is the leading media hub covering the rise of decentralized science — where blockchain, AI, and open innovation meet real‑world research.",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
+      id: "xeet-megaweapon",
+      title: "MEGAWEAPON",
+      description: "Top 100 participants share tiered rewards — top 10 each earn a Beavers NFT plus 50,000 $WEAPON, 25 AMMO, and 100k $BEAVER; ranks 11–50 get 25 AMMO and 100k $BEAVER; ranks 51–100 receive 10 AMMO and 100k $BEAVER each.",
+      rewardPool: "50K $WEAPON + Xeets",
+      participants: "Top 100",
+      timeLeft: "Oct 31, 2025 - TBD",
+      category: "Gaming",
+      platform: "MEGAWEAPON",
+      link: "https://x.com/_megaweapon_",
+      source: "",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Compete to rank in top 100",
+        "Earn tiered rewards including NFTs and tokens",
+        "Published by CEDEN Network on Abstract"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "_megaweapon_",
+        additionalInfo: "MEGAWEAPON is live‑action multiplayer mayhem — play for free or join paid tournaments to compete for cash and prizes, published by CEDEN Network on Abstract.",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
+      id: "xeet-cock-io",
+      title: "cock.io",
+      description: "Flash Tournament ends on 11/14. Top 10 share $10,000: Champion $3,500; 2nd $2,000; 3rd $1,250; ranks 4–10 earn between $1,000 and $100. Every run counts — climb the ranks and claim your share.",
+      rewardPool: "$10K USDT + Xeets",
+      participants: "174",
+      timeLeft: "Nov 3, 2025 - Nov 14, 2025",
+      category: "Game",
+      platform: "cock.io",
+      link: "https://x.com/cockdotio",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1951942662258348032%2FoHD63ffQ_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1985426672837857461",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Flash Tournament",
+        "Compete and climb the leaderboard",
+        "Rewards distributed by final rank"
+      ],
+      additionalData: {
+        isNew: "true",
+        miniCampaign: "true",
+        miniCampaignNote: "Flash Tournament",
+        xHandle: "cockdotio",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
+      id: "xeet-fight-id",
+      title: "Fight.ID",
+      description: "0.1% per month to the top 100 creators.",
+      rewardPool: "0.1% $FIGHT + Xeets",
+      participants: "857",
+      timeLeft: "Nov 3, 2025 - Nov 30, 2025",
+      category: "Sports/Web3",
+      platform: "Fight.ID",
+      link: "https://x.com/JoinFightID",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1880419092256940032%2FEHbAKRlc_400x400.png&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1985474456656207948",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create content around Fight.ID",
+        "Engage with community to boost rank",
+        "Top 100 creators share 0.1% monthly"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "JoinFightID",
+        additionalInfo: "The bridge between combat sports & Web3. Earn Fight Points to unlock access to airdrops, ownership, and more perks | Official Partner of UFC & FIGHT Foundation",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
       id: "xeet-claynosaurz",
       title: "Claynosaurz",
       description: "Create content, and complete tasks to earn Xeets + the Clayno token. In celebration of their new studio announcement Heeboo, Clayno is rewarding creators with a % of their upcoming ecosystem token.",
@@ -5790,7 +5947,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Social Platform",
       platform: "Xeet",
       link: "https://www.xeet.ai/signals/xeet",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1947308130301255680%2FZ71pe0B2_400x400.png&w=32&q=75",
+      logo: "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
       source: "https://www.xeet.ai/signals/xeet",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       claimPeriod: "Everyone rewarded",
