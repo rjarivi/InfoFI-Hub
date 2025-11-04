@@ -5628,6 +5628,53 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-click-game",
+      title: "Click.Game",
+      description: "25% of all monthly Clicks.",
+      rewardPool: "Clicks + Xeets",
+      participants: "To Be Confirmed",
+      timeLeft: "Ongoing",
+      category: "Game",
+      platform: "Click.Game",
+      link: "https://x.com/clickdotgame",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1959974820667330560%2FLFnblD78_400x400.jpg&w=32&q=75",
+      source: "",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [],
+      additionalData: {
+        isNew: "true",
+        xHandle: "clickdotgame",
+        additionalInfo: "Click.Game is a familiar gameplay where great branding and visuals meet social gamblefi — short and repeatable fun, now on Abstract. Created by a veteran team, bringing more life to the risk games genre.",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
+      id: "xeet-valannia",
+      title: "Valannia",
+      description: "3 monthly tournaments — 2.5%, 1.5%, and 1.5% rewards. Unlocks: 40% now, 30% after 1 month, 30% after 2 months. Solana's MMO/RTS where players battle, gather, politic, and trade in an economy that mirrors the real world.",
+      rewardPool: "5.5% $VALAN + Xeets",
+      participants: "1,831",
+      timeLeft: "Oct 26, 2025 - Feb 1, 2026",
+      category: "MMO/RTS",
+      platform: "Valannia",
+      link: "https://x.com/ValanniaGame",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1965119608513241088%2FZKlKna-J_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1982910577799537092",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Three monthly tournaments (2.5%, 1.5%, 1.5%)",
+        "Rewards unlock 40% now, 30% after 1 month, 30% after 2 months"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "ValanniaGame",
+        additionalInfo: "Valannia is a next-gen MMO strategy universe where you command a hero, marshal combat units, and shape a real, on-chain economy that emulates real-world markets. Build, craft, and wage RTS battles in a vast world; conquer territory, engage in politics, own your heroes, units, resources, land, and gear as tradable assets; and risk-manage adventures across Green, Yellow, and high-stakes Red zones.",
+        cta: "https://www.xeet.ai/refer/rjarivi"
+      }
+    },
+    {
       id: "xeet-lute",
       title: "Lute",
       description: "Lute is a platform designed for active traders who want to trade alongside their networks while earning rewards. Send tokens directly to friends, call high‑conviction trades to your crew (with trades marked on charts for visibility), and share custom token links. Get rewarded for sharing, calling, and sending tokens — unlock higher multipliers from Bronze to Master.",
@@ -5716,6 +5763,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Gaming",
       platform: "MEGAWEAPON",
       link: "https://x.com/_megaweapon_",
+      logo: "https://pbs.twimg.com/profile_images/1628829445959057408/PpOIUyx3_400x400.jpg",
       source: "",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       distributionPlatform: "Xeet",
