@@ -88,7 +88,7 @@ const menuItems = [
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
-  const [hideEnded, setHideEnded] = useState(false);
+  const [hideEnded, setHideEnded] = useState(true);
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(true); // Start as verified to avoid blank screen
   const { t, language } = useLanguage();
   const isMobile = useIsMobile();
@@ -307,9 +307,14 @@ const Index = () => {
           </div>
           
           {/* CTA Button for platforms with referral links */}
-          {activeTab !== "all" && referralLinks[activeTab as keyof typeof referralLinks] && (
+          {(() => {
+            const ctaLink = activeTab !== "all"
+              ? (referralLinks[activeTab as keyof typeof referralLinks]
+                 || (activeTab === "breadcrumbs" ? "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK" : undefined))
+              : undefined;
+            return ctaLink ? (
             <a 
-              href={referralLinks[activeTab as keyof typeof referralLinks]} 
+              href={ctaLink} 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex justify-center gap-2 items-center shadow-xl text-sm glass-card backdrop-blur-md font-semibold isolation-auto border-border/50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-neon-green hover:text-background before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group w-full sm:w-auto neon-border"
@@ -326,7 +331,8 @@ const Index = () => {
                 ></path>
               </svg>
             </a>
-          )}
+            ) : null;
+          })()}
         </motion.div>
 
         <motion.div 

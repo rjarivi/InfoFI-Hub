@@ -3707,6 +3707,72 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
   }
 };
 
+// Archived projects kept for reference and later removal
+export const archivedProjects: Record<string, Project[]> = {
+  breadcrumbs: [
+    {
+      id: "breadcrumbs-daemons",
+      title: "Dæmons",
+      description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
+      rewardPool: "$500",
+      participants: "To Be Confirmed",
+      timeLeft: "ENDED",
+      category: "Gaming",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      logo: "https://pbs.twimg.com/profile_images/1848964228490940416/HmW7B-Tc_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1978220112990667026",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      status: "ended",
+      additionalData: {
+        xHandle: "daemons_gamefi",
+        isNew: "true"
+      }
+    },
+    {
+      id: "breadcrumbs-bondi-finance",
+      title: "Bondi Finance",
+      description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
+      rewardPool: "$1,469 USD",
+      participants: "To Be Confirmed",
+      timeLeft: "ENDED",
+      category: "DeFi",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+      logo: "https://pbs.twimg.com/profile_images/1890906474957664256/eDEJ3Q4G_400x400.jpg",
+      source: "https://x.com/breadcrumbcash/status/1978540840994668743",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      status: "ended",
+      additionalData: {
+        xHandle: "@bondifinance",
+        isNew: "true"
+      }
+    },
+    {
+      id: "breadcrumbs-breadcrumb-cash",
+      title: "Breadcrumb.cash",
+      description: "Breadcrumb.cash is a decentralized platform for tracking and managing cryptocurrency transactions and rewards.",
+      rewardPool: "To Be Confirmed",
+      participants: "To Be Confirmed",
+      timeLeft: "ENDED",
+      status: "ended",
+      category: "DeFi",
+      platform: "Breadcrumb.cash",
+      link: "https://www.breadcrumb.cash/leaderboard/0x0000000000000000000000000000000000000000",
+      logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
+      source: "https://x.com/breadcrumbcash",
+      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
+      referralCode: "REF-MEAL-C4CK",
+      additionalData: {
+        bakers: "6,888",
+        crumbsDistributed: "354,261"
+      }
+    }
+  ]
+};
+
 // Function to translate project data
 export function translateProject(project: Project, language: Language): Project {
   const translations = projectTranslations[language];
@@ -5204,68 +5270,8 @@ export const projectsData: Record<string, Project[]> = {
         signupLink: "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK"
       }
     },
-    {
-      id: "breadcrumbs-daemons",
-      title: "Dæmons",
-      description: "Dæmons is an AI-enabled, Tamagotchi-meets-Pokémon blockchain experience. PvP, PvE and interactive AI-Chat.",
-      rewardPool: "$500",
-      participants: "To Be Confirmed",
-      timeLeft: "ENDED",
-      category: "Gaming",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-      logo: "https://pbs.twimg.com/profile_images/1848964228490940416/HmW7B-Tc_400x400.jpg",
-      source: "https://x.com/breadcrumbcash/status/1978220112990667026",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK",
-      status: "ended",
-      additionalData: {
-        xHandle: "daemons_gamefi",
-        isNew: "true"
-      }
-    },
-    {
-      id: "breadcrumbs-bondi-finance",
-      title: "Bondi Finance",
-      description: "Bondi Finance tokenizes publicly traded corporate bonds into onchain fixed-income products. Each Bond Token represents fractional exposure to USD-denominated corporate bonds.",
-      rewardPool: "$1,469 USD",
-      participants: "To Be Confirmed",
-      timeLeft: "ENDED",
-      category: "DeFi",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
-      logo: "https://pbs.twimg.com/profile_images/1890906474957664256/eDEJ3Q4G_400x400.jpg",
-      source: "https://x.com/breadcrumbcash/status/1978540840994668743",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK",
-      status: "ended",
-      additionalData: {
-        xHandle: "@bondifinance",
-        isNew: "true"
-      }
-    },
-    {
-      id: "breadcrumbs-breadcrumb-cash",
-      title: "Breadcrumb.cash",
-      description: "Breadcrumb.cash is a decentralized platform for tracking and managing cryptocurrency transactions and rewards.",
-      rewardPool: "To Be Confirmed",
-      participants: "To Be Confirmed",
-      timeLeft: "ENDED",
-      status: "ended",
-      category: "DeFi",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0x0000000000000000000000000000000000000000",
-      logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
-      source: "https://x.com/breadcrumbcash",
-      referralLink: "https://www.breadcrumb.cash/launch?ref=REF-MEAL-C4CK",
-      referralCode: "REF-MEAL-C4CK",
-      additionalData: {
-        bakers: "6,888",
-        crumbsDistributed: "354,261"
-      }
-    },
-    
-    
+  
+  
   ],
   mindoai: [
     {
