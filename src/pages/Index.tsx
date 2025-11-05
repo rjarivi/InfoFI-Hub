@@ -116,17 +116,26 @@ const Index = () => {
       ? allProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
       : allProjects;
     
-    // Sort projects to prioritize NEW projects at the top, then by section order
+    // Sort projects to prioritize NEW projects at the top.
+    // If both are NEW, order by `addedAt` (newest first). Otherwise fallback to section priority.
     return filteredProjects.sort((a, b) => {
       const aIsNew = a.additionalData?.isNew === "true";
       const bIsNew = b.additionalData?.isNew === "true";
-      
+
       // If one is new and the other isn't, new one comes first
       if (aIsNew && !bIsNew) return -1;
       if (!aIsNew && bIsNew) return 1;
-      
-      // If both are new or both are not new, sort by section priority
-      // Define section order priority (lower number = higher priority)
+
+      // If both are NEW, sort by addedAt (newest first)
+      if (aIsNew && bIsNew) {
+        const aAdded = a.additionalData?.addedAt ? new Date(a.additionalData.addedAt).getTime() : 0;
+        const bAdded = b.additionalData?.addedAt ? new Date(b.additionalData.addedAt).getTime() : 0;
+        // Newest first
+        if (bAdded !== aAdded) return bAdded - aAdded;
+        return 0; // keep relative order if timestamps are equal/missing
+      }
+
+      // If neither are NEW, sort by section priority (lower number = higher priority)
       const sectionOrder = {
         'xeet': 1,
         'wallchain': 2,

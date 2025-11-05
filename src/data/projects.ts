@@ -3814,6 +3814,7 @@ export const projectsData: Record<string, Project[]> = {
       ],
       additionalData: {
         isNew: "true",
+        addedAt: "2025-10-01T00:00:00Z",
         xHandle: "moremarketsxyz"
       }
     },
