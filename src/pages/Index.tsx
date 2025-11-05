@@ -75,7 +75,7 @@ const menuItems = [
   { id: "galxe", label: "Galxe", logo: projectLogos.galxe },
   { id: "cookie", label: "Cookie", logo: projectLogos.cookie },
   { id: "pulse", label: "Pulse", logo: projectLogos.pulse },
-  { id: "aira", label: "Aira", logo: projectLogos.aira },
+  { id: "aira", label: "Airaa", logo: projectLogos.aira },
   { id: "mindoai", label: "MindoAi", logo: projectLogos.mindoai },
   { id: "rey", label: "Rey", logo: projectLogos.rey },
   { id: "breadcrumbs", label: "Breadcrumbs", logo: projectLogos.breadcrumbs }
