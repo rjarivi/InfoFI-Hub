@@ -3789,6 +3789,35 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
+      id: "kaito-moremarkets",
+      title: "MoreMarkets",
+      description: "25,000,000 MORE will be allocated to the top 250 contributors and Kaito Eco at TGE.",
+      rewardPool: "25,000,000 $MORE",
+      participants: "Top 250 Contributors & Kaito Eco",
+      timeLeft: "Oct 01, 2025 - TBD",
+      category: "Trading Platform",
+      platform: "MoreMarkets",
+      link: "https://x.com/moremarketsxyz",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1786106969926811648.jpg/w=48&q=90",
+      source: "https://x.com/KaitoAI/status/1986077370831536353",
+      referralLink: "https://yaps.kaito.ai/reward-station",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "25,000,000 MORE allocated to leaderboard participants.",
+        "Rewards weighted by rank and overall contribution.",
+        "Staking activity enhances eligibility and reward potential (further details to be revealed soon).",
+        "Select participants may receive special bonuses.",
+        "Users outside of the top 250 and Eco tiers will also have a chance to be randomly selected for a significant reward boost (details TBA).",
+        "Community sale access and allocation influenced by leaderboard and staking performance."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "moremarketsxyz"
+      }
+    },
+    {
       id: "kaito-flipster",
       title: "Flipster",
       description: "20K USDT Rewards for Creators and Social Campaign Winners over 2 weeks. No vesting. Top 50 Creators, Social Campaign Winners",
