@@ -5356,6 +5356,25 @@ export const projectsData: Record<string, Project[]> = {
   ],
   galxe: [
     {
+      id: "galxe-solana-gaming",
+      title: "Solana Gaming",
+      description: "Solana Game Pass: Season 1 unites 30+ games and gamooors! Collect Aura and boost your position on the leaderboard. Up to $40,000 in rewards available for top Starboard creators and GalxeQuest participants.",
+      rewardPool: "$40,000.00 Prize Pool",
+      participants: "Top Starboard Creators & GalxeQuest Participants",
+      timeLeft: "2025/11/05 22:30:00 - 2025/11/27 03:30:00 GMT+05:30",
+      category: "Gaming",
+      platform: "Galxe",
+      link: "https://x.com/GamingOnSolana_",
+      logo: "https://cdn.galxe.com/galaxy/192/44a53f03-a92b-4617-b8fe-a0353d681305.png",
+      source: "https://x.com/GamingOnSolana_/status/1986146961934917853",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-11-05T17:00:00Z",
+        xHandle: "GamingOnSolana_"
+      }
+    },
+    {
       id: "galxe-dagama-s2",
       title: "daGama (S2)",
       description: "Following its first success, daGama launches Season 2! Explore and champion the AI-powered Arbitrum protocol making recommendations transparent, trusted & rewarding.",
