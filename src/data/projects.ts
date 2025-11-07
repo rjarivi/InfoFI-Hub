@@ -4299,6 +4299,36 @@ export const projectsData: Record<string, Project[]> = {
   ],
   bantr: [
     {
+      id: "bantr-spaace",
+      title: "Spaace",
+      description: "Epoch 1 is LIVE. $500,000 in $SPAACE rewards (50% unlock at TGE, rest vest over 6 months). 4 monthly seasons ($125K each). TGE will occur in the middle of the seasons. Season 1: Nov 7 - Dec 7. Top 200 mindshare contributors + 50 random creators from Top 1000 will be eligible for the pool.",
+      rewardPool: "$500K worth of $SPAACE",
+      participants: "Top 200 + 50 random from Top 1000",
+      timeLeft: "Nov 7 - Dec 7, 2025",
+      category: "NFT Marketplace",
+      platform: "Spaace",
+      link: "https://x.com/spaace_io",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F952586ccac944c93a68b7d9d30c17728.png&w=96&q=75",
+      source: "https://x.com/Bantr_fun/status/1986794270083387859",
+      referralLink: "https://spaace.io/?invite=G027wh",
+      vestingSchedule: "50% unlock at TGE; rest vest over 6 months",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in at least once using your X account on bantr.fun.",
+        "Total $500K distributed across 4 epochs ($125K each), with TGE occurring midway.",
+        "Dive into Spaace on spaace.io and explore its gamified NFT marketplace to understand the project.",
+        "Scores scale with Personal and Community multipliers"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "spaace_io",
+        addedAt: "2025-11-07T12:20:00Z",
+        creatorGuide: "https://www.notion.so/spaace-marketplace/Spaace-Creator-Playbook-284e5202b33680a4bdb6cc7f9e88cb84",
+        joinLabel: "Join Spaace"
+      }
+    },
+    {
       id: "bantr-espresso-foundation",
       title: "Espresso Foundation",
       description: "Indexed since May 30, it captures both your social + onchain participation in the Espresso ecosystem, rewarding those who've been part of their journey from the start. Rewards: 600,000 $ESP across 3 regions — Top 60: Global/English, Top 20: Korean, Top 20: Chinese.",
