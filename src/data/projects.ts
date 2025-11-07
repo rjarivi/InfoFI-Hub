@@ -5770,6 +5770,30 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-thrust",
+      title: "Thrust",
+      description: "Top 150 creators. 1% of the $THRUST token supply will be distributed to leaderboard winners with a 60-day linear vesting schedule. Rewards unlock after the vesting period, and users also earn Xeets during the campaign.",
+      rewardPool: "1% $THRUST + Xeets",
+      participants: "Top 150 creators",
+      timeLeft: "Nov 7, 2025 - Dec 8, 2025",
+      category: "Creator Economy",
+      platform: "Thrust",
+      link: "https://x.com/thrustdotcom",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962603533829840896%2FJaSVM50U_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1986920886587269269",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [],
+      additionalData: {
+        isNew: "true",
+        xHandle: "thrustdotcom",
+        addedAt: "2025-11-07T12:30:00Z",
+        additionalInfo: "@thrustdotcom is redefining Creator Capital Markets. Creators launch coins, fans own a stake in what they help build. Win from 1% of token supply in partnership with @N3onOnYT.",
+        joinLabel: "Join Thrust"
+      }
+    },
+    {
       id: "xeet-gamblr",
       title: "Gamblr",
       description: "Gamblr is awarding 100 creators with 0.2% of token supply every month + a monthly $20k pool loaded directly into the accounts of the top 50. Gamblr is the sportsbook and casino for players who expect more.",
