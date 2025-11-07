@@ -4316,9 +4316,11 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Bantr",
       campaignRules: [
         "Log in at least once using your X account on bantr.fun.",
-        "Total $500K distributed across 4 epochs ($125K each), with TGE occurring midway.",
+        "Total $500K distributed across 4 epochs ($125K each), with TGE occurring midway through the epochs.",
         "Dive into Spaace on spaace.io and explore its gamified NFT marketplace to understand the project.",
-        "Scores scale with Personal and Community multipliers"
+        "Trade NFTs & refer friends on Spaace. More trading volume = Bigger multiplier on Bantr (up to 3x)",
+        "Engage with @spaace_io on X by quoting, replying, and ensuring your posts include context and visuals.",
+        "Follow the Creator Playbook to maximize your reach, engagement, and rewards."
       ],
       additionalData: {
         isNew: "true",
