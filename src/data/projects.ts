@@ -5738,6 +5738,28 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-gamblr",
+      title: "Gamblr",
+      description: "Gamblr is awarding 100 creators with 0.2% of token supply every month + a monthly $20k pool loaded directly into the accounts of the top 50. Gamblr is the sportsbook and casino for players who expect more.",
+      rewardPool: "0.2% $GAMBLR + Xeets",
+      participants: "288",
+      timeLeft: "Nov 6, 2025 - Dec 7, 2025",
+      category: "Casino/Sportsbook",
+      platform: "Gamblr",
+      link: "https://x.com/Gamblr_io",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1985302309484560384%2Fn3gsnWPl_400x400.jpg&w=32&q=75",
+      source: "",
+      referralLink: "https://gamblr.io/?modal=SignUp&c=393306_aL44OK9i",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      additionalData: {
+        isNew: "true",
+        xHandle: "Gamblr_io",
+        addedAt: "2025-11-07T12:00:00Z",
+        joinLabel: "Join Gamblr"
+      }
+    },
+    {
       id: "xeet-click-game",
       title: "Click.Game",
       description: "25% of all monthly Clicks.",
