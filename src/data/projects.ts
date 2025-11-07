@@ -4310,7 +4310,7 @@ export const projectsData: Record<string, Project[]> = {
       link: "https://x.com/spaace_io",
       platformLink: "https://bantr.fun?ic=3066Y7V",
       logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F952586ccac944c93a68b7d9d30c17728.png&w=96&q=75",
-      source: "https://x.com/Bantr_fun/status/1986794270083387859",
+      source: "https://x.com/Bantr_fun/status/1986803597578019320",
       referralLink: "https://spaace.io/?invite=G027wh",
       vestingSchedule: "50% unlock at TGE; rest vest over 6 months",
       distributionPlatform: "Bantr",
