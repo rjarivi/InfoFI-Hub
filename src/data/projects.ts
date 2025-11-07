@@ -5781,7 +5781,7 @@ export const projectsData: Record<string, Project[]> = {
       link: "https://x.com/thrustdotcom",
       logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962603533829840896%2FJaSVM50U_400x400.jpg&w=32&q=75",
       source: "https://x.com/xeetdotai/status/1986920886587269269",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      referralLink: "https://app.thrust.com/community/thrust",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
       distributionPlatform: "Xeet",
       campaignRules: [],
