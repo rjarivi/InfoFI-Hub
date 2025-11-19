@@ -5770,6 +5770,32 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-project-zero",
+      title: "Project Zero",
+      description: "Compete to place in the Top 100 of the tournament to earn your share of the 0.5% $PZERO reward pool plus bonus Xeets! Top 100. 2 month cliff and 4 month linear vesting.",
+      rewardPool: "0.5% $PZERO + Xeets",
+      participants: "Top 100",
+      timeLeft: "Nov 20, 2025 - Feb 20, 2026",
+      category: "Tournament",
+      platform: "Project Zero",
+      link: "https://x.com/ProjectZeroIO",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2F233eb9d2-2a2a-414e-8b2f-d219c8578382%2F1762546582720_projectzero.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1991176014538395931?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Place in the Top 100 to qualify for rewards",
+        "Rewards subject to 2-month cliff and 4-month linear vesting"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "ProjectZeroIO",
+        addedAt: "2025-11-20T12:00:00Z",
+        joinLabel: "Join Project Zero"
+      }
+    },
+    {
       id: "xeet-thrust",
       title: "Thrust",
       description: "Top 150 creators. 1% of the $THRUST token supply will be distributed to leaderboard winners with a 60-day linear vesting schedule. Rewards unlock after the vesting period, and users also earn Xeets during the campaign.",
