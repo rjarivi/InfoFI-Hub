@@ -4299,6 +4299,35 @@ export const projectsData: Record<string, Project[]> = {
   ],
   bantr: [
     {
+      id: "bantr-ostium-labs",
+      title: "Ostium Labs",
+      description: "Campaign reward pool: 50,000 Ostium Points per month. Top 50 creators at the end of the month will be rewarded. Multipliers grow with on-chain activity on app.ostium.com — trade, deposit, or add liquidity.",
+      rewardPool: "50,000 Ostium Points / Month",
+      participants: "Top 50 creators",
+      timeLeft: "Nov 11 - Dec 11, 2025",
+      category: "RWA Perpetuals",
+      platform: "Ostium",
+      link: "https://x.com/OstiumLabs",
+      platformLink: "https://bantr.fun?ic=3066Y7V",
+      logo: "https://bantr.fun/_next/image?url=https%3A%2F%2Fstatic.highongrowth.xyz%2Fenterprise%2F660be03a7851c55d93a0f21e%2F07f17da3c7de48379a06628a50882f30.jpg&w=96&q=75",
+      source: "https://x.com/OstiumLabs",
+      referralLink: "https://bantr.fun?ic=3066Y7V",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in at least once using your X account on bantr.fun.",
+        "Create positive and informative content about Ostium’s RWA perpetual trading platform.",
+        "Small multipliers apply for on-chain activity on app.ostium.com (e.g., trades, deposits, and liquidity additions).",
+        "Avoid spammy, repetitive, or low-quality posts. Authentic engagement is rewarded higher."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "OstiumLabs",
+        addedAt: "2025-11-20T12:30:00Z",
+        additionalInfo: "Engage on X by posting educational threads, trade insights, and market perspectives about RWAs and Ostium’s decentralized trading experience. Optional on-chain boosts from trading on app.ostium.com.",
+        joinLabel: "Join Ostium"
+      }
+    },
+    {
       id: "bantr-spaace",
       title: "Spaace",
       description: "Epoch 1 is LIVE. $500,000 in $SPAACE rewards (50% unlock at TGE, rest vest over 6 months). 4 monthly seasons ($125K each). TGE will occur in the middle of the seasons. Season 1: Nov 7 - Dec 7. Top 200 mindshare contributors + 50 random creators from Top 1000 will be eligible for the pool.",
