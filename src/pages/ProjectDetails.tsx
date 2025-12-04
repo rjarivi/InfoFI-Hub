@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/hooks/use-language";
-import { isEndedItem } from "@/lib/end-status";
+import { isEndedItem, formatPeriodYMD, getStatusWithDays } from "@/lib/end-status";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { projectsData, translateProject } from "@/data/projects";
 import { 
@@ -300,12 +300,12 @@ const ProjectDetails = () => {
                 </div>
                 <div className="p-4 rounded-lg bg-muted/30">
                   <div className="text-sm text-muted-foreground mb-1">{t("timeLeft")}</div>
-                  <div className="font-medium">{translateValue(project.timeLeft)}</div>
+                  <div className="font-medium">{formatPeriodYMD({ status: project.status as any, timeLeft: project.timeLeft, additionalData: project.additionalData })}</div>
                 </div>
                 <div className="p-4 rounded-lg bg-muted/30">
                   <div className="text-sm text-muted-foreground mb-1">{t("status")}</div>
                   <div className={`font-medium ${isEnded ? 'text-red-500' : 'text-green-500'}`}>
-                    {isEnded ? t("ended") : t("active")}
+                    {getStatusWithDays({ status: project.status as any, timeLeft: project.timeLeft, additionalData: project.additionalData }, t)}
                   </div>
                 </div>
                 <div className="p-4 rounded-lg bg-muted/30">

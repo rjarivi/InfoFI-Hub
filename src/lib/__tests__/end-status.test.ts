@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { isEndedItem } from '@/lib/end-status';
+import { isEndedItem, formatPeriodYMD, getDaysLeft, getStatusWithDays } from '@/lib/end-status';
 
 const now = new Date('2025-12-04T12:00:00Z');
 
@@ -44,5 +44,33 @@ describe('isEndedItem', () => {
     expect(
       isEndedItem({ timeLeft: 'Oct 31, 2025 - TBD' }, now)
     ).toBe(false);
+  });
+});
+
+describe('Time Period formatting and days left', () => {
+  it('formats period in YMD from timeLeft range', () => {
+    const item = { timeLeft: 'Nov 15, 2025 - Jan 15, 2026' };
+    expect(formatPeriodYMD(item)).toBe('2025-11-15 to 2026-01-15');
+  });
+
+  it('borrows end year when start year missing', () => {
+    const item = { timeLeft: 'Oct 28 - Nov 30, 2025' };
+    expect(formatPeriodYMD(item)).toBe('2025-10-28 to 2025-11-30');
+  });
+
+  it('returns TBD when end is TBD', () => {
+    const item = { timeLeft: 'Oct 31, 2025 - TBD' };
+    expect(formatPeriodYMD(item)).toBe('2025-10-31 to TBD');
+  });
+
+  it('calculates days left from endsAt', () => {
+    const item = { additionalData: { endsAt: '2026-01-01T00:00:00Z' } };
+    expect(getDaysLeft(item, now)).toBe(28);
+  });
+
+  it('returns status with days when active', () => {
+    const item = { status: 'active', timeLeft: 'Nov 15, 2025 - Jan 15, 2026' };
+    const status = getStatusWithDays(item, undefined, now);
+    expect(status).toBe('Active (42 days left)');
   });
 });

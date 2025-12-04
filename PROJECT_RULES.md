@@ -42,7 +42,7 @@ additionalData: {
   description: "Project description",
   rewardPool: "Reward details",
   participants: "Participant info",
-  timeLeft: "Time remaining",
+  timeLeft: "YYYY-MM-DD to YYYY-MM-DD", // Time Period
   category: "Category",
   platform: "Platform Name",
   link: "Project URL",
@@ -58,7 +58,9 @@ additionalData: {
     "Rule 3"
   ],
   additionalData: {
-    isNew: "true"  // ← ALWAYS ADD THIS
+    isNew: "true",  // ← ALWAYS ADD THIS
+    startsAt: "2025-10-01", // Optional ISO start date
+    endsAt: "2025-12-31"    // Optional ISO end date (used for days-left calc)
   }
 }
 ```
@@ -69,6 +71,9 @@ additionalData: {
 - [ ] Add `additionalData: { isNew: "true" }` for NEW label
 - [ ] Add translations for all 8 languages
 - [ ] Include all required fields (id, title, description, etc.)
+- [ ] Use Time Period format `YYYY-MM-DD to YYYY-MM-DD`
+- [ ] Prefer ISO `additionalData.startsAt` and `additionalData.endsAt` when available
+- [ ] Verify status shows "Active (N days left)" when applicable
 - [ ] Add campaign rules if applicable
 - [ ] Test for linting errors
 - [ ] Commit with descriptive message
@@ -104,6 +109,12 @@ xeet: [
 ```
 
 ## 🔄 REMEMBER
-**Every new project = NEW label + TOP position + ALL translations**
+**Every new project = NEW label + TOP position + ALL translations + Time Period**
+
+### Time Period and Status Guidance
+- Display uses the label "Time Period" and shows `start → end` dates in `YYYY-MM-DD`.
+- If the end date is known, the status shows `Active (N days left)` until the end.
+- If the end is `TBD/TBA/Ongoing`, the status remains `Active` without days left.
+- Backward compatibility: free-form `timeLeft` strings are parsed when possible; using ISO dates in `additionalData.startsAt`/`endsAt` is recommended for accuracy.
 
 This ensures maximum visibility for new projects and consistent user experience across all languages.

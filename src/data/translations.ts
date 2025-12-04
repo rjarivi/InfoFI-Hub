@@ -15,7 +15,7 @@ export const translations = {
     
     // Project Card
     participants: "Participants",
-    timeLeft: "Time Left",
+    timeLeft: "Time Period",
     active: "Active",
     ended: "Ended",
     platform: "Platform",
@@ -89,7 +89,7 @@ export const translations = {
     
     // Project Card
     participants: "Participantes",
-    timeLeft: "Tiempo Restante",
+    timeLeft: "Período",
     active: "Activo",
     ended: "Terminado",
     platform: "Plataforma",
@@ -163,7 +163,7 @@ export const translations = {
     
     // Project Card
     participants: "Participants",
-    timeLeft: "Temps Restant",
+    timeLeft: "Période",
     active: "Actif",
     ended: "Terminé",
     platform: "Plateforme",
@@ -224,7 +224,7 @@ export const translations = {
     
     // Project Card
     participants: "Teilnehmer",
-    timeLeft: "Verbleibende Zeit",
+    timeLeft: "Zeitraum",
     active: "Aktiv",
     ended: "Beendet",
     platform: "Plattform",
@@ -285,7 +285,7 @@ export const translations = {
     
     // Project Card
     participants: "参加者",
-    timeLeft: "残り時間",
+    timeLeft: "期間",
     active: "アクティブ",
     ended: "終了",
     platform: "プラットフォーム",
@@ -346,7 +346,7 @@ export const translations = {
     
     // Project Card
     participants: "참여자",
-    timeLeft: "남은 시간",
+    timeLeft: "기간",
     active: "활성",
     ended: "종료",
     platform: "플랫폼",
@@ -407,7 +407,7 @@ export const translations = {
     
     // Project Card
     participants: "参与者",
-    timeLeft: "剩余时间",
+    timeLeft: "时间范围",
     active: "活跃",
     ended: "已结束",
     platform: "平台",
@@ -468,7 +468,7 @@ export const translations = {
     
     // Project Card
     participants: "المشاركون",
-    timeLeft: "الوقت المتبقي",
+    timeLeft: "الفترة الزمنية",
     active: "نشط",
     ended: "انتهى",
     platform: "المنصة",

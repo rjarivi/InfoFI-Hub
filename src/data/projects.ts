@@ -3789,6 +3789,138 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
+      id: "kaito-inference-labs",
+      title: "Inference Labs",
+      description: "With 0.5% of their upcoming token supply in rewards. No vesting",
+      rewardPool: "0.5% of Total Supply",
+      participants: "Top Kaito contributors, Yappers, ecosystem supporters",
+      timeLeft: "Dec 04, 2025 - TBD",
+      category: "Yap",
+      platform: "Inference Labs",
+      link: "https://x.com/inference_labs",
+      logo: "https://pbs.twimg.com/profile_images/1988656580645056513/-YqPc--r_400x400.jpg",
+      source: "https://x.com/KaitoAI/status/1996597763564281943?s=20",
+      referralLink: "https://yaps.kaito.ai/referral/2522887435",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Inference Labs",
+      campaignRules: [
+        "Rewards for top Kaito contributors, Yappers, and ecosystem supporters helping expand the Inference Network.",
+        "Rewards are allocated based on verified Kaito activity during the campaign window.",
+        "Yappers receive 0.4% of the pool, including a 0.1% regional allocation for CN/KR contributors.",
+        "Ecosystem supporters share 0.1%.",
+        "Eligibility requires valid participation, no botting, and compliance with platform rules.",
+        "Final distribution is at the discretion of the project team."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-04T00:00:00Z",
+        xHandle: "inference_labs"
+      }
+    },
+    {
+      id: "kaito-openledger",
+      title: "OpenLedger",
+      description: "250K OPEN tokens distributed at the end of 3 months to the top 500 creators on the OpenLedger Leaderboard.",
+      rewardPool: "250K OPEN",
+      participants: "Top 500 Creators",
+      timeLeft: "Nov 12, 2025 - Feb 12, 2026",
+      category: "Yap",
+      platform: "OpenLedger",
+      link: "https://x.com/OpenledgerHQ",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1755624156731768833.jpg/w=48&q=90",
+      source: "https://x.com/OpenledgerHQ",
+      claimPeriod: "Feb 12, 2026 - TBD",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "OpenLedger",
+      campaignRules: [
+        "The top 500 eligible creators on the OpenLedger Leaderboard will earn rewards for sharing original, high-quality content about OpenLedger."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-04T00:00:00Z",
+        xHandle: "OpenledgerHQ"
+      }
+    },
+    {
+      id: "kaito-sixr-cricket",
+      title: "SIXR Cricket",
+      description: "0.5% SIXR supply across 2 phases: 0.3% in Phase 1 and 0.2% in Phase 2, rewarded to top creators.",
+      rewardPool: "0.5% SIXR supply across 2 Phases",
+      participants: "Top 250 Creators",
+      timeLeft: "Nov 10, 2025 - Jan 15, 2026",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/SIXR_cricket",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1875802869884129280.jpg/w=48&q=90",
+      source: "https://x.com/SIXR_cricket",
+      claimPeriod: "Dec 17, 2025 - Jan 17, 2026",
+      vestingSchedule: "50% Unlock at TGE, 50% 3 months cliff, 12 months linear vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 250 creators share the reward pool across both phases.",
+        "Phase 1: 0.3% supply.",
+        "Phase 2: 0.2% supply.",
+        "Vesting: 50% Unlock at TGE, 50% after 3 months cliff, 12 months linear vesting. Phase 2 vesting TBA."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-04T00:00:00Z",
+        xHandle: "SIXR_cricket"
+      }
+    },
+    {
+      id: "kaito-mememax",
+      title: "MemeMax",
+      description: "$1,000,000 worth of $M: $200k for Top 200 Creators in Phase 1 and $800k for Top 500 Creators in Phase 2.",
+      rewardPool: "$1,000,000 worth of $M",
+      participants: "Top 200 Creators in Phase 1, Top 500 Creators in Phase 2",
+      timeLeft: "Oct 22, 2025 - TBD",
+      category: "Yap",
+      platform: "Kaito",
+      link: "https://x.com/MemeMax_Fi",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1937071216109711360.jpg/w=48&q=90",
+      source: "https://x.com/MemeMax_Fi",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Phase 1 — Nov 6 to Dec 6: Top 200 Creators share $200k worth of $M.",
+        "Phase 2 — Dec to TBD: Top 500 Creators share $800k worth of $M."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-04T00:00:00Z",
+        xHandle: "MemeMax_Fi"
+      }
+    },
+    {
+      id: "kaito-frax-finance",
+      title: "Frax Finance",
+      description: "5M FXTL points per week rewarding top creators. FXTL points convert to FRAX according to ecosystem rules.",
+      rewardPool: "5M FXTL points / week",
+      participants: "Top 100 content creators in a given week",
+      timeLeft: "Sep 18, 2025 - TBD",
+      category: "Yap",
+      platform: "Frax",
+      link: "https://x.com/fraxfinance",
+      logo: "https://img.kaito.ai/v1/https%253A%252F%252Fkaito-public-assets.s3.us-west-2.amazonaws.com%252Ftwitter-user-profile-img-large%252F1123761442824519682.jpg/w=48&q=90",
+      source: "https://x.com/fraxfinance",
+      claimPeriod: "Sep 18, 2025 - TBD",
+      vestingSchedule: "Automatic conversions starting before end of year",
+      distributionPlatform: "Automatically allocated on Fractal network",
+      campaignRules: [
+        "Create high-quality content to reach the top of the leaderboard.",
+        "FXTL points are distributed weekly and convert to FRAX as per network rules.",
+        "Automatic conversions start before year end; conversions may consume a small percentage as a conversion fee."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-04T00:00:00Z",
+        xHandle: "fraxfinance"
+      }
+    },
+    {
       id: "kaito-moremarkets",
       title: "MoreMarkets",
       description: "25,000,000 MORE will be allocated to the top 250 contributors and Kaito Eco at TGE.",
@@ -4299,6 +4431,147 @@ export const projectsData: Record<string, Project[]> = {
   ],
   bantr: [
     {
+      id: "bantr-ethena",
+      title: "Ethena",
+      description: "Ethena is a synthetic dollar protocol on Ethereum offering USDe and a globally accessible savings asset sUSDe. Featured campaign focuses on social impact and community engagement.",
+      rewardPool: "X Affiliate BADGE",
+      participants: "Top Rizzlers",
+      timeLeft: "Nov 20 - Dec 20, 2025",
+      category: "Stablecoin DeFi",
+      platform: "Ethena",
+      link: "https://x.com/ethena_labs",
+      logo: "https://unavatar.io/x/ethena_labs",
+      platformLink: "https://bantr.fun?ic=D490AA7",
+      source: "https://bantr.fun/campaigns?type=featured",
+      referralLink: "https://bantr.fun?ic=D490AA7",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in using your X account on bantr.fun.",
+        "Create original content explaining Ethena’s USDe and sUSDe and their use cases.",
+        "Drive meaningful engagement through replies, quotes, and threads; avoid spam.",
+        "Optional: share onchain usage that aligns with the campaign’s theme."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "ethena_labs",
+        addedAt: "2025-12-04T00:00:00Z",
+        startsAt: "2025-11-20",
+        endsAt: "2025-12-20"
+      }
+    },
+    {
+      id: "bantr-soneium",
+      title: "Soneium",
+      description: "Soneium is an Ethereum Layer-2 by Sony Block Solutions Labs focused on scalable, creator-friendly Web3 experiences.",
+      rewardPool: "Soneium Score",
+      participants: "Community Contributors",
+      timeLeft: "Nov 20 - Dec 16, 2025",
+      category: "L2 Blockchain",
+      platform: "Soneium",
+      link: "https://x.com/Soneium",
+      logo: "https://unavatar.io/x/Soneium",
+      platformLink: "https://bantr.fun?ic=D490AA7",
+      source: "https://bantr.fun/campaigns?type=featured",
+      referralLink: "https://bantr.fun?ic=D490AA7",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in using your X account on bantr.fun.",
+        "Create content about Soneium’s L2 design and creator use-cases.",
+        "Encourage authentic discussions; avoid low-effort or repetitive posts."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "Soneium",
+        addedAt: "2025-12-04T00:00:00Z",
+        startsAt: "2025-11-20",
+        endsAt: "2025-12-16"
+      }
+    },
+    {
+      id: "bantr-hypercroc",
+      title: "HyperCroc",
+      description: "HyperCroc is a yield engine on HyperEVM powered by Smart Vaults with NFT multipliers and quest-driven rewards.",
+      rewardPool: "$450K worth of HYPERCROC tokens",
+      participants: "Community Contributors",
+      timeLeft: "Dec 1 - Mar 1, 2026",
+      category: "HyperEVM",
+      platform: "HyperCroc",
+      link: "https://x.com/HyperCrocXYZ",
+      logo: "https://unavatar.io/x/HyperCrocXYZ",
+      platformLink: "https://bantr.fun?ic=D490AA7",
+      source: "https://bantr.fun/campaigns?type=featured",
+      referralLink: "https://bantr.fun?ic=D490AA7",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in using your X account on bantr.fun.",
+        "Create content about HyperCroc’s Smart Vaults and Croc Card multipliers.",
+        "Share quest progress and insights; avoid spam."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "HyperCrocXYZ",
+        addedAt: "2025-12-04T00:00:00Z",
+        startsAt: "2025-12-01",
+        endsAt: "2026-03-01"
+      }
+    },
+    {
+      id: "bantr-injective",
+      title: "Injective",
+      description: "Injective is a MEV-resistant blockchain purpose-built for finance with a broad DeFi ecosystem to explore.",
+      rewardPool: "5,000 INJ (worth $30,000)",
+      participants: "Top Rizzlers",
+      timeLeft: "Dec 4 - Jan 4, 2026",
+      category: "DeFi",
+      platform: "Injective",
+      link: "https://x.com/Injective",
+      logo: "https://unavatar.io/x/Injective",
+      platformLink: "https://bantr.fun?ic=D490AA7",
+      source: "https://bantr.fun/campaigns?type=featured",
+      referralLink: "https://bantr.fun?ic=D490AA7",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in using your X account on bantr.fun.",
+        "Post educational content about Injective’s MEV-resistant design and DeFi apps.",
+        "Drive authentic engagement through discussions and shares."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "Injective",
+        addedAt: "2025-12-04T00:00:00Z",
+        startsAt: "2025-12-04",
+        endsAt: "2026-01-04"
+      }
+    },
+    {
+      id: "bantr-apecoin",
+      title: "ApeCoin",
+      description: "ApeCoin fuels culture for digital and IRL communities, builders, creators, and gamers.",
+      rewardPool: "50,000 $APE",
+      participants: "Top Rizzlers",
+      timeLeft: "Dec 4 - Jan 3, 2026",
+      category: "DeFi",
+      platform: "ApeCoin",
+      link: "https://x.com/apecoin",
+      logo: "https://unavatar.io/x/apecoin",
+      platformLink: "https://bantr.fun?ic=D490AA7",
+      source: "https://bantr.fun/campaigns?type=featured",
+      referralLink: "https://bantr.fun?ic=D490AA7",
+      distributionPlatform: "Bantr",
+      campaignRules: [
+        "Log in using your X account on bantr.fun.",
+        "Create content about ApeCoin’s ecosystem and community use-cases.",
+        "Avoid spam; focus on informative and creative posts."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "apecoin",
+        addedAt: "2025-12-04T00:00:00Z",
+        startsAt: "2025-12-04",
+        endsAt: "2026-01-03"
+      }
+    },
+    {
       id: "bantr-ostium-labs",
       title: "Ostium Labs",
       description: "Campaign reward pool: 50,000 Ostium Points per month. Top 50 creators at the end of the month will be rewarded. Multipliers grow with on-chain activity on app.ostium.com — trade, deposit, or add liquidity.",
@@ -4323,6 +4596,8 @@ export const projectsData: Record<string, Project[]> = {
         isNew: "true",
         xHandle: "OstiumLabs",
         addedAt: "2025-11-20T12:30:00Z",
+        startsAt: "2025-11-11",
+        endsAt: "2025-12-11",
         additionalInfo: "Engage on X by posting educational threads, trade insights, and market perspectives about RWAs and Ostium’s decentralized trading experience. Optional on-chain boosts from trading on app.ostium.com.",
         joinLabel: "Join Ostium"
       }
@@ -4428,7 +4703,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "MultichainZ is a next-gen omnichain credit platform connecting RWAs with DeFi. Users can supply ETH, stables, or even NFTs as collateral and borrow seamlessly across chains.",
       rewardPool: "$300k in $CHAINZ tokens",
       participants: "Top 200 creators monthly",
-      timeLeft: "Oct 22 - Jan 22",
+      timeLeft: "Oct 21 - Jan 22, 2026",
       category: "DeFi",
       platform: "Bantr",
       link: "https://x.com/MultichainZ_",
@@ -4453,7 +4728,9 @@ export const projectsData: Record<string, Project[]> = {
         miniCampaignNote: "Mini Campaigns",
         xHandle: "MultichainZ_",
         creatorGuide: "https://intract-io.notion.site/MultichainZ-Creator-Guide-294b31fb6eb680b0a888d520d195a76b",
-        additionalInfo: "Reward breakdown: $150K unlocked at TGE, $150K vested (6-month staking bonus). Monthly snapshots for top 200 creators. Onchain multipliers going live soon!"
+        additionalInfo: "Reward breakdown: $150K unlocked at TGE, $150K vested (6-month staking bonus). Monthly snapshots for top 200 creators. Onchain multipliers going live soon!",
+        startsAt: "2025-10-21",
+        endsAt: "2026-01-22"
       }
     },
     {
@@ -4528,7 +4805,7 @@ export const projectsData: Record<string, Project[]> = {
       description: "Bluwhale AI is revolutionizing Web3 analytics and user insights. Join the campaign to earn rewards by creating quality content about Bluwhale's innovative AI-powered analytics platform and Whale Score system.",
       rewardPool: "$100,000 worth of $BLUAI",
       participants: "Community Contributors",
-      timeLeft: "Oct 15 - Nov 15, 2025",
+      timeLeft: "Oct 15 - Jan 15, 2026",
       category: "AI Analytics",
       platform: "Bantr",
       link: "https://profile.bluwhale.com/login?referral=undefined",
@@ -4550,7 +4827,9 @@ export const projectsData: Record<string, Project[]> = {
       additionalData: {
         isNew: "true",
         creatorGuide: "https://docs.google.com/document/d/1E6lH5eqoxUZtDLwKs2ZtrzrbIJHgNtBj-KdkkNakR90/edit?usp=sharing",
-        additionalInfo: "🔗 Key Links & Channels: App: https://profile.bluwhale.com — Try the dashboard, connect accounts, explore Whale Score. Website: https://bluwhale.ai — Overview, announcements, and resources. GitBook Docs: https://bluwhale.gitbook.io/bluwhaleai — Tokenomics, product, and protocol. Twitter/X: https://twitter.com/BluwhaleAI — Latest updates & campaigns. Press Kit: https://bluwhale.ai/press — Logos, product shots, founder photos. Media Kit: https://bluwhale.ai/media-kit — Banners, social assets, thumbnails."
+        additionalInfo: "🔗 Key Links & Channels: App: https://profile.bluwhale.com — Try the dashboard, connect accounts, explore Whale Score. Website: https://bluwhale.ai — Overview, announcements, and resources. GitBook Docs: https://bluwhale.gitbook.io/bluwhaleai — Tokenomics, product, and protocol. Twitter/X: https://twitter.com/BluwhaleAI — Latest updates & campaigns. Press Kit: https://bluwhale.ai/press — Logos, product shots, founder photos. Media Kit: https://bluwhale.ai/media-kit — Banners, social assets, thumbnails.",
+        startsAt: "2025-10-15",
+        endsAt: "2026-01-15"
       }
     },
     {
@@ -4635,24 +4914,49 @@ export const projectsData: Record<string, Project[]> = {
   ],
   wallchain: [
     {
-      id: "wallchain-apecoin-new",
-      title: "Apecoin",
-      description: "50K $APE for Top 300 Quackers. Full unlock, no cliff, no vesting. Mention Otherside, Amazon, ApeCoin, Nexus, Roblox, Minecraft, Arbitrum, or OpenSea. Mindshare is boosted by cumulative multiplier (BAYC 2X, MAYC 1.7X, 500+ $APE 2X).",
-      rewardPool: "50K $APE for Top 300 Quackers",
-      participants: "Top 300 Quackers",
-      timeLeft: "Oct 31 - Nov 28",
-      category: "Community",
-      platform: "Apecoin",
-      link: "https://app.wallchain.xyz/apecoin",
-      logo: "https://app.wallchain.xyz/external-bucket/hashed/image-url/ApeCoin%20Profile%20Image.5792ada29bccfe100fb114e65840ae7e.jpg",
-      source: "https://x.com/wallchain/status/1984288208864395576",
-      referralLink: "https://app.wallchain.xyz/apecoin",
+      id: "wallchain-reya",
+      title: "Reya",
+      description: "For Top 100 Quackers + 20 random from 101 to 300",
+      rewardPool: "0.2% of Supply",
+      participants: "Top 100 + 20 random (101–300)",
+      timeLeft: "Nov 10, 2025 - Dec 10, 2025",
+      category: "Trading",
+      platform: "Reya",
+      link: "https://app.wallchain.xyz/reya",
+      logo: "https://app.wallchain.xyz/external-bucket/hashed/logo-url/reya_avatar.f5563ec83e5a1109e726fa85dd528083.svg",
+      source: "https://x.com/wallchain/status/1987925387587056032?s=20",
       distributionPlatform: "Wallchain",
-      platformLink: "https://quacks.app/?ref=rjarivi",
+      campaignRules: [
+        "Top 100 mindshare contributors.",
+        "+20 random from 101 to 300.",
+        "Unlocks: Full unlock, no cliff, no vesting.",
+        "Epoch 1: Nov 10th - Dec 10th with 0.033% of supply."
+      ],
       additionalData: {
         isNew: "true",
-        xHandle: "apecoin",
-        endsAt: "2025-11-28T23:59:59Z"
+        xHandle: "reya_xyz",
+        startsAt: "2025-11-10T00:00:00Z",
+        endsAt: "2025-12-10T23:59:59Z",
+        cta: "platform referral link"
+      }
+    },
+    {
+      id: "wallchain-alignerz",
+      title: "AlignerZ",
+      description: "3.84% of Supply. For Top 1,000 Quackers",
+      rewardPool: "3.84% of Supply",
+      participants: "Top 1,000 Quackers",
+      timeLeft: "Nov 13, 2025 - Dec 12, 2025",
+      category: "AI",
+      platform: "AlignerZ",
+      link: "https://app.wallchain.xyz/alignerz",
+      logo: "https://app.wallchain.xyz/external-bucket/hashed/logo-url/AlignerZ_avatar.a0db52a9c127b973959923dec442d16b.png",
+      distributionPlatform: "Wallchain",
+      additionalData: {
+        isNew: "true",
+        xHandle: "alignerz",
+        startsAt: "2025-11-13T00:00:00Z",
+        endsAt: "2025-12-12T23:59:59Z"
       }
     },
     {
@@ -4669,7 +4973,6 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Wallchain",
       referralLink: "https://quacks.app/?ref=rjarivi",
       additionalData: {
-        isNew: "true",
         xHandle: "beyond__tech",
         creatorGuideLink: "https://beyond-btc.notion.site/Beyond-s-Wallchain-Creator-Guide-e9158385641a46898e6f783b5d2bf3ce",
         additionalInfo: "Creator Guide: Check out the full guide and join the TG chat with fellow Beyond Quackers.",
@@ -4693,7 +4996,6 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Wallchain",
       platformLink: "https://quacks.app/?ref=rjarivi",
       additionalData: {
-        isNew: "true",
         xHandle: "Velvet_Capital",
         additionalInfo: "Velvet Capital is a DeFAI Trading & Portfolio Management Ecosystem powered by intents. Get the creator guide in the app and join the TG chat.",
         endsAt: "2025-12-24T23:59:59Z"
@@ -4713,7 +5015,6 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Wallchain",
       platformLink: "https://quacks.app/?ref=rjarivi",
       additionalData: {
-        isNew: "true",
         xHandle: "SCORProtocol",
         additionalInfo: "SCOR is backed by over $12M in SAFT funding to date, with rounds valued up to $125M FDV. SCOR is building the infrastructure that powers the next generation of sports fandom."
       }
@@ -4741,7 +5042,6 @@ export const projectsData: Record<string, Project[]> = {
         "Climb from Bronze to Platinum to unlock higher $SPAACE airdrop"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "spaace_io",
         additionalInfo: "$1,000,000 $SPAACE campaign to reward the real ones — traders, creators & collectors pushing Spaace’s vision: making NFTs great, fun, fair, and rewarding again.",
         cta: "https://spaace.io/?invite=G027wh"
@@ -4770,7 +5070,6 @@ export const projectsData: Record<string, Project[]> = {
         "Activity tracked via Quacks on Wallchain"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "wardenprotocol",
         additionalInfo: "Creator Guide explains registration, content tips, and growth strategies.",
         creatorGuideLink: "https://wardenprotocol.notion.site/Quackers-Welcome-Pack-2a0fb9f091ca81c9a3bad7b587daa5bb",
@@ -4778,31 +5077,7 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
-      id: "wallchain-analog",
-      title: "Analog",
-      description: "With over $200,000 in $ANLOG rewards to be earned by our top contributors, the earlier you start, the better! The best part is it's free for any and everyone to participate.",
-      rewardPool: "$200K $ANLOG for Quackers",
-      participants: "Top 80 Quackers + 10 random from Top 81 to 300",
-      timeLeft: "4 months total",
-      category: "Infrastructure",
-      platform: "Analog",
-      link: "https://quacks.app/?ref=rjarivi&",
-      logo: "https://app.wallchain.xyz/external-bucket/hashed/image-url/PStSzO3-_400x400.d6df7c97043c733dceda2c035f8be6d4.png",
-      source: "https://x.com/OneAnalog/status/1980641590965334496",
-      referralLink: "https://quacks.app/?ref=rjarivi&",
-      referralCode: "rjarivi",
-      additionalData: {
-        isNew: "true",
-        additionalInfo: "Here's the deal 👇\n💰 $50K in $ANLOG rewards each month\n\n🗓️ 4 months total\n🔐 Rewards: full unlock, no cliff, no vesting\n🎯 The top 80 creators ranked by mindshare, not follower count, win.\n\nIn addition, we will select 10 random creators from 81-300 to recieve rewards. 🤩\n\nCreator Guide: https://teamanalog.notion.site/ANALOG-WallChain-Creator-Guide-28e4872af8ca80de82e6facbb988bf4d\n\n### **Ecosystem Snapshot**\n\n**⚡ Analog** – The Infrastructure Layer of Liquidity\n\n> Unifies all chains into one liquidity fabric.\n\n**💧 Zenswap** – Cross-Chain Liquidity Without the Chaos\n\n> Swap any token across any chain instantly with USDC routing.\n\n**🔥 Firestarter** – The Utility Launchpad for Everyone\n\n> Turn any idea, brand, or fanbase into a tokenized storefront in 20 seconds.",
-        campaignDuration: "4 months",
-        totalRewards: "$200,000 in $ANLOG tokens",
-        monthlyRewards: "$50K in $ANLOG rewards each month",
-        rewardStructure: "Top 80 creators + 10 random from 81-300",
-        vestingSchedule: "Full unlock, no cliff, no vesting",
-        creatorGuide: "https://teamanalog.notion.site/ANALOG-WallChain-Creator-Guide-28e4872af8ca80de82e6facbb988bf4d",
-        xAccount: "https://x.com/OneAnalog",
-        xHandle: "OneAnalog"
-      }
+      
     },
     {
       id: "wallchain-klout",
@@ -4831,7 +5106,6 @@ export const projectsData: Record<string, Project[]> = {
         "Join the KLOUT campaign on Wallchain platform"
       ],
       additionalData: {
-        isNew: "true",
         epochI: "0.5% of KLOUT Supply for Top 300 Quackers",
         epochII: "0.5% of KLOUT Supply for Top 300 Quackers",
         epochIDuration: "40 days 10 hours",
@@ -4868,23 +5142,7 @@ export const projectsData: Record<string, Project[]> = {
       referralLink: "https://limitless.exchange/?r=VGYFXR4N34"
     },
     {
-      id: "wallchain-covalent",
-      title: "Covalent",
-      description: "$200K in $CXT rewards over the next 5 months Epoch wise. Covalent provides unified APIs to access blockchain data across multiple networks.",
-      rewardPool: "$200k $CXT for Quackers",
-      participants: "Quackers",
-      timeLeft: "12 days",
-      category: "Data",
-      platform: "Covalent",
-      link: "https://app.wallchain.xyz/covalent",
-      logo: "https://app.wallchain.xyz/external-bucket/hashed/small-icon-white-url/covalent_logo_small_white.0c5b80a9056a4c0bd91e6578993d3747.svg",
-      source: "https://app.wallchain.xyz/covalent",
-      referralLink: "https://www.covalenthq.com",
-      campaignRules: [
-        "$200K in $CXT rewards over the next 5 months Epoch wise",
-        "Epoch II: 40K $CXT rewards",
-        "Epoch II ends in 09 days"
-      ]
+      
     },
     {
       id: "wallchain-heyelsa",
@@ -4915,30 +5173,70 @@ export const projectsData: Record<string, Project[]> = {
       referralLink: "https://app.idos.network/?ref=96337B76"
     },
     {
-      id: "wallchain-apecoin",
-      title: "ApeCoin R.A.I.D",
-      description: "ApeCoin R.A.I.D is a community-driven initiative for the ApeCoin ecosystem. September 9th till October 24th 2025 (Apefest).",
-      rewardPool: "100,000 $APE",
-      participants: "Quackers",
-      timeLeft: "Project R.A.I.D ends in 15 days",
-      category: "Community",
-      platform: "ApeCoin R.A.I.D",
-      link: "https://app.wallchain.xyz/apecoin",
-      logo: "https://app.wallchain.xyz/external-bucket/hashed/small-icon-white-url/apecoin%20R.A.I.D_logo_small_white.4b4fd669b7be64a77341c5542042e561.svg",
-      source: "https://x.com/OxSimpleFarmer/status/1961422732240777396",
-      referralLink: "https://apechain.com",
-      claimPeriod: "September 9th - October 24th 2025",
-      campaignRules: [
-        "100,000 $APE reward pool",
-        "Period: September 9th till October 24th 2025 (Apefest)",
-        "2X boost for holding BAYC",
-        "1.7X boost for holding MAYC",
-        "2X boost for holding at least 500 $APE",
-        "Boosts are cumulative!"
-      ]
-    }
+      
+    },
+    
   ],
   cookie: [
+    {
+      id: "cookie-altura",
+      title: "Altura",
+      description: "Top 200 Snappers will receive 0.45% of total supply in $ALTU. $COOKIE Stakers will receive 0.05% of total supply in $ALTU.",
+      rewardPool: "0.5% of Total Token Supply in $ALTU",
+      participants: "Top 200 Snappers, $COOKIE Stakers",
+      timeLeft: "Dec 2, 2025 - Feb 2, 2026",
+      category: "SNAPS Campaign",
+      platform: "Altura",
+      link: "https://www.cookie.fun/campaigns",
+      logo: "https://www.cookie.fun/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1990791589938036736%2FQYqakzNw_400x400.jpg&w=64&q=75",
+      source: "https://x.com/cookiedotfun/status/1995893373392355594?s=20",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "TGE",
+      vestingSchedule: "TBD",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post authentic snaps about Altura’s standout features",
+        "Highlight delta-neutral yield vaults, quant overlays, liquidity provision, or other features",
+        "Top 200 Snappers: 0.45% of TTS",
+        "$COOKIE Stakers: 0.05% of TTS"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS",
+        xHandle: "alturax",
+        extraInfo: "Altura.trade is an on-chain yield platform delivering institutional-grade returns via delta-neutral, basis, and arbitrage strategies."
+      }
+    },
+    {
+      id: "cookie-space",
+      title: "Space",
+      description: "$110K for Top 200 Snappers. $55K for Top 100 Global, $27.5K for Top 50 Korean, $27.5K for Top 50 Chinese.",
+      rewardPool: "$110K in tokens",
+      participants: "Top 200 Snappers; Top 100 Global; Top 50 Korean; Top 50 Chinese",
+      timeLeft: "Nov 28, 2025 - Dec 28, 2025",
+      category: "SNAPS Campaign",
+      platform: "Space",
+      link: "https://www.cookie.fun/campaigns",
+      logo: "https://www.cookie.fun/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1973360659569012736%2FzTlfPqWb_400x400.jpg&w=64&q=75",
+      source: "https://x.com/cookiedotfun/status/1994392342741348426?s=20",
+      referralLink: "https://www.cookie.fun/1IWBBPno",
+      claimPeriod: "1 day after TGE",
+      vestingSchedule: "50% unlock, 3-month vesting, no cliff",
+      distributionPlatform: "Cookie",
+      campaignRules: [
+        "Post about Space on X to earn SNAPS",
+        "Top 200 Snappers: $110K total distributed",
+        "Top 100 Global: $55K",
+        "Top 50 Korean: $27.5K",
+        "Top 50 Chinese: $27.5K",
+        "Distribution: 1 day after TGE; 50% unlock; 3-month vesting; no cliff"
+      ],
+      additionalData: {
+        isNew: "true",
+        campaignType: "SNAPS",
+        xHandle: "intodotspace"
+      }
+    },
     {
       id: "cookie-solv-protocol",
       title: "Solv Protocol",
@@ -4966,7 +5264,6 @@ export const projectsData: Record<string, Project[]> = {
         "Campaign duration: 2 months"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "SNAPS",
         burnMechanism: "Built-in burn mechanism when swapping to $SOLV",
         rewardCalculation: "Token amount distributed based on 30-day TWAP measured on campaign end date",
@@ -5000,7 +5297,6 @@ export const projectsData: Record<string, Project[]> = {
         "Creators with capital commitment eligible for multipliers"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "cSnaps"
       }
     },
@@ -5030,7 +5326,6 @@ export const projectsData: Record<string, Project[]> = {
         "Creators with capital commitment eligible for multipliers"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "cSnaps"
       }
     },
@@ -5059,7 +5354,6 @@ export const projectsData: Record<string, Project[]> = {
         "Creators with capital commitment eligible for multipliers"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "cSnaps"
       }
     },
@@ -5088,7 +5382,6 @@ export const projectsData: Record<string, Project[]> = {
         "More SNAPS = bigger share of reward pool"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "SNAPS"
       }
     },
@@ -5115,7 +5408,6 @@ export const projectsData: Record<string, Project[]> = {
         "More SNAPS = bigger share of reward pool"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "SNAPS"
       }
     },
@@ -5140,97 +5432,9 @@ export const projectsData: Record<string, Project[]> = {
         "More SNAPS = bigger share of reward pool"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "SNAPS"
       }
     },
-    {
-      id: "cookie-antix",
-      title: "Antix",
-      description: "Post about the Antix on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
-      rewardPool: "0.038% in $ANTIX",
-      participants: "Snappers, Stakers",
-      timeLeft: "Pre-TGE",
-      category: "SNAPS Campaign",
-      platform: "Antix",
-      link: "https://www.cookie.fun/tokens/antix",
-      logo: "https://pbs.twimg.com/profile_images/1944008841135280128/dnHkwyiA_400x400.jpg",
-      source: "https://x.com/antix_in",
-      referralLink: "https://www.cookie.fun/1IWBBPno",
-      claimPeriod: "TGE",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Cookie",
-      campaignRules: [
-        "Post about Antix on X to earn SNAPS",
-        "Snappers: 0.212% in $ANTIX",
-        "Stakers: 0.038% in $ANTIX",
-        "Distribution: TGE",
-        "More SNAPS = bigger share of reward pool"
-      ],
-      additionalData: {
-        isNew: "true",
-        campaignType: "SNAPS"
-      }
-    },
-    {
-      id: "cookie-bob",
-      title: "BOB (Build on Bitcoin)",
-      description: "Post about the BOB (Build on Bitcoin) on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
-      rewardPool: "$450K in $BOB",
-      participants: "Snappers, Stakers",
-      timeLeft: "Pre-TGE",
-      category: "SNAPS Campaign",
-      platform: "BOB",
-      link: "https://www.cookie.fun/tokens/bob",
-      logo: "https://pbs.twimg.com/profile_images/1959908677692870656/307MR6F4_400x400.jpg",
-      source: "https://x.com/build_on_bob",
-      referralLink: "https://www.cookie.fun/1IWBBPno",
-      claimPeriod: "TGE",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Cookie",
-      campaignRules: [
-        "Post about BOB (Build on Bitcoin) on X to earn SNAPS",
-        "Snappers: $300K in $BOB",
-        "Stakers: $50K in $BOB",
-        "Distribution: TGE",
-        "More SNAPS = bigger share of reward pool"
-      ],
-      additionalData: {
-        isNew: "true",
-        campaignType: "SNAPS"
-      }
-    },
-    {
-      id: "cookie-ten",
-      title: "TEN",
-      description: "Post about the TEN on X to earn SNAPS. The more SNAPS you earn, the bigger share of the reward pool goes to you.",
-      rewardPool: "$650K in $TEN",
-      participants: "Phase 1 Snappers, Phase 2 Snappers, Top Korean/Japanese/Chinese Snappers",
-      timeLeft: "Pre-TGE",
-      category: "SNAPS Campaign",
-      platform: "TEN",
-      link: "https://www.cookie.fun/tokens/ten",
-      logo: "https://pbs.twimg.com/profile_images/1948670923596234752/CjzIhnby_400x400.jpg",
-      source: "https://x.com/tenprotocol",
-      referralLink: "https://www.cookie.fun/1IWBBPno",
-      claimPeriod: "TGE",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Cookie",
-      campaignRules: [
-        "Post about TEN on X to earn SNAPS",
-        "Phase 1 Snappers: $360K",
-        "Phase 2 Snappers: $200K",
-        "Top 50 Korean Snappers: $50K",
-        "Top 25 Japanese Snappers: $25K",
-        "Top 25 Chinese Snappers: $25K",
-        "Distribution: TGE",
-        "More SNAPS = bigger share of reward pool"
-      ],
-      additionalData: {
-        isNew: "true",
-        campaignType: "SNAPS"
-      }
-    }
   ],
   rey: [
     {
@@ -5338,29 +5542,6 @@ export const projectsData: Record<string, Project[]> = {
     
   ],
   breadcrumbs: [
-    {
-      id: "breadcrumbs-townies",
-      title: "Townies",
-      description: "A fully onchain city-builder, born on @base. 🏡 Build your world, make it grow!",
-      rewardPool: "$458.28",
-      participants: "Bakers 928",
-      timeLeft: "6 days left",
-      category: "Gaming",
-      platform: "Breadcrumb.cash",
-      link: "https://www.breadcrumb.cash/leaderboard/0x4200000000000000000000000000000000000006",
-      logo: "https://pbs.twimg.com/profile_images/1945652432530280448/IVPq6Juo_400x400.jpg",
-      source: "https://x.com/breadcrumbcash/status/1982869907231346959",
-      distributionPlatform: "Breadcrumbs",
-      additionalData: {
-        xHandle: "Townies_",
-        isNew: "true",
-        airdropRecipients: "Top 150",
-        bakers: "928",
-        crumbsDistributed: "25125",
-        additionalInfo: "Townies is a fully onchain city-builder game built natively on Base, where players construct, expand, and optimize their towns to generate yield. The game uses Account Abstraction (AA) for gasless, seamless onboarding and is playable on Farcaster, the Base App, and a mobile web app. Players earn through strategy, progression, and onchain engagement. Currently in beta, Townies will officially launch in early November 2025 with integrated Play-to-Airdrop campaigns and Base ecosystem partnerships.",
-        signupLink: "https://www.breadcrumb.cash/profile?ref=REF-MEAL-C4CK"
-      }
-    },
   
   
   ],
@@ -5417,6 +5598,75 @@ export const projectsData: Record<string, Project[]> = {
   ],
   galxe: [
     {
+      id: "chatandbuild-galxe",
+      title: "ChatAndBuild",
+      description: "Up to $5K + exclusive NFTs for top Aura contributors",
+      rewardPool: "Up to $5K + NFTs",
+      participants: "Top Aura Contributors & GalxeQuest Participants",
+      timeLeft: "2025/11/23 21:30:00 - 2026/02/23",
+      category: "AI / Builders",
+      platform: "Galxe",
+      link: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      logo: "https://cdn.galxe.com/galaxy/192/4b328f3d-2edf-4b01-83a4-56e5d12f1665.png",
+      source: "https://x.com/Galxe/status/1992896222827352332?s=20",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Build apps or AI agents by simply describing them.",
+        "Up to $5K + exclusive NFTs for top Aura contributors and GalxeQuest participants"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "chatandbuild"
+      }
+    },
+    {
+      id: "rumi-galxe",
+      title: "Rumi",
+      description: "Climb the leaderboard and earn your share of 100,000 Rumi points.",
+      rewardPool: "100,000 Rumi Points",
+      participants: "Leaderboard Participants",
+      timeLeft: "2025/11/06 10:30:00 - 2026/02/03",
+      category: "AI / Tools",
+      platform: "Galxe",
+      link: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      logo: "https://cdn.galxe.com/galaxy/192/abbaf1e0-5b06-4b1e-a1ff-ec62ca96fb58.png",
+      source: "https://x.com/Galxe/status/1991507572398891208?s=20",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Complete quests and climb the leaderboard to earn points"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "RumiLabs_io"
+      }
+    },
+    {
+      id: "inference-labs-galxe",
+      title: "Inference Labs",
+      description: "Up to $100K in $USDT and future $VERFI tokens for top Starboard creators. Join the movement",
+      rewardPool: "Up to $100K in $USDT(+$VERFI)",
+      participants: "Top Starboard Creators & GalxeQuest Participants",
+      timeLeft: "TBA",
+      category: "AI Infrastructure",
+      platform: "Galxe",
+      link: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      logo: "https://cdn.galxe.com/tooljet/inferenecelogo.png",
+      source: "https://x.com/Galxe/status/1991189980228583595?s=20",
+      referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
+      distributionPlatform: "Galxe",
+      campaignRules: [
+        "Create and share verifiable AI content via Starboard and Galxe",
+        "Rewards in USDT and future $VERFI for top creators"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "inference_labs",
+        additionalInfo: "Inference Labs is building infrastructure for verifiable AI — enabling scalable ZKML, decentralized inference, and trusted AI agents."
+      }
+    },
+    {
       id: "galxe-solana-gaming",
       title: "Solana Gaming",
       description: "Solana Game Pass: Season 1 unites 30+ games and gamooors! Collect Aura and boost your position on the leaderboard. Up to $40,000 in rewards available for top Starboard creators and GalxeQuest participants.",
@@ -5430,7 +5680,6 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/GamingOnSolana_/status/1986146961934917853",
       referralLink: "https://app.galxe.com/hub/invite?code=GICyJr43Nj1NKCIpDtJlpV7gSBHFvpYO6y3IpKCZD4=",
       additionalData: {
-        isNew: "true",
         addedAt: "2025-11-05T17:00:00Z",
         xHandle: "GamingOnSolana_"
       }
@@ -5450,7 +5699,6 @@ export const projectsData: Record<string, Project[]> = {
       referralLink: "https://dagama.go.link/?adj_t=1go1g649&adj_label=N4ax7I",
       referralCode: "N4ax7I",
       additionalData: {
-        isNew: "true",
         additionalInfo: "🌍 daGama is a RWL (Real World Locations) platform that leverages blockchain and AI technology to provide authentic info and trusted recommendations.\n\n💡 RWL (Real World Locations) are all real-world places, both commercial and non-commercial, integrated through WEB3 infrastructure. This integration combines common real-world locations with the advantages of blockchain technology, fostering mass adoption.\n\nUp to $65K in $DGMA for top Aura contributors",
         campaignDuration: "3 months (Season 2)",
         totalRewards: "$65,000 in $DGMA tokens",
@@ -5704,13 +5952,41 @@ export const projectsData: Record<string, Project[]> = {
       category: "Trading Platform",
       platform: "GRVT",
       link: "https://grvt.io/exchange/sign-up?ref=G5UAMXN",
-      logo: "https://pbs.twimg.com/profile_images/1967849095126732800/dNax4nHs_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/1991661582527655936/Kn9vFGru_400x400.jpg",
       source: "https://x.com/PulseInfra/status/1975229575899844754",
       referralLink: "https://grvt.io/exchange/sign-up?ref=G5UAMXN",
       referralCode: "G5UAMXN",
       additionalData: {
         isNew: "true"
       }
+    },
+    {
+      id: "pulse-meme",
+      title: "Meme.com",
+      description: "Vesting Terms Will Apply, TBA",
+      rewardPool: "0.5% OF SUPPLY",
+      participants: "To Be Confirmed",
+      timeLeft: "47D",
+      category: "Social & Culture",
+      platform: "Meme.com",
+      link: "https://www.alphabot.app/pulse/meme",
+      logo: "https://imagedelivery.net/tfbbUDELTH59IbQ61fGnYg/3f00c312-0514-492c-0e5f-3f9161db4200/public",
+      source: "https://x.com/PulseInfra/status/1980303133181181966?s=20",
+      referralLink: "https://www.alphabot.app?ref=infofi"
+    },
+    {
+      id: "pulse-aegis",
+      title: "Aegis",
+      description: "Bitcoin-backed stablecoin with real-time transparency and built-in yield.",
+      rewardPool: "0.5% $AEG SUPPLY",
+      participants: "To Be Confirmed",
+      timeLeft: "10D",
+      category: "Security",
+      platform: "Aegis",
+      link: "https://www.alphabot.app/pulse/aegis",
+      logo: "https://pbs.twimg.com/profile_images/1769752309536329728/rhm7QxPy_400x400.jpg",
+      source: "https://www.alphabot.app/pulse/aegis",
+      referralLink: "https://www.alphabot.app?ref=infofi"
     },
     {
       id: "pulse-boost",
@@ -5725,77 +6001,7 @@ export const projectsData: Record<string, Project[]> = {
       logo: "/assets/Info Fi Logo/Boost.jpg",
       source: "https://www.alphabot.app/pulse/boost",
       referralLink: "https://www.alphabot.app?ref=infofi"
-    },
-    {
-      id: "pulse-aegis",
-      title: "Aegis",
-      description: "Aegis offers comprehensive security solutions and protection mechanisms for cryptocurrency investments.",
-      rewardPool: "0.5% $AEG SUPPLY",
-      participants: "To Be Confirmed",
-      timeLeft: "62D",
-      category: "Security",
-      platform: "Aegis",
-      link: "https://www.alphabot.app/pulse/aegis",
-      logo: "https://pbs.twimg.com/profile_images/1769752309536329728/rhm7QxPy_400x400.jpg",
-      source: "https://www.alphabot.app/pulse/aegis",
-      referralLink: "https://www.alphabot.app?ref=infofi"
-    },
-    {
-      id: "pulse-belong",
-      title: "Belong",
-      description: "Belong creates community-driven investment opportunities and social trading experiences.",
-      rewardPool: "1% OF SUPPLY",
-      participants: "To Be Confirmed",
-      timeLeft: "15D",
-      category: "Community",
-      platform: "Belong",
-      link: "https://www.alphabot.app/pulse/belong",
-      logo: "https://imagedelivery.net/tfbbUDELTH59IbQ61fGnYg/affda674-0b3c-460f-f876-85e466a7a800/public",
-      source: "https://www.alphabot.app/pulse/belong",
-      referralLink: "https://www.alphabot.app?ref=infofi"
-    },
-    {
-      id: "pulse-campnetwork",
-      title: "Camp Network",
-      description: "Camp Network provides networking opportunities and collaborative investment strategies in Web3.",
-      rewardPool: "$25k USDC",
-      participants: "To Be Confirmed",
-      timeLeft: "17D",
-      category: "Networking",
-      platform: "Camp Network",
-      link: "https://www.alphabot.app/pulse/campnetwork",
-      logo: "https://imagedelivery.net/tfbbUDELTH59IbQ61fGnYg/1edbfd58-2721-4f47-7969-36af6d020700/public",
-      source: "https://www.alphabot.app/pulse/campnetwork",
-      referralLink: "https://www.alphabot.app?ref=infofi"
-    },
-    {
-      id: "pulse-sixr",
-      title: "SixR Cricket",
-      description: "SixR Cricket offers advanced trading algorithms and automated investment strategies for cryptocurrency markets.",
-      rewardPool: "$100k in $SIXR",
-      participants: "To Be Confirmed",
-      timeLeft: "1D 5H",
-      category: "Algorithmic Trading",
-      platform: "SixR Cricket",
-      link: "https://www.alphabot.app/pulse/sixr",
-      logo: "https://imagedelivery.net/tfbbUDELTH59IbQ61fGnYg/14d11263-ffcc-40d3-a96e-f95f288e0500/public",
-      source: "https://www.alphabot.app/pulse/sixr",
-      referralLink: "https://www.alphabot.app?ref=infofi"
-    },
-    {
-      id: "pulse-imua",
-      title: "Imua",
-      description: "Imua provides innovative trading solutions and market momentum strategies for cryptocurrency investors.",
-      rewardPool: "$100k in $IMUA",
-      participants: "To Be Confirmed",
-      timeLeft: "17D",
-      category: "Trading Strategy",
-      platform: "Imua",
-      link: "https://www.alphabot.app/pulse/imua",
-      logo: "https://pbs.twimg.com/profile_images/1897344257419259904/NO5Mn3FM_400x400.jpg",
-      source: "https://www.alphabot.app/pulse/imua",
-      referralLink: "https://www.alphabot.app?ref=infofi"
-    },
+    }
   ],
   xeet: [
     {

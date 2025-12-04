@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { formatPeriodYMD, getStatusWithDays } from "@/lib/end-status";
 import { useLanguage } from "@/hooks/use-language";
 import { useState } from "react";
 import { Copy, Check, ExternalLink } from "lucide-react";
@@ -182,12 +183,14 @@ export function ProjectCard({
                      </div>
                      <div className="text-center p-2 rounded-lg bg-muted/30">
                        <div className="text-xs text-muted-foreground mb-1">{t("timeLeft")}</div>
-                       <div className="text-xs font-medium leading-tight">{translateValue(timeLeft)}</div>
+                       <div className="text-xs font-medium leading-tight">
+                         {formatPeriodYMD({ status, timeLeft, additionalData })}
+                       </div>
                      </div>
                      <div className="text-center p-2 rounded-lg bg-muted/30">
                        <div className="text-xs text-muted-foreground mb-1">{t("status")}</div>
                        <div className={`text-xs font-medium leading-tight ${isEnded ? 'text-red-500' : 'text-green-500'}`}>
-                         {isEnded ? t("ended") : t("active")}
+                         {getStatusWithDays({ status, timeLeft, additionalData }, t)}
                        </div>
                      </div>
                    </div>
