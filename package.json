@@ -12,6 +12,7 @@
     "build": "vite build && node scripts/generate-sitemaps.js",
     "build:dev": "vite build --mode development && node scripts/generate-sitemaps.js",
     "build:sitemaps": "node scripts/generate-sitemaps.js",
+    "sync:projects": "node scripts/sync-projects-from-sheets.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
