@@ -5887,7 +5887,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Prediction Markets",
       platform: "Polysight",
       link: "https://t.me/Polysight",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1805175239278557184%2FfG6y3p7W_400x400.jpg&w=32&q=75",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2F0bc9de0a-1e70-48da-9430-593c44dcc7af%2F1764077673302_vXLAspZr_400x400.jpg&w=32&q=75",
       source: "https://x.com/xeetdotai/status/1993415652816613535?s=20",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
