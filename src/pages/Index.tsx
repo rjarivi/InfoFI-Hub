@@ -6,6 +6,7 @@ import { HideEndedToggle } from "@/components/hide-ended-toggle";
 import { TextPressure } from "@/components/text-pressure";
 import { AdCarousel } from "@/components/ad-carousel";
 import { projectsData, translateProject } from "@/data/projects";
+import { updateItemsNewLabel, logLabelChanges } from "@/lib/new-label-manager";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/use-language";
@@ -109,8 +110,12 @@ const Index = () => {
   }, []);
   
   const getAllProjects = () => {
-    const allProjects = Object.values(projectsData).flat().map(project => translateProject(project, language));
-    
+    const allProjectsRaw = Object.values(projectsData).flat().map(project => translateProject(project, language));
+
+    // Auto-update NEW labels based on addedAt window, and log changes
+    const { updated: allProjects, changes } = updateItemsNewLabel(allProjectsRaw);
+    if (changes.length) logLabelChanges(changes);
+
     // Filter out ended projects if hideEnded is true
     const filteredProjects = hideEnded 
       ? allProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
@@ -174,7 +179,10 @@ const Index = () => {
     if (activeTab === "all") {
       return getAllProjects();
     }
-    const platformProjects = (projectsData[activeTab] || []).map(project => translateProject(project, language));
+    const platformProjectsRaw = (projectsData[activeTab] || []).map(project => translateProject(project, language));
+
+    const { updated: platformProjects, changes } = updateItemsNewLabel(platformProjectsRaw);
+    if (changes.length) logLabelChanges(changes);
     
     // Filter out ended projects if hideEnded is true
     const filteredProjects = hideEnded 
