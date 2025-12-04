@@ -5799,6 +5799,112 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-xyber",
+      title: "Xyber",
+      description: "100% unlock, no vesting. One-time payout directly to wallets.",
+      rewardPool: "250K USDT + Xeets",
+      participants: "Top 250",
+      timeLeft: "Dec 4, 2025 - TBA",
+      category: "AI & Protocols",
+      platform: "Xyber",
+      link: "https://x.com/Xyberinc",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2F6e3f1701-f77d-4f4f-88c5-32864a4b8ec4%2F1764332043110_aRSveyTn_400x400.png&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1996631751742181641?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      vestingSchedule: "100% unlock, no vesting",
+      campaignRules: [
+        "Compete for a spot in the top 250 and earn from a $250,000 USD prize pool paid in stables, with their upcoming token launch on the horizon."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "Xyberinc",
+        addedAt: "2025-12-04T12:00:00Z",
+        additionalInfo: "Xyber is the Protocol for Intelligent Economies — AI apps, agents, and machines launch fairly, run verifiable logic, and evolve on-chain.",
+        joinLabel: "Join Xyber"
+      }
+    },
+    {
+      id: "xeet-litvm",
+      title: "LitVM",
+      description: "Top 100 get 0.2% of $LITVM.",
+      rewardPool: "0.2% of $LITVM",
+      participants: "Top 100",
+      timeLeft: "Dec 3, 2025 - May 20, 2026",
+      category: "Layer-2",
+      platform: "LitVM",
+      link: "https://x.com/LitecoinVM",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2F5f173ae8-a6b1-4520-999c-eefaf7eaea98%2F1762528103056_HCccENRu_400x400.png&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1995934571775304126?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create engaging posts about LitVM, the new use cases it’s providing for the Litecoin community, its impact on the Litecoin ecosystem, and share them on X (Twitter)."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "LitecoinVM",
+        addedAt: "2025-12-03T12:00:00Z",
+        additionalInfo: "Discuss how LitVM transforms Litecoin with EVM L2 smart contracts, unlocks Web3 use cases, and enables yield strategies for LTC holders.",
+        joinLabel: "Join LitVM"
+      }
+    },
+    {
+      id: "xeet-good-vibes-club",
+      title: "Good Vibes Club",
+      description: "Top 25 win from $20K in token. Top 50 entered into raffle to win 3 Good Vibes Club NFTs.",
+      rewardPool: "$20K $VIBESTR + GVC NFTs",
+      participants: "Top 25 + Top 50 raffle",
+      timeLeft: "Dec 1, 2025 - Dec 15, 2025",
+      category: "NFT/Community",
+      platform: "Good Vibes Club",
+      link: "https://x.com/goodvibesclub",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2F830dd1bb-bc09-41c5-9bb0-b08047e93289%2F1764092442846_123OV4DDsvw_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1995576570191499362?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create engaging posts about Good Vibes Club, its world, and its ecosystem"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "goodvibesclub",
+        addedAt: "2025-12-01T12:00:00Z",
+        additionalInfo: "Show how collectors, $VIBESTR, and NFTs align; explore badges, VibeWheel, Vibetown lore, art, and Toast.tv craftsmanship.",
+        joinLabel: "Join Good Vibes Club"
+      }
+    },
+    {
+      id: "xeet-polysight",
+      title: "Polysight",
+      description: "Top 100 creators will receive 0.25% of Polysight points for Round 1.",
+      rewardPool: "0.25% Points + Xeets",
+      participants: "Top 100",
+      timeLeft: "Nov 25, 2025 - Dec 26, 2025",
+      category: "Prediction Markets",
+      platform: "Polysight",
+      link: "https://t.me/Polysight",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1805175239278557184%2FfG6y3p7W_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1993415652816613535?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Season One lasts one month; rewards include 0.25% of all ecosystem points.",
+        "Reward multipliers based on Polysight trading volume: $1,111+ = 1.25x, $5,555+ = 1.50x, $15,555+ = 2.00x, $33,333+ = 2.50x, $55,555+ = 3.00x"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "Polysight",
+        addedAt: "2025-11-25T12:00:00Z",
+        additionalInfo: "Polysight is the one-stop solution to trade Prediction Markets without leaving Telegram — trade with your groupchat or individually and stay up-to-date on real-time markets.",
+        joinLabel: "Join Polysight"
+      }
+    },
+    {
       id: "xeet-project-zero",
       title: "Project Zero",
       description: "Compete to place in the Top 100 of the tournament to earn your share of the 0.5% $PZERO reward pool plus bonus Xeets! Top 100. 2 month cliff and 4 month linear vesting.",
