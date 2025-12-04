@@ -15,6 +15,7 @@ import { SiteCaptcha } from "@/components/site-captcha";
 import { motion } from "framer-motion";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { MobileFloatingProjectSelector } from "@/components/mobile-floating-project-selector";
+import { isEndedItem } from "@/lib/end-status";
 import { 
   Brain,
   MessageSquare, 
@@ -116,9 +117,9 @@ const Index = () => {
     const { updated: allProjects, changes } = updateItemsNewLabel(allProjectsRaw);
     if (changes.length) logLabelChanges(changes);
 
-    // Filter out ended projects if hideEnded is true
+    // Filter out ended projects if hideEnded is true (consider endsAt in additionalData)
     const filteredProjects = hideEnded 
-      ? allProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
+      ? allProjects.filter(project => !isEndedItem(project))
       : allProjects;
     
     // Sort projects to prioritize NEW projects at the top.
@@ -184,9 +185,9 @@ const Index = () => {
     const { updated: platformProjects, changes } = updateItemsNewLabel(platformProjectsRaw);
     if (changes.length) logLabelChanges(changes);
     
-    // Filter out ended projects if hideEnded is true
+    // Filter out ended projects if hideEnded is true (consider endsAt in additionalData)
     const filteredProjects = hideEnded 
-      ? platformProjects.filter(project => project.status !== 'ended' && project.timeLeft !== 'ENDED')
+      ? platformProjects.filter(project => !isEndedItem(project))
       : platformProjects;
     
     // Sort projects to prioritize NEW projects at the top

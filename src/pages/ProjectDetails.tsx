@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/hooks/use-language";
+import { isEndedItem } from "@/lib/end-status";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { projectsData, translateProject } from "@/data/projects";
 import { 
@@ -112,8 +113,8 @@ const ProjectDetails = () => {
     return value;
   };
 
-  // Check if project is ended
-  const isEnded = project?.status === 'ended' || project?.timeLeft === "ENDED";
+  // Check if project is ended (consider endsAt)
+  const isEnded = project ? isEndedItem(project) : false;
 
   const handleProjectClick = (id: string) => {
     navigate('/');
@@ -620,4 +621,3 @@ const ProjectDetails = () => {
 };
 
 export default ProjectDetails;
-
