@@ -5964,7 +5964,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Casino/Sportsbook",
       platform: "Gamblr",
       link: "https://x.com/Gamblr_io",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1985302309484560384%2Fn3gsnWPl_400x400.jpg&w=32&q=75",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1986416905305862144%2FcMrK8xhk_400x400.jpg&w=32&q=75",
       source: "",
       referralLink: "https://gamblr.io/?modal=SignUp&c=393306_aL44OK9i",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -5999,189 +5999,6 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
-      id: "xeet-valannia",
-      title: "Valannia",
-      description: "3 monthly tournaments — 2.5%, 1.5%, and 1.5% rewards. Unlocks: 40% now, 30% after 1 month, 30% after 2 months. Solana's MMO/RTS where players battle, gather, politic, and trade in an economy that mirrors the real world.",
-      rewardPool: "5.5% $VALAN + Xeets",
-      participants: "1,831",
-      timeLeft: "Oct 26, 2025 - Feb 1, 2026",
-      category: "MMO/RTS",
-      platform: "Valannia",
-      link: "https://x.com/ValanniaGame",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1965119608513241088%2FZKlKna-J_400x400.jpg&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1982910577799537092",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Three monthly tournaments (2.5%, 1.5%, 1.5%)",
-        "Rewards unlock 40% now, 30% after 1 month, 30% after 2 months"
-      ],
-      additionalData: {
-        isNew: "true",
-        xHandle: "ValanniaGame",
-        additionalInfo: "Valannia is a next-gen MMO strategy universe where you command a hero, marshal combat units, and shape a real, on-chain economy that emulates real-world markets. Build, craft, and wage RTS battles in a vast world; conquer territory, engage in politics, own your heroes, units, resources, land, and gear as tradable assets; and risk-manage adventures across Green, Yellow, and high-stakes Red zones.",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
-      id: "xeet-lute",
-      title: "Lute",
-      description: "Lute is a platform designed for active traders who want to trade alongside their networks while earning rewards. Send tokens directly to friends, call high‑conviction trades to your crew (with trades marked on charts for visibility), and share custom token links. Get rewarded for sharing, calling, and sending tokens — unlock higher multipliers from Bronze to Master.",
-      rewardPool: "1M Lute XP + Xeets",
-      participants: "2,555",
-      timeLeft: "Oct 27, 2025 - Nov 28, 2025",
-      category: "Social Trading",
-      platform: "Lute",
-      link: "https://x.com/lute",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1982520824734048256%2Fxn0sTpGa_400x400.jpg&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1983302127155040714",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Create original, high‑quality content and signal trades",
-        "Send tokens and share custom token links",
-        "Call high‑conviction trades to your crew",
-        "Advance tiers to unlock higher multipliers"
-      ],
-      additionalData: {
-        isNew: "true",
-        xHandle: "lute",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
-      id: "xeet-wow",
-      title: "World of Women",
-      description: "Top 50 creators win. 5 WoW Galaxy NFTs randomly to creators. Eyes on their upcoming strategy $WOWSTR — a new chapter in the WoW ecosystem. To celebrate, WoW is rewarding the top 50 creators with 1% of the upcoming token.",
-      rewardPool: "1% $WOWSTR + Xeets",
-      participants: "573",
-      timeLeft: "Oct 28, 2025 - Nov 30, 2025",
-      category: "NFT/Community",
-      platform: "World of Women",
-      link: "https://x.com/worldofwomenxyz",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962854143422337024%2FFiIdP95H_400x400.jpg&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1983540152384262305",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Create original content about WoW and $WOWSTR",
-        "Engage with the community and WoW ecosystem updates",
-        "Top 50 creators eligible for token distribution"
-      ],
-      additionalData: {
-        isNew: "true",
-        xHandle: "worldofwomenxyz",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
-      id: "xeet-desci-news",
-      title: "DeSci News",
-      description: "Top 25 win USDC, 1.5x Xeets for all. Top 500 get Xeets bonus. A $10K Flash Tournament (2 weeks) with 1.5x Xeets for all creators (+bonus). This $3T+ R&D industry is moving on‑chain and will change how research is funded and developed.",
-      rewardPool: "$10K USDC + 1.5x Xeets",
-      participants: "1,367",
-      timeLeft: "Oct 30, 2025 - Nov 13, 2025",
-      category: "DeSci / Media",
-      platform: "DeSci News",
-      link: "https://x.com/DeSciNews",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fmz4jlwakbx2sduwl.public.blob.vercel-storage.com%2Faccounts%2Fc823dc1f-cdd2-4dc7-9d1d-ed117dc09371%2F1761518890670_1000165244.jpg%3Fw%3D128%26q%3D75&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1983912063178072471",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Flash Tournament: 2 weeks",
-        "Post high‑quality content about DeSci",
-        "Engage through replies, quotes, and discussions"
-      ],
-      additionalData: {
-        isNew: "true",
-        miniCampaign: "true",
-        miniCampaignNote: "Flash Tournament",
-        xHandle: "DeSciNews",
-        additionalInfo: "DeSci News is the leading media hub covering the rise of decentralized science — where blockchain, AI, and open innovation meet real‑world research.",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
-      id: "xeet-megaweapon",
-      title: "MEGAWEAPON",
-      description: "Top 100 participants share tiered rewards — top 10 each earn a Beavers NFT plus 50,000 $WEAPON, 25 AMMO, and 100k $BEAVER; ranks 11–50 get 25 AMMO and 100k $BEAVER; ranks 51–100 receive 10 AMMO and 100k $BEAVER each.",
-      rewardPool: "50K $WEAPON + Xeets",
-      participants: "Top 100",
-      timeLeft: "Oct 31, 2025 - TBD",
-      category: "Gaming",
-      platform: "MEGAWEAPON",
-      link: "https://x.com/_megaweapon_",
-      logo: "https://pbs.twimg.com/profile_images/1628829445959057408/PpOIUyx3_400x400.jpg",
-      source: "",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Compete to rank in top 100",
-        "Earn tiered rewards including NFTs and tokens",
-        "Published by CEDEN Network on Abstract"
-      ],
-      additionalData: {
-        isNew: "true",
-        xHandle: "_megaweapon_",
-        additionalInfo: "MEGAWEAPON is live‑action multiplayer mayhem — play for free or join paid tournaments to compete for cash and prizes, published by CEDEN Network on Abstract.",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
-      id: "xeet-cock-io",
-      title: "cock.io",
-      description: "Flash Tournament ends on 11/14. Top 10 share $10,000: Champion $3,500; 2nd $2,000; 3rd $1,250; ranks 4–10 earn between $1,000 and $100. Every run counts — climb the ranks and claim your share.",
-      rewardPool: "$10K USDT + Xeets",
-      participants: "174",
-      timeLeft: "Nov 3, 2025 - Nov 14, 2025",
-      category: "Game",
-      platform: "cock.io",
-      link: "https://x.com/cockdotio",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1951942662258348032%2FoHD63ffQ_400x400.jpg&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1985426672837857461",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Flash Tournament",
-        "Compete and climb the leaderboard",
-        "Rewards distributed by final rank"
-      ],
-      additionalData: {
-        isNew: "true",
-        miniCampaign: "true",
-        miniCampaignNote: "Flash Tournament",
-        xHandle: "cockdotio",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
-      id: "xeet-fight-id",
-      title: "Fight.ID",
-      description: "0.1% per month to the top 100 creators.",
-      rewardPool: "0.1% $FIGHT + Xeets",
-      participants: "857",
-      timeLeft: "Nov 3, 2025 - Nov 30, 2025",
-      category: "Sports/Web3",
-      platform: "Fight.ID",
-      link: "https://x.com/JoinFightID",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1880419092256940032%2FEHbAKRlc_400x400.png&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1985474456656207948",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Create content around Fight.ID",
-        "Engage with community to boost rank",
-        "Top 100 creators share 0.1% monthly"
-      ],
-      additionalData: {
-        isNew: "true",
-        xHandle: "JoinFightID",
-        additionalInfo: "The bridge between combat sports & Web3. Earn Fight Points to unlock access to airdrops, ownership, and more perks | Official Partner of UFC & FIGHT Foundation",
-        cta: "https://www.xeet.ai/refer/rjarivi"
-      }
-    },
-    {
       id: "xeet-claynosaurz",
       title: "Claynosaurz",
       description: "Create content, and complete tasks to earn Xeets + the Clayno token. In celebration of their new studio announcement Heeboo, Clayno is rewarding creators with a % of their upcoming ecosystem token.",
@@ -6209,59 +6026,6 @@ export const projectsData: Record<string, Project[]> = {
         isNew: "true",
         xHandle: "Claynosaurz",
         additionalInfo: "Claynosaurz is a clay‑animated character universe and Solana NFT project featuring seven dinosaur species and 10,222 unique collectibles set in the whimsical world of Claynotopia. The brand blends viral short‑form storytelling with on‑chain collectibles, crafting tools (Clay, Claymaker), and IRL activations to bridge digital and physical fandom. What is HEEBOO? - Heeboo aims to redefine how global entertainment is created, owned and experienced for SUPERFANS. - Market driven franchise model - Monetize early"
-      }
-    },
-    {
-      id: "xeet-iopn",
-      title: "IOPn",
-      description: "Join \"The Internet of People\" with $100,000 per month in $OPN $300,000 in total rewards over the next 3 months paid out at TGE (date TBA). IOPn is building OPN chain which is a scalable L1 that integrates decentralized digital identity, real-world asset tokenization, and sovereign AI infrastructure to empower users with borderless digital ownership.",
-      rewardPool: "$300K $OPN + Xeets Top 100 receive $100K OPN per monthly tournament",
-      participants: "TBD",
-      timeLeft: "23 Oct'25 to 23 Jan'26",
-      category: "Infrastructure",
-      platform: "Xeet",
-      link: "https://badge.iopn.io/?ref=WLUNWO8G",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1929775799478956032%2FeNc_Kixr_400x400.jpg&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1980997976844574839",
-      referralLink: "https://badge.iopn.io/?ref=WLUNWO8G",
-      referralCode: "WLUNWO8G",
-      additionalData: {
-        isNew: "true",
-        additionalInfo: "IOPn is a decentralised infrastructure pioneering the OPN Chain, a sovereign ready L1 designed for identity verified participants. IOPn provides solutions in real world asset tokenisation, sovereign AI, and decentralised ownership.\n\nClaim Your Badge: https://badge.iopn.io/?ref=WLUNWO8G\nDocs: https://iopn.gitbook.io/iopn/origin-nft-gamified-proof-of-participation#what-is-rep",
-        campaignDuration: "3 months",
-        totalRewards: "$300,000 in $OPN tokens",
-        monthlyTournament: "$100K OPN for top 100 Xeets participants",
-        earlyAdopterBadge: "https://badge.iopn.io/?ref=WLUNWO8G",
-        xAccount: "https://x.com/IOPn_io",
-        xHandle: "IOPn_io"
-      }
-    },
-    {
-      id: "xeet-kona",
-      title: "KonaDeFi",
-      description: "KonaDeFi is a consumer-focused DeFi ecosystem on Abstract offering products for trading, lending, and experimental DeFi. Features KONA token and Kona Points reward system.",
-      rewardPool: "1.5M Kona Points",
-      participants: "360",
-      timeLeft: "Started 10/6/2025",
-      category: "DeFi",
-      platform: "KonaDeFi",
-      link: "https://www.xeet.ai/signals/kona?tab=tournament",
-      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1962662588598362112%2FGS93TWpm_400x400.png&w=32&q=75",
-      source: "https://x.com/xeetdotai/status/1975216472206061592",
-      referralLink: "https://www.xeet.ai/refer/rjarivi",
-      claimPeriod: "100 participants rewarded",
-      vestingSchedule: "TBD",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Complete quests to earn extra rewards",
-        "Connect Abstract Wallet to claim quest rewards",
-        "Follow Froth on X for additional points",
-        "Scoring resolves end of day and changes dynamically",
-        "Tournament started 10/6/2025",
-        "1.5M Kona Points reward pool for top 100 participants"
-      ],
-      additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -6357,28 +6121,6 @@ export const projectsData: Record<string, Project[]> = {
         "Participate in social trading competitions"
       ]
     },
-    {
-      id: "xeet-vdex",
-      title: "VDEX",
-      description: "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX.",
-      rewardPool: "0.5% $VDEX over 3 months",
-      participants: "303",
-      timeLeft: "Oct 1, 2025 - Jan 1, 2026",
-      category: "DEX",
-      platform: "VDEX",
-      link: "https://www.xeet.ai/signals/vdex",
-      logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
-      source: "https://www.xeet.ai/signals/vdex",
-      referralLink: "https://app.vdex.trade/?referral=TornadoTitanium1825",
-      claimPeriod: "33% per month for top 150",
-      vestingSchedule: "3 months",
-      distributionPlatform: "Xeet",
-      campaignRules: [
-        "Complete quests to earn extra rewards",
-        "Trade on VDEX omnichain DEX",
-        "Participate in perps & prediction markets",
-        "Support across ETH, SOL, BSC, ARB, and AVAX"
-      ]
-    }
+    
   ]
 };

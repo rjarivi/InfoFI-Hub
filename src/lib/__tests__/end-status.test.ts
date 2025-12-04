@@ -27,5 +27,22 @@ describe('isEndedItem', () => {
   it('handles invalid endsAt value gracefully', () => {
     expect(isEndedItem({ additionalData: { endsAt: 'not-a-date' } }, now)).toBe(false);
   });
-});
 
+  it('returns true when timeLeft range has end date in past', () => {
+    expect(
+      isEndedItem({ timeLeft: 'Oct 28, 2025 - Nov 30, 2025' }, now)
+    ).toBe(true);
+  });
+
+  it('returns false when timeLeft range ends in future', () => {
+    expect(
+      isEndedItem({ timeLeft: 'Nov 15, 2025 - Jan 15, 2026' }, now)
+    ).toBe(false);
+  });
+
+  it('returns false when timeLeft range has TBD end', () => {
+    expect(
+      isEndedItem({ timeLeft: 'Oct 31, 2025 - TBD' }, now)
+    ).toBe(false);
+  });
+});
