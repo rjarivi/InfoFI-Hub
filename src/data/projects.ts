@@ -6005,6 +6005,42 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-cipher",
+      title: "Cipher",
+      description: "Top 100 — 50% unlocked at TGE, remaining 50% vests over 3 months.",
+      rewardPool: "1% $CIPHER + Xeets",
+      participants: "Top 100",
+      timeLeft: "12/9/2025 - 2/6/2026",
+      category: "Trading Platform",
+      platform: "Cipher",
+      link: "https://x.com/tradeonCipher",
+      logo: "https://www.xeet.ai/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1938110555434450944%2FpJbTjDLB_400x400.jpg&w=32&q=75",
+      source: "https://x.com/xeetdotai/status/1998438725424906664?s=20",
+      referralLink: "https://cipher.gg/@RJ",
+      referralCode: "RJ",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      vestingSchedule: "50% unlocked at TGE; remaining 50% vests over 3 months",
+      campaignRules: [
+        "Trade on Cipher, share your setups or results, and earn rewards.",
+        "Show edge with on-chart orders, multi-chart layouts, and $CIPHER point gains.",
+        "Post on X about instant execution, rewards, or multi-chart setups.",
+        "Share a screen recording of your Cipher workflow (limit/stop orders, multi-chart terminal).",
+        "Show rewards progress — cashback, points, or rank — when posting.",
+        "Tag @tradeonCipher and use relevant ecosystem keywords.",
+        "Join Cipher’s Discord and share insights or setups to earn additional engagement.",
+        "Resources: https://cipher.gg"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "tradeonCipher",
+        addedAt: "2025-12-09T00:00:00Z",
+        additionalInfo: "Tips for Success",
+        cta: "https://cipher.gg/@RJ",
+        joinLabel: "Join Cipher"
+      }
+    },
+    {
       id: "xeet-xyber",
       title: "Xyber",
       description: "100% unlock, no vesting. One-time payout directly to wallets.",
