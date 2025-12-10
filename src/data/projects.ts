@@ -3789,6 +3789,140 @@ export function translateProject(project: Project, language: Language): Project 
 export const projectsData: Record<string, Project[]> = {
   kaito: [
     {
+      id: "kaito-talus",
+      title: "Talus",
+      description: "Rewards will be distributed to the top 150 Creators who contribute during this flash campaign period.",
+      rewardPool: "0.02% of Token Supply",
+      participants: "Top 150 Creators",
+      timeLeft: "Dec 02, 2025 - Dec 18, 2025",
+      category: "Yap",
+      platform: "Talus",
+      link: "https://x.com/Talus_Labs",
+      logo: "https://unavatar.io/x/Talus_Labs",
+      source: "https://x.com/Talus_Labs",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "Top 150 creators on the Talus leaderboard are eligible to earn rewards.",
+        "Create creative, high-quality content about Talus during the campaign window.",
+        "Submissions must align with the Talus narrative and meet Kaito's content guidelines.",
+        "Final rankings are based on approved posts and engagement quality."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-10T00:00:00Z",
+        xHandle: "Talus_Labs"
+      }
+    },
+    {
+      id: "kaito-kindred",
+      title: "Kindred",
+      description: "1% of $KIN supply + 273 SATO INFT whitelist spots rewarded to the Top 1,000 Creators.",
+      rewardPool: "1% of KIN Supply",
+      participants: "Top 1,000 Creators",
+      timeLeft: "Sep 16, 2025 - TBD",
+      category: "AI Platform",
+      platform: "Kindred",
+      link: "https://x.com/Kindred_AI",
+      logo: "https://unavatar.io/x/Kindred_AI",
+      source: "https://x.com/Kindred_AI",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "50% unlock at TGE, 50% unlock 3 months later",
+      distributionPlatform: "Kindred",
+      campaignRules: [
+        "Top 1,000 on the Kaito leaderboard receive 1% of total $KIN supply (1M tokens).",
+        "273 SATO INFT whitelist spots rewarded to Top 250.",
+        "Whitelist breakdown: Top 3 (3x WL each), Ranks 4–20 (2x WL each), Ranks 21–250 (1x WL each)."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-10T00:00:00Z",
+        xHandle: "Kindred_AI"
+      }
+    },
+    {
+      id: "kaito-billions",
+      title: "Billions",
+      description: "0.03% of BILL Supply for global creators and regional creators in China, Korea, Turkey and LATAM.",
+      rewardPool: "0.03% of BILL Supply",
+      participants: "Top 1000 creators & Top 50 regional creators",
+      timeLeft: "Aug 04, 2025 - Jan 30, 2026",
+      category: "Yap",
+      platform: "Billions",
+      link: "https://x.com/billions_ntwk",
+      logo: "https://unavatar.io/x/billions_ntwk",
+      source: "https://x.com/billions_ntwk",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Kaito",
+      campaignRules: [
+        "3,000,000 BILL will be distributed to the top 500 global creators and top 50 regional creators.",
+        "Regional pools and allocations reserved for content in Chinese, Korean, Turkish & Spanish.",
+        "Bonus: 100 Billions Supermasks NFT will be randomly distributed to ranks 501–1000."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-10T00:00:00Z",
+        xHandle: "billions_ntwk"
+      }
+    },
+    {
+      id: "kaito-apex-protocol",
+      title: "ApeX Protocol",
+      description: "$100K USDT across two phases: $20K for Top 100 (Phase 1) and $80K for Top 150 (Phase 2).",
+      rewardPool: "$100K USDT",
+      participants: "Top 100 (Phase 1) | Top 150 (Phase 2)",
+      timeLeft: "Oct 27, 2025 - Dec 25, 2025",
+      category: "Trading Platform",
+      platform: "ApeX",
+      link: "https://x.com/OfficialApeXdex",
+      logo: "https://unavatar.io/x/OfficialApeXdex",
+      source: "https://x.com/OfficialApeXdex",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "ApeX",
+      campaignRules: [
+        "Rewards are ranked according to Kaito's leaderboard and distributed at snapshot times.",
+        "Phase 1: $20K for Top 100 creators (Oct 27 – Nov 10).",
+        "Phase 2: $80K for Top 150 creators (Nov 11 – Dec 25).",
+        "Rewards can be claimed immediately; no KYC or staking required for claim.",
+        "ApeX may verify authenticity and adjust results if necessary."
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-10T00:00:00Z",
+        xHandle: "OfficialApeXdex"
+      }
+    },
+    {
+      id: "kaito-ferra",
+      title: "Ferra",
+      description: "0.25% of token supply allocated to top creators and Kaito Eco. Includes allocations for global and CN/KR/JP creators.",
+      rewardPool: "0.25% of Token Supply",
+      participants: "Top 400 creators, 300 CN/KR/JP creators, Kaito Eco",
+      timeLeft: "Dec 10, 2025 - TBD",
+      category: "Yap",
+      platform: "Ferra",
+      link: "https://x.com/ferra_protocol",
+      logo: "https://pbs.twimg.com/profile_images/1934869682672238592/sOhvQFrH_400x400.jpg",
+      source: "https://x.com/KaitoAI/status/1998725772823994695?s=20",
+      claimPeriod: "Upcoming",
+      vestingSchedule: "No vesting",
+      distributionPlatform: "Ferra",
+      campaignRules: [
+        "0.20% for Kaito Yappers",
+        "0.05% for Kaito Eco",
+        "Global leaderboard includes Top 400 creators",
+        "Regional allocation includes Top 300 CN/KR/JP creators"
+      ],
+      additionalData: {
+        isNew: "true",
+        addedAt: "2025-12-10T00:00:00Z",
+        xHandle: "ferra_protocol"
+      }
+    },
+    {
       id: "kaito-inference-labs",
       title: "Inference Labs",
       description: "With 0.5% of their upcoming token supply in rewards. No vesting",
@@ -4427,7 +4561,8 @@ export const projectsData: Record<string, Project[]> = {
         "KR+CN+JP specific Creators (30%)",
         "Kaito Eco (20%)"
       ]
-    }
+    },
+    
   ],
   bantr: [
     {
