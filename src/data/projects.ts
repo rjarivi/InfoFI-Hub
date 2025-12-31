@@ -1813,151 +1813,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "MultiBank.ioは高度な金融サービスを提供する包括的なトレーディングプラットフォームです。$150K USDTがリーダーボードランキングに基づいて上位200名のクリエイターに配布され、コンテンツの品質、エンゲージメント、一貫性が考慮されます。",
       category: "トレーディングプラットフォーム"
     },
-    "kaito-warden-protocol": {
-      title: "Warden Protocol",
-      description: "2.5% WARD over 3 seasons to Warden Protocol Creators, Warden App users and broader Kaito Eco",
-      category: "Infrastructure",
-      campaignRules: [
-        "2.5% of WARD supply",
-        "3-season campaign",
-        "Seasonal distributions"
-      ]
-    },
-    "kaito-talus-network": {
-      title: "Talus Network",
-      description: "0.3% of token supply for Talus Creators, regional Creators and Kaito Eco; 20% unlocked at TGE, remaining vested over 9M at TGE+3M",
-      category: "Infrastructure",
-      campaignRules: [
-        "0.3% of token supply",
-        "20% unlocked at TGE",
-        "Remaining vested over 9M at TGE+3M"
-      ]
-    },
-    "bantr-morph": {
-      title: "Morph",
-      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools. Rewards: $500,000 in BGB Tokens",
-      category: "DeFi"
-    },
-    "bantr-cointel": {
-      title: "Cointel",
-      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS. Campaign: $50,000 in $COLS rewards",
-      category: "Analysis"
-    },
-    "bantr-bantr": {
-      title: "Bantr",
-      description: "Bantr is a social trading platform that connects traders and provides community-driven insights",
-      category: "Social Trading"
-    },
-    "wallchain-genome": {
-      title: "Genome Protocol",
-      description: "2% of $NOME Supply for Top Quackers! Genome Protocol is Web3's user engagement engine - a modular, intelligent middleware layer",
-      category: "Infrastructure"
-    },
-    "wallchain-covalent": {
-      title: "Covalent",
-      description: "Covalent provides unified APIs to access blockchain data across multiple networks",
-      category: "Data"
-    },
-    "wallchain-heyelsa": {
-      title: "HeyElsa",
-      description: "HeyElsa is an AI-powered assistant for Web3 and cryptocurrency interactions",
-      category: "AI"
-    },
-    "wallchain-idos": {
-      title: "idOS",
-      description: "idOS provides decentralized identity solutions for Web3 applications",
-      category: "Identity"
-    },
-    "wallchain-apecoin": {
-      title: "ApeCoin R.A.I.D",
-      description: "ApeCoin R.A.I.D is a community-driven initiative for the ApeCoin ecosystem",
-      category: "Community"
-    },
-    "rey-tea3": {
-      title: "Tea3",
-      description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our platforms",
-      category: "Affiliate System"
-    },
-    "aira-xo-market": {
-      title: "XO Market",
-      description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies",
-      category: "Trading"
-    },
-    "aira-hq": {
-      title: "HQ",
-      description: "HQ is a comprehensive platform for content management and analytics in the Web3 space",
-      category: "Management"
-    },
-    "mindoai-cryptorubic": {
-      title: "CryptoRubic",
-      description: "CryptoRubic provides advanced and intelligent analysis of the cryptocurrency market",
-      category: "Analysis"
-    },
-    "mindoai-mindoai": {
-      title: "MindoAI",
-      description: "MindoAI is an advanced AI platform for market analysis and predictions in cryptocurrency",
-      category: "AI"
-    },
-    "galxe-platform": {
-      title: "Galxe Platform",
-      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
-      category: "Communication"
-    },
-    "pulse-boost": {
-      title: "Boost",
-      description: "Boost provides acceleration and development solutions for projects in the Web3 space",
-      category: "Development"
-    },
-    "pulse-aegis": {
-      title: "Aegis",
-      description: "Aegis provides advanced security and protection solutions for projects in the Web3 space",
-      category: "Security"
-    },
-    "pulse-belong": {
-      title: "Belong",
-      description: "Belong is a community platform that connects users and projects in the Web3 space",
-      category: "Community"
-    },
-    "pulse-campnetwork": {
-      title: "Camp Network",
-      description: "Camp Network provides a comprehensive network for projects and creators in the Web3 space",
-      category: "Network"
-    },
-    "pulse-sixr": {
-      title: "SixR",
-      description: "SixR provides advanced solutions for interaction and engagement in the Web3 space",
-      category: "Interaction"
-    },
-    "pulse-imua": {
-      title: "Imua",
-      description: "Imua provides advanced tools for development and growth in the Web3 space",
-      category: "Development"
-    },
-    "pulse-play-ai": {
-      title: "Play AI",
-      description: "Play AI provides an advanced AI platform for gaming and entertainment in the Web3 space",
-      category: "Gaming"
-    },
-    "xeet-solstice": {
-      title: "Solstice",
-      description: "Solstice provides advanced trading signals and market analysis for cryptocurrencies",
-      category: "Trading"
-    },
-    "xeet-myriad-market": {
-      title: "Myriad Market",
-      description: "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology. Trade your opinion. Rewards: 1 Billion $MYR Points",
-      category: "Market Analysis"
-    },
-    "xeet-abstract": {
-      title: "Abstract",
-      description: "Abstract is an Ethereum Layer-2 built with the ZK Stack, offering fast, low-fee transactions with full EVM compatibility. It features the Abstract Global Wallet for seamless onboarding and a developer portal to deploy and scale Web3 apps. Rewards: Xeets",
-      category: "Trading Strategy"
-    },
-    "xeet-xeet": {
-      title: "Xeet",
-      description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out. Rewards: Xeets",
-      category: "Platform"
-    },
+
     "xeet-vdex": {
       title: "Vdex",
       description: "Vdexは暗号通貨トレーダー向けの高度なトレーディングシグナルと市場分析を提供",
@@ -2415,41 +2271,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
       category: "커뮤니케이션"
     },
-    "pulse-boost": {
-      title: "Boost",
-      description: "Boost는 Web3 공간에서 프로젝트를 위한 가속 및 개발 솔루션을 제공합니다",
-      category: "개발"
-    },
-    "pulse-aegis": {
-      title: "Aegis",
-      description: "Aegis는 Web3 공간에서 프로젝트를 위한 고급 보안 및 보호 솔루션을 제공합니다",
-      category: "보안"
-    },
-    "pulse-belong": {
-      title: "Belong",
-      description: "Belong는 Web3 공간에서 사용자와 프로젝트를 연결하는 커뮤니티 플랫폼입니다",
-      category: "커뮤니티"
-    },
-    "pulse-campnetwork": {
-      title: "Camp Network",
-      description: "Camp Network는 Web3 공간에서 프로젝트와 크리에이터를 위한 포괄적인 네트워크를 제공합니다",
-      category: "네트워크"
-    },
-    "pulse-sixr": {
-      title: "SixR",
-      description: "SixR는 Web3 공간에서 상호작용 및 참여를 위한 고급 솔루션을 제공합니다",
-      category: "상호작용"
-    },
-    "pulse-imua": {
-      title: "Imua",
-      description: "Imua는 Web3 공간에서 개발 및 성장을 위한 고급 도구를 제공합니다",
-      category: "개발"
-    },
-    "pulse-play-ai": {
-      title: "Play AI",
-      description: "Play AI는 Web3 공간에서 게임 및 엔터테인먼트를 위한 고급 AI 플랫폼을 제공합니다",
-      category: "게이밍"
-    },
     "pulse-grvt": {
       title: "GRVT",
       description: "거래, 투자, 수익. 단순히 흐르는 금융. 몇 분 안에 시작하고, 몇 년 동안 결과를 보세요.",
@@ -2837,159 +2658,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "750K HPP (0.75%) - Reserved for the Kaito Eco (incl. stakers), unlocked via referral milestones"
       ]
     },
-    "kaito-polygon": {
-      title: "Polygon",
-      description: "$30K USDC/Month to their top 50 30D Creators",
-      category: "Infrastructure",
-      campaignRules: [
-        "To Be Confirmed"
-      ]
-    },
-    "kaito-warden-protocol": {
-      title: "Warden Protocol",
-      description: "2.5% WARD over 3 seasons to Warden Protocol Creators, Warden App users and broader Kaito Eco",
-      category: "Infrastructure",
-      campaignRules: [
-        "2.5% of WARD supply",
-        "3-season campaign",
-        "Seasonal distributions"
-      ]
-    },
-    "kaito-talus-network": {
-      title: "Talus Network",
-      description: "0.3% of token supply for Talus Creators, regional Creators and Kaito Eco; 20% unlocked at TGE, remaining vested over 9M at TGE+3M",
-      category: "Infrastructure",
-      campaignRules: [
-        "0.3% of token supply",
-        "20% unlocked at TGE",
-        "Remaining vested over 9M at TGE+3M"
-      ]
-    },
-    "bantr-morph": {
-      title: "Morph",
-      description: "Morph is a hybrid Layer 2 blockchain on Ethereum, redefining onchain consumer finance with ultralow fees, instant settlement, and modular tools. Rewards: $500,000 in BGB Tokens",
-      category: "DeFi"
-    },
-    "bantr-cointel": {
-      title: "Cointel",
-      description: "AI-native crypto intelligence. Real-time analytics & gamified education to make Web3 simple, safe & actionable. Powered by $COLS. Campaign: $50,000 in $COLS rewards",
-      category: "Analysis"
-    },
-    "bantr-bantr": {
-      title: "Bantr",
-      description: "Bantr is a social trading platform that connects traders and provides community-driven insights",
-      category: "Social Trading"
-    },
-    "wallchain-genome": {
-      title: "Genome Protocol",
-      description: "2% of $NOME Supply for Top Quackers! Genome Protocol is Web3's user engagement engine - a modular, intelligent middleware layer",
-      category: "Infrastructure"
-    },
-    "wallchain-covalent": {
-      title: "Covalent",
-      description: "Covalent provides unified APIs to access blockchain data across multiple networks",
-      category: "Data"
-    },
-    "wallchain-heyelsa": {
-      title: "HeyElsa",
-      description: "HeyElsa is an AI-powered assistant for Web3 and cryptocurrency interactions",
-      category: "AI"
-    },
-    "wallchain-idos": {
-      title: "idOS",
-      description: "idOS provides decentralized identity solutions for Web3 applications",
-      category: "Identity"
-    },
-    "wallchain-apecoin": {
-      title: "ApeCoin R.A.I.D",
-      description: "ApeCoin R.A.I.D is a community-driven initiative for the ApeCoin ecosystem",
-      category: "Community"
-    },
-    "rey-tea3": {
-      title: "Tea3",
-      description: "Tea3 is the web's most advanced open affiliate and referral system. It allows you to grow your onchain legacy and maximize your winnings across our platforms",
-      category: "Affiliate System"
-    },
-    "aira-xo-market": {
-      title: "XO Market",
-      description: "XO Market is a decentralized trading platform for digital assets and cryptocurrencies",
-      category: "Trading"
-    },
-    "aira-hq": {
-      title: "HQ",
-      description: "HQ is a comprehensive platform for content management and analytics in the Web3 space",
-      category: "Management"
-    },
-    "mindoai-cryptorubic": {
-      title: "CryptoRubic",
-      description: "CryptoRubic provides advanced and intelligent analysis of the cryptocurrency market",
-      category: "Analysis"
-    },
-    "mindoai-mindoai": {
-      title: "MindoAI",
-      description: "MindoAI is an advanced AI platform for market analysis and predictions in cryptocurrency",
-      category: "AI"
-    },
-    "galxe-platform": {
-      title: "Galxe Platform",
-      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
-      category: "Communication"
-    },
-    "pulse-boost": {
-      title: "Boost",
-      description: "Boost provides acceleration and development solutions for projects in the Web3 space",
-      category: "Development"
-    },
-    "pulse-aegis": {
-      title: "Aegis",
-      description: "Aegis provides advanced security and protection solutions for projects in the Web3 space",
-      category: "Security"
-    },
-    "pulse-belong": {
-      title: "Belong",
-      description: "Belong is a community platform that connects users and projects in the Web3 space",
-      category: "Community"
-    },
-    "pulse-campnetwork": {
-      title: "Camp Network",
-      description: "Camp Network provides a comprehensive network for projects and creators in the Web3 space",
-      category: "Network"
-    },
-    "pulse-sixr": {
-      title: "SixR",
-      description: "SixR provides advanced solutions for interaction and engagement in the Web3 space",
-      category: "Interaction"
-    },
-    "pulse-imua": {
-      title: "Imua",
-      description: "Imua provides advanced tools for development and growth in the Web3 space",
-      category: "Development"
-    },
-    "pulse-play-ai": {
-      title: "Play AI",
-      description: "Play AI provides an advanced AI platform for gaming and entertainment in the Web3 space",
-      category: "Gaming"
-    },
-    "xeet-solstice": {
-      title: "Solstice",
-      description: "Solstice provides advanced trading signals and market analysis for cryptocurrencies",
-      category: "Trading"
-    },
-    "xeet-myriad-market": {
-      title: "Myriad Market",
-      description: "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology. Trade your opinion. Rewards: 1 Billion $MYR Points",
-      category: "Market Analysis"
-    },
-    "xeet-abstract": {
-      title: "Abstract",
-      description: "Abstract is an Ethereum Layer-2 built with the ZK Stack, offering fast, low-fee transactions with full EVM compatibility. It features the Abstract Global Wallet for seamless onboarding and a developer portal to deploy and scale Web3 apps. Rewards: Xeets",
-      category: "Trading Strategy"
-    },
-    "xeet-xeet": {
-      title: "Xeet",
-      description: "Influence should be measured by the impact you make, not just the noise you make. How do you compare vs your peers? Join Xeet Leagues and find out. Rewards: Xeets",
-      category: "Platform"
-    },
     "xeet-vdex": {
       title: "Vdex",
       description: "Vdex为加密货币交易者提供先进的交易信号和市场分析",
@@ -3080,41 +2748,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Galxe是Web3凭证数据网络。使用Galxe的凭证基础设施构建更好的产品和社区。",
       category: "社交平台"
     },
-    "pulse-boost": {
-      title: "Pulse Boost",
-      description: "Pulse Boost是一个社区驱动的平台，用于加速Web3项目的增长和采用。",
-      category: "增长平台"
-    },
-    "pulse-aegis": {
-      title: "Pulse Aegis",
-      description: "Pulse Aegis为Web3项目和DeFi协议提供全面的安全解决方案。",
-      category: "安全"
-    },
-    "pulse-belong": {
-      title: "Pulse Belong",
-      description: "Pulse Belong是一个连接Web3爱好者和项目的社区建设平台。",
-      category: "社区"
-    },
-    "pulse-campnetwork": {
-      title: "Pulse Camp Network",
-      description: "Pulse Camp Network是Web3专业人士和企业家的去中心化网络平台。",
-      category: "网络"
-    },
-    "pulse-sixr": {
-      title: "Pulse SixR",
-      description: "Pulse SixR是Web3项目孵化和加速的创新平台。",
-      category: "孵化"
-    },
-    "pulse-imua": {
-      title: "Pulse Imua",
-      description: "Pulse Imua为Web3项目性能跟踪提供高级分析和洞察。",
-      category: "分析"
-    },
-    "pulse-play-ai": {
-      title: "Pulse Play AI",
-      description: "Pulse Play AI是用于Web3项目自动化管理和优化的AI驱动平台。",
-      category: "AI管理"
-    },
+
     "xeet-solstice": {
       title: "Solstice",
       description: "Solstice专注于通过不依赖炒作或投机的策略提供稳定、真实的收益。我们的方法结合了经过验证的Delta中性交易、强大的基础设施和机构级风险管理，为长期正收益奠定基础。奖励：$SLX代币供应量的1%",
@@ -3412,71 +3046,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "ApeCoin R.A.I.D هو مبادرة مدفوعة من المجتمع لنظام ApeCoin البيئي",
       category: "المجتمع"
     },
-    "rey-tea3": {
-      title: "Tea3 - نظام الإحالة المتقدم على السلسلة",
-      description: "Tea3 هو أكثر أنظمة الإحالة والإحالة المتقدمة والمفتوحة على الويب. يسمح لك بتطوير إرثك على السلسلة وتعظيم أرباحك عبر منصاتنا",
-      category: "نظام الإحالة"
-    },
-    "aira-xo-market": {
-      title: "سوق XO",
-      description: "سوق XO هو منصة تداول لامركزية للأصول الرقمية والعملات المشفرة",
-      category: "التداول"
-    },
-    "aira-hq": {
-      title: "HQ",
-      description: "HQ هو منصة شاملة لإدارة المحتوى والتحليلات في مساحة Web3",
-      category: "الإدارة"
-    },
-    "mindoai-cryptorubic": {
-      title: "CryptoRubic",
-      description: "CryptoRubic يوفر تحليلات متقدمة وذكية لسوق العملات المشفرة",
-      category: "التحليل"
-    },
-    "mindoai-mindoai": {
-      title: "MindoAI",
-      description: "MindoAI هو منصة ذكاء اصطناعي متقدمة لتحليل السوق والتنبؤات في العملات المشفرة",
-      category: "الذكاء الاصطناعي"
-    },
-    "galxe-platform": {
-      title: "منصة Galxe",
-      description: "Galxe هي شبكة بيانات اعتماد Web3. أنشئ منتجات ومجتمعات أفضل مع البنية التحتية لاعتماد Galxe",
-      category: "التواصل"
-    },
-    "pulse-boost": {
-      title: "Boost",
-      description: "Boost يوفر حلول تسريع وتطوير للمشاريع في مساحة Web3",
-      category: "التطوير"
-    },
-    "pulse-aegis": {
-      title: "Aegis",
-      description: "Aegis يوفر حلول أمان وحماية متقدمة للمشاريع في مساحة Web3",
-      category: "الأمان"
-    },
-    "pulse-belong": {
-      title: "Belong",
-      description: "Belong هو منصة مجتمعية تربط المستخدمين والمشاريع في مساحة Web3",
-      category: "المجتمع"
-    },
-    "pulse-campnetwork": {
-      title: "Camp Network",
-      description: "Camp Network يوفر شبكة شاملة للمشاريع والمبدعين في مساحة Web3",
-      category: "الشبكة"
-    },
-    "pulse-sixr": {
-      title: "SixR",
-      description: "SixR يوفر حلول متقدمة للتفاعل والمشاركة في مساحة Web3",
-      category: "التفاعل"
-    },
-    "pulse-imua": {
-      title: "Imua",
-      description: "Imua يوفر أدوات متقدمة للتطوير والنمو في مساحة Web3",
-      category: "التطوير"
-    },
-    "pulse-play-ai": {
-      title: "Play AI",
-      description: "Play AI يوفر منصة ذكاء اصطناعي متقدمة للألعاب والترفيه في مساحة Web3",
-      category: "الألعاب"
-    },
+
     "xeet-solstice": {
       title: "Solstice",
       description: "Solstice يوفر إشارات تداول متقدمة وتحليل السوق للعملات المشفرة",
@@ -3633,25 +3203,18 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       rewardPool: "$20k USD + $20k $BOOST",
       participants: "40 winners",
       timeLeft: "45 days (Ends December 8th)",
-      campaignRules: "1. Go to https://alphabot.app/pulse/stake\n2. On the right side, see the Action Layer and connect a new Stake account\n3. Complete actions → earn points → gain mindshare → climb the leaderboard\n4. Bonus: invite friends to boost your points & qualify",
-      additionalData: "Play the best online casino games, slots & live casino games, or bet on sports at Stake.com • Unlock VIP bonuses, bet with crypto and win big prizes.",
+      campaignRules: [
+        "1. Go to https://alphabot.app/pulse/stake",
+        "2. On the right side, see the Action Layer and connect a new Stake account",
+        "3. Complete actions → earn points → gain mindshare → climb the leaderboard",
+        "4. Bonus: invite friends to boost your points & qualify"
+      ],
+      additionalData: {
+        description: "Play the best online casino games, slots & live casino games, or bet on sports at Stake.com • Unlock VIP bonuses, bet with crypto and win big prizes."
+      },
       referralLink: "default"
     },
-    "xeet-solstice": {
-      title: "Solstice",
-      description: "Solstice يركز على تقديم عوائد مستقرة وحقيقية من خلال استراتيجيات لا تعتمد على الضجة أو المضاربة. نهجنا يجمع بين التداول المحايد دلتا المثبت، والبنية التحتية القوية، وإدارة المخاطر على مستوى المؤسسات لبناء أساس للعوائد الإيجابية طويلة المدى. المكافآت: 1% من عرض رموز $SLX",
-      category: "منصة العوائد"
-    },
-    "xeet-myriad-market": {
-      title: "Myriad Markets",
-      description: "Xeet Myriad Market يوفر فرص تداول متنوعة عبر أسواق متعددة للعملات المشفرة.",
-      category: "تداول متعدد الأسواق"
-    },
-    "xeet-abstract": {
-      title: "Abstract",
-      description: "Xeet Abstract يقدم استراتيجيات تداول مجردة ورؤى متقدمة للسوق لمتداولي العملات المشفرة.",
-      category: "استراتيجيات التداول"
-    },
+
     "xeet-iopn": {
       title: "IOPn",
       description: "انضم إلى \"إنترنت الأشخاص\" مع $100,000 شهرياً في $OPN $300,000 في إجمالي المكافآت على مدى الأشهر الثلاثة القادمة تُدفع في TGE (التاريخ سيُعلن لاحقاً). IOPn تبني سلسلة OPN وهي L1 قابلة للتوسع تدمج الهوية الرقمية اللامركزية، وتوكنيز الأصول الواقعية، والبنية التحتية للذكاء الاصطناعي السيادي لتمكين المستخدمين من الملكية الرقمية بدون حدود.",
@@ -5206,9 +4769,6 @@ export const projectsData: Record<string, Project[]> = {
       }
     },
     {
-      
-    },
-    {
       id: "wallchain-klout",
       title: "KLOUT",
       description: "KLOUT is a social influence platform rewarding top Quackers with 1% of KLOUT supply across two epochs. Epoch I runs for 40 days 10 hours with 0.5% supply for top 300 Quackers, followed by Epoch II with another 0.5% supply for top 300 Quackers.",
@@ -5269,9 +4829,6 @@ export const projectsData: Record<string, Project[]> = {
       logo: "https://app.wallchain.xyz/external-bucket/static/companies/limitless/limitless_logo_small_white.svg",
       source: "https://app.wallchain.xyz/limitless",
       referralLink: "https://limitless.exchange/?r=VGYFXR4N34"
-    },
-    {
-      
     },
     {
       id: "wallchain-heyelsa",
@@ -6143,7 +5700,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Trading Platform",
       platform: "Cipher",
       link: "https://x.com/tradeonCipher",
-      logo: "https://pbs.twimg.com/profile_images/1938110555434450944/pJbTjDLB_400x400.jpg",
+      logo: "https://unavatar.io/twitter/tradeonCipher",
       source: "https://x.com/xeetdotai/status/1998438725424906664?s=20",
       referralLink: "https://cipher.gg/@RJ",
       referralCode: "RJ",
@@ -6179,7 +5736,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "AI & Protocols",
       platform: "Xyber",
       link: "https://x.com/Xyberinc",
-      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/6e3f1701-f77d-4f4f-88c5-32864a4b8ec4/1764332043110_aRSveyTn_400x400.png",
+      logo: "https://unavatar.io/twitter/Xyberinc",
       source: "https://x.com/xeetdotai/status/1996631751742181641?s=20",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6206,7 +5763,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Layer-2",
       platform: "LitVM",
       link: "https://x.com/LitecoinVM",
-      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/5f173ae8-a6b1-4520-999c-eefaf7eaea98/1762528103056_HCccENRu_400x400.png",
+      logo: "https://unavatar.io/twitter/LitecoinVM",
       source: "https://x.com/xeetdotai/status/1995934571775304126?s=20",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6232,7 +5789,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "NFT/Community",
       platform: "Good Vibes Club",
       link: "https://x.com/goodvibesclub",
-      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/830dd1bb-bc09-41c5-9bb0-b08047e93289/1764092442846_123OV4DDsvw_400x400.jpg",
+      logo: "https://unavatar.io/twitter/goodvibesclub",
       source: "https://x.com/xeetdotai/status/1995576570191499362?s=20",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6258,7 +5815,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Prediction Markets",
       platform: "Polysight",
       link: "https://t.me/Polysight",
-      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/0bc9de0a-1e70-48da-9430-593c44dcc7af/1764077673302_vXLAspZr_400x400.jpg",
+      logo: "https://unavatar.io/twitter/Polysight",
       source: "https://x.com/xeetdotai/status/1993415652816613535?s=20",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6285,7 +5842,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Tournament",
       platform: "Project Zero",
       link: "https://x.com/ProjectZeroIO",
-      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/233eb9d2-2a2a-414e-8b2f-d219c8578382/1762546582720_projectzero.jpg",
+      logo: "https://unavatar.io/twitter/ProjectZeroIO",
       source: "https://x.com/xeetdotai/status/1991176014538395931?s=20",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6311,7 +5868,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Creator Economy",
       platform: "Thrust",
       link: "https://x.com/thrustdotcom",
-      logo: "https://pbs.twimg.com/profile_images/1962603533829840896/JaSVM50U_400x400.jpg",
+      logo: "https://unavatar.io/twitter/thrustdotcom",
       source: "https://x.com/xeetdotai/status/1986920886587269269",
       referralLink: "https://app.thrust.com/community/thrust",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6335,7 +5892,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Casino/Sportsbook",
       platform: "Gamblr",
       link: "https://x.com/Gamblr_io",
-      logo: "https://pbs.twimg.com/profile_images/1986416905305862144/cMrK8xhk_400x400.jpg",
+      logo: "https://unavatar.io/twitter/Gamblr_io",
       source: "",
       referralLink: "https://gamblr.io/?modal=SignUp&c=393306_aL44OK9i",
       platformLink: "https://www.xeet.ai/refer/rjarivi",
@@ -6357,7 +5914,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Game",
       platform: "Click.Game",
       link: "https://x.com/clickdotgame",
-      logo: "https://pbs.twimg.com/profile_images/1959974820667330560/LFnblD78_400x400.jpg",
+      logo: "https://unavatar.io/twitter/clickdotgame",
       source: "",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       distributionPlatform: "Xeet",
@@ -6379,7 +5936,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "NFT/Gaming",
       platform: "Xeet",
       link: "https://x.com/Claynosaurz",
-      logo: "https://pbs.twimg.com/profile_images/1927449655270416385/21LJ1SfL_400x400.jpg",
+      logo: "https://unavatar.io/twitter/Claynosaurz",
       source: "https://x.com/xeetdotai/status/1981377429554729165",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       claimPeriod: "TBA",
@@ -6409,7 +5966,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Yield Platform",
       platform: "Solstice",
       link: "https://www.xeet.ai/signals/solstice",
-      logo: "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
+      logo: "https://unavatar.io/twitter/solsticefi",
       source: "https://www.xeet.ai/signals/solstice",
       referralLink: "https://app.solstice.finance/earn-flares?ref=TAuyCWirvp",
       referralCode: "E7E3RQNSFy",
@@ -6433,7 +5990,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Prediction Markets",
       platform: "Myriad Markets",
       link: "https://www.xeet.ai/signals/myriad-market",
-      logo: "https://pbs.twimg.com/profile_images/1949824545403101184/bdrlDoUR_400x400.jpg",
+      logo: "https://unavatar.io/twitter/MyriadMarkets",
       source: "https://www.xeet.ai/signals/myriad-market",
       referralLink: "https://www.xeet.ai/refer/godofbayc",
       claimPeriod: "500 participants rewarded",
@@ -6456,7 +6013,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Layer 2",
       platform: "Abstract",
       link: "https://www.xeet.ai/signals/abstract",
-      logo: "https://pbs.twimg.com/profile_images/1947751080705630208/0OQFUJxI_400x400.jpg",
+      logo: "https://unavatar.io/twitter/AbstractChain",
       source: "https://www.xeet.ai/signals/abstract",
       referralLink: "https://www.xeet.ai/refer/godofbayc",
       claimPeriod: "Everyone rewarded",
@@ -6479,7 +6036,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Social Platform",
       platform: "Xeet",
       link: "https://www.xeet.ai/signals/xeet",
-      logo: "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+      logo: "https://unavatar.io/twitter/Xeetdotai",
       source: "https://www.xeet.ai/signals/xeet",
       referralLink: "https://www.xeet.ai/refer/rjarivi",
       claimPeriod: "Everyone rewarded",

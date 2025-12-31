@@ -120,8 +120,8 @@ const Index = () => {
     // Filter out ended projects if hideEnded is true (consider endsAt in additionalData)
     // Also filter out invalid projects to prevent empty UI
     const filteredProjects = hideEnded 
-      ? allProjects.filter(project => project?.id && project?.title && !isEndedItem(project))
-      : allProjects.filter(project => project?.id && project?.title);
+      ? allProjects.filter(project => project?.id && project?.title?.trim().length > 0 && !isEndedItem(project))
+      : allProjects.filter(project => project?.id && project?.title?.trim().length > 0);
     
     // Sort projects to prioritize NEW projects at the top.
     // If both are NEW, order by `addedAt` (newest first). Otherwise fallback to section priority.
@@ -189,8 +189,8 @@ const Index = () => {
     // Filter out ended projects if hideEnded is true (consider endsAt in additionalData)
     // Also filter out invalid projects to prevent empty UI
     const filteredProjects = hideEnded 
-      ? platformProjects.filter(project => project?.id && project?.title && !isEndedItem(project))
-      : platformProjects.filter(project => project?.id && project?.title);
+      ? platformProjects.filter(project => project?.id && project?.title?.trim().length > 0 && !isEndedItem(project))
+      : platformProjects.filter(project => project?.id && project?.title?.trim().length > 0);
     
     // Sort projects to prioritize NEW projects at the top
     return filteredProjects.sort((a, b) => {
