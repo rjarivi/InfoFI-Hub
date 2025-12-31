@@ -15,9 +15,10 @@ export const translations = {
     contributors: "Contributors",
     
     // Project Card
-    participants: "Participants",
+    participants: "Eligible",
     timeLeft: "Time Period",
     active: "Active",
+    paused: "Paused",
     ended: "Ended",
     platform: "Platform",
     claimPeriod: "Claim Period",

@@ -355,7 +355,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     "mindoai-tria": {
       title: "Tria",
       description: "A self-custodial neobank that unifies trading, spending, and earning in a single app - with no bridges, no gas, and no intermediaries. Pay, trade, and earn yield across any network and currency! Tria has raised $12M and partnered with 70+ top protocols, including Arbitrum, Polygon, Injective, Sentient, Aethir, and Katana.",
-      category: "Neobank"
+      category: "Whales Arena"
     },
     "mindoai-cryptorubic": {
       title: "Cryptorubic",
@@ -365,7 +365,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
     "mindoai-mindoai": {
       title: "MindoAI",
       description: "MindoAI is an intelligent AI assistant for cryptocurrency market insights and trading strategies.",
-      category: "AI Assistant"
+      category: "Whales Arena"
     },
     "galxe-dagama-s2": {
       title: "daGama (S2)",
@@ -5112,7 +5112,7 @@ export const projectsData: Record<string, Project[]> = {
       id: "aira-folks-finance",
       title: "Folks Finance",
       description: "The Folks Finance x Airaa campaign runs for about 4 months starting with the pre-TGE phase, followed by 3 months post-TGE. It's designed to reward contributors across Twitter, Discord, and onchain through the Auraboard leaderboard. Folks Finance is the leading crosschain DeFi lending protocol backed by Coinbase Ventures, Jump, ParaFi, OKX Ventures, and Borderless Capital. The FOLKS token (and airdrop) will launch on November 6th, 2025.",
-      rewardPool: "0.1% of $FOLKS",
+      rewardPool: "37,500 $FOLKS (Top 200)",
       participants: "23,301",
       timeLeft: "22 Oct'25 to 22 Feb'26",
       category: "DeFi",
@@ -5122,11 +5122,9 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/AiraaAgent/status/1980980664770900358",
       referralLink: "https://airaa.xyz?ref=infofi",
       campaignRules: [
-        "0.1% of the total $FOLKS token supply is allocated for this campaign",
-        "Rewards will be split into two parts: 25% at TGE and the rest after TGE based on TVL milestones",
-        "Make sure the same wallet is connected on both Folks Finance and Airaa to activate multipliers",
-        "Formula: (X contributions + Discord contributions) × Folks Finance onchain usage",
-        "Every position, post, and reply becomes your Aura for TGE"
+        "Please note that this is a milestone-based reward system with a guaranteed reward pool: 12,500 $FOLKS.",
+        "If the TVL reaches 250M before campaign end date, additional 12,500 $FOLKS will be unlocked",
+        "If the TVL reaches 400M before campaign end date, a total of 25,000 $FOLKS (including 12.5K $FOLKS at 250M TVL) will be available"
       ],
       additionalData: {
         isNew: "true",
@@ -5153,6 +5151,39 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/zk_agi",
       referralLink: "https://airaa.xyz?ref=infofi",
       additionalData: {
+        isNew: "true",
+        isPaused: "true"
+      }
+    },
+    {
+      id: "aira-xo-market",
+      title: "XO Market",
+      description: "Conviction Aura II : 0.2% of the $XO token supply is available for the top 200 Aura farmers.",
+      rewardPool: "0.2% of $XO (Top 200)",
+      participants: "200",
+      timeLeft: "Dec 17 to TBD",
+      category: "DeFi",
+      platform: "Airaa",
+      link: "https://airaa.xyz/project/xo-market",
+      logo: "https://pbs.twimg.com/profile_images/1916374865168257024/rElRdBOL_400x400.jpg",
+      source: "https://x.com/AiraaAgent/status/2001276514286162392?s=20",
+      referralLink: "https://airaa.xyz/project/xo-market?ref=KP8WF6",
+      campaignRules: [
+        "Boost your Aura score with onchain multipliers:",
+        "Overall trading volume",
+        "Inviting others to join XO Market through referrals",
+        "Creating markets, following @xodotmarket, and more",
+        "Note: Make sure the same X account is connected on both XO Market and Airaa. Also, multipliers are updated every 24 hrs.",
+        "Rewards Distribution:",
+        "200 contributors will be rewarded (100 from each leaderboard)",
+        "Minimum 5× onchain multiplier required for the XO Market Users leaderboard",
+        "Your rank is based on X Points × Total Multiplier (social + onchain contributions)",
+        "Additional Info: On the Auraboard tab for @xodotmarket on Airaa, there are two views:",
+        "Top 200 → Unified leaderboard for all social and onchain contributors",
+        "XO Market Users → Users with a minimum 5× onchain multiplier",
+        "For more details, check out our blog: http://medium.com/@airaaagent/introducing-xo-market-conviction-aura-ii-campaign-on-airaa-a48e425e6dab"
+      ],
+      additionalData: {
         isNew: "true"
       }
     },
@@ -5166,7 +5197,7 @@ export const projectsData: Record<string, Project[]> = {
       category: "Platform",
       platform: "Airaa HQ",
       link: "https://airaa.xyz/project/airaa-hq-🌾",
-      logo: "https://pbs.twimg.com/profile_images/1950917690605912067/5RQykFto_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/2003400424184025088/W2VdY6WT_400x400.jpg",
       source: "https://airaa.xyz/project/airaa-hq-🌾",
       referralLink: "https://airaa.xyz?ref=infofi"
     },
@@ -5178,17 +5209,39 @@ export const projectsData: Record<string, Project[]> = {
   ],
   mindoai: [
     {
+      id: "mindoai-into",
+      title: "Into",
+      description: "The first leveraged prediction market on Solana. Trade on the outcome of future events with leverage.",
+      rewardPool: "TBD",
+      participants: "Top 200",
+      timeLeft: "TBD",
+      category: "Whales Arena",
+      platform: "MindoAI",
+      link: "https://mindoshare.ai/projects/intodotspace",
+      logo: "https://unavatar.io/twitter/intodotspace",
+      source: "https://x.com/intodotspace",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "Trade on prediction markets",
+        "Participate in the ecosystem"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "intodotspace"
+      }
+    },
+    {
       id: "mindoai-tria",
       title: "Tria",
       description: "A self-custodial neobank that unifies trading, spending, and earning in a single app - with no bridges, no gas, and no intermediaries. Pay, trade, and earn yield across any network and currency! Tria has raised $12M and partnered with 70+ top protocols, including Arbitrum, Polygon, Injective, Sentient, Aethir, and Katana.",
       rewardPool: "$120K $TRIA ($40K/Month)",
-      participants: "Top 100 Minders",
+      participants: "Top 200",
       timeLeft: "10/14/2025 - 1/14/2026",
-      category: "Neobank",
-      platform: "MindoAi",
+      category: "Whales Arena",
+      platform: "MindoAI",
       link: "https://mindoshare.ai/projects/useTria",
-      logo: "https://pbs.twimg.com/profile_images/1947271337057079296/_smOX_4e_200x200.jpg",
-      source: "https://x.com/MindoAI/status/1978086845243170915",
+      logo: "https://unavatar.io/twitter/useTria",
+      source: "https://x.com/useTria",
       referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
       campaignRules: [
         "Sign up at app.tria.so and create your @tria account",
@@ -5201,22 +5254,22 @@ export const projectsData: Record<string, Project[]> = {
         "Explore the macro narrative: programmable finance for both humans and AI agents"
       ],
       additionalData: {
-        isNew: "true"
+        isNew: "true",
+        xHandle: "useTria"
       }
     },
-    
     {
       id: "mindoai-mindoai",
       title: "MindoAI",
       description: "The attention-to-capital engine of crypto—AI-native, on-chain aware, and built to score real influence, price belief, and prove ROI.",
       rewardPool: "$100K MND ($33.3K/Month)",
-      participants: "Top 100 Minders",
+      participants: "Top 200",
       timeLeft: "Aug 18, 2025 - Nov 18, 2025",
-      category: "AI Platform",
+      category: "Whales Arena",
       platform: "MindoAI",
       link: "https://mindoshare.ai/projects/MindoAI",
       logo: "https://pbs.twimg.com/profile_images/1957881940905979907/8PQntyUv_400x400.jpg",
-      source: "https://x.com/CryptoRubic/status/1968633624124666199",
+      source: "https://x.com/MindoAI",
       referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
       campaignRules: [
         "Follow @MindoAI on X to stay updated on the project's vision and progress",
@@ -5224,7 +5277,130 @@ export const projectsData: Record<string, Project[]> = {
         "Share your content on X as a post, thread, or QRT — keep it authentic to your community's voice",
         "Engage with MindoAI's official content on X directly — like, comment, and spread the word",
         "By the end of the campaign - TOP-100 minders will enjoy rewards from the 30,000$ pool"
-      ]
+      ],
+      additionalData: {
+        xHandle: "MindoAI"
+      }
+    },
+    {
+      id: "mindoai-helios",
+      title: "Helios",
+      description: "ETF native blockchain for the future of financial systems. Secured by multi-chain consensus. $120K in $HLS tokens distributed over 3 months for the top 200 minders.",
+      rewardPool: "$120K in $HLS(Top 200 )",
+      participants: "Top 200",
+      timeLeft: "Dec 16, 2025 - Feb 16 2026",
+      category: "Sharks Arena",
+      platform: "MindoAI",
+      link: "https://mindoshare.ai/projects/helios_layer1",
+      logo: "https://unavatar.io/twitter/helios_layer1",
+      source: "https://x.com/helios_layer1",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "Participate in the Helios ecosystem",
+        "Earn XP and rewards"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "helios_layer1"
+      }
+    },
+    {
+      id: "mindoai-c8ntinuum",
+      title: "c8ntinuum",
+      description: "Compete to get your spot in the Top 200 and earn $120,000 in $CTM tokens over the next 3 months",
+      rewardPool: "$120,000",
+      participants: "Top 200",
+      timeLeft: "Dec 15, 2025 - Mar 15, 2026",
+      category: "Sharks Arena",
+      platform: "MindoAI",
+      link: "https://mindoshare.ai/projects/c8ntinuum",
+      logo: "https://unavatar.io/twitter/c8ntinuum",
+      source: "https://x.com/MindoAI/status/2000567159118828009?s=20",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "How to Get Started with c8ntinuum",
+        "Sign up at c8ntinuum.com and connect with MetaMask, Phantom, Ledger, or email/passkey onboarding.",
+        "Create your invite code to earn 8-10% in ETH/SOL/BNB from every generation mint that your community completes.",
+        "Share posts using the recommended topics to maximize your ranking in the Leaderboard algo.",
+        "Direct your community to interact: trade, stake, generate, launch, or complete quests.",
+        "Track your earnings and ranking in real time inside the Leaderboard dashboard.",
+        "Invite code: ERYTNYVZ"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "c8ntinuum",
+        additionalInfo: "It's a multichain-powered protocol built for interoperability and long-term sustainability, promoting cooperation instead of competition between blockchains\n\nc8ntinuum’s upcoming launch is going to redefine how users interact with the ecosystem\n\nMore liquidity. More participation. More ways to hold, stake, earn, and launch all in one place\n\nGo to our website to learn more about @c8ntinuum, create smart content, climb the leaderboard, and claim your rewards"
+      }
+    },
+    {
+      id: "mindoai-deepnode",
+      title: "DeepNode",
+      description: "$120,000 in $DN distributed over 3 months for the top 100 minders. Month 1 is loaded with $60K in rewards. Early movers take the most!",
+      rewardPool: "$120,000",
+      participants: "Top 200",
+      timeLeft: "01/12/2025 - 01/03/2026",
+      category: "Sharks Arena",
+      platform: "MindoAI",
+      link: "https://mindoshare.ai/projects/DeepNodeAI",
+      logo: "https://unavatar.io/twitter/DeepNodeAI",
+      source: "https://x.com/MindoAI/status/1995808562702856597?s=20",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "Empower anyone to deploy models",
+        "Earn from your work",
+        "Co-own the intelligence economy"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "DeepNodeAI"
+      }
+    },
+    {
+      id: "mindoai-tauntai",
+      title: "TauntAI",
+      description: "40K in $TNT + 20K in USDT distributed over 2 months for the top 100 minders",
+      rewardPool: "40K in $TNT + 20K in USDT",
+      participants: "Top 200",
+      timeLeft: "28/11/2025-28/01/2026",
+      category: "Sharks Arena",
+      platform: "MindoAI",
+      link: "https://mindoshare.ai/projects/TauntCoin",
+      logo: "https://unavatar.io/twitter/TauntCoin",
+      source: "https://x.com/MindoAI/status/1994743275324928040?s=20",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "Powered by $TNT across Battleworld, Predictz, and the entire Taunt ecosystem",
+        "Make live predictions and earn rewards"
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "TauntCoin"
+      }
+    },
+    {
+      id: "mindoai-perceptron",
+      title: "Perceptron",
+      description: "30% unlock at TGE, 4 month vesting.P.S. 30% unlock at the end of each month during the 3-month campaign Remaining 70% vesting over 4 months after the first unlock",
+      rewardPool: "$150,000",
+      participants: "Top 200",
+      timeLeft: "Dec 11, 2025 - Mar 11, 2026",
+      category: "AI Data",
+      platform: "MindoAI",
+      link: "https://mindoshare.ai/projects/Perceptron",
+      logo: "https://unavatar.io/twitter/PerceptronNTWK",
+      source: "https://x.com/PerceptronNTWK",
+      referralLink: "https://mindoshare.ai/kol?ref=cmg6kqx8u00x0sd3wasc2tbca",
+      campaignRules: [
+        "How to Get Started with Perceptron",
+        "Join the node network here in seconds: Browser App | Google Play App | IOS App Access",
+        "Create your node account with a simple email setup.(Optional) Connect your wallet for future rewards.",
+        "Start earning instantly: share your bandwidth, track points in the dashboard, and access exclusive airdrop opportunities.",
+        "Join 700,000+ contributors turning idle resources into real rewards — while powering the next generation of AI."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "PerceptronNTWK"
+      }
     }
   ],
   galxe: [

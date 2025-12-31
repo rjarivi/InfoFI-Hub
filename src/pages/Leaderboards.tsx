@@ -361,7 +361,7 @@ const Leaderboards = () => {
                         
                         <div className="mt-3 pt-3 border-t border-border/50">
                           <div className="text-xs text-muted-foreground">
-                            Total Participants: {project.totalParticipants?.toLocaleString()}
+                            Total Eligible: {project.totalParticipants?.toLocaleString()}
                           </div>
                         </div>
                       </div>

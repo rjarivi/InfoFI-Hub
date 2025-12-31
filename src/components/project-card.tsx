@@ -94,6 +94,7 @@ export function ProjectCard({
     return !isNaN(end.getTime()) && end.getTime() < Date.now();
   })();
 
+  const isPaused = additionalData?.isPaused === "true";
   const isEnded = status === 'ended' || timeLeft === "ENDED" || endedByEndsAt;
 
   // Handle card click to navigate to details page
@@ -108,6 +109,7 @@ export function ProjectCard({
             "hover:scale-[1.02] hover:shadow-lg hover:border-primary/50 hover:bg-card/80",
             "min-h-[520px] h-full flex flex-col",
             isEnded && "opacity-75",
+            isPaused && "grayscale opacity-80",
       className
       )}
       onClick={handleCardClick}
@@ -126,6 +128,11 @@ export function ProjectCard({
                 <h3 className="font-bold text-lg text-foreground group-hover:text-primary transition-colors duration-300">
                   {title}
                 </h3>
+                {isPaused && (
+                  <Badge variant="secondary" className="bg-yellow-500/10 text-yellow-500 border-yellow-500/20 text-xs px-2 py-1">
+                    {t("paused") || "PAUSED"}
+                  </Badge>
+                )}
                 {additionalData?.isNew === "true" && (
                   <Badge variant="default" className="bg-green-500 text-white text-xs px-2 py-1 animate-pulse">
                     NEW
@@ -189,8 +196,8 @@ export function ProjectCard({
                      </div>
                      <div className="text-center p-2 rounded-lg bg-muted/30">
                        <div className="text-xs text-muted-foreground mb-1">{t("status")}</div>
-                       <div className={`text-xs font-medium leading-tight ${isEnded ? 'text-red-500' : 'text-green-500'}`}>
-                         {getStatusWithDays({ status, timeLeft, additionalData }, t)}
+                       <div className={`text-xs font-medium leading-tight ${isEnded ? 'text-red-500' : isPaused ? 'text-yellow-500' : 'text-green-500'}`}>
+                         {isPaused ? (t("paused") || "Paused") : getStatusWithDays({ status, timeLeft, additionalData }, t)}
                        </div>
                      </div>
                    </div>

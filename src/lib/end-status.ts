@@ -118,6 +118,10 @@ export function formatPeriodYMD(item: EndableItem): string {
   const start = tryParseIsoDate(item.additionalData?.startsAt) ?? parseStartDateFromTimeLeft(item.timeLeft);
   const end = tryParseIsoDate(item.additionalData?.endsAt) ?? parseEndDateFromTimeLeft(item.timeLeft);
 
+  if (!start && !end && item.timeLeft) {
+    return item.timeLeft;
+  }
+
   const startStr = toYMD(start) ?? 'Unknown';
   const endStr = end ? toYMD(end) : (item.timeLeft?.match(/TBD|TBA|ONGOING/i) ? 'TBD' : 'Unknown');
   return `${startStr} to ${endStr}`;
