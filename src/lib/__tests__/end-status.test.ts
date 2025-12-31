@@ -73,4 +73,14 @@ describe('Time Period formatting and days left', () => {
     const status = getStatusWithDays(item, undefined, now);
     expect(status).toBe('Active (42 days left)');
   });
+
+  it('correctly handles year rollover when start month > end month', () => {
+    const item = { timeLeft: 'Dec 01 - Jan 01, 2026' };
+    expect(formatPeriodYMD(item)).toBe('2025-12-01 to 2026-01-01');
+  });
+
+  it('correctly handles same year when start month < end month', () => {
+    const item = { timeLeft: 'Jan 01 - Mar 01, 2026' };
+    expect(formatPeriodYMD(item)).toBe('2026-01-01 to 2026-03-01');
+  });
 });

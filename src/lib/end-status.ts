@@ -4,7 +4,7 @@ export interface EndableItem {
   additionalData?: {
     endsAt?: string;
     startsAt?: string;
-    [key: string]: any;
+    [key: string]: string | undefined;
   };
 }
 

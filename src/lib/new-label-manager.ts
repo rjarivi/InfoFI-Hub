@@ -10,7 +10,7 @@ export interface LabelChangeEntry {
 export const DEFAULT_NEW_WINDOW_DAYS = 21; // configurable window for "new"
 
 // Compute whether an item should be considered NEW based on addedAt and window
-export function computeIsNew(additionalData: any, now: Date = new Date(), windowDays: number = DEFAULT_NEW_WINDOW_DAYS): boolean {
+export function computeIsNew(additionalData: AdditionalData | undefined, now: Date = new Date(), windowDays: number = DEFAULT_NEW_WINDOW_DAYS): boolean {
   const explicit = additionalData?.isNew === "true";
   const addedAtStr = additionalData?.addedAt as string | undefined;
 
@@ -27,7 +27,7 @@ export function computeIsNew(additionalData: any, now: Date = new Date(), window
 }
 
 // Update an array of projects' isNew flags, returning updated array and change log
-export function updateItemsNewLabel<T extends { id: string; title?: string; additionalData?: any }>(
+export function updateItemsNewLabel<T extends { id: string; title?: string; additionalData?: AdditionalData }>(
   items: T[],
   now: Date = new Date(),
   windowDays: number = DEFAULT_NEW_WINDOW_DAYS
