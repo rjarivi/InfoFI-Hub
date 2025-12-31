@@ -1,3 +1,5 @@
+import { AdditionalData } from '../data/projects';
+
 export interface LabelChangeEntry {
   id: string;
   title?: string;

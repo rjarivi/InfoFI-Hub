@@ -69,7 +69,7 @@ describe('Time Period formatting and days left', () => {
   });
 
   it('returns status with days when active', () => {
-    const item = { status: 'active', timeLeft: 'Nov 15, 2025 - Jan 15, 2026' };
+    const item = { status: 'active' as const, timeLeft: 'Nov 15, 2025 - Jan 15, 2026' };
     const status = getStatusWithDays(item, undefined, now);
     expect(status).toBe('Active (42 days left)');
   });

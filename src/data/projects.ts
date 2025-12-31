@@ -22,12 +22,14 @@ export interface Project {
   vestingSchedule?: string;
   distributionPlatform?: string;
   status?: 'active' | 'ended';
-  additionalData?: {
-    bakers?: string;
-    airdropRecipients?: string;
-    crumbsDistributed?: string;
-    [key: string]: string | undefined;
-  };
+  additionalData?: AdditionalData;
+}
+
+export interface AdditionalData {
+  bakers?: string;
+  airdropRecipients?: string;
+  crumbsDistributed?: string;
+  [key: string]: string | undefined;
 }
 
 // Translation mapping for project data
@@ -2241,36 +2243,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "ApeCoin R.A.I.D는 ApeCoin 생태계를 위한 커뮤니티 중심 이니셔티브입니다",
       category: "커뮤니티"
     },
-    "rey-tea3": {
-      title: "Tea3",
-      description: "Tea3는 웹에서 가장 고급 오픈 어필리에이트 및 추천 시스템입니다. 온체인 유산을 성장시키고 플랫폼에서 승리를 극대화할 수 있습니다",
-      category: "어필리에이트 시스템"
-    },
-    "aira-xo-market": {
-      title: "XO Market",
-      description: "XO Market는 디지털 자산 및 암호화폐를 위한 탈중앙화 거래 플랫폼입니다",
-      category: "트레이딩"
-    },
-    "aira-hq": {
-      title: "HQ",
-      description: "HQ는 Web3 공간에서 콘텐츠 관리 및 분석을 위한 포괄적인 플랫폼입니다",
-      category: "관리"
-    },
-    "mindoai-cryptorubic": {
-      title: "CryptoRubic",
-      description: "CryptoRubic는 암호화폐 시장의 고급 및 지능형 분석을 제공합니다",
-      category: "분석"
-    },
-    "mindoai-mindoai": {
-      title: "MindoAI",
-      description: "MindoAI는 암호화폐 시장 분석 및 예측을 위한 고급 AI 플랫폼입니다",
-      category: "AI"
-    },
-    "galxe-platform": {
-      title: "Galxe Platform",
-      description: "Galxe is a Web3 credential data network. Build better products and communities with Galxe's credential infrastructure",
-      category: "커뮤니케이션"
-    },
+
     "pulse-grvt": {
       title: "GRVT",
       description: "거래, 투자, 수익. 단순히 흐르는 금융. 몇 분 안에 시작하고, 몇 년 동안 결과를 보세요.",
@@ -2421,21 +2394,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       description: "Pulse Play AI는 Web3 프로젝트의 자동화된 관리와 최적화를 위한 AI 기반 플랫폼입니다.",
       category: "AI 관리"
     },
-    "xeet-solstice": {
-      title: "Solstice",
-      description: "Solstice는 과대광고나 투기에 의존하지 않는 전략을 통해 안정적이고 실제적인 수익을 제공하는 데 중점을 둡니다. 우리의 접근 방식은 검증된 델타 중립 거래, 견고한 인프라, 기관급 리스크 관리를 결합하여 장기적인 긍정적 수익의 기반을 구축합니다. 보상: $SLX 토큰 공급량의 1%",
-      category: "수익 플랫폼"
-    },
-    "xeet-myriad-market": {
-      title: "Myriad Markets",
-      description: "Xeet Myriad Market은 여러 암호화폐 시장에 걸쳐 다양한 거래 기회를 제공합니다.",
-      category: "멀티 마켓 거래"
-    },
-    "xeet-abstract": {
-      title: "Abstract",
-      description: "Xeet Abstract는 암호화폐 거래자를 위한 추상적인 거래 전략과 고급 시장 인사이트를 제공합니다.",
-      category: "거래 전략"
-    },
+
     "xeet-iopn": {
       title: "IOPn",
       description: "\"사람들의 인터넷\"에 참여하여 $OPN으로 월 $100,000, 다음 3개월 동안 총 $300,000의 보상을 TGE에서 받으세요 (날짜 추후 발표). IOPn은 분산형 디지털 신원, 실물 자산 토큰화, 주권 AI 인프라를 통합하여 사용자에게 국경 없는 디지털 소유권을 제공하는 확장 가능한 L1인 OPN 체인을 구축하고 있습니다.",
@@ -4857,11 +4816,7 @@ export const projectsData: Record<string, Project[]> = {
       logo: "https://app.wallchain.xyz/external-bucket/hashed/small-icon-white-url/idOS_logo_small_white.f42e82eaac479b488a36c86257708db4.svg",
       source: "https://app.wallchain.xyz/idOS",
       referralLink: "https://app.idos.network/?ref=96337B76"
-    },
-    {
-      
-    },
-    
+    }
   ],
   cookie: [
     {
@@ -5180,18 +5135,8 @@ export const projectsData: Record<string, Project[]> = {
         campaignDuration: "4 months (pre-TGE + 3 months post-TGE)",
         multiplierFormula: "(X contributions + Discord contributions) × Folks Finance onchain usage",
         additionalInfo: "You will earn multipliers for:\n• Depositing and collateralising assets on Folks Finance\n• Borrowing and repaying from the protocol\n• Inviting others to join Folks Finance\n\nEURC, Circle's euro stablecoin, is now live on Folks Finance for crosschain lending and borrowing.\nFunds raised: $6.20M at $75.00M Val\n\nYou can boost your leaderboard score through onchain multipliers by:\n• Holding Folks Finance NFTs\n• Earning Folks Points, which reflect your activity in the Folks ecosystem\nMake sure the same EVM wallet address is connected on both Airaa and Folks Finance for accurate tracking.\n\n🔍 INTERACTIONS RECOMMENDED BY SOME PEOPLE (DYOR):\n• Audit Wormhole NTT implementation on Folks Finance\n• Engage with Folks Finance protocol on Zerion Rewards platform and TaskOn\n• Mint Silver Pass NFT on Folks Finance\n• Stake assets and convert SEI to iSEI on Folks Finance\n• Check Retrodrop Allocation on Folks App\n• Deposit sMON and MON and stake Monad on Folks Finance\n• Deposit USDC on Folks Finance\n• Mint Founders Pass NFT on Folks Finance\n• Register for Folks Founders Pass\n• Register for WL through official form",
-        recommendedInteractions: [
-          "Audit Wormhole NTT implementation on Folks Finance",
-          "Engage with Folks Finance protocol on Zerion Rewards platform and TaskOn",
-          "Mint Silver Pass NFT on Folks Finance",
-          "Stake assets and convert SEI to iSEI on Folks Finance",
-          "Check Retrodrop Allocation on Folks App",
-          "Deposit sMON and MON and stake Monad on Folks Finance",
-          "Deposit USDC on Folks Finance",
-          "Mint Founders Pass NFT on Folks Finance",
-          "Register for Folks Founders Pass",
-          "Register for WL through official form"
-        ]
+        recommendedInteractions: "Audit Wormhole NTT implementation on Folks Finance\nEngage with Folks Finance protocol on Zerion Rewards platform and TaskOn\nMint Silver Pass NFT on Folks Finance\nStake assets and convert SEI to iSEI on Folks Finance\nCheck Retrodrop Allocation on Folks App\nDeposit sMON and MON and stake Monad on Folks Finance\nDeposit USDC on Folks Finance\nMint Founders Pass NFT on Folks Finance\nRegister for Folks Founders Pass\nRegister for WL through official form"
+
       }
     },
     {

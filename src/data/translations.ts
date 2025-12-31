@@ -4,6 +4,7 @@ export const translations = {
     // Navigation
     allProjects: "All Projects",
     projects: "projects",
+    search: "Search",
     joinNow: "Join Now",
     haventJoined: "Haven't joined",
     
@@ -78,6 +79,7 @@ export const translations = {
     // Navigation
     allProjects: "Todos los Proyectos",
     projects: "proyectos",
+    search: "Buscar",
     joinNow: "Únete Ahora",
     haventJoined: "¿Aún no te has unido",
     
@@ -152,6 +154,7 @@ export const translations = {
     // Navigation
     allProjects: "Tous les Projets",
     projects: "projets",
+    search: "Rechercher",
     joinNow: "Rejoignez Maintenant",
     haventJoined: "Pas encore rejoint",
     
@@ -213,6 +216,7 @@ export const translations = {
     // Navigation
     allProjects: "Alle Projekte",
     projects: "Projekte",
+    search: "Suche",
     joinNow: "Jetzt Beitreten",
     haventJoined: "Noch nicht beigetreten",
     
@@ -274,6 +278,7 @@ export const translations = {
     // Navigation
     allProjects: "すべてのプロジェクト",
     projects: "プロジェクト",
+    search: "検索",
     joinNow: "今すぐ参加",
     haventJoined: "まだ参加していませんか",
     
@@ -396,6 +401,7 @@ export const translations = {
     // Navigation
     allProjects: "所有项目",
     projects: "项目",
+    search: "搜索",
     joinNow: "立即加入",
     haventJoined: "还没有加入",
     
@@ -457,6 +463,7 @@ export const translations = {
     // Navigation
     allProjects: "جميع المشاريع",
     projects: "مشاريع",
+    search: "بحث",
     joinNow: "انضم الآن",
     haventJoined: "لم تنضم بعد",
     

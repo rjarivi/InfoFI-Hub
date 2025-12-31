@@ -9,6 +9,7 @@ import { projectsData, translateProject } from "@/data/projects";
 import { updateItemsNewLabel, logLabelChanges } from "@/lib/new-label-manager";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { useLanguage } from "@/hooks/use-language";
 import { usePagination } from "@/hooks/use-pagination";
 import { SiteCaptcha } from "@/components/site-captcha";
@@ -27,7 +28,8 @@ import {
   ExternalLink,
   Copy,
   Check,
-  Heart
+  Heart,
+  Search
 } from "lucide-react";
 import {
   Pagination,
@@ -92,6 +94,7 @@ const menuItems = [
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
   const [hideEnded, setHideEnded] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(true); // Start as verified to avoid blank screen
   const { t, language } = useLanguage();
   const isMobile = useIsMobile();
@@ -178,32 +181,46 @@ const Index = () => {
   };
 
   const getActiveProjects = () => {
-    if (activeTab === "all") {
-      return getAllProjects();
-    }
-    const platformProjectsRaw = (projectsData[activeTab] || []).map(project => translateProject(project, language));
+    let projects = [];
 
-    const { updated: platformProjects, changes } = updateItemsNewLabel(platformProjectsRaw);
-    if (changes.length) logLabelChanges(changes);
-    
-    // Filter out ended projects if hideEnded is true (consider endsAt in additionalData)
-    // Also filter out invalid projects to prevent empty UI
-    const filteredProjects = hideEnded 
-      ? platformProjects.filter(project => project?.id && project?.title?.trim().length > 0 && !isEndedItem(project))
-      : platformProjects.filter(project => project?.id && project?.title?.trim().length > 0);
-    
-    // Sort projects to prioritize NEW projects at the top
-    return filteredProjects.sort((a, b) => {
-      const aIsNew = a.additionalData?.isNew === "true";
-      const bIsNew = b.additionalData?.isNew === "true";
+    if (activeTab === "all") {
+      projects = getAllProjects();
+    } else {
+      const platformProjectsRaw = (projectsData[activeTab] || []).map(project => translateProject(project, language));
+
+      const { updated: platformProjects, changes } = updateItemsNewLabel(platformProjectsRaw);
+      if (changes.length) logLabelChanges(changes);
       
-      // If one is new and the other isn't, new one comes first
-      if (aIsNew && !bIsNew) return -1;
-      if (!aIsNew && bIsNew) return 1;
+      // Filter out ended projects if hideEnded is true (consider endsAt in additionalData)
+      // Also filter out invalid projects to prevent empty UI
+      const filteredProjects = hideEnded 
+        ? platformProjects.filter(project => project?.id && project?.title?.trim().length > 0 && !isEndedItem(project))
+        : platformProjects.filter(project => project?.id && project?.title?.trim().length > 0);
       
-      // If both are new or both are not new, maintain original order within the platform
-      return 0;
-    });
+      // Sort projects to prioritize NEW projects at the top
+      projects = filteredProjects.sort((a, b) => {
+        const aIsNew = a.additionalData?.isNew === "true";
+        const bIsNew = b.additionalData?.isNew === "true";
+        
+        // If one is new and the other isn't, new one comes first
+        if (aIsNew && !bIsNew) return -1;
+        if (!aIsNew && bIsNew) return 1;
+        
+        // If both are new or both are not new, maintain original order within the platform
+        return 0;
+      });
+    }
+
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      return projects.filter(project => 
+        project.title.toLowerCase().includes(query) ||
+        project.description.toLowerCase().includes(query) ||
+        (project.category && project.category.toLowerCase().includes(query))
+      );
+    }
+
+    return projects;
   };
 
   const allActiveProjects = getActiveProjects();
@@ -319,11 +336,22 @@ const Index = () => {
                 Page {currentPage} of {totalPages}
               </Badge>
             )}
+            
+            <div className="relative w-full max-w-xs md:w-64 ml-auto md:ml-4 mr-2">
+              <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+              <Input
+                placeholder={t("search") || "Search projects..."}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-8 h-9"
+              />
+            </div>
+
             {/* Hide Ended Projects Toggle */}
             <HideEndedToggle 
               hideEnded={hideEnded} 
               onToggle={setHideEnded}
-              className="ml-auto"
+              className=""
             />
           </div>
           
