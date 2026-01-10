@@ -3,12 +3,13 @@
 ## 🚨 CRITICAL RULES FOR ADDING NEW PROJECTS
 
 ### 1. NEW LABEL REQUIREMENT
-**ALWAYS add NEW label to newly added projects:**
+**ALWAYS add NEW label to newly added projects AND remove it from older ones:**
 ```javascript
 additionalData: {
   isNew: "true"
 }
 ```
+*Note: When adding new projects, run a cleanup to remove `isNew: "true"` from all existing projects first, so only the truly new ones have the label.*
 
 ### 2. POSITION REQUIREMENT
 **ALWAYS move new projects to the TOP of their respective platform section:**

@@ -89,7 +89,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Do not plagiarize or copy others' work"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     "kaito-multipli": {
@@ -463,7 +462,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "No plagies o copies el trabajo de otros"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     "kaito-metawin": {
@@ -483,7 +481,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       campaignRules: [
         "0.6% de CYS para:",
         "- 60% a mejores Creadores de Cysic",
-        "- 10% a Creadores KR/CN", 
+        "- 10% a Creadores KR/CN",
         "- 30% al Ecosistema Kaito"
       ]
     },
@@ -871,7 +869,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Ne plagiez pas ou ne copiez pas le travail d'autrui"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     "kaito-metawin": {
@@ -891,7 +888,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       campaignRules: [
         "0.6% de CYS pour :",
         "- 60% aux meilleurs Créateurs Cysic",
-        "- 10% aux Créateurs KR/CN", 
+        "- 10% aux Créateurs KR/CN",
         "- 30% à l'Écosystème Kaito"
       ]
     },
@@ -1657,7 +1654,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "Plagiieren oder kopieren Sie nicht die Arbeit anderer"
       ],
       additionalData: {
-        isNew: "true"
       }
     }
   },
@@ -1679,7 +1675,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       campaignRules: [
         "CYSの0.6%を配布：",
         "- 上位Cysicクリエイターに60%",
-        "- KR/CNクリエイターに10%", 
+        "- KR/CNクリエイターに10%",
         "- Kaitoエコに30%"
       ]
     },
@@ -2010,7 +2006,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "他人の作品を盗用やコピーしない"
       ],
       additionalData: {
-        isNew: "true"
       }
     }
   },
@@ -2144,7 +2139,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       campaignRules: [
         "CYS의 0.6% 배분:",
         "- 상위 Cysic 크리에이터에게 60%",
-        "- KR/CN 크리에이터에게 10%", 
+        "- KR/CN 크리에이터에게 10%",
         "- Kaito 생태계에 30%"
       ]
     },
@@ -2444,7 +2439,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "타인의 작품 표절이나 복사 금지"
       ],
       additionalData: {
-        isNew: "true"
       }
     }
   },
@@ -2567,7 +2561,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       campaignRules: [
         "CYS的0.6%分配：",
         "- 顶级Cysic创作者60%",
-        "- KR/CN创作者10%", 
+        "- KR/CN创作者10%",
         "- Kaito生态30%"
       ]
     },
@@ -2772,7 +2766,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "不要抄袭或复制他人的作品"
       ],
       additionalData: {
-        isNew: "true"
       }
     }
   },
@@ -2906,7 +2899,7 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
       campaignRules: [
         "0.6% من CYS لـ:",
         "- 60% لأفضل مبدعي Cysic",
-        "- 10% لمبدعي KR/CN", 
+        "- 10% لمبدعي KR/CN",
         "- 30% لنظام Kaito البيئي"
       ]
     },
@@ -3223,7 +3216,6 @@ const projectTranslations: Record<Language, Record<string, Partial<Project>>> = 
         "لا تسرق أو تنسخ عمل الآخرين"
       ],
       additionalData: {
-        isNew: "true"
       }
     }
   }
@@ -3249,7 +3241,6 @@ export const archivedProjects: Record<string, Project[]> = {
       status: "ended",
       additionalData: {
         xHandle: "daemons_gamefi",
-        isNew: "true"
       }
     },
     {
@@ -3269,7 +3260,6 @@ export const archivedProjects: Record<string, Project[]> = {
       status: "ended",
       additionalData: {
         xHandle: "@bondifinance",
-        isNew: "true"
       }
     },
     {
@@ -3301,7 +3291,7 @@ export function translateProject(project: Project, language: Language): Project 
   if (!translations || !translations[project.id]) {
     return project; // Return original if no translation exists
   }
-  
+
   return {
     ...project,
     ...translations[project.id]
@@ -3332,7 +3322,6 @@ export const projectsData: Record<string, Project[]> = {
         "Regional allocation includes Top 300 CN/KR/JP creators"
       ],
       additionalData: {
-        isNew: "true",
         addedAt: "2025-12-10T00:00:00Z",
         xHandle: "ferra_protocol"
       }
@@ -3359,7 +3348,6 @@ export const projectsData: Record<string, Project[]> = {
         "Final rankings are based on approved posts and engagement quality."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "Talus_Labs"
       }
     },
@@ -3384,7 +3372,6 @@ export const projectsData: Record<string, Project[]> = {
         "Whitelist breakdown: Top 3 (3x WL each), Ranks 4–20 (2x WL each), Ranks 21–250 (1x WL each)."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "Kindred_AI"
       }
     },
@@ -3409,7 +3396,6 @@ export const projectsData: Record<string, Project[]> = {
         "Bonus: 100 Billions Supermasks NFT will be randomly distributed to ranks 501–1000."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "billions_ntwk"
       }
     },
@@ -3436,11 +3422,10 @@ export const projectsData: Record<string, Project[]> = {
         "ApeX may verify authenticity and adjust results if necessary."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "OfficialApeXdex"
       }
     },
-    
+
     {
       id: "kaito-inference-labs",
       title: "Inference Labs",
@@ -3466,7 +3451,6 @@ export const projectsData: Record<string, Project[]> = {
         "Final distribution is at the discretion of the project team."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "inference_labs"
       }
     },
@@ -3489,7 +3473,6 @@ export const projectsData: Record<string, Project[]> = {
         "The top 500 eligible creators on the OpenLedger Leaderboard will earn rewards for sharing original, high-quality content about OpenLedger."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "OpenledgerHQ"
       }
     },
@@ -3515,7 +3498,6 @@ export const projectsData: Record<string, Project[]> = {
         "Vesting: 50% Unlock at TGE, 50% after 3 months cliff, 12 months linear vesting. Phase 2 vesting TBA."
       ],
       additionalData: {
-        isNew: "false",
         xHandle: "SIXR_cricket"
       }
     },
@@ -3539,7 +3521,6 @@ export const projectsData: Record<string, Project[]> = {
         "Phase 2 — Dec to TBD: Top 500 Creators share $800k worth of $M."
       ],
       additionalData: {
-        isNew: "true",
         addedAt: "2025-12-04T00:00:00Z",
         xHandle: "MemeMax_Fi"
       }
@@ -3565,7 +3546,6 @@ export const projectsData: Record<string, Project[]> = {
         "Automatic conversions start before year end; conversions may consume a small percentage as a conversion fee."
       ],
       additionalData: {
-        isNew: "true",
         addedAt: "2025-12-04T00:00:00Z",
         xHandle: "fraxfinance"
       }
@@ -3595,7 +3575,6 @@ export const projectsData: Record<string, Project[]> = {
         "Community sale access and allocation influenced by leaderboard and staking performance."
       ],
       additionalData: {
-        isNew: "true",
         addedAt: "2025-10-01T00:00:00Z",
         xHandle: "moremarketsxyz"
       }
@@ -3629,7 +3608,6 @@ export const projectsData: Record<string, Project[]> = {
         "Instructions: Follow @flipster_io; RT + Like main post; Reply with your Flipster post using #flipsterkaito"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "flipster_io",
         endsAt: "2025-11-16T23:59:59Z"
       }
@@ -3656,7 +3634,6 @@ export const projectsData: Record<string, Project[]> = {
         "Avoid spam, plagiarism, and misinformation"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "AnichessGame",
         additionalInfo: "1,000,000 CHECK to the top 200 Anichess creators monthly"
       }
@@ -3686,7 +3663,6 @@ export const projectsData: Record<string, Project[]> = {
         "Do not plagiarize or copy others' work"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -3709,12 +3685,11 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Kaito",
       campaignRules: [
         "Top 50 Theo Creators",
-        "Top 25 Korean Theo Creators", 
+        "Top 25 Korean Theo Creators",
         "Top 25 Chinese Theo Creators",
         "A total of 50,000 thBILL is distributed evenly among them."
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -3740,7 +3715,6 @@ export const projectsData: Record<string, Project[]> = {
         "Arbitrum employees and affiliates are not eligible for grants"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -4078,7 +4052,7 @@ export const projectsData: Record<string, Project[]> = {
         "Kaito Eco (20%)"
       ]
     },
-    
+
   ],
   bantr: [
     {
@@ -4103,7 +4077,6 @@ export const projectsData: Record<string, Project[]> = {
         "Optional: share onchain usage that aligns with the campaign’s theme."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "ethena_labs",
         addedAt: "2025-12-04T00:00:00Z",
         startsAt: "2025-11-20",
@@ -4131,7 +4104,6 @@ export const projectsData: Record<string, Project[]> = {
         "Encourage authentic discussions; avoid low-effort or repetitive posts."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "Soneium",
         addedAt: "2025-12-04T00:00:00Z",
         startsAt: "2025-11-20",
@@ -4159,7 +4131,6 @@ export const projectsData: Record<string, Project[]> = {
         "Share quest progress and insights; avoid spam."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "HyperCrocXYZ",
         addedAt: "2025-12-04T00:00:00Z",
         startsAt: "2025-12-01",
@@ -4187,7 +4158,6 @@ export const projectsData: Record<string, Project[]> = {
         "Drive authentic engagement through discussions and shares."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "Injective",
         addedAt: "2025-12-04T00:00:00Z",
         startsAt: "2025-12-04",
@@ -4215,7 +4185,6 @@ export const projectsData: Record<string, Project[]> = {
         "Avoid spam; focus on informative and creative posts."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "apecoin",
         addedAt: "2025-12-04T00:00:00Z",
         startsAt: "2025-12-04",
@@ -4244,7 +4213,6 @@ export const projectsData: Record<string, Project[]> = {
         "Avoid spammy, repetitive, or low-quality posts. Authentic engagement is rewarded higher."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "OstiumLabs",
         addedAt: "2025-11-20T12:30:00Z",
         startsAt: "2025-11-11",
@@ -4278,7 +4246,6 @@ export const projectsData: Record<string, Project[]> = {
         "Follow the Creator Playbook to maximize your reach, engagement, and rewards."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "spaace_io",
         addedAt: "2025-11-07T12:20:00Z",
         creatorGuide: "https://www.notion.so/spaace-marketplace/Spaace-Creator-Playbook-284e5202b33680a4bdb6cc7f9e88cb84",
@@ -4310,7 +4277,6 @@ export const projectsData: Record<string, Project[]> = {
         "Multipliers: Personal (Composable NFT, Espresso POAPs, past campaign engagement) and Community (followers participate)."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "espressoFNDN",
         creatorGuide: "Available on the leaderboard page",
         cta: "https://bantr.fun/project/espresso",
@@ -4341,7 +4307,6 @@ export const projectsData: Record<string, Project[]> = {
         "Drive real engagement through comments, discussions, and shares."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "syndicateio",
         creatorGuide: "https://www.notion.so/syndicateprotocol/Syndicate-x-Bantr-Content-Guide-28f94475eae680fd8fa2e6af9eb506a6?source=copy_link",
         additionalInfo: "Syndicate is building Ethereum’s next evolution — a horizontally scalable network of customizable, community-owned chains. Powered by SYND, it transforms Ethereum into an open ecosystem where every app can own its stack, economics, and future.",
@@ -4374,7 +4339,6 @@ export const projectsData: Record<string, Project[]> = {
         "Onchain multipliers going live soon!"
       ],
       additionalData: {
-        isNew: "true",
         miniCampaign: "true",
         miniCampaignNote: "Mini Campaigns",
         xHandle: "MultichainZ_",
@@ -4409,7 +4373,6 @@ export const projectsData: Record<string, Project[]> = {
         "Only the social leaderboard is live for now; onchain multipliers are coming soon"
       ],
       additionalData: {
-        isNew: "true",
         miniCampaign: "true",
         miniCampaignNote: "Mini Campaigns",
         xHandle: "Firestarter_fun",
@@ -4442,7 +4405,6 @@ export const projectsData: Record<string, Project[]> = {
         "Top 100 creators will be rewarded each month"
       ],
       additionalData: {
-        isNew: "true",
         miniCampaign: "true",
         miniCampaignNote: "Mini Campaigns",
         xHandle: "quranium_org",
@@ -4476,7 +4438,6 @@ export const projectsData: Record<string, Project[]> = {
         "Engage with the community and share your experiences with Bluwhale AI"
       ],
       additionalData: {
-        isNew: "true",
         creatorGuide: "https://docs.google.com/document/d/1E6lH5eqoxUZtDLwKs2ZtrzrbIJHgNtBj-KdkkNakR90/edit?usp=sharing",
         additionalInfo: "🔗 Key Links & Channels: App: https://profile.bluwhale.com — Try the dashboard, connect accounts, explore Whale Score. Website: https://bluwhale.ai — Overview, announcements, and resources. GitBook Docs: https://bluwhale.gitbook.io/bluwhaleai — Tokenomics, product, and protocol. Twitter/X: https://twitter.com/BluwhaleAI — Latest updates & campaigns. Press Kit: https://bluwhale.ai/press — Logos, product shots, founder photos. Media Kit: https://bluwhale.ai/media-kit — Banners, social assets, thumbnails.",
         startsAt: "2025-10-15",
@@ -4509,7 +4470,6 @@ export const projectsData: Record<string, Project[]> = {
         "Check Creator Guide for detailed help and resources"
       ],
       additionalData: {
-        isNew: "true",
         creatorGuide: "https://docs.google.com/document/d/1XBPVVajGJoJOf_jiGAOOc2us_PXTGWcved39M8Xt88o/edit?usp=sharing",
         additionalInfo: "💳Bitget Wallet Card just launched in Asia! Activate Bitget Wallet Card in under 10 minutes. No fees, no hassle. Free activation + Rewards: First 500 users: Top up $50 → Get $20. All other users: Top up $50 → Get $10. Bonus: Free card activation during the campaign period. Eligible regions: Singapore, Vietnam, Malaysia, Philippines, Thailand, Korea, Taiwan, Australia, Japan. Campaign period: Oct 15, 18:00 – Oct 22, 18:00 (UTC+8). Each user can participate once only."
       }
@@ -4543,7 +4503,6 @@ export const projectsData: Record<string, Project[]> = {
         "Check Creator Guide for detailed help and guidelines"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -4560,35 +4519,26 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://bantr.fun/project/bantr",
       referralLink: "https://bantr.fun?ic=3066Y7V"
     },
-    
-    
+
+
   ],
   wallchain: [
     {
       id: "wallchain-reya",
       title: "Reya",
-      description: "For Top 100 Quackers + 20 random from 101 to 300",
-      rewardPool: "0.2% of Supply",
-      participants: "Top 100 + 20 random (101–300)",
-      timeLeft: "Nov 10, 2025 - Dec 10, 2025",
+      description: "Climb into the top 100 to win from 0.2% of $REYA supply over 6 Epoch’s",
+      rewardPool: "0.2% of $REYA",
+      participants: "Top 100",
+      timeLeft: "Nov 10, 2025 – June 10, 2026",
       category: "Trading",
       platform: "Reya",
-      link: "https://app.wallchain.xyz/reya",
+      link: "https://x.com/reya_xyz",
       logo: "https://app.wallchain.xyz/external-bucket/hashed/logo-url/reya_avatar.f5563ec83e5a1109e726fa85dd528083.svg",
-      source: "https://x.com/wallchain/status/1987925387587056032?s=20",
+      source: "https://x.com/reya_xyz/status/1988190987227894017?s=20",
       distributionPlatform: "Wallchain",
-      campaignRules: [
-        "Top 100 mindshare contributors.",
-        "+20 random from 101 to 300.",
-        "Unlocks: Full unlock, no cliff, no vesting.",
-        "Epoch 1: Nov 10th - Dec 10th with 0.033% of supply."
-      ],
       additionalData: {
-        isNew: "true",
         xHandle: "reya_xyz",
-        startsAt: "2025-11-10T00:00:00Z",
-        endsAt: "2025-12-10T23:59:59Z",
-        cta: "platform referral link"
+        cta: "refferrral"
       }
     },
     {
@@ -4604,7 +4554,6 @@ export const projectsData: Record<string, Project[]> = {
       logo: "https://app.wallchain.xyz/external-bucket/hashed/logo-url/AlignerZ_avatar.a0db52a9c127b973959923dec442d16b.png",
       distributionPlatform: "Wallchain",
       additionalData: {
-        isNew: "true",
         xHandle: "alignerz",
         startsAt: "2025-11-13T00:00:00Z",
         endsAt: "2025-12-12T23:59:59Z"
@@ -4652,24 +4601,7 @@ export const projectsData: Record<string, Project[]> = {
         endsAt: "2025-12-24T23:59:59Z"
       }
     },
-    {
-      id: "wallchain-scorprotocol",
-      title: "SCORProtocol",
-      description: "SCOR Mindshare Leaderboard is LIVE with 0.5% of supply across 3 epochs. Epoch 1: 0.25% supply, ends Q4 2025 (TBD). Top 125 mindshare contributors + 25 random from top 126-500. Unlocks: 50% full unlock, 50% 1 month after Epoch 1.",
-      rewardPool: "0.5% of $SCOR Supply",
-      participants: "Top 125 + 25 random",
-      timeLeft: "Oct 27 - Q4 2025 (TBD)",
-      category: "Sports",
-      platform: "SCORProtocol",
-      link: "http://app.wallchain.xyz/scor",
-      logo: "https://pbs.twimg.com/profile_images/1938234858486026240/ni8B0Piy_400x400.jpg",
-      distributionPlatform: "Wallchain",
-      platformLink: "https://quacks.app/?ref=rjarivi",
-      additionalData: {
-        xHandle: "SCORProtocol",
-        additionalInfo: "SCOR is backed by over $12M in SAFT funding to date, with rounds valued up to $125M FDV. SCOR is building the infrastructure that powers the next generation of sports fandom."
-      }
-    },
+
     {
       id: "wallchain-spaace",
       title: "Spaace",
@@ -4760,21 +4692,7 @@ export const projectsData: Record<string, Project[]> = {
         totalSupply: "1% of KLOUT Supply"
       }
     },
-    {
-      id: "wallchain-genome",
-      title: "Genome Protocol",
-      description: "2% of $NOME Supply for Top Quackers! Genome Protocol is Web3's user engagement engine - a modular, intelligent middleware layer.",
-      rewardPool: "2% of Supply",
-      participants: "Top Quackers",
-      timeLeft: "Active",
-      category: "Infrastructure",
-      platform: "Genome Protocol",
-      link: "https://app.wallchain.xyz/genome",
-      logo: "https://app.wallchain.xyz/external-bucket/hashed/image-url/Quacks%20Master%20Logo%20(1).5c9b7f5d483f83b65ffe0ef1d64a3940.png",
-      source: "https://x.com/genome_protocol/status/1947644407311650895",
-      referralLink: "https://edge.genomeprotocol.com/profile/1543320?refCode=GNM-9e3962062B056",
-      referralCode: "GNM-9e3962062B056"
-    },
+
     {
       id: "wallchain-limitless",
       title: "Limitless Exchange",
@@ -4842,7 +4760,6 @@ export const projectsData: Record<string, Project[]> = {
         "$COOKIE Stakers: 0.05% of TTS"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "SNAPS",
         xHandle: "alturax",
         extraInfo: "Altura.trade is an on-chain yield platform delivering institutional-grade returns via delta-neutral, basis, and arbitrage strategies."
@@ -4873,7 +4790,6 @@ export const projectsData: Record<string, Project[]> = {
         "Distribution: 1 day after TGE; 50% unlock; 3-month vesting; no cliff"
       ],
       additionalData: {
-        isNew: "true",
         campaignType: "SNAPS",
         xHandle: "intodotspace"
       }
@@ -4931,7 +4847,7 @@ export const projectsData: Record<string, Project[]> = {
       campaignRules: [
         "Commit capital to Vooi project",
         "Top 300 cSnappers: 0.8% of TTS",
-        "Top 500 Snappers: 0.65% of TTS", 
+        "Top 500 Snappers: 0.65% of TTS",
         "Top 100 Korean Snappers: 0.15% of TTS",
         "Stakers: 0.32% of TTS",
         "Part of Attention Capital Markets",
@@ -5127,7 +5043,6 @@ export const projectsData: Record<string, Project[]> = {
         "If the TVL reaches 400M before campaign end date, a total of 25,000 $FOLKS (including 12.5K $FOLKS at 250M TVL) will be available"
       ],
       additionalData: {
-        isNew: "true",
         fundsRaised: "$6.20M at $75.00M Val",
         tokenLaunch: "November 6th, 2025",
         campaignDuration: "4 months (pre-TGE + 3 months post-TGE)",
@@ -5151,7 +5066,6 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/zk_agi",
       referralLink: "https://airaa.xyz?ref=infofi",
       additionalData: {
-        isNew: "true",
         isPaused: "true"
       }
     },
@@ -5184,7 +5098,6 @@ export const projectsData: Record<string, Project[]> = {
         "For more details, check out our blog: http://medium.com/@airaaagent/introducing-xo-market-conviction-aura-ii-campaign-on-airaa-a48e425e6dab"
       ],
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -5201,11 +5114,11 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://airaa.xyz/project/airaa-hq-🌾",
       referralLink: "https://airaa.xyz?ref=infofi"
     },
-    
+
   ],
   breadcrumbs: [
-  
-  
+
+
   ],
   mindoai: [
     {
@@ -5226,7 +5139,6 @@ export const projectsData: Record<string, Project[]> = {
         "Participate in the ecosystem"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "intodotspace"
       }
     },
@@ -5254,7 +5166,6 @@ export const projectsData: Record<string, Project[]> = {
         "Explore the macro narrative: programmable finance for both humans and AI agents"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "useTria"
       }
     },
@@ -5300,7 +5211,6 @@ export const projectsData: Record<string, Project[]> = {
         "Earn XP and rewards"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "helios_layer1"
       }
     },
@@ -5327,7 +5237,6 @@ export const projectsData: Record<string, Project[]> = {
         "Invite code: ERYTNYVZ"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "c8ntinuum",
         additionalInfo: "It's a multichain-powered protocol built for interoperability and long-term sustainability, promoting cooperation instead of competition between blockchains\n\nc8ntinuum’s upcoming launch is going to redefine how users interact with the ecosystem\n\nMore liquidity. More participation. More ways to hold, stake, earn, and launch all in one place\n\nGo to our website to learn more about @c8ntinuum, create smart content, climb the leaderboard, and claim your rewards"
       }
@@ -5351,7 +5260,6 @@ export const projectsData: Record<string, Project[]> = {
         "Co-own the intelligence economy"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "DeepNodeAI"
       }
     },
@@ -5373,7 +5281,6 @@ export const projectsData: Record<string, Project[]> = {
         "Make live predictions and earn rewards"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "TauntCoin"
       }
     },
@@ -5398,7 +5305,6 @@ export const projectsData: Record<string, Project[]> = {
         "Join 700,000+ contributors turning idle resources into real rewards — while powering the next generation of AI."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "PerceptronNTWK"
       }
     }
@@ -5423,7 +5329,6 @@ export const projectsData: Record<string, Project[]> = {
         "Up to $5K + exclusive NFTs for top Aura contributors and GalxeQuest participants"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "chatandbuild"
       }
     },
@@ -5445,7 +5350,6 @@ export const projectsData: Record<string, Project[]> = {
         "Complete quests and climb the leaderboard to earn points"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "RumiLabs_io"
       }
     },
@@ -5468,7 +5372,6 @@ export const projectsData: Record<string, Project[]> = {
         "Rewards in USDT and future $VERFI for top creators"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "inference_labs",
         additionalInfo: "Inference Labs is building infrastructure for verifiable AI — enabling scalable ZKML, decentralized inference, and trusted AI agents."
       }
@@ -5746,7 +5649,6 @@ export const projectsData: Record<string, Project[]> = {
       source: "https://x.com/PulseInfra/status/1981035229591622073",
       referralLink: "https://www.alphabot.app/pulse/boost/XQ9S9C",
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -5764,7 +5666,6 @@ export const projectsData: Record<string, Project[]> = {
       referralLink: "https://grvt.io/exchange/sign-up?ref=G5UAMXN",
       referralCode: "G5UAMXN",
       additionalData: {
-        isNew: "true"
       }
     },
     {
@@ -5812,6 +5713,93 @@ export const projectsData: Record<string, Project[]> = {
   ],
   xeet: [
     {
+      id: "xeet-adi-chain",
+      title: "ADI Chain",
+      description: "100K USDC total. (2) 1-month tournaments rewarding the top 100 creators. No vesting. 50K per month.",
+      rewardPool: "50K USDC + Xeets",
+      participants: "Top 100 creators",
+      timeLeft: "Ends Feb 8, 2026 UTC",
+      category: "L2 / RWA",
+      platform: "ADI Chain",
+      link: "https://x.com/ADIChain_",
+      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/f0c843ae-2b8e-4265-a576-a1a49a4c27ce/1765205407210_7blaa3sz_400x400.jpg",
+      source: "https://x.com/xeetdotai/status/1998104447176548788?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create engaging posts about ADI Chain, its real-world ecosystem, and its mission to onboard 1 billion people onchain.",
+        "Show how ADI Chain is building the first institutional-grade L2 for stablecoins and RWAs.",
+        "Explore ADI’s mission to bring 1 billion people onchain by 2030.",
+        "Capture real-world use cases: UAE’s dirham-backed stablecoin rails, Kenya’s portable health records, Africa’s mobile money integrations.",
+        "Dive into technology: ZKsync Airbender and fast EVM-compatible deployments.",
+        "Spotlight partnerships: Sirius/IHC, global banks, government agencies, blockchain infrastructure providers.",
+        "Explain why compliant, high-throughput, low-cost L2 infrastructure is essential."
+      ],
+      additionalData: {
+        xHandle: "ADIChain_",
+        joinLabel: "Join ADI Chain"
+      }
+    },
+    {
+      id: "xeet-datahaven",
+      title: "DataHaven",
+      description: "Hit the Top 100 to share 10M $HAVE rewards. DataHaven is a sovereign L1 storage chain plugging into Ethereum security via EigenLayer.",
+      rewardPool: "10M $HAVE + Xeets",
+      participants: "Top 100",
+      timeLeft: "Dec 5, 2025 - Apr 8, 2026 UTC",
+      category: "Storage L1",
+      platform: "DataHaven",
+      link: "https://x.com/DataHaven_xyz",
+      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/c8ddf253-cfa5-4422-9662-6c2e1cb15c72/1763731124875_9YuEYF8-_400x400.jpg",
+      source: "https://x.com/xeetdotai/status/2008931644728586518?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Create original X posts/threads explaining DataHaven: sovereign L1 storage chain + Ethereum security (EigenLayer) + private/verifiable storage.",
+        "Mental model: DataHaven = AI-first decentralized storage L1 linked to Ethereum security.",
+        "Old vs New: Web2 cloud vs Standalone chains vs DataHaven (proofs + privacy + Ethereum security).",
+        "Developer POV: EVM-compatible + secure + less complexity.",
+        "Trust layer: integrity, availability, privacy, auditability."
+      ],
+      additionalData: {
+        isNew: "true",
+        xHandle: "DataHaven_xyz",
+        joinLabel: "Join DataHaven"
+      }
+    },
+    {
+      id: "xeet-vault777",
+      title: "Vault777",
+      description: "Three consecutive 1-month seasons. Total: 0.5% of the token supply up for grabs! On-chain, non-custodial casino on Arbitrum One.",
+      rewardPool: "0.5% $VAULT + Xeets",
+      participants: "Top 100 each season",
+      timeLeft: "Jan 2, 2026 - Feb 3, 2026 UTC",
+      category: "Casino",
+      platform: "Vault777",
+      link: "https://x.com/Vault777Casino",
+      logo: "https://mz4jlwakbx2sduwl.public.blob.vercel-storage.com/accounts/f8e9547a-37c0-40c8-8d34-87a701c5421c/1767111863399_kA8eRqfh_400x400.png",
+      source: "https://x.com/xeetdotai/status/2007181718361387271?s=20",
+      referralLink: "https://www.xeet.ai/refer/rjarivi",
+      platformLink: "https://www.xeet.ai/refer/rjarivi",
+      distributionPlatform: "Xeet",
+      campaignRules: [
+        "Explain Vault777 as an on-chain, non-custodial casino on Arbitrum One.",
+        "Focus on 'provably fair' via Chainlink VRF.",
+        "Mental model: Vault777 = Smart contracts + Chainlink VRF.",
+        "No proof, no payout rule.",
+        "Economics: 2% fee split (1% Treasury, 1% Growth), 0.1% royalties.",
+        "Auditability: handle, fees, payouts visible on Arbiscan.",
+        "Bankroll management: LP vaults, weekly epochs, risk controls.",
+        "$VAULT utility: Governance/Staking."
+      ],
+      additionalData: {
+        xHandle: "Vault777Casino",
+        joinLabel: "Join Vault777"
+      }
+    },
+    {
       id: "xeet-cipher",
       title: "Cipher",
       description: "Top 100 — 50% unlocked at TGE, remaining 50% vests over 3 months.",
@@ -5839,7 +5827,6 @@ export const projectsData: Record<string, Project[]> = {
         "Resources: https://cipher.gg"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "tradeonCipher",
         addedAt: "2025-12-09T00:00:00Z",
         additionalInfo: "Tips for Success",
@@ -5867,7 +5854,6 @@ export const projectsData: Record<string, Project[]> = {
         "Compete for a spot in the top 250 and earn from a $250,000 USD prize pool paid in stables, with their upcoming token launch on the horizon."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "Xyberinc",
         addedAt: "2025-12-04T12:00:00Z",
         additionalInfo: "Xyber is the Protocol for Intelligent Economies — AI apps, agents, and machines launch fairly, run verifiable logic, and evolve on-chain.",
@@ -5893,7 +5879,6 @@ export const projectsData: Record<string, Project[]> = {
         "Create engaging posts about LitVM, the new use cases it’s providing for the Litecoin community, its impact on the Litecoin ecosystem, and share them on X (Twitter)."
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "LitecoinVM",
         addedAt: "2025-12-03T12:00:00Z",
         additionalInfo: "Discuss how LitVM transforms Litecoin with EVM L2 smart contracts, unlocks Web3 use cases, and enables yield strategies for LTC holders.",
@@ -5919,7 +5904,6 @@ export const projectsData: Record<string, Project[]> = {
         "Create engaging posts about Good Vibes Club, its world, and its ecosystem"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "goodvibesclub",
         addedAt: "2025-12-01T12:00:00Z",
         additionalInfo: "Show how collectors, $VIBESTR, and NFTs align; explore badges, VibeWheel, Vibetown lore, art, and Toast.tv craftsmanship.",
@@ -5946,7 +5930,6 @@ export const projectsData: Record<string, Project[]> = {
         "Reward multipliers based on Polysight trading volume: $1,111+ = 1.25x, $5,555+ = 1.50x, $15,555+ = 2.00x, $33,333+ = 2.50x, $55,555+ = 3.00x"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "Polysight",
         addedAt: "2025-11-25T12:00:00Z",
         additionalInfo: "Polysight is the one-stop solution to trade Prediction Markets without leaving Telegram — trade with your groupchat or individually and stay up-to-date on real-time markets.",
@@ -5973,7 +5956,6 @@ export const projectsData: Record<string, Project[]> = {
         "Rewards subject to 2-month cliff and 4-month linear vesting"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "ProjectZeroIO",
         addedAt: "2025-11-20T12:00:00Z",
         joinLabel: "Join Project Zero"
@@ -5996,7 +5978,6 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Xeet",
       campaignRules: [],
       additionalData: {
-        isNew: "true",
         xHandle: "thrustdotcom",
         addedAt: "2025-11-07T12:30:00Z",
         additionalInfo: "@thrustdotcom is redefining Creator Capital Markets. Creators launch coins, fans own a stake in what they help build. Win from 1% of token supply in partnership with @N3onOnYT.",
@@ -6019,7 +6000,6 @@ export const projectsData: Record<string, Project[]> = {
       platformLink: "https://www.xeet.ai/refer/rjarivi",
       distributionPlatform: "Xeet",
       additionalData: {
-        isNew: "true",
         xHandle: "Gamblr_io",
         addedAt: "2025-11-07T12:00:00Z",
         joinLabel: "Join Gamblr"
@@ -6041,7 +6021,6 @@ export const projectsData: Record<string, Project[]> = {
       distributionPlatform: "Xeet",
       campaignRules: [],
       additionalData: {
-        isNew: "true",
         xHandle: "clickdotgame",
         additionalInfo: "Click.Game is a familiar gameplay where great branding and visuals meet social gamblefi — short and repeatable fun, now on Abstract. Created by a veteran team, bringing more life to the risk games genre.",
         cta: "https://www.xeet.ai/refer/rjarivi"
@@ -6072,7 +6051,6 @@ export const projectsData: Record<string, Project[]> = {
         "Follow Nobody Sausages on X"
       ],
       additionalData: {
-        isNew: "true",
         xHandle: "Claynosaurz",
         additionalInfo: "Claynosaurz is a clay‑animated character universe and Solana NFT project featuring seven dinosaur species and 10,222 unique collectibles set in the whimsical world of Claynotopia. The brand blends viral short‑form storytelling with on‑chain collectibles, crafting tools (Clay, Claymaker), and IRL activations to bridge digital and physical fandom. What is HEEBOO? - Heeboo aims to redefine how global entertainment is created, owned and experienced for SUPERFANS. - Market driven franchise model - Monetize early"
       }
@@ -6170,6 +6148,6 @@ export const projectsData: Record<string, Project[]> = {
         "Participate in social trading competitions"
       ]
     },
-    
+
   ]
 };
